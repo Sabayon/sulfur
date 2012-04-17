@@ -1,0 +1,15 @@
+src/sulfur_client.py
+src/sulfur/views.py
+src/sulfur/packages.py
+src/sulfur/setup.py
+src/sulfur/package.py
+src/sulfur/__init__.py
+src/sulfur/dialogs.py
+src/sulfur/events.py
+src/sulfur/core.py
+src/sulfur/widgets.py
+src/sulfur/entropyapi.py
+src/sulfur/filters.py
+src/sulfur/event.py
+src/sulfur/progress.py
+src/sulfur/sulfur.glade

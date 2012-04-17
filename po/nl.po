@@ -1,0 +1,6730 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Parhan <dyingmuppet@sabayon.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sabayon Entropy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-17 21:25+0200\n"
+"PO-Revision-Date: 2012-04-17 21:23+0100\n"
+"Last-Translator: Fabio Erculiani <lxnay@sabayonlinux.org>\n"
+"Language-Team: Dutch (http://www.transifex.net/projects/p/sabayon-entropy/"
+"language/nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../src/sulfur/views.py:92 ../src/sulfur/views.py:152
+#: ../src/sulfur/views.py:2805 ../src/sulfur/package.py:316
+#: ../src/sulfur/dialogs.py:2526 ../src/sulfur/dialogs.py:2759
+#: ../src/sulfur/dialogs.py:2770 ../src/sulfur/dialogs.py:2781
+#: ../src/sulfur/dialogs.py:2792 ../src/sulfur/dialogs.py:2803
+msgid "No description"
+msgstr "Geen omschrijving"
+
+#: ../src/sulfur/views.py:346 ../src/sulfur/views.py:386
+#: ../src/sulfur/package.py:340 ../src/sulfur/package.py:347
+#: ../src/sulfur/__init__.py:1091
+msgid "Not available"
+msgstr "Niet beschikbaar"
+
+#: ../src/sulfur/views.py:355
+msgid "entered the repository"
+msgstr "de repositorie ingevoerd"
+
+#: ../src/sulfur/views.py:398
+msgid "license"
+msgstr "Licentie"
+
+#: ../src/sulfur/views.py:425
+msgid "No category"
+msgstr "Geen categorie"
+
+#: ../src/sulfur/views.py:428
+msgid "Applications without a group"
+msgstr "Applicaties zonder groep"
+
+#: ../src/sulfur/views.py:490
+msgid "Sel"
+msgstr "Sel"
+
+#. as in Selection
+#: ../src/sulfur/views.py:491
+msgid "Rating"
+msgstr "Waarde"
+
+#: ../src/sulfur/views.py:1295
+msgid "These are the packages that would be disabled"
+msgstr "Dit zijn de pakketten die zouden worden uitgeschakeld"
+
+#: ../src/sulfur/views.py:1296
+msgid "Once confirmed, these packages will be considered masked."
+msgstr "Eenmaal geconfirmeerd, zullen deze pakketten gemaskeerd zijn."
+
+#: ../src/sulfur/views.py:1403
+msgid "Package Set has broken dependencies, Sets not found"
+msgstr "Pakketten Set heeft gebroken afhankelijkheden, Sets niet gevonden"
+
+#: ../src/sulfur/views.py:1413
+msgid "There are incomplete package sets, continue at your own risk"
+msgstr "Dit zijn incomplete pakket sets, ga door op je eigen risico"
+
+#: ../src/sulfur/views.py:1720
+msgid "Application"
+msgstr "Programma"
+
+#: ../src/sulfur/views.py:2016 ../src/sulfur/dialogs.py:1330
+#: ../src/sulfur/dialogs.py:2028 ../src/sulfur/events.py:836
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: ../src/sulfur/views.py:2017 ../src/sulfur/dialogs.py:1331
+#: ../src/sulfur/dialogs.py:2029 ../src/sulfur/events.py:837
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../src/sulfur/views.py:2021 ../src/sulfur/dialogs.py:1335
+#: ../src/sulfur/dialogs.py:2033 ../src/sulfur/events.py:841
+msgid "Please login against"
+msgstr "A.u.b. inloggen op"
+
+#: ../src/sulfur/views.py:2021 ../src/sulfur/dialogs.py:1335
+#: ../src/sulfur/dialogs.py:2033 ../src/sulfur/events.py:841
+msgid "repository"
+msgstr "repositorie"
+
+#: ../src/sulfur/views.py:2035
+msgid "Web Service is currently unavailable."
+msgstr ""
+
+#: ../src/sulfur/views.py:2040 ../src/sulfur/dialogs.py:1350
+#: ../src/sulfur/dialogs.py:2048 ../src/sulfur/events.py:857
+msgid "Authentication error. Not logged in."
+msgstr "Authenticatie fout. Niet ingelogd."
+
+#: ../src/sulfur/views.py:2043 ../src/sulfur/dialogs.py:1358
+msgid "Successfully logged in."
+msgstr "Succesvol ingelogd."
+
+#: ../src/sulfur/views.py:2053 ../src/sulfur/dialogs.py:2102
+msgid "Unsupported Service"
+msgstr "Niet ondersteunde Service"
+
+#: ../src/sulfur/views.py:2092 ../src/sulfur/dialogs.py:1385
+msgid "Vote registered successfully"
+msgstr "Stem registratie succesvol"
+
+#: ../src/sulfur/views.py:2096
+msgid "Error registering vote"
+msgstr "Fout bij het registreren van je stem"
+
+#: ../src/sulfur/views.py:2097 ../src/sulfur/dialogs.py:1388
+msgid "Already voted"
+msgstr "Reeds gestemd"
+
+#: ../src/sulfur/views.py:2717 ../src/sulfur/__init__.py:460
+#: ../src/sulfur/sulfur.glade.h:78
+msgid "Applications"
+msgstr "Applicaties"
+
+#: ../src/sulfur/views.py:2755
+msgid "Applications to remove"
+msgstr "Applicaties voor verwijdering"
+
+#: ../src/sulfur/views.py:2760
+msgid "Applications to downgrade"
+msgstr "Applicaties voor downgrade"
+
+#: ../src/sulfur/views.py:2765
+msgid "Applications to install"
+msgstr "Applicaties voor installatie"
+
+#: ../src/sulfur/views.py:2770
+msgid "Applications to update"
+msgstr "Applicaties voor updates"
+
+#: ../src/sulfur/views.py:2775
+msgid "Applications to reinstall"
+msgstr "Applicaties voor herinstallatie"
+
+#: ../src/sulfur/views.py:2844
+msgid "Proposed"
+msgstr "Voorgesteld"
+
+#: ../src/sulfur/views.py:2851
+msgid "Destination"
+msgstr "Bestemming"
+
+#: ../src/sulfur/views.py:2858
+msgid "Rev."
+msgstr "Rev."
+
+#: ../src/sulfur/views.py:2907 ../src/sulfur/dialogs.py:363
+msgid "Status"
+msgstr "Status"
+
+#: ../src/sulfur/views.py:2914
+msgid "Security id."
+msgstr "Beveiliging id."
+
+#: ../src/sulfur/views.py:2922
+msgid "Application name"
+msgstr "Applicatie naam"
+
+#: ../src/sulfur/views.py:2930 ../src/sulfur/views.py:3164
+#: ../src/sulfur/dialogs.py:684 ../src/sulfur/sulfur.glade.h:5
+msgid "Description"
+msgstr "Omschrijving"
+
+#: ../src/sulfur/views.py:3000 ../src/sulfur/packages.py:1120
+msgid "Please wait, loading..."
+msgstr "Een moment a.u.b."
+
+#: ../src/sulfur/views.py:3001
+msgid "Advisories are being loaded"
+msgstr "Adviezen worden geladen"
+
+#: ../src/sulfur/views.py:3058
+msgid "No advisories"
+msgstr "Geen advisories"
+
+#: ../src/sulfur/views.py:3059
+msgid "There are no items to show"
+msgstr "Er zijn geen items weer te geven"
+
+#: ../src/sulfur/views.py:3085 ../src/sulfur/__init__.py:1124
+msgid "Repository"
+msgstr "Repositorie"
+
+#: ../src/sulfur/views.py:3085
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: ../src/sulfur/views.py:3106
+msgid "Cannot disable repository!"
+msgstr "Kan repositorie niet uitschakelen!"
+
+#: ../src/sulfur/views.py:3142
+msgid "Active"
+msgstr "Actief"
+
+#: ../src/sulfur/views.py:3152 ../src/sulfur/sulfur.glade.h:190
+msgid "Update"
+msgstr "Update"
+
+#. Setup revision column
+#: ../src/sulfur/views.py:3160 ../src/sulfur/sulfur.glade.h:214
+msgid "Revision"
+msgstr "Herziening"
+
+#. Setup reponame & repofile column's
+#: ../src/sulfur/views.py:3163
+msgid "Repository Identifier"
+msgstr "Repositorie Identifier"
+
+#: ../src/sulfur/packages.py:101 ../src/sulfur/packages.py:432
+#: ../src/sulfur/packages.py:454 ../src/sulfur/__init__.py:1358
+#: ../src/sulfur/dialogs.py:3086
+msgid "Attention"
+msgstr "Attentie"
+
+#: ../src/sulfur/packages.py:102
+msgid ""
+"There are packages that can't be installed at the same time, thus are "
+"blocking your request:"
+msgstr ""
+"Er zijn pakketten die niet tegelijkertijd geinstalleerd kunnen worden. De "
+"volgende pakketten veroorzaken het probleem:"
+
+#: ../src/sulfur/packages.py:150
+msgid "These are the needed packages"
+msgstr "Dit zijn de benodigde pakketten"
+
+#: ../src/sulfur/packages.py:151
+msgid ""
+"These packages must be removed from the removal queue because they depend on "
+"your last selection. Do you agree?"
+msgstr ""
+"Deze pakketten moeten worden verwijderd uit de verwijderings wachtrij omdat "
+"ze afhankelijk zijn van je laatste selectie. Mee eens?"
+
+#: ../src/sulfur/packages.py:216
+msgid "These packages must be excluded"
+msgstr "Deze Pakketten moeten worden uitgesloten"
+
+#: ../src/sulfur/packages.py:217
+msgid ""
+"These packages must be removed from the queue because they depend on your "
+"last selection. Do you agree?"
+msgstr ""
+"Deze pakketten moeten worden verwijderd uit de wachtrij omdat ze afhankelijk "
+"zijn van je laatste selectie. Mee eens?"
+
+#: ../src/sulfur/packages.py:433
+msgid ""
+"Some dependencies couldn't be found. It can either be because they are "
+"masked or because they aren't in any active repository."
+msgstr ""
+"Sommige afhankelijkheden konden niet worden gevonden. Wellicht zijn ze "
+"gemaskeerd of ontbreken in de actieve repositorie."
+
+#: ../src/sulfur/packages.py:455
+msgid "Conflicting packages were pulled in, in the same key and slot"
+msgstr "Conflicterende pakketten zijn ingevoerd in dezelfde sleutel en slot"
+
+#: ../src/sulfur/packages.py:456
+msgid "Please mask packages that are causing the issue"
+msgstr "Maskeer a.u.b. de pakketten die dit veroorzaken"
+
+#: ../src/sulfur/packages.py:524
+msgid "Needed disk space"
+msgstr "Benodigde schijfruimte"
+
+#: ../src/sulfur/packages.py:527
+msgid "Freed disk space"
+msgstr "Vrijgemaakte schijfruimte"
+
+#: ../src/sulfur/packages.py:531
+msgid "These are the packages that would be installed/updated"
+msgstr "Volgende pakketten zullen worden geinstalleerd/geupdate"
+
+#: ../src/sulfur/packages.py:569
+msgid "Cannot remove packages"
+msgstr "Kan pakketten niet verwijderen"
+
+#: ../src/sulfur/packages.py:570
+msgid "Some dependencies couldn't be removed because they are vital."
+msgstr ""
+"Sommige afhankelijkheden konden niet worden verwijderd omdat ze belangrijk "
+"zijn."
+
+#: ../src/sulfur/packages.py:625
+msgid "Freed space"
+msgstr "Vrijgemaakte schijfruimte"
+
+#: ../src/sulfur/packages.py:628
+msgid "Needed space"
+msgstr "Benodigde schijfruimte"
+
+#: ../src/sulfur/packages.py:633
+msgid "These are the packages that would be removed"
+msgstr "Volgende pakketten worden verwijderd"
+
+#: ../src/sulfur/packages.py:1034
+msgid "Set from"
+msgstr "Set van"
+
+#: ../src/sulfur/packages.py:1035
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: ../src/sulfur/packages.py:1040
+msgid "User configuration"
+msgstr "Gebruiker configuratie"
+
+#: ../src/sulfur/packages.py:1105
+msgid "Try to update your repositories"
+msgstr "Probeer de repositories te updaten"
+
+#: ../src/sulfur/packages.py:1108
+msgid "No updates available"
+msgstr "Geen updates beschikbaar"
+
+#: ../src/sulfur/packages.py:1109
+msgid "It seems that your system is already up-to-date. Good!"
+msgstr "Het ziet ernaar uit dat je systeem reeds up-to-date is. Mooi!"
+
+#: ../src/sulfur/packages.py:1121
+msgid "The current view is loading."
+msgstr "Het huidige scherm is aan het laden."
+
+#: ../src/sulfur/packages.py:1122
+msgid "Be patient, sit down and relax."
+msgstr "Een moment geduld A.U.B."
+
+#: ../src/sulfur/packages.py:1131
+msgid "No packages found means nothing to show!"
+msgstr "Geen pakketten gevonden dus niets om te tonen!"
+
+#: ../src/sulfur/packages.py:1135
+msgid "Nothing found"
+msgstr "Niets gevonden"
+
+#: ../src/sulfur/packages.py:1136
+msgid "No packages found using the provided search term"
+msgstr "Geen pakketten gevonden met ingegeven zoekterm"
+
+#: ../src/sulfur/packages.py:1140 ../src/sulfur/packages.py:1143
+msgid "No packages to show"
+msgstr "Geen pakketten gevonden"
+
+#: ../src/sulfur/packages.py:1144
+msgid "There are no packages that can be shown, sorry."
+msgstr "Er kunnen geen pakketten worden weergegeven, sorry."
+
+#: ../src/sulfur/setup.py:73
+msgid "Programming:"
+msgstr "Programmeerwerk:"
+
+#: ../src/sulfur/setup.py:76
+msgid "Translation:"
+msgstr "Vertaling"
+
+#: ../src/sulfur/setup.py:95
+msgid "Dedicated to:"
+msgstr "Opgedragen aan:"
+
+#: ../src/sulfur/package.py:280
+msgid "Recursive Package Set"
+msgstr "Recursieve Pakket Set"
+
+#: ../src/sulfur/package.py:306
+msgid "from"
+msgstr "van"
+
+#: ../src/sulfur/package.py:330
+msgid "User"
+msgstr "Gebruiker"
+
+#: ../src/sulfur/__init__.py:118
+msgid "Access denied. You don't have enough privileges to run Sulfur."
+msgstr "Toegang geweigerd. U heeft niet genoeg rechten om Sulfur te starten."
+
+#: ../src/sulfur/__init__.py:125
+msgid "Another Entropy application is running. Sorry."
+msgstr "Een ander Entropy proces draait nog. Sorry."
+
+#: ../src/sulfur/__init__.py:133
+msgid "Entropy is running in safe mode"
+msgstr "Entropy draait in veilige modus"
+
+#: ../src/sulfur/__init__.py:134
+msgid "Please fix as soon as possible"
+msgstr "Repareer zo snel mogelijk"
+
+#: ../src/sulfur/__init__.py:136
+msgid "Safe Mode"
+msgstr "Velige modus"
+
+#: ../src/sulfur/__init__.py:140
+msgid "Entropy Store is running off a Live System"
+msgstr "Entropy Winkel draait vanaf een Live Systeem"
+
+#: ../src/sulfur/__init__.py:141
+msgid "performance could get severely compromised"
+msgstr "prestaties kunnen zichtbaar achteruit gaan"
+
+#: ../src/sulfur/__init__.py:226
+msgid "April 1st, w0000h0000! Gonna erase your hard disk!"
+msgstr "1 April, w000h000! Je hardeschijf wordt nu gewist!"
+
+#: ../src/sulfur/__init__.py:228
+msgid "Love love love... <3"
+msgstr "Liefde liefde liefde... <3"
+
+#: ../src/sulfur/__init__.py:230
+msgid "Oh oh ooooh... Merry Xmas!"
+msgstr "Vrolijk kerstfeest!"
+
+#: ../src/sulfur/__init__.py:462
+msgid "Sync"
+msgstr "synchroniseren"
+
+#: ../src/sulfur/__init__.py:464 ../src/sulfur/sulfur.glade.h:64
+msgid "Install"
+msgstr "Installeer"
+
+#: ../src/sulfur/__init__.py:466 ../src/sulfur/sulfur.glade.h:62
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../src/sulfur/__init__.py:627
+msgid "Default packages sorting"
+msgstr "Standaard pakketten sortering"
+
+#: ../src/sulfur/__init__.py:628
+msgid "Sort by name [A-Z]"
+msgstr "Sorteren op naam [A-Z]"
+
+#: ../src/sulfur/__init__.py:629
+msgid "Sort by name [Z-A]"
+msgstr "Sorteren op naam [Z-A]"
+
+#: ../src/sulfur/__init__.py:630
+msgid "Sort by downloads"
+msgstr "Sorteren op downloads"
+
+#: ../src/sulfur/__init__.py:631
+msgid "Sort by votes"
+msgstr "Sorteren op stemmen"
+
+#: ../src/sulfur/__init__.py:632
+msgid "Sort by repository"
+msgstr "Sorteren op repositorie"
+
+#: ../src/sulfur/__init__.py:633
+msgid "Sort by date (simple)"
+msgstr "Sorteren op datum (simpel)"
+
+#: ../src/sulfur/__init__.py:634
+msgid "Sort by date (grouped)"
+msgstr "Sorteren op datum (groepen)"
+
+#: ../src/sulfur/__init__.py:635
+msgid "Sort by license (grouped)"
+msgstr "Sorteren op licentie (groepen)"
+
+#: ../src/sulfur/__init__.py:636
+msgid "Sort by Groups"
+msgstr "Sorteren op groep"
+
+#: ../src/sulfur/__init__.py:697
+msgid ""
+"The repositories listed below are configured but not available. They should "
+"be downloaded."
+msgstr ""
+"De repositories hier onder zijn geconfigureerd maar niet beschikbaar. Ze "
+"moeten worden gedownload."
+
+#: ../src/sulfur/__init__.py:698
+msgid "If you don't do this now, you won't be able to use them."
+msgstr "Als je dit nu niet doet, kan je ze niet gebruiken."
+
+#: ../src/sulfur/__init__.py:700
+msgid "Download now"
+msgstr "Download nu"
+
+#: ../src/sulfur/__init__.py:701
+msgid "Skip"
+msgstr "Overslaan"
+
+#: ../src/sulfur/__init__.py:1040 ../src/sulfur/__init__.py:1050
+#: ../src/sulfur/__init__.py:1060 ../src/sulfur/dialogs.py:2693
+msgid "Item"
+msgstr "Item"
+
+#: ../src/sulfur/__init__.py:1069
+msgid "Database"
+msgstr "Database"
+
+#: ../src/sulfur/__init__.py:1072 ../src/sulfur/sulfur.glade.h:238
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/sulfur/__init__.py:1088
+msgid "Not logged in"
+msgstr "Niet ingelogd op"
+
+#: ../src/sulfur/__init__.py:1132
+msgid "Logged in as"
+msgstr "Ingelogd als"
+
+#: ../src/sulfur/__init__.py:1139
+msgid "UGC Status"
+msgstr "GGI Status"
+
+#: ../src/sulfur/__init__.py:1162 ../src/sulfur/__init__.py:1198
+msgid "Error setting parameter"
+msgstr "Fout bij instellen waarde"
+
+#: ../src/sulfur/__init__.py:1164
+msgid "An issue occured while loading a preference"
+msgstr "Er deed zich een fout voor bij het laden van de voorkeuren"
+
+#: ../src/sulfur/__init__.py:1165 ../src/sulfur/__init__.py:1201
+#: ../src/sulfur/events.py:367
+msgid "Parameter"
+msgstr "Parameter"
+
+#: ../src/sulfur/__init__.py:1166 ../src/sulfur/__init__.py:1202
+msgid "must be of type"
+msgstr "moet een reeks zijn van"
+
+#: ../src/sulfur/__init__.py:1166 ../src/sulfur/__init__.py:1202
+msgid "got"
+msgstr "heeft"
+
+#: ../src/sulfur/__init__.py:1200 ../src/sulfur/events.py:366
+msgid "An issue occured while saving a preference"
+msgstr "Er deed zich een fout voor bij het opslaan van de voorkeuren"
+
+#: ../src/sulfur/__init__.py:1353
+msgid "Error saving preferences"
+msgstr "Fout bij opslaan eigenschappen"
+
+#: ../src/sulfur/__init__.py:1359
+msgid ""
+"These packages are masked either by default or due to your choice. Please be "
+"careful, at least."
+msgstr ""
+"Deze pakketten zijn standaard afgeschermd of wegens jouw keuze. Wees "
+"voorzichtig."
+
+#: ../src/sulfur/__init__.py:1415
+msgid "Generating metadata. Please wait."
+msgstr "Genereren van Metadata. Even geduld."
+
+#: ../src/sulfur/__init__.py:1423
+msgid "Error during list population"
+msgstr "Fout tijdens de lijst populatie"
+
+#: ../src/sulfur/__init__.py:1425
+msgid "Retrying in 1 second."
+msgstr "Opnieuw proberen in 1 seconde."
+
+#: ../src/sulfur/__init__.py:1455
+msgid "Error loading advisories"
+msgstr "Fout bij laden van Advisories"
+
+#: ../src/sulfur/__init__.py:1522
+msgid "Errors updating repositories."
+msgstr "Fouten tijdens het updaten van de repositories"
+
+#: ../src/sulfur/__init__.py:1524
+msgid "Please check logs below for more info"
+msgstr "Controleer onderstaande log voor uitgebreide informatie."
+
+#: ../src/sulfur/__init__.py:1527
+msgid "Repositories updated successfully"
+msgstr "Repositories succesvol geupdate"
+
+#: ../src/sulfur/__init__.py:1530
+msgid "sys-apps/entropy needs to be updated as soon as possible."
+msgstr "sys-apps/entropy dient zo spoedig mogelijk geupdate te worden!"
+
+#: ../src/sulfur/__init__.py:1557 ../src/sulfur/__init__.py:2368
+msgid ""
+"Another Entropy instance is locking this task at the moment. Try in a few "
+"minutes."
+msgstr ""
+"Een andere instantie van Entropy blokkeert deze optie. Probeer het in een "
+"aantal minuten."
+
+#: ../src/sulfur/__init__.py:1567
+msgid "No repositories specified in"
+msgstr "Geen repositories opgegeven in"
+
+#: ../src/sulfur/__init__.py:1574
+msgid "Unhandled exception"
+msgstr "Niet afgehandelde exceptie"
+
+#: ../src/sulfur/__init__.py:1583
+msgid "Updating repositories..."
+msgstr "Updaten van repositories"
+
+#: ../src/sulfur/__init__.py:1586 ../src/sulfur/__init__.py:1608
+#: ../src/sulfur/__init__.py:1692 ../src/sulfur/__init__.py:2374
+msgid "Running tasks"
+msgstr "Bezig met uitvoeren van taken"
+
+#: ../src/sulfur/__init__.py:1605
+msgid "Testing dependencies..."
+msgstr "Testen van afhankelijkheden"
+
+#: ../src/sulfur/__init__.py:1625
+msgid "No missing dependencies found."
+msgstr "Geen missende afhankelijkheden gevonden."
+
+#: ../src/sulfur/__init__.py:1662
+msgid "Missing dependencies found, but none of them are on the repositories."
+msgstr ""
+"Missende afhankelijkheden gevonden, maar geen een van hen bestaan in de "
+"repositories."
+
+#: ../src/sulfur/__init__.py:1669
+msgid ""
+"Some missing dependencies have not been matched, others are going to be "
+"added to the queue."
+msgstr ""
+"Sommige missende afhankelijkheden komen niet overeen, anderen zullen worden "
+"toegevoegd aan de wachtrij."
+
+#: ../src/sulfur/__init__.py:1672
+msgid "All the missing dependencies are going to be added to the queue"
+msgstr ""
+"Alle missende afhankelijkheden zullen worden toegevoegd aan de wachtrij"
+
+#: ../src/sulfur/__init__.py:1689
+msgid "Testing libraries..."
+msgstr "Testen van bibliotheken"
+
+#: ../src/sulfur/__init__.py:1723
+msgid "Libraries test aborted"
+msgstr "Bibliotheken test geannuleerd"
+
+#: ../src/sulfur/__init__.py:1733
+msgid ""
+"Some broken packages have not been matched, others are going to be added to "
+"the queue."
+msgstr ""
+"Sommige gebroken pakketten komen niet overeen, anderen zullen worden "
+"toegevoegd aan de wachtrij."
+
+#: ../src/sulfur/__init__.py:1736
+msgid "All the broken packages are going to be added to the queue"
+msgstr "Alle gebroken pakketten zullen worden toegevoegd aan de wachtrij"
+
+#: ../src/sulfur/__init__.py:1842
+msgid "These packages are no longer available"
+msgstr "Deze pakketten zijn niet langer beschikbaar"
+
+#: ../src/sulfur/__init__.py:1843
+msgid ""
+"These packages should be removed (if you agree) because support has been "
+"dropped. Do you want to remove them?"
+msgstr ""
+"Deze pakketten moeten worden verwijderd (als u akkoord gaat) omdat "
+"ondersteuning is vervallen. Wilt u ze verwijderen?"
+
+#: ../src/sulfur/__init__.py:1858
+msgid "These are orphaned vital packages"
+msgstr "Dit zijn de geinstalleerde pakketten"
+
+#: ../src/sulfur/__init__.py:1859
+msgid ""
+"You should make sure that they are no longer needed and remove manually."
+msgstr ""
+"U moet er zeker van zijn dat ze niet langer meer nodig zijn en daarna "
+"handmatig verwijderen."
+
+#: ../src/sulfur/__init__.py:1867
+msgid "These are packages from unavailable repositories"
+msgstr "Deze pakketten komen van niet beschikbare repositories"
+
+#: ../src/sulfur/__init__.py:1868
+msgid "You are not going to receive updates for the following packages."
+msgstr "Van de volgende pakketten ontvang je geen updates meer."
+
+#: ../src/sulfur/__init__.py:1880
+msgid "updates"
+msgstr "updates"
+
+#: ../src/sulfur/__init__.py:1935
+msgid "Showing"
+msgstr "Weergeven"
+
+#: ../src/sulfur/__init__.py:1935
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/sulfur/__init__.py:1977
+msgid "No packages need or can be queued at the moment."
+msgstr ""
+"Er zijn op dit moment geen pakketten die aan de wachtlijst kunnen worden "
+"toegevoegd."
+
+#: ../src/sulfur/__init__.py:2075
+msgid "Name"
+msgstr "Naam"
+
+#: ../src/sulfur/__init__.py:2075
+msgid "Name and description"
+msgstr "Naam en omschrijving"
+
+#: ../src/sulfur/__init__.py:2077
+msgid "Search string"
+msgstr "Zoek regel"
+
+#: ../src/sulfur/__init__.py:2078
+msgid "Search type"
+msgstr "Zoeken op type"
+
+#: ../src/sulfur/__init__.py:2081
+msgid "Entropy Search"
+msgstr "Zoeken met Entropy"
+
+#: ../src/sulfur/__init__.py:2140
+msgid "Please update the following critical packages"
+msgstr "Update a.u.b. de volgende kritieke pakketten"
+
+#: ../src/sulfur/__init__.py:2141
+msgid "You should install them as soon as possible"
+msgstr "U moet ze zo snel mogelijk installeren"
+
+#: ../src/sulfur/__init__.py:2144
+msgid "Abort action"
+msgstr "Actie annuleren"
+
+#: ../src/sulfur/__init__.py:2145
+msgid "Ignore"
+msgstr "negeren"
+
+#: ../src/sulfur/__init__.py:2207
+msgid "Tasks completed successfully."
+msgstr "Taken met succes voltooid"
+
+#: ../src/sulfur/__init__.py:2208
+msgid "Please make sure to read all the messages in the terminal below."
+msgstr "Lees onderstaande tekst aandachtig door."
+
+#: ../src/sulfur/__init__.py:2211
+msgid "Oh, a fairytale gone bad!"
+msgstr "Er is iets ernstig mis gegaan."
+
+#: ../src/sulfur/__init__.py:2212
+msgid ""
+"Something bad happened, have a look at the messages in the terminal below."
+msgstr ""
+"Er is iets vreselijks gebeurt. Kijk in het terminal venster voor meer "
+"informatie."
+
+#: ../src/sulfur/__init__.py:2213
+msgid "Don't feel guilty, it's all my fault!"
+msgstr "Wees gerust, dit is allemaal mijn fout!"
+
+#: ../src/sulfur/__init__.py:2273
+msgid ""
+"Attention. An error occured while processing the queue.\n"
+"Please have a look at the terminal."
+msgstr ""
+"Attentie! Er is een fout opgetreden tijdens het verwerken van de "
+"wachtlijst.\n"
+" Kijk in het terminal venster voor meer informatie"
+
+#: ../src/sulfur/__init__.py:2289
+msgid ""
+"Attention. Something really bad happened.\n"
+"Please have a look at the terminal."
+msgstr ""
+"Er is iets vreselijks gebeurt.\n"
+" Kijk in het terminal venster voor meer informatie."
+
+#: ../src/sulfur/__init__.py:2300
+msgid ""
+"Attention. Other updates that must be installed.\n"
+"Sulfur will be reloaded."
+msgstr ""
+"Attentie. Andere updates moeten worden geinstalleerd. \n"
+"Sulfur wordt opnieuw geladen."
+
+#: ../src/sulfur/__init__.py:2306
+msgid ""
+"Attention. You have updated Entropy.\n"
+"Sulfur will be reloaded."
+msgstr ""
+"Attentie. Nieuwe versie van Entropy!\n"
+"Sulfur wordt herstart."
+
+#: ../src/sulfur/__init__.py:2387
+msgid "Processing Packages in queue"
+msgstr "Verwerken van pakket wachtlijst"
+
+#: ../src/sulfur/__init__.py:2442
+msgid "No packages selected"
+msgstr "Geen pakketten geselecteerd"
+
+#: ../src/sulfur/__init__.py:2507
+msgid "Skipping current mirror."
+msgstr "Huidige spiegel wordt overgeslagen."
+
+#: ../src/sulfur/dialogs.py:76
+msgid ""
+"Did you know that you can comment, vote and add documents to applications "
+"like in a wiki?"
+msgstr ""
+"Wist je dat je kan reageren, stemmen en documenten kan toevoegen aan "
+"applicaties net als in de wiki?"
+
+#: ../src/sulfur/dialogs.py:77
+msgid ""
+"Did you know that you can add icons or files to applications by simply "
+"dropping images from your Desktop onto them?"
+msgstr ""
+"Wist je dat je icoontjes en bestanden kan toevoegen aan applicaties door ze "
+"simpel weg er naar toe te slepen?"
+
+#: ../src/sulfur/dialogs.py:78
+msgid ""
+"Did you know that Sulfur has an Advanced mode, just click Sulfur -> Advanced "
+"mode?"
+msgstr ""
+"Wist u dat Sulfur een geavanceerde modus heeft, klik gewoon op Sulfur -> "
+"Geavanceerde modus?"
+
+#: ../src/sulfur/dialogs.py:79
+msgid ""
+"Did you know that the guy who wrote this tip was really asleep at the time?"
+msgstr ""
+"Wist u dat de persoon die dit schreef eigenlijk aan het slapen was op dat "
+"moment?"
+
+#: ../src/sulfur/dialogs.py:80
+msgid ""
+"Did you know that you can backup your installed application repository by "
+"enabling Advanced mode and going to Preferences tab?"
+msgstr ""
+"Wist u dat u uw geinstalleerde bestanden repositorie kan back-uppen door in "
+"de Geavanceerde modus naar het Eigenschappen tabblad te gaan?"
+
+#: ../src/sulfur/dialogs.py:81
+msgid ""
+"Did you know that you can customize interface colors by enabling Advanced "
+"mode and going to Preferences tab?"
+msgstr ""
+"Wist u dat u zelf ingestelde kleuren kan activeren in de Geavanceerde modus "
+"onder het Eigenschappen tabblad?"
+
+#: ../src/sulfur/dialogs.py:177
+msgid "No Repository Identifier"
+msgstr "Geen Repositorie Identifier"
+
+#: ../src/sulfur/dialogs.py:181
+msgid "Duplicated Repository Identifier"
+msgstr "Dubbele Repositorie identifier"
+
+#: ../src/sulfur/dialogs.py:186
+msgid "Invalid Repository Identifier"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:192
+msgid "No download mirrors"
+msgstr "Geen download spiegels"
+
+#: ../src/sulfur/dialogs.py:197
+msgid "Repository URL must be a valid URL"
+msgstr "Repository URL moet een geldige URL zijn"
+
+#: ../src/sulfur/dialogs.py:228 ../src/sulfur/dialogs.py:242
+msgid "Insert URL"
+msgstr "Voer URL in"
+
+#: ../src/sulfur/dialogs.py:229
+msgid "Enter a download mirror, HTTP or FTP"
+msgstr "Voer een download spiegel in, HTTP of FTP"
+
+#: ../src/sulfur/dialogs.py:243
+msgid "Enter a download mirror URL"
+msgstr "Voer een download spiegel URL in"
+
+#: ../src/sulfur/dialogs.py:249
+msgid "You must enter either a valid URL."
+msgstr "Vul een geldig URL in."
+
+#: ../src/sulfur/dialogs.py:254
+msgid "Insert Repository"
+msgstr "Voer Repositorie in"
+
+#: ../src/sulfur/dialogs.py:255
+msgid "Insert Repository identification string"
+msgstr "Voer Repositorie identificatie reeks in"
+
+#: ../src/sulfur/dialogs.py:266
+msgid "This Repository identification string is malformed"
+msgstr "Ongeldige Repositorie invoer"
+
+#: ../src/sulfur/dialogs.py:280 ../src/sulfur/dialogs.py:309
+msgid "Unable to add repository"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:285 ../src/sulfur/dialogs.py:292
+msgid "Wrong entries, errors"
+msgstr "Verkeerde invoer, fouten"
+
+#: ../src/sulfur/dialogs.py:304
+msgid "Unable to remove/disable repository"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:328 ../src/sulfur/sulfur.glade.h:168
+msgid "Repositories Notice Board"
+msgstr "Repositories Notitie Bord"
+
+#: ../src/sulfur/dialogs.py:329
+msgid ""
+"Here below you will find a list of important news directly issued by your "
+"applications maintainers.\n"
+"Double click on each item to retrieve detailed info."
+msgstr ""
+"Hier onder vind je een lijst met belangrijk nieuws afkomstig van de "
+"applicatie onderhouders.\n"
+"Dubbel klikken om gedetailleerde info van elk item te zien."
+
+#: ../src/sulfur/dialogs.py:358
+msgid "Notice"
+msgstr "Let op"
+
+#: ../src/sulfur/dialogs.py:382 ../src/sulfur/dialogs.py:701
+#: ../src/sulfur/sulfur.glade.h:237
+msgid "Title"
+msgstr "Titel"
+
+#: ../src/sulfur/dialogs.py:505 ../src/sulfur/dialogs.py:674
+#: ../src/sulfur/dialogs.py:679 ../src/sulfur/dialogs.py:692
+#: ../src/sulfur/dialogs.py:1079 ../src/sulfur/dialogs.py:1907
+#: ../src/sulfur/dialogs.py:1915 ../src/sulfur/dialogs.py:1917
+#: ../src/sulfur/dialogs.py:1919
+msgid "N/A"
+msgstr "N/B"
+
+#: ../src/sulfur/dialogs.py:668
+msgid "Expand to browse"
+msgstr "Uitvouwen om te doorzoeken"
+
+#: ../src/sulfur/dialogs.py:696 ../src/sulfur/sulfur.glade.h:251
+msgid "Author"
+msgstr "Auteur"
+
+#: ../src/sulfur/dialogs.py:710 ../src/sulfur/dialogs.py:1441
+#: ../src/sulfur/sulfur.glade.h:250
+msgid "Keywords"
+msgstr "Keywords"
+
+#: ../src/sulfur/dialogs.py:1132 ../src/sulfur/dialogs.py:1176
+msgid "Please wait..."
+msgstr "Een moment a.u.b."
+
+#. masked ?
+#: ../src/sulfur/dialogs.py:1221 ../src/sulfur/entropyapi.py:395
+msgid "No"
+msgstr "Nee"
+
+#: ../src/sulfur/dialogs.py:1225 ../src/sulfur/dialogs.py:2094
+#: ../src/sulfur/events.py:304 ../src/sulfur/events.py:745
+#: ../src/sulfur/entropyapi.py:395
+msgid "Yes"
+msgstr "Ja"
+
+#: ../src/sulfur/dialogs.py:1275
+msgid "Package ChangeLog"
+msgstr "Pakket Veranderingen-Log"
+
+#: ../src/sulfur/dialogs.py:1354 ../src/sulfur/dialogs.py:2052
+#: ../src/sulfur/events.py:861
+msgid "Communication error. Not logged in."
+msgstr "Communicatie fout. Niet ingelogd."
+
+#: ../src/sulfur/dialogs.py:1388 ../src/sulfur/events.py:971
+#: ../src/sulfur/events.py:980 ../src/sulfur/events.py:1021
+#: ../src/sulfur/sulfur.glade.h:26
+msgid "Error"
+msgstr "Fout"
+
+#: ../src/sulfur/dialogs.py:1417
+msgid "License name"
+msgstr "Licentie naam"
+
+#: ../src/sulfur/dialogs.py:1425
+msgid "Sources"
+msgstr "Broncode"
+
+#: ../src/sulfur/dialogs.py:1433 ../src/sulfur/sulfur.glade.h:6
+msgid "Mirrors"
+msgstr "Spiegels"
+
+#: ../src/sulfur/dialogs.py:1449
+msgid "USE flags"
+msgstr "USE flags"
+
+#: ../src/sulfur/dialogs.py:1457
+msgid "Dependencies"
+msgstr "Afhankelijkheden"
+
+#: ../src/sulfur/dialogs.py:1465
+msgid "Depends"
+msgstr "Afhankelijk van"
+
+#: ../src/sulfur/dialogs.py:1473
+msgid "Needed libraries"
+msgstr "Benodigde bibliotheken"
+
+#: ../src/sulfur/dialogs.py:1481
+msgid "Protected item"
+msgstr "Beschermd item"
+
+#: ../src/sulfur/dialogs.py:1484 ../src/sulfur/dialogs.py:1496
+#: ../src/sulfur/dialogs.py:1508
+msgid "Type"
+msgstr "Type"
+
+#: ../src/sulfur/dialogs.py:1492
+msgid "File"
+msgstr "Bestand"
+
+#: ../src/sulfur/dialogs.py:1518 ../src/sulfur/sulfur.glade.h:252
+msgid "Content"
+msgstr "Inhoud"
+
+#: ../src/sulfur/dialogs.py:1572
+msgid "Number of downloads"
+msgstr "Aantal downloads"
+
+#: ../src/sulfur/dialogs.py:1642
+msgid "Remotely"
+msgstr "Op afstand"
+
+#: ../src/sulfur/dialogs.py:1648
+msgid "Removed repository"
+msgstr "Verwijderde repositorie"
+
+#: ../src/sulfur/dialogs.py:1704 ../src/sulfur/dialogs.py:2687
+msgid "Package"
+msgstr "Pakket"
+
+#: ../src/sulfur/dialogs.py:1712
+msgid "Bug"
+msgstr "Bug"
+
+#: ../src/sulfur/dialogs.py:1720
+msgid "Reference"
+msgstr "Referentie"
+
+#: ../src/sulfur/dialogs.py:1797
+msgid "impact"
+msgstr "impact"
+
+#: ../src/sulfur/dialogs.py:1801
+msgid "access"
+msgstr "toegang"
+
+#: ../src/sulfur/dialogs.py:1816
+msgid "Vulnerables"
+msgstr "Kwetsbaarheden"
+
+#: ../src/sulfur/dialogs.py:1820
+msgid "Unaffected"
+msgstr "Onaangetast"
+
+#: ../src/sulfur/dialogs.py:1910
+msgid "Id"
+msgstr "ID"
+
+#: ../src/sulfur/dialogs.py:1937
+msgid "No keywords"
+msgstr "Geen sleutelwoorden"
+
+#: ../src/sulfur/dialogs.py:2011
+msgid "Write your"
+msgstr "Schrijf jouw"
+
+#: ../src/sulfur/dialogs.py:2015
+msgid "Select your"
+msgstr "Selecteer uw"
+
+#: ../src/sulfur/dialogs.py:2059
+msgid "Submit issue"
+msgstr "Voeg melding toe"
+
+#: ../src/sulfur/dialogs.py:2072
+msgid "Empty Document"
+msgstr "Leeg Document"
+
+#: ../src/sulfur/dialogs.py:2077
+msgid "Invalid Description"
+msgstr "Ongeldige Omschrijving"
+
+#: ../src/sulfur/dialogs.py:2084
+msgid "Invalid Document Type"
+msgstr "Ongeldig Document Soort"
+
+#: ../src/sulfur/dialogs.py:2088
+msgid "Invalid Title"
+msgstr "Ongeldige Titel"
+
+#. confirm ?
+#: ../src/sulfur/dialogs.py:2093
+msgid "Do you confirm your submission?"
+msgstr "Wilt u uw indiening bevestigen?"
+
+#: ../src/sulfur/dialogs.py:2109 ../src/sulfur/dialogs.py:2113
+msgid "Service is unavailable"
+msgstr "Service niet beschikbaar"
+
+#: ../src/sulfur/dialogs.py:2169
+msgid "Invalid fields"
+msgstr "Ongeldige velden"
+
+#: ../src/sulfur/dialogs.py:2191
+msgid "Document added successfully. Thank you"
+msgstr "Document succesvol toegevoegd. Dank u"
+
+#: ../src/sulfur/dialogs.py:2192
+msgid "Success!"
+msgstr "Gelukt!"
+
+#: ../src/sulfur/dialogs.py:2200
+msgid "UGC Error"
+msgstr "GGI Fout"
+
+#: ../src/sulfur/dialogs.py:2212
+msgid "Downloading"
+msgstr "Downloaden"
+
+#: ../src/sulfur/dialogs.py:2214
+msgid "Uploading"
+msgstr "Uploaden"
+
+#: ../src/sulfur/dialogs.py:2238
+msgid "Write your document"
+msgstr "Schrijf jouw document"
+
+#: ../src/sulfur/dialogs.py:2246
+msgid "Select your file"
+msgstr "selecteer jouw bestand"
+
+#: ../src/sulfur/dialogs.py:2287
+msgid "On repository"
+msgstr "In repositorie"
+
+#: ../src/sulfur/dialogs.py:2356
+msgid "These are the packages that must be enabled to satisfy your request"
+msgstr ""
+"Dit zijn de pakketten die moeten geactiveerd worden om aan je vraag te "
+"voldoen"
+
+#: ../src/sulfur/dialogs.py:2358
+msgid "Some packages are masked"
+msgstr "Sommige pakketten zijn gemaskeerd"
+
+#: ../src/sulfur/dialogs.py:2445
+msgid "Masked package"
+msgstr "Gemaskeerde Pakketten"
+
+#: ../src/sulfur/dialogs.py:2453
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: ../src/sulfur/dialogs.py:2649
+msgid "Please confirm the actions above"
+msgstr "Bevestig bovenstaande actie"
+
+#: ../src/sulfur/dialogs.py:2710 ../src/sulfur/dialogs.py:2764
+msgid "To be downgraded"
+msgstr "Gemarkeerd voor downgrade"
+
+#: ../src/sulfur/dialogs.py:2716 ../src/sulfur/dialogs.py:2753
+msgid "To be removed"
+msgstr "Gemarkeerd voor verwijdering"
+
+#: ../src/sulfur/dialogs.py:2722 ../src/sulfur/dialogs.py:2775
+msgid "To be reinstalled"
+msgstr "Gemarkeerd voor Herinstallatie"
+
+#: ../src/sulfur/dialogs.py:2728 ../src/sulfur/dialogs.py:2786
+msgid "To be installed"
+msgstr "Gemarkeerd voor Installatie"
+
+#: ../src/sulfur/dialogs.py:2734 ../src/sulfur/dialogs.py:2797
+msgid "To be updated"
+msgstr "Gemarkeerd voor update"
+
+#: ../src/sulfur/dialogs.py:2934
+msgid "About"
+msgstr "Over"
+
+#. open file selector
+#: ../src/sulfur/dialogs.py:3019
+msgid "Sulfur file chooser"
+msgstr "Sulfur bestands kiezer"
+
+#: ../src/sulfur/dialogs.py:3055
+msgid "Sulfur Question"
+msgstr "Sulfur Vraag"
+
+#: ../src/sulfur/dialogs.py:3060
+msgid "Hey!"
+msgstr "Hey!"
+
+#: ../src/sulfur/dialogs.py:3102
+msgid "Please fill the following form"
+msgstr "Vul het volgende formulier in aub."
+
+#: ../src/sulfur/dialogs.py:3172
+msgid "Add atom"
+msgstr "Atoom toevoegen"
+
+#: ../src/sulfur/dialogs.py:3173
+msgid "Atom"
+msgstr "Atoom"
+
+#: ../src/sulfur/dialogs.py:3328 ../src/sulfur/dialogs.py:3330
+msgid "Invalid entry"
+msgstr "Ongeldige invoer"
+
+#: ../src/sulfur/dialogs.py:3390
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: ../src/sulfur/dialogs.py:3478
+msgid "License"
+msgstr "Licentie"
+
+#. new
+#: ../src/sulfur/dialogs.py:3481
+msgid "Accepted"
+msgstr "Geaccepteerd"
+
+#: ../src/sulfur/dialogs.py:3548 ../src/sulfur/events.py:733
+msgid "license text"
+msgstr "licentie tekst"
+
+#: ../src/sulfur/dialogs.py:3588
+msgid "Exception caught"
+msgstr "Uitzondering Opgetreden"
+
+#: ../src/sulfur/dialogs.py:3589
+msgid "Sulfur crashed! An unexpected error occured."
+msgstr "Sulfur is gecrasht! Een onacceptabele fout heeft zich voor gedaan."
+
+#: ../src/sulfur/dialogs.py:3612
+msgid "Your report has been submitted successfully! Thanks a lot."
+msgstr "Je rapport is succesvol opgestuurd! Hartelijk dank."
+
+#: ../src/sulfur/dialogs.py:3614
+msgid "Cannot submit your report. Not connected to Internet?"
+msgstr "Kan je rapport niet versturen. Heb je wel contact met internet?"
+
+#: ../src/sulfur/events.py:69
+msgid "Error during backup"
+msgstr "Fout tijdens back up"
+
+#: ../src/sulfur/events.py:72
+msgid "Backup complete"
+msgstr "Back up compleet"
+
+#: ../src/sulfur/events.py:105
+msgid "Error during restore"
+msgstr "Fout tijdens herstellen"
+
+#: ../src/sulfur/events.py:110
+msgid "Restore complete"
+msgstr "Herstel compleet"
+
+#: ../src/sulfur/events.py:131
+msgid "Error during removal"
+msgstr "Fout tijdens verwijderen"
+
+#: ../src/sulfur/events.py:143
+msgid "The chosen package is not vulnerable"
+msgstr "Het gekozen pakket is niet kwetsbaar"
+
+#: ../src/sulfur/events.py:151
+msgid "Packages in Advisory have been queued."
+msgstr "Pakketten in 'Advisory' zijn in de wachtrij geplaatst."
+
+#: ../src/sulfur/events.py:169
+msgid "Packages in all Advisories have been queued."
+msgstr "Pakketten in alle 'Advisories' zijn in de wachtrij geplaatst."
+
+#: ../src/sulfur/events.py:303
+msgid "Are you sure you want to remove the default repository?"
+msgstr "Weet je zeker dat je de standaard repositorie wilt verwijderen?"
+
+#: ../src/sulfur/events.py:308
+msgid "Unable to remove repository"
+msgstr ""
+
+#: ../src/sulfur/events.py:348
+msgid "Are you sure ?"
+msgstr "Weet u het zeker?"
+
+#: ../src/sulfur/events.py:365
+msgid "Error saving parameter"
+msgstr "Fout bij opslaan parameter"
+
+#: ../src/sulfur/events.py:367
+msgid "not saved"
+msgstr "niet opgeslagen"
+
+#: ../src/sulfur/events.py:380 ../src/sulfur/events.py:386
+#: ../src/sulfur/events.py:392 ../src/sulfur/events.py:416
+#: ../src/sulfur/events.py:427 ../src/sulfur/events.py:438
+msgid "New"
+msgstr "Nieuw"
+
+#: ../src/sulfur/events.py:380 ../src/sulfur/events.py:386
+#: ../src/sulfur/events.py:392
+msgid "Please insert a new path"
+msgstr "Voer een nieuw pad in"
+
+#: ../src/sulfur/events.py:417 ../src/sulfur/events.py:428
+#: ../src/sulfur/events.py:439
+msgid "Please edit the selected path"
+msgstr "verander het geselecteerde pad"
+
+#: ../src/sulfur/events.py:463
+msgid "You have chosen to install this package"
+msgstr "Je hebt dit pakket gekozen voor installatie"
+
+#: ../src/sulfur/events.py:465
+msgid "Are you sure?"
+msgstr "Weet u het zeker?"
+
+#: ../src/sulfur/events.py:618
+msgid "Please select at least one repository"
+msgstr "Selecteer tenminste een repositorie"
+
+#. Check there are any packages in the queue
+#: ../src/sulfur/events.py:641
+msgid "No packages in queue"
+msgstr "De wachtrij is leeg"
+
+#: ../src/sulfur/events.py:679
+msgid "Queue is too old. Cannot load."
+msgstr "De wachtrij is te oud en kon niet geladen worden."
+
+#: ../src/sulfur/events.py:744
+msgid "Update your system now ?"
+msgstr "Je systeem nu updaten?"
+
+#: ../src/sulfur/events.py:759
+msgid ""
+"You have chosen to interrupt the processing. Are you sure you want to do it ?"
+msgstr ""
+"Je hebt ervoor gekozen de behandeling stop te zetten. Weet je zeker dat je "
+"dit wilt ?"
+
+#: ../src/sulfur/events.py:846
+msgid "Login aborted. Not logged in."
+msgstr "Log in geannuleerd. Niet ingelogd."
+
+#: ../src/sulfur/events.py:892
+msgid "UGC credentials cleared"
+msgstr "GGI gegevens geleegd"
+
+#: ../src/sulfur/events.py:932
+msgid "Choose what Package Set you want to add"
+msgstr "Kies welke Pakket Set je wilt toevoegen"
+
+#: ../src/sulfur/events.py:934
+msgid "Choose what Package Set you want to edit"
+msgstr "Kies welke Pakket Set je wil bewerken"
+
+#: ../src/sulfur/events.py:950 ../src/sulfur/events.py:955
+msgid "Package Set name"
+msgstr "Pakket Set naam"
+
+#: ../src/sulfur/events.py:951 ../src/sulfur/events.py:956
+msgid "Package atoms"
+msgstr "Pakket atomen"
+
+#: ../src/sulfur/events.py:998
+msgid "No package sets available for removal."
+msgstr "Geen pakket sets beschikbaar voor verwijdering."
+
+#: ../src/sulfur/events.py:1004
+msgid "Removable Package Set"
+msgstr "Verwijderbare Pakket Set"
+
+#: ../src/sulfur/events.py:1009
+msgid "Choose what Package Set you want to remove"
+msgstr "Kies welke Pakket Set je wilt verwijderen"
+
+#: ../src/sulfur/entropyapi.py:107
+msgid "Error enabling masked package"
+msgstr "Fout tijdens het activeren van het afgeschermde pakket"
+
+#: ../src/sulfur/entropyapi.py:119
+msgid "dependencies not found"
+msgstr "afhankelijkheden niet gevonden"
+
+#: ../src/sulfur/entropyapi.py:123
+msgid "dependency collisions found"
+msgstr ""
+
+#: ../src/sulfur/entropyapi.py:144
+msgid "Fetching"
+msgstr "Ophalen"
+
+#: ../src/sulfur/entropyapi.py:146
+msgid "Downloading sources"
+msgstr "Bronnen downloaden"
+
+#: ../src/sulfur/entropyapi.py:237
+msgid "Removing package"
+msgstr "Pakket verwijdering"
+
+#: ../src/sulfur/entropyapi.py:246
+msgid "Removing"
+msgstr "Verwijderen"
+
+#: ../src/sulfur/entropyapi.py:288
+msgid "Installing"
+msgstr "Installeren"
+
+#: ../src/sulfur/entropyapi.py:407
+msgid "Entropy needs your attention"
+msgstr "Entropy vraagt om uw aandacht"
+
+#: ../src/sulfur/sulfur.glade.h:1
+msgid "Add/Edit Repository"
+msgstr "Repositorie Toevoegen/Bewerken"
+
+#: ../src/sulfur/sulfur.glade.h:2
+msgid "Adding a <b>new repository</b> lets you access <b>extra software</b>"
+msgstr ""
+"Het toevoegen van een <b>nieuwe repositorie</b> geeft toegang tot <b>extra "
+"software</b>"
+
+#: ../src/sulfur/sulfur.glade.h:3
+msgid "Compression"
+msgstr "Compressie"
+
+#: ../src/sulfur/sulfur.glade.h:4
+msgid "Identifier"
+msgstr "Identifier"
+
+#: ../src/sulfur/sulfur.glade.h:7
+msgid "URI"
+msgstr "URI"
+
+#: ../src/sulfur/sulfur.glade.h:8
+msgid "Repository information"
+msgstr "Repositorie informatie"
+
+#: ../src/sulfur/sulfur.glade.h:9
+msgid "_Insert String"
+msgstr "_Voer Reeks in"
+
+#: ../src/sulfur/sulfur.glade.h:10
+msgid "Advisory information"
+msgstr "Advisory informatie"
+
+#: ../src/sulfur/sulfur.glade.h:11
+msgid "button"
+msgstr "knop"
+
+#: ../src/sulfur/sulfur.glade.h:12
+msgid "Background"
+msgstr "Achtergrond"
+
+#: ../src/sulfur/sulfur.glade.h:13
+msgid "Impact"
+msgstr "Inslag"
+
+#: ../src/sulfur/sulfur.glade.h:14
+msgid "_Overview"
+msgstr "_Overzicht"
+
+#: ../src/sulfur/sulfur.glade.h:15
+msgid "Affected packages"
+msgstr "Getroffen pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:16
+msgid "Bugs"
+msgstr "Bugs"
+
+#: ../src/sulfur/sulfur.glade.h:17
+msgid "References"
+msgstr "Referenties"
+
+#: ../src/sulfur/sulfur.glade.h:18
+msgid "_Details"
+msgstr "_Details"
+
+#: ../src/sulfur/sulfur.glade.h:19
+msgid "Announced"
+msgstr "Aangekondigd"
+
+#: ../src/sulfur/sulfur.glade.h:20
+msgid "Revised"
+msgstr "Herzien"
+
+#: ../src/sulfur/sulfur.glade.h:21
+msgid "Synopsis"
+msgstr "Samenvatting"
+
+#: ../src/sulfur/sulfur.glade.h:22
+msgid "Workaround"
+msgstr "Omzeiling"
+
+#: ../src/sulfur/sulfur.glade.h:23
+msgid "Resolution"
+msgstr "Resolutie"
+
+#: ../src/sulfur/sulfur.glade.h:24
+msgid "_More"
+msgstr "_Meer"
+
+#: ../src/sulfur/sulfur.glade.h:25
+msgid "Please Confirm"
+msgstr "Bevestig alstublieft"
+
+#: ../src/sulfur/sulfur.glade.h:27
+msgid "S_end Error Report"
+msgstr "_Fout melden"
+
+#: ../src/sulfur/sulfur.glade.h:28
+msgid ""
+"Please submit this error to us providing as much information as possible."
+msgstr "Stuur deze fout a.u.b. naar ons op met zoveel mogelijk informatie."
+
+#: ../src/sulfur/sulfur.glade.h:29
+msgid "What you were doing"
+msgstr "Waar was je mee bezig"
+
+#: ../src/sulfur/sulfur.glade.h:30
+msgid "Your E-mail"
+msgstr "Je e-mail"
+
+#: ../src/sulfur/sulfur.glade.h:31
+msgid "Your Full Name"
+msgstr "Je volledige naam"
+
+#: ../src/sulfur/sulfur.glade.h:32
+msgid ""
+"You <b>need to accept</b> the licenses below.\n"
+"Please read them carefully and <b>make your choice</b>."
+msgstr ""
+"Je <b>moet</b> onderstaande licentie accepteren.\n"
+"Lees goed door <b>en maak een keuze</b>."
+
+#: ../src/sulfur/sulfur.glade.h:34
+msgid "_Read License"
+msgstr "_Accepteer Licentie"
+
+#: ../src/sulfur/sulfur.glade.h:35
+msgid "_Accept License"
+msgstr "_Accepteer Licentie"
+
+#: ../src/sulfur/sulfur.glade.h:36
+msgid "Sulfur"
+msgstr "Sulfur"
+
+#: ../src/sulfur/sulfur.glade.h:37
+msgid "_Sulfur"
+msgstr "_Sulfur"
+
+#: ../src/sulfur/sulfur.glade.h:38
+msgid "Install from binary package..."
+msgstr "Installeer vanuit binair pakket..."
+
+#: ../src/sulfur/sulfur.glade.h:39
+msgid "Install a stand-alone package file"
+msgstr "Installeer een alleen-staand pakket"
+
+#: ../src/sulfur/sulfur.glade.h:40
+msgid "Switch Sulfur to Advanced Mode"
+msgstr "Schakel Sulfur naar Geavanceerde Modus"
+
+#: ../src/sulfur/sulfur.glade.h:41
+msgid "Advanced Mode"
+msgstr "Geavanceerde modus"
+
+#: ../src/sulfur/sulfur.glade.h:42
+msgid "S_ervices"
+msgstr "S_ervices"
+
+#: ../src/sulfur/sulfur.glade.h:43
+msgid "R_epositories Notice Board"
+msgstr "R_epositories Notitie Bord"
+
+#: ../src/sulfur/sulfur.glade.h:44
+msgid "_Help"
+msgstr "_Help"
+
+#: ../src/sulfur/sulfur.glade.h:45
+msgid "Tips 'n tricks"
+msgstr "Handige tips"
+
+#: ../src/sulfur/sulfur.glade.h:46
+msgid "Show Sulfur tips and tricks"
+msgstr "Toon Sulfur tips"
+
+#: ../src/sulfur/sulfur.glade.h:47
+msgid "Download updated repositories containing new applications"
+msgstr "Download geupdate repositories net nieuwe applicaties"
+
+#: ../src/sulfur/sulfur.glade.h:48
+msgid "Refresh"
+msgstr "Vernieuwen"
+
+#: ../src/sulfur/sulfur.glade.h:49
+msgid "Show updates"
+msgstr "Toon updates"
+
+#: ../src/sulfur/sulfur.glade.h:50
+msgid "Updates"
+msgstr "Updates"
+
+#: ../src/sulfur/sulfur.glade.h:51
+msgid "Show available applications"
+msgstr "Toon beschikbare Pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:52
+msgid "Available"
+msgstr "Beschikbaar"
+
+#: ../src/sulfur/sulfur.glade.h:53
+msgid "Show installed applications"
+msgstr "Toon geinstalleerde pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:54
+msgid "Installed"
+msgstr "Geinstalleerd"
+
+#: ../src/sulfur/sulfur.glade.h:55
+msgid "Show masked applications"
+msgstr "Toon gemaskeerde pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:56
+msgid "Masked"
+msgstr "Afgeschermd"
+
+#: ../src/sulfur/sulfur.glade.h:57
+msgid "Show any existing application"
+msgstr "Toon alle pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:58
+msgid "All"
+msgstr "Alles"
+
+#: ../src/sulfur/sulfur.glade.h:59
+msgid "Show package sets (groups)"
+msgstr "Toon pakket sets (groepen)"
+
+#: ../src/sulfur/sulfur.glade.h:60
+msgid "Sets"
+msgstr "Sets"
+
+#: ../src/sulfur/sulfur.glade.h:61
+msgid "Click to start searching"
+msgstr "Klik om te zoeken"
+
+#: ../src/sulfur/sulfur.glade.h:63
+msgid "Show install queue"
+msgstr "Toon installatie wachtlijst"
+
+#: ../src/sulfur/sulfur.glade.h:65
+msgid ""
+"Filter currently shown items, or paste entropy:// action strings (for eg. "
+"entropy://amarok, to install Amarok!)"
+msgstr ""
+"Filter huidig weergegeven items, of plak entropy:// actie gegeven (bijv. "
+"entropy://amarok, om Amarok te installeren!)"
+
+#: ../src/sulfur/sulfur.glade.h:66
+msgid "_Update all"
+msgstr "Alles updaten"
+
+#: ../src/sulfur/sulfur.glade.h:67
+msgid "_Remove All"
+msgstr "_Verwijder Alles"
+
+#: ../src/sulfur/sulfur.glade.h:68
+msgid "_Update Repositories"
+msgstr "_Update Repositories"
+
+#: ../src/sulfur/sulfur.glade.h:69
+msgid "Cl_ean"
+msgstr "_Opruimen"
+
+#: ../src/sulfur/sulfur.glade.h:70
+msgid "Download only"
+msgstr "Download alleen"
+
+#: ../src/sulfur/sulfur.glade.h:71
+msgid "If selected, packages will be downloaded only"
+msgstr "Wanneer geselecteerd, zullen pakketten alleen worden gedownload"
+
+#: ../src/sulfur/sulfur.glade.h:72
+msgid "Download source code"
+msgstr "Download bron code"
+
+#: ../src/sulfur/sulfur.glade.h:73
+msgid "_Commit Actions"
+msgstr "_Voer Acties uit"
+
+#: ../src/sulfur/sulfur.glade.h:74
+msgid "_Add Set"
+msgstr "Set _Toevoegen"
+
+#: ../src/sulfur/sulfur.glade.h:75
+msgid "_Remove Set"
+msgstr "_Verwijder Set"
+
+#: ../src/sulfur/sulfur.glade.h:76
+msgid "_Edit Set"
+msgstr "Set bewerken"
+
+#: ../src/sulfur/sulfur.glade.h:77
+msgid "Browse applications"
+msgstr "Blader door applicaties"
+
+#: ../src/sulfur/sulfur.glade.h:79
+msgid "Show unapplied"
+msgstr "Niet toegepaste weergeven"
+
+#: ../src/sulfur/sulfur.glade.h:80
+msgid "Show applied"
+msgstr "Toegepaste weergeven"
+
+#: ../src/sulfur/sulfur.glade.h:81
+msgid "Show all"
+msgstr "geef alles weer"
+
+#: ../src/sulfur/sulfur.glade.h:82
+msgid "Q_ueue packages in selected Advisory"
+msgstr "_Zet geselecteerde Advisory pakketten in de wachtrij"
+
+#: ../src/sulfur/sulfur.glade.h:83
+msgid "_Queue all vulnerable packages"
+msgstr "_Som alle kwetsbare pakketten op"
+
+#: ../src/sulfur/sulfur.glade.h:84
+msgid "Security advisories, make sure your 'puter is really secure"
+msgstr "Veiligheids advies. Ben er zeker van dat je computer veilig blijft!"
+
+#: ../src/sulfur/sulfur.glade.h:85
+msgid "Security"
+msgstr "Beveiliging"
+
+#: ../src/sulfur/sulfur.glade.h:86
+msgid "_Force repositories update"
+msgstr "_Forseer repositories update"
+
+#: ../src/sulfur/sulfur.glade.h:87
+msgid "Repositories options"
+msgstr "Repositories opties"
+
+#: ../src/sulfur/sulfur.glade.h:88
+msgid "R_egenerate Cache"
+msgstr "Hergenereer Cache"
+
+#: ../src/sulfur/sulfur.glade.h:89
+msgid "Update, enable, disable application repositories"
+msgstr "Update, in- of uitschakelen applicatie repositories"
+
+#: ../src/sulfur/sulfur.glade.h:90
+msgid "Repositories"
+msgstr "Repositories"
+
+#: ../src/sulfur/sulfur.glade.h:91
+msgid "C_hanges"
+msgstr "_Veranderingen"
+
+#: ../src/sulfur/sulfur.glade.h:92
+msgid "M_erge"
+msgstr "_Samenvoegen"
+
+#: ../src/sulfur/sulfur.glade.h:93
+msgid "Dele_te all"
+msgstr "Verwijder alles"
+
+#: ../src/sulfur/sulfur.glade.h:94
+msgid "Merge all"
+msgstr "Alles samenvoegen"
+
+#: ../src/sulfur/sulfur.glade.h:95
+msgid ""
+"Applications can alter your system configuration, merge requested changes "
+"manually"
+msgstr ""
+"Applicaties kunnen uw systeem configuraties aanpassen, pas gevraagde "
+"veranderingen handmatig aan"
+
+#: ../src/sulfur/sulfur.glade.h:96
+msgid "System files"
+msgstr "Systeem bestanden"
+
+#: ../src/sulfur/sulfur.glade.h:97
+msgid "Prevents files belonging to a package being overwritten by another"
+msgstr ""
+"Beschermd bestanden behorende tot een pakket tegen overschrijving door een "
+"ander"
+
+#: ../src/sulfur/sulfur.glade.h:98
+msgid ""
+"Disabled\n"
+"Removal only\n"
+"Install+Removal"
+msgstr ""
+"Uitschakelen\n"
+"Alleen verwijderen\n"
+"Installeer+Verwijderen"
+
+#: ../src/sulfur/sulfur.glade.h:101
+msgid "Collision protection"
+msgstr "Blokkade bescherming"
+
+#: ../src/sulfur/sulfur.glade.h:102
+msgid "This is what they call \"nice level\""
+msgstr "Dit is wat ze noemen, \"nice level\""
+
+#: ../src/sulfur/sulfur.glade.h:103
+msgid "Process priority (nice)"
+msgstr "Prioriteit van processen (nice)"
+
+#: ../src/sulfur/sulfur.glade.h:104
+msgid "Backup configuration files"
+msgstr "Backup configuratie bestanden"
+
+#: ../src/sulfur/sulfur.glade.h:105
+msgid "Entropy can keep a backup of your updated configuration files"
+msgstr "Entropy kan een back-up bewaren van je geupdate configuratie bestanden"
+
+#: ../src/sulfur/sulfur.glade.h:106
+msgid "Dependencies algorithm"
+msgstr "Afhankelijkheids algoritme"
+
+#: ../src/sulfur/sulfur.glade.h:107
+msgid ""
+"Reliable\n"
+"Relaxed"
+msgstr ""
+"Vertrouwd\n"
+"Gemakkelijk"
+
+#: ../src/sulfur/sulfur.glade.h:109
+msgid "Ignored protected files"
+msgstr "Negeer beschermde bestanden"
+
+#: ../src/sulfur/sulfur.glade.h:110
+msgid "Protected files and directories mask"
+msgstr "Beschermde bestanden en mappen gemaskeerd"
+
+#: ../src/sulfur/sulfur.glade.h:111
+msgid "Protected files and directories"
+msgstr "Beschermde bestanden en mappen"
+
+#: ../src/sulfur/sulfur.glade.h:112
+msgid "System"
+msgstr "Systeem"
+
+#: ../src/sulfur/sulfur.glade.h:113
+msgid "type your password here"
+msgstr "voer uw password hier in"
+
+#: ../src/sulfur/sulfur.glade.h:114
+msgid "type your username here"
+msgstr "voer uw gebruikersnaam hier in"
+
+#: ../src/sulfur/sulfur.glade.h:115
+msgid "Proxy Password"
+msgstr "Proxy Wachtwoord"
+
+#: ../src/sulfur/sulfur.glade.h:116
+msgid "Proxy Username"
+msgstr "Proxy Gebruikersnaam"
+
+#: ../src/sulfur/sulfur.glade.h:117
+msgid "kB/sec"
+msgstr "kB/sec"
+
+#: ../src/sulfur/sulfur.glade.h:118
+msgid "0 = no limit; 100 = 100kB/sec"
+msgstr "0 = geen limiet; 100 = 100kB/sec"
+
+#: ../src/sulfur/sulfur.glade.h:119
+msgid "Download speed limit"
+msgstr "Download snelheidslimiet"
+
+#: ../src/sulfur/sulfur.glade.h:120
+msgid "Example: http://proxy:1234"
+msgstr "Voorbeeld: http://proxy:1234"
+
+#: ../src/sulfur/sulfur.glade.h:121
+msgid "HTTP Proxy"
+msgstr "HTTP Proxy"
+
+#: ../src/sulfur/sulfur.glade.h:122
+msgid "FTP Proxy"
+msgstr "FTP proxy"
+
+#: ../src/sulfur/sulfur.glade.h:123
+msgid "Socket settings"
+msgstr "Socket Instellingen"
+
+#: ../src/sulfur/sulfur.glade.h:124
+msgid "Networking"
+msgstr "Netwerken"
+
+#: ../src/sulfur/sulfur.glade.h:125
+msgid "Generate login information"
+msgstr "Genereer inlog informatie"
+
+#: ../src/sulfur/sulfur.glade.h:126
+msgid "Discard login information"
+msgstr "Annuleer log in informatie"
+
+#: ../src/sulfur/sulfur.glade.h:127
+msgid "Clear all credentials"
+msgstr "Alle gegevens opruimen"
+
+#: ../src/sulfur/sulfur.glade.h:128
+msgid "User Generated Content"
+msgstr "Gebruiker Gedefinieerde Inhoud"
+
+#: ../src/sulfur/sulfur.glade.h:129
+msgid "Terminal font"
+msgstr "Terminal lettertype"
+
+#: ../src/sulfur/sulfur.glade.h:130
+msgid "Generic title 1"
+msgstr "Generieke titel 1"
+
+#: ../src/sulfur/sulfur.glade.h:131
+msgid "Generic title 2"
+msgstr "Generieke titel 2"
+
+#: ../src/sulfur/sulfur.glade.h:132
+msgid "Background error message"
+msgstr "Verberg fout melding"
+
+#: ../src/sulfur/sulfur.glade.h:133
+msgid "Error message"
+msgstr "Fout melding"
+
+#: ../src/sulfur/sulfur.glade.h:134
+msgid "Successful message"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:135
+msgid "Background succ. message"
+msgstr "Verberg succes melding"
+
+#: ../src/sulfur/sulfur.glade.h:136
+msgid "Text on succ. message"
+msgstr "Tekst bij succes melding"
+
+#: ../src/sulfur/sulfur.glade.h:137
+msgid "Text on error message"
+msgstr "Tekst bij fout melding"
+
+#: ../src/sulfur/sulfur.glade.h:138
+msgid "General"
+msgstr "Generiek"
+
+#: ../src/sulfur/sulfur.glade.h:139
+msgid "Package (default)"
+msgstr "Pakket (standaard)"
+
+#: ../src/sulfur/sulfur.glade.h:140
+msgid "Package not installed"
+msgstr "Pakket niet geinstalleerd"
+
+#: ../src/sulfur/sulfur.glade.h:141
+msgid "Package removed"
+msgstr "Pakket Verwijderd"
+
+#: ../src/sulfur/sulfur.glade.h:142
+msgid "Package updated"
+msgstr "Pakketten geupdate"
+
+#: ../src/sulfur/sulfur.glade.h:143
+msgid "Package reinstalled"
+msgstr "Pakket geherinstalleerd"
+
+#: ../src/sulfur/sulfur.glade.h:144
+msgid "Package description"
+msgstr "Pakket omschrijving"
+
+#: ../src/sulfur/sulfur.glade.h:145
+msgid "Package subtitle"
+msgstr "Pakketten ondertitel"
+
+#: ../src/sulfur/sulfur.glade.h:146
+msgid "Package sub-description"
+msgstr "Pakket sub-omschrijving"
+
+#: ../src/sulfur/sulfur.glade.h:147
+msgid "Package category"
+msgstr "Pakket categorie"
+
+#: ../src/sulfur/sulfur.glade.h:148
+msgid "Package downgrade"
+msgstr "Pakket downgrade"
+
+#: ../src/sulfur/sulfur.glade.h:149
+msgid "Packages"
+msgstr "Pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:150
+msgid "Interface Colors"
+msgstr "Omgevings Kleuren"
+
+#: ../src/sulfur/sulfur.glade.h:151
+msgid "<b>Entropy database backup tool</b>"
+msgstr "Entropy database back up gereedschap"
+
+#: ../src/sulfur/sulfur.glade.h:152
+msgid ""
+"<small>Using this tool, you will be able to backup and restore your "
+"Operating System packages database.</small>"
+msgstr ""
+"<small>Met dit gereedschap, is het mogelijk om back ups te maken en te "
+"herstellen van jouw Besturings Systeem pakketten database.</small>"
+
+#: ../src/sulfur/sulfur.glade.h:153
+msgid "New backup"
+msgstr "Nieuwe back up"
+
+#: ../src/sulfur/sulfur.glade.h:154
+msgid "Restore selected"
+msgstr "Herstel geselecteerde"
+
+#: ../src/sulfur/sulfur.glade.h:155
+msgid "Delete selected"
+msgstr "Verwijder geselecteerde"
+
+#: ../src/sulfur/sulfur.glade.h:156
+msgid "Dependencies test"
+msgstr "Afhankelijkheden test"
+
+#: ../src/sulfur/sulfur.glade.h:157
+msgid "Libraries test"
+msgstr "Bibliotheken test"
+
+#: ../src/sulfur/sulfur.glade.h:158
+msgid "System Database"
+msgstr "Systeem Database"
+
+#: ../src/sulfur/sulfur.glade.h:159
+msgid "Restore"
+msgstr "Herstel"
+
+#: ../src/sulfur/sulfur.glade.h:160
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../src/sulfur/sulfur.glade.h:161
+msgid "Change Sulfur preferences"
+msgstr "Verander Sulfur voorkeuren"
+
+#: ../src/sulfur/sulfur.glade.h:162
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: ../src/sulfur/sulfur.glade.h:163
+msgid "_Skip mirror"
+msgstr "_Sla spiegel over"
+
+#: ../src/sulfur/sulfur.glade.h:164
+msgid "_Abort"
+msgstr "_Annuleer"
+
+#: ../src/sulfur/sulfur.glade.h:165
+msgid "Process details"
+msgstr "Proces details"
+
+#: ../src/sulfur/sulfur.glade.h:166
+msgid "Monitor applications install/removal execution process"
+msgstr "Bekijk applicatie installatie/verwijderingsprocess"
+
+#: ../src/sulfur/sulfur.glade.h:167
+msgid "Progress"
+msgstr "Voortgang"
+
+#: ../src/sulfur/sulfur.glade.h:169
+msgid "Hide this until something new happens"
+msgstr "Verberg dit scherm totdat er iets nieuws is"
+
+#: ../src/sulfur/sulfur.glade.h:170
+msgid "Install the selected package"
+msgstr "Installeer geselecteerd pakket"
+
+#: ../src/sulfur/sulfur.glade.h:171
+msgid "Undo Install"
+msgstr "Installatie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:172
+msgid "Undo Install action"
+msgstr "Installatie actie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:173
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: ../src/sulfur/sulfur.glade.h:174
+msgid "Mask this package"
+msgstr "Maskeer dit pakket"
+
+#: ../src/sulfur/sulfur.glade.h:175
+msgid "Reinstall"
+msgstr "Herinstalleer"
+
+#: ../src/sulfur/sulfur.glade.h:176
+msgid "Reinstall the selected package"
+msgstr "Herinstalleer geselecteerd pakket"
+
+#: ../src/sulfur/sulfur.glade.h:177
+msgid "Undo Reinstall"
+msgstr "Herinstallatie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:178
+msgid "Undo Reinstall action"
+msgstr "Herinstallatie actie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:179
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: ../src/sulfur/sulfur.glade.h:180
+msgid "Remove the selected package"
+msgstr "Verwijder geselecteerd pakket"
+
+#: ../src/sulfur/sulfur.glade.h:181
+msgid "Undo Remove"
+msgstr "Verwijderen ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:182
+msgid "Undo Remove action"
+msgstr "Verwijderen ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:183
+msgid "Purge"
+msgstr "Volledig verwijderen"
+
+#: ../src/sulfur/sulfur.glade.h:184
+msgid "Remove the selected package and its configuration"
+msgstr "Verwijder geselecteerde en configuratie"
+
+#: ../src/sulfur/sulfur.glade.h:185
+msgid "Undo Purge"
+msgstr "Installatie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:186
+msgid "Undo Purge action"
+msgstr "Installatie actie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:187
+msgid "Enable"
+msgstr "Activeer"
+
+#: ../src/sulfur/sulfur.glade.h:188
+msgid "Unmask this package"
+msgstr "Demaskeer dit pakket"
+
+#: ../src/sulfur/sulfur.glade.h:189
+msgid "Mask the selected packages"
+msgstr "Maskeer de geselecteerde pakketten"
+
+#: ../src/sulfur/sulfur.glade.h:191
+msgid "Undo Update"
+msgstr "Update ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:192
+msgid "Package Masking"
+msgstr "Pakket Maskeren"
+
+#: ../src/sulfur/sulfur.glade.h:193
+msgid "_Enable"
+msgstr "_Activeer"
+
+#: ../src/sulfur/sulfur.glade.h:194
+msgid "Enable _all"
+msgstr "Activeer _alles"
+
+#: ../src/sulfur/sulfur.glade.h:195
+msgid "_Properties"
+msgstr "_Eigenschappen"
+
+#: ../src/sulfur/sulfur.glade.h:196
+msgid "Install Packages in Set"
+msgstr "Installeer pakketten in Set"
+
+#: ../src/sulfur/sulfur.glade.h:197
+msgid "Install packages in Set"
+msgstr "Installeer pakketten in Set"
+
+#: ../src/sulfur/sulfur.glade.h:198
+msgid "Undo Install Packages in Set"
+msgstr "Installatie Pakketten Set ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:199
+msgid "Undo Install Set action"
+msgstr "Installatie Set actie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:200
+msgid "Remove Packages in Set"
+msgstr "Verwijder Pakketten in Set"
+
+#: ../src/sulfur/sulfur.glade.h:201
+msgid "Remove packages in Set"
+msgstr "Verwijder Pakketten in Set"
+
+#: ../src/sulfur/sulfur.glade.h:202
+msgid "Undo Remove Packages in Set"
+msgstr "Verwijderen Pakketten Set ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:203
+msgid "Undo Remove Set action"
+msgstr "Verwijder Set actie ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:204
+msgid "Update the selected package"
+msgstr "Update geselecteerd pakket"
+
+#: ../src/sulfur/sulfur.glade.h:205
+msgid "Undo Update action"
+msgstr "Update ongedaan maken"
+
+#: ../src/sulfur/sulfur.glade.h:206
+msgid "Package Information"
+msgstr "Pakket Informatie"
+
+#: ../src/sulfur/sulfur.glade.h:207
+msgid "Creation date"
+msgstr "Aanmaakdatum"
+
+#: ../src/sulfur/sulfur.glade.h:208
+msgid "Install Size"
+msgstr "Installatie Grootte"
+
+#: ../src/sulfur/sulfur.glade.h:209
+msgid "Package Size"
+msgstr "Pakket grootte"
+
+#: ../src/sulfur/sulfur.glade.h:210
+msgid "MD5 Signature"
+msgstr "MD5 Sleutel"
+
+#: ../src/sulfur/sulfur.glade.h:211
+msgid "Download Path"
+msgstr "Download Map"
+
+#: ../src/sulfur/sulfur.glade.h:212
+msgid "Entropy API"
+msgstr "Entropy API"
+
+#: ../src/sulfur/sulfur.glade.h:213
+msgid "Branch"
+msgstr "Branche"
+
+#: ../src/sulfur/sulfur.glade.h:215
+msgid "Kernel Tag"
+msgstr "Kernel Tag"
+
+#: ../src/sulfur/sulfur.glade.h:216
+msgid "Slot"
+msgstr "Slot"
+
+#: ../src/sulfur/sulfur.glade.h:217
+msgid "Version"
+msgstr "Versie"
+
+#: ../src/sulfur/sulfur.glade.h:218
+msgid "Location"
+msgstr "Locatie"
+
+#: ../src/sulfur/sulfur.glade.h:219
+msgid "Website"
+msgstr "Website"
+
+#: ../src/sulfur/sulfur.glade.h:220
+msgid "Show ChangeLog"
+msgstr "Bekijk Veranderingen-Log"
+
+#: ../src/sulfur/sulfur.glade.h:221
+msgid "ChangeLog"
+msgstr "Veranderingen-Log"
+
+#: ../src/sulfur/sulfur.glade.h:222
+msgid "CHOST"
+msgstr "CHOST"
+
+#: ../src/sulfur/sulfur.glade.h:223
+msgid "CFLAGS"
+msgstr "CFLAGS"
+
+#: ../src/sulfur/sulfur.glade.h:224
+msgid "CXXFLAGS"
+msgstr "CXXFLAGS"
+
+#: ../src/sulfur/sulfur.glade.h:225
+msgid "_References"
+msgstr "_Afhankelijkheden"
+
+#: ../src/sulfur/sulfur.glade.h:226
+msgid "D_ependencies"
+msgstr "Afhankelijkheden"
+
+#: ../src/sulfur/sulfur.glade.h:227
+msgid "External Trigger"
+msgstr "Externe Trekker"
+
+#: ../src/sulfur/sulfur.glade.h:228
+msgid "CONFIG_PROTECT"
+msgstr "CONFIG_PROTECT"
+
+#: ../src/sulfur/sulfur.glade.h:229
+msgid "O_ther"
+msgstr "_Overig"
+
+#: ../src/sulfur/sulfur.glade.h:230
+msgid "Add Document"
+msgstr "Document Toevoegen"
+
+#: ../src/sulfur/sulfur.glade.h:231
+msgid "Remove Selected"
+msgstr "Verwijder Geselecteerde"
+
+#: ../src/sulfur/sulfur.glade.h:232
+msgid "Show Selected"
+msgstr "Geeft Geselecteerde Weer"
+
+#: ../src/sulfur/sulfur.glade.h:233
+msgid "Load User Generated Content"
+msgstr "Laad Gebruiker Gegenereerde Inhoud"
+
+#: ../src/sulfur/sulfur.glade.h:234
+msgid "Notice Board Entry Information"
+msgstr "Notite Bord Invoer Informatie"
+
+#: ../src/sulfur/sulfur.glade.h:235
+msgid "http://www.sabayon.org"
+msgstr "http://www.sabayon.org"
+
+#: ../src/sulfur/sulfur.glade.h:236
+msgid "Link"
+msgstr "Link"
+
+#: ../src/sulfur/sulfur.glade.h:239
+msgid "Notice board Id"
+msgstr "Notitie bord Id"
+
+#: ../src/sulfur/sulfur.glade.h:240
+msgid "Mark as read"
+msgstr "Markeer als gelezen"
+
+#: ../src/sulfur/sulfur.glade.h:241
+msgid "Close notice"
+msgstr "Notitie sluiten"
+
+#: ../src/sulfur/sulfur.glade.h:242
+msgid "Sulfur tips and tricks"
+msgstr "Sulfur tips"
+
+#: ../src/sulfur/sulfur.glade.h:243
+msgid "tooltip text"
+msgstr "Hulp tekst"
+
+#: ../src/sulfur/sulfur.glade.h:244
+msgid "Show tips on startup"
+msgstr "Toon tips bij opstarten"
+
+#: ../src/sulfur/sulfur.glade.h:245
+msgid "UGC Entry Information"
+msgstr "GGI Invoer Informatie"
+
+#: ../src/sulfur/sulfur.glade.h:246
+msgid "Document type"
+msgstr "Document type"
+
+#: ../src/sulfur/sulfur.glade.h:247
+msgid "Keywords (space separated)"
+msgstr "Sleutel woorden (met spaties gescheiden)"
+
+#: ../src/sulfur/sulfur.glade.h:248
+msgid "_Submit Document"
+msgstr "V_oeg Document toe"
+
+#: ../src/sulfur/sulfur.glade.h:249
+msgid "Submit a new document"
+msgstr "Voeg een nieuw document toe"
+
+#: ../src/sulfur/sulfur.glade.h:253
+msgid "_Open Document"
+msgstr "_Open Document"
+
+#~ msgid "Syncing current database"
+#~ msgstr "Synchroniseren van huidige database"
+
+#~ msgid "please wait"
+#~ msgstr "een moment geduld A.U.B."
+
+#~ msgid "Removing entry"
+#~ msgstr "Verwijderen van ingang"
+
+#~ msgid "Adding entry"
+#~ msgstr "Toevoegen van ingang"
+
+#~ msgid "Exporting database table"
+#~ msgstr "Database tabel exporteren"
+
+#~ msgid "Database Export complete."
+#~ msgstr "Database export voltooid."
+
+#~ msgid "ATTENTION"
+#~ msgstr "ATTENTIE"
+
+#~ msgid "Spm error occured"
+#~ msgstr "SPM fout"
+
+#~ msgid "Spm Unique Identifier not found for"
+#~ msgstr "Spm Unieke Herkenning niet gevonden voor"
+
+#~ msgid "updating repository metadata layout, please wait!"
+#~ msgstr "updaten van repositorie metadata overzicht, even geduld!"
+
+#~ msgid "generating provided_libs metadata, please wait!"
+#~ msgstr "genereren van provided_libs metadata, even geduld!"
+
+#~ msgid "SPM"
+#~ msgstr "SPM"
+
+#~ msgid "Running packages metadata update"
+#~ msgstr "Draaien van pakketten metadata update"
+
+#~ msgid "it could take a while"
+#~ msgstr "Het kan even duren"
+
+#~ msgid "ENTROPY"
+#~ msgstr "ENTROPY"
+
+#~ msgid "action"
+#~ msgstr "actie"
+
+#~ msgid "package move actions complete"
+#~ msgstr "pakket verplaats acties zijn voltooid"
+
+#~ msgid "WARNING"
+#~ msgstr "WAARSCHUWING"
+
+#~ msgid "Cannot run SPM cleanup, error"
+#~ msgstr "Kan SPM opruiming niet starten, fout"
+
+#~ msgid "package moves completed successfully"
+#~ msgstr "pakket verplaatsen succesvol voltooid"
+
+#~ msgid "Moving old entry"
+#~ msgstr "Verplaatsen van oude ingang"
+
+#~ msgid "to"
+#~ msgstr "naar"
+
+#~ msgid "Accessibility"
+#~ msgstr "Toegankelijkheid"
+
+#~ msgid "Accessibility applications"
+#~ msgstr "Toegankelijkheids applicaties"
+
+#~ msgid "Office"
+#~ msgstr "Kantoor"
+
+#~ msgid "Applications used in office environments"
+#~ msgstr "Kantoorsoftware"
+
+#~ msgid "Development"
+#~ msgstr "Ontwikkeling"
+
+#~ msgid "Applications or system libraries"
+#~ msgstr "Systeem applicaties en bibliotheken"
+
+#~ msgid "System applications or libraries"
+#~ msgstr "Systeem applicaties of bibliotheken"
+
+#~ msgid "Games"
+#~ msgstr "Spellen"
+
+#~ msgid "Games, enjoy your spare time"
+#~ msgstr "Spelletjes"
+
+#~ msgid "GNOME Desktop"
+#~ msgstr "GNOME Desktop"
+
+#~ msgid "Applications and libraries for the GNOME Desktop"
+#~ msgstr "Applicaties voor de Gnome omgeving"
+
+#~ msgid "KDE Desktop"
+#~ msgstr "KDE Desktop"
+
+#~ msgid "Applications and libraries for the KDE Desktop"
+#~ msgstr "Applicaties voor de KDE omgeving"
+
+#~ msgid "XFCE Desktop"
+#~ msgstr "XFCE Desktop"
+
+#~ msgid "Applications and libraries for the XFCE Desktop"
+#~ msgstr "Applicaties voor de XFCE omgeving"
+
+#~ msgid "LXDE Desktop"
+#~ msgstr "LXDE Desktop"
+
+#~ msgid "Applications and libraries for the LXDE Desktop"
+#~ msgstr "Applicaties voor de LXDE omgeving"
+
+#~ msgid "Multimedia"
+#~ msgstr "Beeld en geluid"
+
+#~ msgid "Applications and libraries for Multimedia"
+#~ msgstr "Multimedia applicaties en bibliotheken"
+
+#~ msgid "Applications and libraries for Networking"
+#~ msgstr "Netwerk applicaties en bibliotheken"
+
+#~ msgid "Science"
+#~ msgstr "Wetenschap"
+
+#~ msgid "Scientific applications and libraries"
+#~ msgstr "Wetenschappelijke applicaties en bibliotheken"
+
+#~ msgid "X11"
+#~ msgstr "X11"
+
+#~ msgid "Applications and libraries for X11"
+#~ msgstr "Applicaties en bibliotheken voor X11"
+
+#~ msgid "Reloading Portage modules"
+#~ msgstr "Portage modulen herladen"
+
+#~ msgid "error"
+#~ msgstr "fout"
+
+#~ msgid "not found"
+#~ msgstr "niet gevonden"
+
+#~ msgid "QA"
+#~ msgstr "VA"
+
+#~ msgid "Cannot run Source Package Manager trigger for"
+#~ msgstr "Kan Source Pakketten Manager functie niet uitvoeren voor"
+
+#~ msgid "Please report it"
+#~ msgstr "Rapporteer het alsjeblieft"
+
+#~ msgid "Attach this"
+#~ msgstr "Koppel deze"
+
+#~ msgid "Cannot run SPM configure phase for"
+#~ msgstr "Kan SPM configuratie fase niet uitvoeren voor"
+
+#~ msgid "package not available on system"
+#~ msgstr "pakket niet beschikbaar op systeem"
+
+#~ msgid "repackaging"
+#~ msgstr "opnieuw verpakken"
+
+#~ msgid "Cannot complete quickpkg for atom"
+#~ msgstr "Kan quickpkg voor atoom niet afronden"
+
+#~ msgid "do it manually"
+#~ msgstr "doe het handmatig"
+
+#~ msgid "package files rebuild did not run properly"
+#~ msgstr "pakket bestanden herbouwen is niet goed uitgevoerd"
+
+#~ msgid "Please update packages manually"
+#~ msgstr "update de pakketten handmatig a.u.b."
+
+#~ msgid "forcing package updates"
+#~ msgstr "forceren van pakket updates"
+
+#~ msgid "Syncing with"
+#~ msgstr "Synchroniseren met"
+
+#~ msgid "Cannot complete quickpkg for atoms"
+#~ msgstr "Kan quickpkg voor atomen niet afronden"
+
+#~ msgid "Cannot stat path"
+#~ msgstr "Kan pad niet vinden"
+
+#~ msgid "Cannot update Portage database to destination"
+#~ msgstr "Kan niet naar de Portage database bestemming updaten"
+
+#~ msgid "SPM uid update error"
+#~ msgstr "SPM uid update fout"
+
+#~ msgid "Cannot update SPM installed pkgs file"
+#~ msgstr "Kan SPM geinstalleerde pkgs bestand niet updaten"
+
+#~ msgid "does not exist"
+#~ msgstr "bestaat niet"
+
+#~ msgid "Overwriting"
+#~ msgstr "Overschrijven"
+
+#~ msgid "variable differs"
+#~ msgstr "variabele is anders"
+
+#~ msgid "Updating"
+#~ msgstr "Updaten"
+
+#~ msgid "updating critical variables"
+#~ msgstr "updaten van kritische variabelen"
+
+#~ msgid "differs"
+#~ msgstr "is anders"
+
+#~ msgid "Reverting"
+#~ msgstr "Terug draaien"
+
+#~ msgid "Skipping configuration files update, you are not root."
+#~ msgstr "Overslaan van configuratie bestanden update, je bent geen root."
+
+#~ msgid "Error calculating dependencies"
+#~ msgstr "Fout tijdens het calculeren van afhankelijkheden"
+
+#~ msgid "not supported"
+#~ msgstr "niet ondersteund"
+
+#~ msgid "Probably Portage API has changed"
+#~ msgstr "Waarschijnlijk is Portage API veranderd"
+
+#~ msgid "IOError while reading"
+#~ msgstr "Fout tijdens het lezen"
+
+#~ msgid "illegal Entropy package tag in ebuild"
+#~ msgstr "Illegaal Entropy pakket tag in ebuild"
+
+#~ msgid "verifying upload (if supported)"
+#~ msgstr "upload verifieren (wanneer ondersteund)"
+
+#~ msgid "digest verification"
+#~ msgstr "'digest' verificatie"
+
+#~ msgid "so far, so good!"
+#~ msgstr "tot zo ver, alles OK!"
+
+#~ msgid "malformed md5 provided to function"
+#~ msgstr "misvormde md5 gegeven aan functie"
+
+#~ msgid "remote md5 is invalid"
+#~ msgstr "externe md5 is ongeldig"
+
+#~ msgid "successful"
+#~ msgstr "succesvol"
+
+#~ msgid "failed, retrying"
+#~ msgstr "gefaald, opnieuw proberen"
+
+#~ msgid "not critical"
+#~ msgstr "Niet kritisch"
+
+#~ msgid "continuing"
+#~ msgstr "verder gaan"
+
+#~ msgid "connecting to mirror"
+#~ msgstr "verbinden met spiegel"
+
+#~ msgid "setting directory to"
+#~ msgstr "veranderen van map naar"
+
+#~ msgid "Entropy Server Mirrors Interface loaded"
+#~ msgstr "Entropy Server Spiegels Omgeving geladen"
+
+#~ msgid "repository mirror"
+#~ msgstr "repositorie spiegel"
+
+#~ msgid "packages mirror"
+#~ msgstr "pakketten spiegel"
+
+#~ msgid "looking for file in mirror"
+#~ msgstr "Bestanden opzoeken in spiegel"
+
+#~ msgid "unlocking"
+#~ msgstr "ontgrendelen"
+
+#~ msgid "locking"
+#~ msgstr "vergrendelen"
+
+#~ msgid "mirror"
+#~ msgstr "spiegel"
+
+#~ msgid "mirror for download"
+#~ msgstr "spiegel voor download"
+
+#~ msgid "mirror already locked for download"
+#~ msgstr "spiegel is al afgesloten voor download"
+
+#~ msgid "mirror already unlocked for download"
+#~ msgstr "spiegel is al vrijgegeven voor download"
+
+#~ msgid "for download"
+#~ msgstr "voor download"
+
+#~ msgid "mirror successfully locked"
+#~ msgstr "spiegel succesvol vergrendeld"
+
+#~ msgid "mirror not locked"
+#~ msgstr "spiegel niet vergrendeld"
+
+#~ msgid "mirror successfully unlocked"
+#~ msgstr "spiegel succesvol vrijgemaakt"
+
+#~ msgid "unlock error"
+#~ msgstr "deblokkeer fout"
+
+#~ msgid "mirror not unlocked"
+#~ msgstr "spiegel niet vergrendeld"
+
+#~ msgid "connecting to download package"
+#~ msgstr "verbinden om pakket te downloaden"
+
+#~ msgid "downloading package"
+#~ msgstr "pakket wordt gedownload"
+
+#~ msgid "is not listed in the repository !"
+#~ msgstr "staat niet in de lijst van de repositorie!"
+
+#~ msgid "verifying checksum of package"
+#~ msgstr "verifieren van controlesom van het pakket"
+
+#~ msgid "downloaded successfully"
+#~ msgstr "succesvol gedownload"
+
+#~ msgid "checksum does not match. re-downloading..."
+#~ msgstr "controlesom komt niet overeen. opnieuw downloaden..."
+
+#~ msgid "seems broken. Consider to re-package it. Giving up!"
+#~ msgstr ""
+#~ "blijkt gebroken. Denk er aan om het opnieuw in te pakken. Ik geef het op!"
+
+#~ msgid "mirror hasn't valid repository revision file"
+#~ msgstr "spiegel heeft geen geldig database revisie bestand"
+
+#~ msgid "unable to download repository revision"
+#~ msgstr "onmogelijk de repositorie revisie te downloaden"
+
+#~ msgid "mirror doesn't have valid revision file"
+#~ msgstr "spiegel heeft geen geldig revisie bestand"
+
+#~ msgid "mirror already locked"
+#~ msgstr "spiegel is reeds vergrendeld"
+
+#~ msgid "waiting up to 2 minutes before giving up"
+#~ msgstr "wacht nog 2 minuten voor opgeven"
+
+#~ msgid "mirror unlocked"
+#~ msgstr "spiegel vrijgemaakt"
+
+#~ msgid "Local statistics"
+#~ msgstr "Lokale statistieken"
+
+#~ msgid "upload directory"
+#~ msgstr "upload map"
+
+#~ msgid "files ready"
+#~ msgstr "bestanden gereed"
+
+#~ msgid "packages directory"
+#~ msgstr "pakketten map"
+
+#~ msgid "upload"
+#~ msgstr "upload"
+
+#~ msgid "download"
+#~ msgstr "download"
+
+#~ msgid "copy"
+#~ msgstr "kopie"
+
+#~ msgid "remove"
+#~ msgstr "verwijder"
+
+#~ msgid "Packages to be removed"
+#~ msgstr "Pakketten voor verwijdering"
+
+#~ msgid "Packages to be moved locally"
+#~ msgstr "Pakketten die lokaal verplaatst worden"
+
+#~ msgid "Packages to be uploaded"
+#~ msgstr "Pakketten die worden geupload"
+
+#~ msgid "Total removal size"
+#~ msgstr "Totale grootte van verwijdering"
+
+#~ msgid "Total upload size"
+#~ msgstr "Totale grootte van upload"
+
+#~ msgid "Total download size"
+#~ msgstr "Totale grootte van download"
+
+#~ msgid "Remote statistics for"
+#~ msgstr "Externe statistieken voor"
+
+#~ msgid "remote packages"
+#~ msgstr "externe pakketten"
+
+#~ msgid "files stored"
+#~ msgstr "bestanden opgeslagen"
+
+#~ msgid "Calculating queues"
+#~ msgstr "Bereken queues"
+
+#~ msgid "removing package+hash"
+#~ msgstr "pakket+hash worden verwijderd"
+
+#~ msgid "sync"
+#~ msgstr "sync"
+
+#~ msgid "removal complete"
+#~ msgstr "verwijderen compleet"
+
+#~ msgid "copying file+hash to repository"
+#~ msgstr "kopieren van bestand+hash naar repositorie"
+
+#~ msgid "upload errors"
+#~ msgstr "upload fouten"
+
+#~ msgid "reason"
+#~ msgstr "reden"
+
+#~ msgid "upload completed successfully"
+#~ msgstr "upload met succes voltooid"
+
+#~ msgid "download errors"
+#~ msgstr "download fouten"
+
+#~ msgid "download completed successfully"
+#~ msgstr "download met succes voltooid"
+
+#~ msgid "QA checking package file"
+#~ msgstr "VA checken van pakket bestand"
+
+#~ msgid "faulty package file, please fix"
+#~ msgstr "foutief pakket bestand, repareren aub"
+
+#~ msgid "starting packages sync"
+#~ msgstr "starten van pakketten sync"
+
+#~ msgid "packages sync"
+#~ msgstr "pakketten sync"
+
+#~ msgid "socket error"
+#~ msgstr "socket fout"
+
+#~ msgid "on"
+#~ msgstr "aan"
+
+#~ msgid "nothing to do on"
+#~ msgstr "Niets te doen voor"
+
+#~ msgid "Expanding queues"
+#~ msgstr "Uitbreidende wachtrijen"
+
+#~ msgid "nothing to sync for"
+#~ msgstr "niets te synchroniseren voor"
+
+#~ msgid "Would you like to run the steps above ?"
+#~ msgstr "Wilt u de gegeven stappen volgen ?"
+
+#~ msgid "keyboard interrupt !"
+#~ msgstr "toetsenbord onderbreking !"
+
+#~ msgid "you must package them again"
+#~ msgstr "Je moet ze opnieuw inpakken"
+
+#~ msgid "exception caught"
+#~ msgstr "exceptie opgevangen"
+
+#~ msgid "at least one mirror synced properly!"
+#~ msgstr "op z'n minst is een spiegel juist gesynchroniseerd! "
+
+#~ msgid "tidy"
+#~ msgstr "geordend"
+
+#~ msgid "collecting expired packages"
+#~ msgstr "verzamelen van verlopen pakketten"
+
+#~ msgid "collecting expired packages in the selected branches"
+#~ msgstr "verzamelen van verlopen pakketten in de geselecteerde branche's"
+
+#~ msgid "nothing to remove on this branch"
+#~ msgstr "Niets te verwijderen in deze branche"
+
+#~ msgid "these are the expired packages"
+#~ msgstr "dit zijn de verlopen pakketten"
+
+#~ msgid "Would you like to continue ?"
+#~ msgstr "Wilt u doorgaan ?"
+
+#~ msgid "removing packages remotely"
+#~ msgstr "verwijderen van pakketten op afstand"
+
+#~ msgid "remove errors"
+#~ msgstr "verwijder fouten"
+
+#~ msgid "removing packages locally"
+#~ msgstr "verwijderen van lokale pakketten"
+
+#~ msgid "removed"
+#~ msgstr "verwijderd"
+
+#~ msgid "downloading notice board from mirrors to"
+#~ msgstr "Downloaden van notitie bord vanaf spiegels naar"
+
+#~ msgid "notice board downloaded successfully from"
+#~ msgstr "notitie bord is succesvol gedownload vanaf"
+
+#~ msgid "removing notice board from"
+#~ msgstr "verwijderen van notitie bord uit"
+
+#~ msgid "notice board removal failed on"
+#~ msgstr "notitie bord verwijdering mislukt op"
+
+#~ msgid "notice board removal success"
+#~ msgstr "notitie bord verwijdering succesvol"
+
+#~ msgid "uploading notice board from"
+#~ msgstr "uploaden van notitie bord vanaf"
+
+#~ msgid "notice board upload failed on"
+#~ msgstr "notitie bord upload gefaald op"
+
+#~ msgid "notice board upload success"
+#~ msgstr "notitie bord upload succesvol"
+
+#~ msgid "Keys for repository are expired"
+#~ msgstr "Sleutels voor repositorie verlopen"
+
+#~ msgid "preparing to download repository from mirror"
+#~ msgstr "voorbereiden van download repositorie van spiegel"
+
+#~ msgid "download path"
+#~ msgstr "download pad"
+
+#~ msgid "errors"
+#~ msgstr "fouten"
+
+#~ msgid "failed to download from mirror"
+#~ msgstr "download vanaf spiegel gefaald"
+
+#~ msgid "Troubles with treeupdates"
+#~ msgstr "Problemen met boomupdates"
+
+#~ msgid "Bumping old data back"
+#~ msgstr "Terug zetten van de oude gegevens"
+
+#~ msgid "configured package sets"
+#~ msgstr "geconfigureerde pakket sets"
+
+#~ msgid "None configured"
+#~ msgstr "Niets geconfigureerd"
+
+#~ msgid "creating compressed repository dump + checksum"
+#~ msgstr "gecomprimeerde database dump + controlesom creeren"
+
+#~ msgid "repository path"
+#~ msgstr "repositorie pad"
+
+#~ msgid "dump light"
+#~ msgstr "dump licht"
+
+#~ msgid "dump light checksum"
+#~ msgstr "dump lichte controlesom"
+
+#~ msgid "opener"
+#~ msgstr "opener"
+
+#~ msgid "compressing repository + checksum"
+#~ msgstr "comprimeren van repositorie + controlesom"
+
+#~ msgid "compressed repository path"
+#~ msgstr "gecomprimeerd repositorie pad"
+
+#~ msgid "repository checksum"
+#~ msgstr "repositorie controlesom"
+
+#~ msgid "compressed checksum"
+#~ msgstr "gecomprimeerde controlesom"
+
+#~ msgid "preparing uncompressed repository for the upload"
+#~ msgstr "voorbereiden van gedecomprimeerde repositorie voor de upload"
+
+#~ msgid "disabled EAPI"
+#~ msgstr "Uitgeschakelde EAPI"
+
+#~ msgid "preparing to upload repository to mirror"
+#~ msgstr "Bezig met het uploaden van repositorie naar spiegel"
+
+#~ msgid "upload failed, locking and continuing"
+#~ msgstr "upload gefaald, blokkeren en doorgaan"
+
+#~ msgid "repository already in sync"
+#~ msgstr "repositorie is reeds gesynchroniseerd"
+
+#~ msgid "repository sync failed"
+#~ msgstr "repositorie synchronisatie mislukt"
+
+#~ msgid "download issues"
+#~ msgstr "download problemen"
+
+#~ msgid "repository sync forbidden"
+#~ msgstr "repositorie synchronisatie verboden"
+
+#~ msgid "missing package sets"
+#~ msgstr "ontbrekende pakket sets"
+
+#~ msgid "dependencies test reported errors"
+#~ msgstr "afhankelijkheden test heeft fouten gerapporteerd"
+
+#~ msgid "these packages haven't been removed yet"
+#~ msgstr "deze pakketten zijn nog niet verwijderd"
+
+#~ msgid "upload issues"
+#~ msgstr "upload problemen"
+
+#~ msgid "mirrors have not been unlocked. Sync them."
+#~ msgstr "Spiegels zijn niet gedeblokkeerd. Synchroniseer ze."
+
+#~ msgid "cannot store updates RSS cache"
+#~ msgstr "kan RSS cache updates niet opslaan"
+
+#~ msgid "INJECT"
+#~ msgstr "INJECTEREN"
+
+#~ msgid "has been injected"
+#~ msgstr "is geinjecteerd"
+
+#~ msgid "quickpkg manually to update embedded db"
+#~ msgstr "gebruik quickpkg handmatig om de embedded db te updaten"
+
+#~ msgid "Repository updated anyway"
+#~ msgstr "Repositorie alsnog geupdate"
+
+#~ msgid "package has no keyword set, it will be masked !"
+#~ msgstr "Pakket heeft geen sleutelwoord, het wordt gemaskeerd!"
+
+#~ msgid "repository not configured"
+#~ msgstr "repositorie niet geconfigureerd"
+
+#~ msgid "protected repository id, can't use this, sorry dude..."
+#~ msgstr "beveiligde repositorie ID, kan deze niet gebruiken, sorry gast..."
+
+#~ msgid "invalid repository revision"
+#~ msgstr "ongeldige repositorie herziening"
+
+#~ msgid "defaulting to 0"
+#~ msgstr "terugzetten naar 0"
+
+#~ msgid "syncing package sets"
+#~ msgstr "synchroniseren van pakketten sets"
+
+#~ msgid "cannot match"
+#~ msgstr "Kan niet overeenkomen"
+
+#~ msgid "initializing repository"
+#~ msgstr "Initialiseren van repositorie"
+
+#~ msgid "do you really want to initialize this repository ?"
+#~ msgstr "Wilt u de deze repositorie initialiseren ?"
+
+#~ msgid "Invalid tag specified"
+#~ msgstr "Geen geldige tag opgegeven"
+
+#~ msgid "flushing back selected packages from branches"
+#~ msgstr "terug spoelen van geselecteerde pakketten van branches"
+
+#~ msgid "nothing to do"
+#~ msgstr "niets te doen"
+
+#~ msgid "these are the packages that will be flushed"
+#~ msgstr "Dit zijn de pakketten die worden doorgespoeld"
+
+#~ msgid "checking package hash"
+#~ msgstr "Nagaan van pakket hash"
+
+#~ msgid "hash does not match for"
+#~ msgstr "hash komt niet overeen voor"
+
+#~ msgid "wrong md5"
+#~ msgstr "verkeerde md5"
+
+#~ msgid "error downloading packages from mirrors"
+#~ msgstr "fout tijdens het downloaden van pakketten van spiegels"
+
+#~ msgid "working on branch"
+#~ msgstr "werkend op branche"
+
+#~ msgid "updating package"
+#~ msgstr "updaten van pakket"
+
+#~ msgid "package flushed"
+#~ msgstr "pakket doorgespoeld"
+
+#~ msgid "Cannot touch system repository"
+#~ msgstr "Kan de systeem repositorie niet raken"
+
+#~ msgid "Preparing to move selected packages to"
+#~ msgstr "Voorbereiden van verplaatsen van geselecteerde pakketten naar"
+
+#~ msgid "Preparing to copy selected packages to"
+#~ msgstr "Voorbereiden van kopieren van geselecteerde pakketten naar"
+
+#~ msgid "Note"
+#~ msgstr "Notitie"
+
+#~ msgid ""
+#~ "all old packages with conflicting scope will be removed from destination "
+#~ "repo unless injected"
+#~ msgstr ""
+#~ "alle oude pakketten met conflicterende scope zullen worden verwijderd van "
+#~ "de bestemming repo tenzij geinjecteerd"
+
+#~ msgid "new tag"
+#~ msgstr "Nieuwe tag"
+
+#~ msgid "reverse dependency"
+#~ msgstr "Tegengestelde afhankelijkheden"
+
+#~ msgid "dependency"
+#~ msgstr "Afhankelijkheid"
+
+#~ msgid "switching"
+#~ msgstr "Veranderen"
+
+#~ msgid "cannot switch, package not found, skipping"
+#~ msgstr "Kan niet wisselen, pakket niet gevonden, overslaan"
+
+#~ msgid "moving file"
+#~ msgstr "Bestand verplaatsen"
+
+#~ msgid "loading data from source repository"
+#~ msgstr "laden van data vanaf source repositorie"
+
+#~ msgid "GPG key was available in"
+#~ msgstr "GPG sleutel was niet beschikbaar in"
+
+#~ msgid "injecting data to destination repository"
+#~ msgstr "injecteren van data naar de repositorie locatie"
+
+#~ msgid "removing entry from source repository"
+#~ msgstr "verwijderen van invoer uit de source repositorie"
+
+#~ msgid "successfully handled atom"
+#~ msgstr "succesvol behandeld atoom"
+
+#~ msgid "Injecting entropy metadata into built packages"
+#~ msgstr "Injecteren van entropy metadata in de gebouwde pakketten"
+
+#~ msgid "JFYI, GPG infrastructure failed to load"
+#~ msgstr "Voor de duidelijkheid, GPG infrastructuur laden is mislukt"
+
+#~ msgid "injecting entropy metadata"
+#~ msgstr "injecteren van Entropy metadata"
+
+#~ msgid "injection complete"
+#~ msgstr "invoeren compleet"
+
+#~ msgid "removing package"
+#~ msgstr "Pakket verwijderen"
+
+#~ msgid "Integrity verification of the selected packages"
+#~ msgstr "Integriteit verificatie van de geselecteerde pakketten"
+
+#~ msgid "All the packages in repository will be checked."
+#~ msgstr "Alle pakketten in de repositorie zullen worden gecheckt."
+
+#~ msgid "This is the list of the packages that would be checked"
+#~ msgstr "De volgende pakketten zullen worden gecheckt."
+
+#~ msgid "Working on mirror"
+#~ msgstr "Werken op spiegel"
+
+#~ msgid "checking hash"
+#~ msgstr "checken van hash"
+
+#~ msgid "digest verification of"
+#~ msgstr "'digest' controle voor"
+
+#~ msgid "NOT healthy"
+#~ msgstr "NIET gezond"
+
+#~ msgid "This is the list of broken packages"
+#~ msgstr "Dit is de lijst met gebroken pakketten"
+
+#~ msgid "Mirror"
+#~ msgstr "Spiegel"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistieken"
+
+#~ msgid "Number of checked packages"
+#~ msgstr "Aantal gecheckte pakketten"
+
+#~ msgid "Number of healthy packages"
+#~ msgstr "Aantal gezonde pakketten"
+
+#~ msgid "Number of broken packages"
+#~ msgstr "Aantal beschadigde pakketten"
+
+#~ msgid "local"
+#~ msgstr "lokaal"
+
+#~ msgid "checking status of"
+#~ msgstr "checken status van"
+
+#~ msgid "is corrupted, stored checksum"
+#~ msgstr "is corrupt, controlesom opgeslagen"
+
+#~ msgid "checked packages"
+#~ msgstr "Gecontroleerde pakketten"
+
+#~ msgid "healthy packages"
+#~ msgstr "gezonde pakketten"
+
+#~ msgid "broken packages"
+#~ msgstr "beschadigde pakketten"
+
+#~ msgid "downloaded packages"
+#~ msgstr "gedownloade pakketten"
+
+#~ msgid "failed downloads"
+#~ msgstr "gefaalde downloads"
+
+#~ msgid "GPG signing packages for repository"
+#~ msgstr "GPG ondertekend pakketten voor de repositorie"
+
+#~ msgid "All the missing packages in repository will be downloaded."
+#~ msgstr "Alle missende pakketten in de repositorie worden gedownload."
+
+#~ msgid "GnuPG not available"
+#~ msgstr "GnuPG niet beschikbaar"
+
+#~ msgid "Keys not available for"
+#~ msgstr "Sleutels niet beschikbaar voor"
+
+#~ msgid "signing package"
+#~ msgstr "pakket ondertekenen"
+
+#~ msgid "Unknown error signing package"
+#~ msgstr "Onbekende fout tijdens ondertekenen van pakket"
+
+#~ msgid "signed packages"
+#~ msgstr "ondertekende pakketten"
+
+#~ msgid "available"
+#~ msgstr "Beschikbaar"
+
+#~ msgid "upload/ignored"
+#~ msgstr "upload/genegeerd"
+
+#~ msgid "Starting to download missing files"
+#~ msgstr "Start downloaden van missende bestanden"
+
+#~ msgid "Searching missing/broken files on another mirror"
+#~ msgstr ""
+#~ "Aan het zoeken naar missend of beschadigde bestanden op andere spiegel"
+
+#~ msgid "Binary packages downloaded successfully."
+#~ msgstr "Binaire pakketten zijn succesvol gedownload."
+
+#~ msgid "These are the packages that cannot be found online"
+#~ msgstr "De volgende pakketten kunnen niet online worden gevonden"
+
+#~ msgid "They won't be checked"
+#~ msgstr "Ze zullen niet worden gechecked"
+
+#~ msgid "Please setup your branch to"
+#~ msgstr "Zet a.u.b. uw branche naar"
+
+#~ msgid "and retry"
+#~ msgstr "en herhaal"
+
+#~ msgid "Copying repository (if not exists)"
+#~ msgstr "Kopieren van database (als deze niet bestaat)"
+
+#~ msgid "Switching packages"
+#~ msgstr "Wisselen van pakketten"
+
+#~ msgid "Ignoring"
+#~ msgstr "negeren"
+
+#~ msgid "already in branch"
+#~ msgstr "Al reeds in branche"
+
+#~ msgid "migration loop completed"
+#~ msgstr "migratie loop compleet"
+
+#~ msgid "Running orphaned SPM packages test"
+#~ msgstr "Uitvoeren van wees SPM pakketten test"
+
+#~ msgid "Scanning package"
+#~ msgstr "Pakket scannen"
+
+#~ msgid "not found anymore"
+#~ msgstr "niet meer gevonden"
+
+#~ msgid "Packages string"
+#~ msgstr "Pakketten string"
+
+#~ msgid "Checking"
+#~ msgstr "Controleren"
+
+#~ msgid "Running dependencies test"
+#~ msgstr "Uitvoeren van afhankelijkheden test"
+
+#~ msgid "These are the dependencies not found"
+#~ msgstr "Deze afhankelijkheden zijn niet gevonden"
+
+#~ msgid "Needed by"
+#~ msgstr "Nodig voor"
+
+#~ msgid "by repo"
+#~ msgstr "bij repo"
+
+#~ msgid "Every dependency is satisfied. It's all fine."
+#~ msgstr "Alle afhankelijkheden zijn voldaan. Alles zit goed."
+
+#~ msgid "Broken and matched packages list"
+#~ msgstr "Beschadigde en overeenkomende pakketten lijst"
+
+#~ msgid "Dumping results into these files"
+#~ msgstr "Resultaten worden gedumpt in deze bestanden"
+
+#~ msgid "System is healthy"
+#~ msgstr "Systeem is gezond"
+
+#~ msgid "Matching libraries with Spm, please wait"
+#~ msgstr "Vergelijken van bibliotheken met Spm, even geduld"
+
+#~ msgid "These are the matched packages"
+#~ msgstr "Dit zijn de overeenkomende pakketten"
+
+#~ msgid "No matched packages"
+#~ msgstr "Geen overeenkomende pakketten"
+
+#~ msgid "Your default repository is not initialized"
+#~ msgstr "Je standaard repositorie is niet geinstalleerd"
+
+#~ msgid "Do you want to initialize your default repository ?"
+#~ msgstr "Wilt u de standaard repositorie initialiseren ?"
+
+#~ msgid "Continuing with an uninitialized repository"
+#~ msgstr "Doorgaan met een niet geinitialiseerde repositorie"
+
+#~ msgid "Entropy repository is already locked by you :-)"
+#~ msgstr "Entropy repositorie is reeds geblokkeerd door jouw :-)"
+
+#~ msgid "Locking and Syncing Entropy repository"
+#~ msgstr "Blokkeren en Synchroniseren van Entropy repositorie"
+
+#~ msgid "Mirrors status table"
+#~ msgstr "spiegels status tabel"
+
+#~ msgid "Unlocked"
+#~ msgstr "Vrijgemaakt"
+
+#~ msgid "Locked"
+#~ msgstr "geblokkeerd"
+
+#~ msgid "cannot lock mirror"
+#~ msgstr "kan spiegel niet blokkeren"
+
+#~ msgid "Repository is corrupted!"
+#~ msgstr "Repositorie is corrupt!"
+
+#~ msgid "indexing repository"
+#~ msgstr "indexeren van repositorie"
+
+#~ msgid "Initializing an empty repository"
+#~ msgstr "Initialiseren van een lege repositorie"
+
+#~ msgid "Entropy repository file"
+#~ msgstr "Entropy repositorie bestand"
+
+#~ msgid "successfully initialized"
+#~ msgstr "succesvol geinstalleerd"
+
+#~ msgid "adding package"
+#~ msgstr "pakket toevoegen"
+
+#~ msgid "added package"
+#~ msgstr "toegevoegd pakket"
+
+#~ msgid "rev"
+#~ msgstr "rev"
+
+#~ msgid "manual dependencies for"
+#~ msgstr "handmatige afhankelijkheden voor"
+
+#~ msgid "these are the missing dependencies"
+#~ msgstr "Deze afhankelijkheden zijn niet gevonden"
+
+#~ msgid "no missing dependencies !"
+#~ msgstr "geen missende afhankelijkheden!"
+
+#~ msgid "Do you agree?"
+#~ msgstr "Weet u het zeker?"
+
+#~ msgid "Exception caught, closing tasks"
+#~ msgstr "Uitzondering Opgetreden, opdrachten worden afgesloten"
+
+#~ msgid "server-side repository"
+#~ msgstr "server-zijde repositorie"
+
+#~ msgid "community repository"
+#~ msgstr "communiteit repositorie"
+
+#~ msgid "Entropy Server Interface Instance on repository"
+#~ msgstr "Entropy Server Omgeving Instantie op de repositorie"
+
+#~ msgid "current branch"
+#~ msgstr "huidige branche"
+
+#~ msgid "type"
+#~ msgstr "type"
+
+#~ msgid "Currently configured repositories"
+#~ msgstr "Huidig geconfigureerde repositories"
+
+#~ msgid "GPG key expired"
+#~ msgstr "GPG sleutel verlopen"
+
+#~ msgid "please frigging fix"
+#~ msgstr "repareer a.u.b."
+
+#~ msgid "GPG got unexpected error"
+#~ msgstr "GPG heeft een overwachte fout"
+
+#~ msgid "skipping"
+#~ msgstr "overslaan"
+
+#~ msgid "config files"
+#~ msgstr "Config bestanden"
+
+#~ msgid "checking system"
+#~ msgstr "checken van systeem"
+
+#~ msgid "there are configuration files not updated yet"
+#~ msgstr "er zijn nog nieuwe configuratie bestanden niet geupdate"
+
+#~ msgid "found available dep_rewrites for this package"
+#~ msgstr "beschikbare dep_rewrites gevonden voor dit pakket"
+
+#~ msgid "added"
+#~ msgstr "toegevoegd"
+
+#~ msgid "replaced"
+#~ msgstr "vervangen"
+
+#~ msgid "No dependency rewrite made for"
+#~ msgstr "Geen afhankelijkheden herschrijving gedaan voor"
+
+#~ msgid "sets"
+#~ msgstr "sets"
+
+#~ msgid "updating package sets"
+#~ msgstr "updaten van pakket sets"
+
+#~ msgid "adding package set"
+#~ msgstr "pakket set toevoegen"
+
+#~ msgid "removing package set"
+#~ msgstr "Pakket set verwijderen"
+
+#~ msgid "Unknown documents"
+#~ msgstr "Onbekende documenten"
+
+#~ msgid "Comments"
+#~ msgstr "Commentaren"
+
+#~ msgid "Images/Screenshots"
+#~ msgstr "Plaatjes/Screenshots"
+
+#~ msgid "Generic Files"
+#~ msgstr "Generieke Bestanden"
+
+#~ msgid "Videos"
+#~ msgstr "Video's"
+
+#~ msgid "Icons"
+#~ msgstr "Ikonen"
+
+#~ msgid "Unknown document"
+#~ msgstr "Onbekend document"
+
+#~ msgid "Comment"
+#~ msgstr "Commentaar"
+
+#~ msgid "Image/Screenshot"
+#~ msgstr "Plaatje/Screenshot"
+
+#~ msgid "Generic File"
+#~ msgstr "Generiek Bestand"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Icon"
+#~ msgstr "Ikoon"
+
+#~ msgid "Automerging file"
+#~ msgstr "Auto-samenvoegen van bestand"
+
+#, fuzzy
+#~ msgid "Found update"
+#~ msgstr "Update ongedaan maken"
+
+#~ msgid "System Error"
+#~ msgstr "Systeem Fout"
+
+#~ msgid "Cannot automerge file"
+#~ msgstr "Kan bestand niet auto-samenvoegen"
+
+#~ msgid "forcing packages metadata update"
+#~ msgstr "forceren van pakketten metadata update"
+
+#~ msgid "Updating system database using repository"
+#~ msgstr "Updaten van systeem database middels repositorie"
+
+#~ msgid "is corrupted"
+#~ msgstr "is corrupt"
+
+#~ msgid "Cannot calculate the checksum"
+#~ msgstr "Kan controlesom niet berekenen"
+
+#~ msgid "Already prepared"
+#~ msgstr "Al voorbereid"
+
+#~ msgid "Not yet prepared"
+#~ msgstr "Nog niet voorbereid"
+
+#~ msgid "maximum failure threshold reached"
+#~ msgstr "maximum aantal foutmeldingen bereikt"
+
+#~ msgid "success"
+#~ msgstr "succesvol"
+
+#~ msgid "Aggregated transfer rate"
+#~ msgstr "Geaggregeerde overdracht snelheid"
+
+#~ msgid "second"
+#~ msgstr "seconde"
+
+#~ msgid "Error downloading from"
+#~ msgstr "Fout tijdens het downloaden vanaf"
+
+#~ msgid "data not available on this mirror"
+#~ msgstr "data niet beschikbaar op deze spiegel"
+
+#~ msgid "wrong checksum"
+#~ msgstr "verkeerde controlesom"
+
+#~ msgid "timeout error"
+#~ msgstr "fout: tijd verstreken"
+
+#~ msgid "discarded download"
+#~ msgstr "afgewezen download"
+
+#~ msgid "unknown reason"
+#~ msgstr "onbekende reden"
+
+#~ msgid "Downloading from"
+#~ msgstr "Downloaden vanaf"
+
+#~ msgid "Successfully downloaded from"
+#~ msgstr "Succesvol gedownload van"
+
+#~ msgid "at"
+#~ msgstr "met"
+
+#~ msgid "file not available on this mirror"
+#~ msgstr "bestand niet beschikbaar op deze spiegel"
+
+#~ msgid "Disabling resume"
+#~ msgstr "Hervatten uitschakelen"
+
+#~ msgid "timeout, retrying on this mirror"
+#~ msgstr "tijd verstreken, opnieuw proberen met deze spiegel"
+
+#~ msgid "timeout, giving up"
+#~ msgstr "tijd verstreken, ik geef het op"
+
+#~ msgid "Package signature verification error for"
+#~ msgstr "Pakket handtekening verificatie fout voor"
+
+#~ msgid "disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid "Checking package signature"
+#~ msgstr "Controleren van pakket handtekening"
+
+#~ msgid "Package signature verification"
+#~ msgstr "Pakket handtekening verificatie"
+
+#~ msgid "temporarily unavailable"
+#~ msgstr "tijdelijk niet beschikbaar"
+
+#~ msgid "Package signature"
+#~ msgstr "Pakket handtekening"
+
+#~ msgid "does not match the recorded one"
+#~ msgstr "komt niet overeen met de opgenomen"
+
+#~ msgid "matches"
+#~ msgstr "overeenkomsten"
+
+#~ msgid "Checking package checksum..."
+#~ msgstr "Nagaan van pakketten controlesom..."
+
+#~ msgid "Package checksum matches"
+#~ msgstr "Pakket controlesom komt overeen"
+
+#~ msgid "Checksum does not match. Download attempt #%s"
+#~ msgstr "Controlesom komt niet overeen. Download poging #%s"
+
+#~ msgid "Cannot properly fetch package! Quitting."
+#~ msgstr "Kan pakket niet juist binnenhalen! Afsluiten."
+
+#~ msgid "Cannot fetch package or checksum does not match"
+#~ msgstr "Kan pakket niet binnenhalen of controlesom komt niet overeen"
+
+#~ msgid "Try to download latest repositories"
+#~ msgstr "Probeer de laatste repositories te downloaden"
+
+#~ msgid "Unpacking"
+#~ msgstr "Uitpakken"
+
+#~ msgid "configuration phase"
+#~ msgstr "configuratie fase"
+
+#~ msgid "Removing from Entropy"
+#~ msgstr "Verwijderen van Entropy"
+
+#~ msgid "Removing config file, never modified"
+#~ msgstr "config bestand verwijderen, nooit aangepast"
+
+#~ msgid "Protecting config file"
+#~ msgstr "Beschermen van configuratie bestand"
+
+#~ msgid "This package contains a badly encoded file !!!"
+#~ msgstr "Dit pakket bevat een slecht gecodeerd bestand !!!"
+
+#~ msgid "Collision found during removal of"
+#~ msgstr "Aanvaring gevonden tijdens verwijderen van"
+
+#~ msgid "Updating database"
+#~ msgstr "Database actualiseren"
+
+#~ msgid "%s is a file when should be a directory !! Removing in 20 seconds..."
+#~ msgstr ""
+#~ "%s is een bestand maar moet een map zijn !! verwijderen in 20 seconden..."
+
+#~ msgid "directory expected, symlink found"
+#~ msgstr "map bestaat, koppeling gevonden"
+
+#~ msgid "Removing in 20 seconds !!"
+#~ msgstr "Verwijderen in 20 seconden !!"
+
+#~ msgid "Cannot remove symlink"
+#~ msgstr "Kan koppeling niet verwijderen"
+
+#~ msgid "Automerging config file, never modified"
+#~ msgstr "Auto samenvoegen configuratie bestanden, nooit aangepast"
+
+#~ msgid "Circular symlink issue"
+#~ msgstr "Circulair symlink probleem"
+
+#~ msgid "file expected, directory found"
+#~ msgstr "bestand verwacht, map gevonden"
+
+#~ msgid "File move error"
+#~ msgstr "Bestand verplaats fout"
+
+#~ msgid "please report"
+#~ msgstr "rapporteer het alsjeblieft"
+
+#~ msgid "Cannot protect broken symlink"
+#~ msgstr "Kan gebroken koppeling niet beschermen"
+
+#~ msgid "Skipping file installation/removal"
+#~ msgstr "Bestand installatie/verwijdering overslaan"
+
+#~ msgid "Collision found during install for"
+#~ msgstr "Blokkade gevonden tijdens installatie van"
+
+#~ msgid "cannot overwrite"
+#~ msgstr "kan niet overschrijven"
+
+#~ msgid "Local path"
+#~ msgstr "Lokale pad"
+
+#~ msgid "Package cannot be fetched. Try to update repositories"
+#~ msgstr ""
+#~ "Pakket kan niet worden binnengehaald. Probeer de repositories te "
+#~ "vernieuwen"
+
+#~ msgid "Some packages cannot be fetched"
+#~ msgstr "Sommige pakketten kunnen niet worden binnen gehaald"
+
+#~ msgid "Try to update your repositories and retry"
+#~ msgstr "Probeer de repositories bij te werken en probeer dan opnieuw"
+
+#~ msgid "Package cannot be downloaded, unknown error."
+#~ msgstr "Pakket kan niet worden gedownload, onbekende fout."
+
+#~ msgid "Installed package in queue vanished, skipping."
+#~ msgstr "Geinstalleerd pakket in wachtrij verdwenen, wordt overgeslagen."
+
+#~ msgid "Merging package"
+#~ msgstr "Pakket samenvoegen"
+
+#~ msgid "You are running out of disk space"
+#~ msgstr "Je hebt bijna geen schijfruimte meer"
+
+#~ msgid "I bet, you're probably Michele"
+#~ msgstr "Ik gok dat jij Michele bent"
+
+#~ msgid "An error occured while trying to unpack the package"
+#~ msgstr "Een probleem deed zich voor tijdens het uitpakken"
+
+#~ msgid "Check if your system is healthy"
+#~ msgstr "Ga na of je systeem gezond is"
+
+#~ msgid "Installing package"
+#~ msgstr "Pakket Installeren"
+
+#~ msgid "<3 debug files installation enabled <3"
+#~ msgstr "<3 debug bestanden installatie geactiveerd <3"
+
+#~ msgid "An error occured while trying to install the package"
+#~ msgstr "Een probleem deed zich voor tijdens het installeren van het pakket"
+
+#~ msgid "Removing data"
+#~ msgstr "Verwijderen van data"
+
+#~ msgid "An error occured while trying to remove the package"
+#~ msgstr ""
+#~ "Een fout deed zich voor tijdens een poging het pakket te verwijderen"
+
+#~ msgid "Check if you have enough disk space on your hard disk"
+#~ msgstr "Ga na of je genoeg ruimte over hebt op je harddisk"
+
+#~ msgid "Cleaning"
+#~ msgstr "Opruimen"
+
+#~ msgid "Cleaning previously installed application data."
+#~ msgstr "Opruimen van voorheen geinstalleerde applicatie data"
+
+#~ msgid "Configuring package"
+#~ msgstr "Configureren van pakket"
+
+#~ msgid "An error occured while trying to configure the package"
+#~ msgstr "Een fout deed zich voor tijdens het configureren van het pakket"
+
+#~ msgid "Make sure that your system is healthy"
+#~ msgstr "Ga na of je systeem gezond is"
+
+#~ msgid "It seems that Source Package Manager entry is missing"
+#~ msgstr "Het ziet er naar uit dat de Source Pakket Manager mist"
+
+#~ msgid "Installed package vanished"
+#~ msgstr "Geinstalleerde Pakketten"
+
+#~ msgid "Fetch not available"
+#~ msgstr "Ophalen niet beschikbaar"
+
+#~ msgid "Multi Fetching"
+#~ msgstr "Multi Ophalen"
+
+#~ msgid "Fetching sources"
+#~ msgstr "Binnenhalen van bronnen"
+
+#~ msgid "Verifying"
+#~ msgstr "Verifieren"
+
+#~ msgid "Multi Verification"
+#~ msgstr "Multi Verificatie"
+
+#~ msgid "Merging"
+#~ msgstr "Samenvoegen"
+
+#~ msgid "Postinstall"
+#~ msgstr "Post-installeer"
+
+#~ msgid "Preinstall"
+#~ msgstr "Pre-installeer"
+
+#~ msgid "Preremove"
+#~ msgstr "Pre-Verwijder"
+
+#~ msgid "Postremove"
+#~ msgstr "Post-Verwijder"
+
+#~ msgid "Configuring"
+#~ msgstr "Configureren"
+
+#~ msgid "An error occured. Action aborted."
+#~ msgstr "Er is een fout opgetreden. Actie afgebroken."
+
+#~ msgid "Injecting downloaded dump"
+#~ msgstr "Injecteren van gedownloade dump"
+
+#~ msgid "Repository URL"
+#~ msgstr "Repositorie URL"
+
+#~ msgid "Repository local path"
+#~ msgstr "Repositorie lokaal pad"
+
+#~ msgid "Repository API"
+#~ msgstr "Repositorie API"
+
+#~ msgid "Repository is being updated"
+#~ msgstr "Repositorie wordt bijgewerkt"
+
+#~ msgid "Try again in a few minutes"
+#~ msgstr "Probeer opnieuw in een paar minuten"
+
+#~ msgid "remote repository got suddenly locked"
+#~ msgstr "externe repositorie blijkt opeens geblokkeerd"
+
+#~ msgid "Downloading repository"
+#~ msgstr "Downloaden van repositorie database"
+
+#~ msgid "repository does not exist online"
+#~ msgstr "repositorie bestaan niet online"
+
+#~ msgid "Downloading checksum"
+#~ msgstr "Downloaden van controlesom"
+
+#~ msgid "Cannot fetch checksum"
+#~ msgstr "Kan controlesom niet binnenhalen"
+
+#~ msgid "Cannot verify repository integrity"
+#~ msgstr "Kan database integriteit niet verifieren"
+
+#~ msgid "Unpacking database to"
+#~ msgstr "Uitpakken van database naar"
+
+#~ msgid "Cannot unpack compressed package"
+#~ msgstr "Kan gecomprimeerd pakket niet uitpakken"
+
+#~ msgid "Skipping repository"
+#~ msgstr "Repositorie wordt overgeslagen"
+
+#~ msgid "Repository is invalid"
+#~ msgstr "Repositorie is ongeldig"
+
+#~ msgid "Indexing Repository metadata"
+#~ msgstr "Indexeren van Repositorie metadata"
+
+#~ msgid "Downloading repository metafile"
+#~ msgstr "Downloaden van repositorie meta-bestand"
+
+#~ msgid "Downloading GPG signature of repository metafile"
+#~ msgstr "Downloaden van GPG handtekening van repositorie metabestand"
+
+#~ msgid "Downloading Notice Board"
+#~ msgstr "Downloaden van Notitie Bord"
+
+#~ msgid "unpacked meta file"
+#~ msgstr "uitgepakt meta bestand"
+
+#~ msgid "removed meta file"
+#~ msgstr "verwijderd meta bestand"
+
+#~ msgid "not available, it's ok"
+#~ msgstr "niet beschikbaar, geen punt"
+
+#~ msgid "not available, not very ok!"
+#~ msgstr "niet beschikbaar, dat is minder!"
+
+#~ msgid "available, w00t!"
+#~ msgstr "Beschikbaar, w00t!"
+
+#~ msgid "cannot be unpacked, not very ok!"
+#~ msgstr "kan niet worden uitgepakt, dit is niet goed!"
+
+#~ msgid "Repository revision"
+#~ msgstr "Repositorie herziening"
+
+#~ msgid "Checking downloaded repository"
+#~ msgstr "Check gedownloade repositorie"
+
+#~ msgid "Cannot open digest"
+#~ msgstr "Kan 'digest' niet openen"
+
+#~ msgid "Downloaded repository status"
+#~ msgstr "Gedownloade repositorie status"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "ERROR"
+#~ msgstr "FOUT"
+
+#~ msgid "An error occured while checking repository integrity"
+#~ msgstr ""
+#~ "Een fout deed zich voor tijdens het controleren van de repositorie "
+#~ "integriteit"
+
+#~ msgid "Giving up"
+#~ msgstr "Opgeven"
+
+#~ msgid ""
+#~ "Make sure to verify the imported key and set an appropriate trust level"
+#~ msgstr ""
+#~ "Controleer de geimporteerde sleutel en stel een geldig vertrouwens level "
+#~ "in"
+
+#~ msgid "This repository suports GPG-signed packages"
+#~ msgstr "Deze repositorie ondersteund GPG-ondertekende pakketten"
+
+#~ msgid "you may want to install GnuPG to take advantage of this feature"
+#~ msgstr ""
+#~ "Om gebruik te maken van deze functionaliteit dien je GnuPG te installeren"
+
+#~ msgid "GPG key changed for"
+#~ msgstr "GPG sleuten verandert voor"
+
+#~ msgid "GPG key already installed for"
+#~ msgstr "GPG sleutel reeds geinstalleerd voor"
+
+#~ msgid "GPG key EXPIRED for repository"
+#~ msgstr "GPG sleutel verlopen voor deze repositorie"
+
+#~ msgid "Installing GPG key for repository"
+#~ msgstr "Installeren van GPG sleutel voor repositorie"
+
+#~ msgid "Error during GPG key installation"
+#~ msgstr "Fout tijdens de GPG sleutel installatie"
+
+#~ msgid "Successfully installed GPG key for repository"
+#~ msgstr "GPG sleutel succesvol geinstalleerd voor repositorie"
+
+#~ msgid "Fingerprint"
+#~ msgstr "Vingerafdruk"
+
+#~ msgid "Verifying GPG signature of"
+#~ msgstr "Controleren GPG handtekening van"
+
+#~ msgid "Verified GPG signature of"
+#~ msgstr "Gecontroleerde GPG handtekening van"
+
+#~ msgid "Error during GPG verification of"
+#~ msgstr "Fout tijdens GPG verificatie van"
+
+#~ msgid "It could mean a potential security risk"
+#~ msgstr "Dit kan een potentieel veiligheid risico zijn"
+
+#~ msgid "Web Service"
+#~ msgstr "Web Service"
+
+#~ msgid "skipping differential sync"
+#~ msgstr "overslaan van differentiele sync"
+
+#~ msgid "threshold"
+#~ msgstr "drempelwaarde"
+
+#~ msgid "Web Service communication error"
+#~ msgstr "Web Service communicatie fout"
+
+#~ msgid "Web Service data error"
+#~ msgstr "Web Service data fout"
+
+#~ msgid "Local status"
+#~ msgstr "Lokale status"
+
+#~ msgid "Fetching segments"
+#~ msgstr "Binnenhalen van segmenten"
+
+#~ msgid "Web Service status"
+#~ msgstr "Web Service status"
+
+#~ msgid "cannot fetch repository metadata"
+#~ msgstr "kan repositorie metadata niet ophalen"
+
+#~ msgid "cannot update treeupdates data"
+#~ msgstr "Kan boomupdates data niet updaten"
+
+#~ msgid "cannot update package sets data"
+#~ msgstr "Kan pakket sets data niet updaten"
+
+#~ msgid "Fetch error on segment while adding"
+#~ msgstr "Ophaal fout in segment tijdens toevoegen"
+
+#~ msgid "repository error while adding packages"
+#~ msgstr "repositorie fout bij toevoegen van pakketten"
+
+#~ msgid "repository error while removing packages"
+#~ msgstr "repositorie fout bij verwijderen van pakketten"
+
+#~ msgid "Repository checksum doesn't match remote."
+#~ msgstr "Repositorie controlesom komt niet overeen met extern."
+
+#~ msgid "remote"
+#~ msgstr "op afstand"
+
+#~ msgid "repository is already up to date"
+#~ msgstr "Repositories was reeds up to date"
+
+#~ msgid "Configuration files update error, not critical, continuing"
+#~ msgstr "Configuratie bestanden update fout, niet kritisch, verdergaan"
+
+#~ msgid "Please update your repositories now in order to remove this message!"
+#~ msgstr "Update a.u.b. jouw repositories nu om dit bericht te verwijderen!"
+
+#~ msgid "is not available"
+#~ msgstr "is niet beschikbaar"
+
+#~ msgid "Cannot validate"
+#~ msgstr "kan niet valideren"
+
+#~ msgid "bad repository id specified"
+#~ msgstr "foute repositorie ID opgegeven"
+
+#~ msgid "Repository %s hasn't been downloaded yet."
+#~ msgstr "Repositorie %s is nog niet gedownload."
+
+#~ msgid "System database not found or corrupted"
+#~ msgstr "Systeem database niet gevonden of corrupt"
+
+#~ msgid "running in safe mode using temporary, empty repository"
+#~ msgstr ""
+#~ " in veilige modes gebruik makend van een tijdelijke lege repositorie"
+
+#~ msgid "Backing up repository to"
+#~ msgstr "Veiligstellen van repositorie naar"
+
+#~ msgid "Repository backed up successfully"
+#~ msgstr "Repositorie succesvol veilig gesteld"
+
+#~ msgid "All fine"
+#~ msgstr "Alles is goed"
+
+#~ msgid "Restoring backed up repository"
+#~ msgstr "Herstellen van veilig gestelde repositorie"
+
+#~ msgid "Unable to unpack"
+#~ msgstr "Onmogelijk om uit te pakken"
+
+#~ msgid "Repository restored successfully"
+#~ msgstr "Repositorie succesvol hersteld"
+
+#~ msgid "Resources unlocked, let's go!"
+#~ msgstr "Middelen ontsloten, laten we gaan!"
+
+#~ msgid "Resources still locked, giving up!"
+#~ msgstr "Middelen nog steeds geblokkeerd, Ik geef het op!"
+
+#~ msgid "not a valid method"
+#~ msgstr "geen geldige methode"
+
+#~ msgid "Source Package Manager interface can't be loaded"
+#~ msgstr "Source Pakketten Manager omgeving kan niet worden geladen "
+
+#~ msgid "please fix"
+#~ msgstr "repareer aub"
+
+#~ msgid "Cannot run External trigger for"
+#~ msgstr "Kan Externe trekker niet starten voor"
+
+#~ msgid "post-install phase"
+#~ msgstr "Post-installeer fase"
+
+#~ msgid "pre-install phase"
+#~ msgstr "Pre-installeer fase"
+
+#~ msgid "pre-remove phase"
+#~ msgstr "Pre-Verwijder fase"
+
+#~ msgid "post-remove phase"
+#~ msgstr "Post-Verwijder fase"
+
+#~ msgid "Something bad happened. Please have a look."
+#~ msgstr "Er is iets vreselijks gebeurt. neem een kijkje."
+
+#~ msgid "Packages are stored in"
+#~ msgstr "Pakketten zijn opgeslagen in"
+
+#~ msgid "a new release is available"
+#~ msgstr "Een nieuwere versie is beschikbaar."
+
+#~ msgid "Mind to install it before any other package"
+#~ msgstr "Vergeet ze niet te installeren VOOR enig ander pakket"
+
+#~ msgid "Advisories fetch error"
+#~ msgstr "'Advisories' ophaal fout"
+
+#~ msgid "Repositories synchronization"
+#~ msgstr "Repositories synchronisatie"
+
+#~ msgid "Name already taken"
+#~ msgstr "Naam reeds in gebruik"
+
+#~ msgid "Cannot remove the old element"
+#~ msgstr "Kan oud element niet verwijderen"
+
+#~ msgid "Cannot create the element"
+#~ msgstr "Kan element niet aanmaken"
+
+#~ msgid "cannot start with"
+#~ msgstr "Kan niet starten met"
+
+#~ msgid "Already removed"
+#~ msgstr "Reeds verwijderd"
+
+#~ msgid "Not defined by user"
+#~ msgstr "Niet gedefinieerd door gebruiker"
+
+#~ msgid "Set not found or unable to remove"
+#~ msgstr "Set niet gevonden of onmogelijk te verwijderen"
+
+#~ msgid "Checking %s"
+#~ msgstr "Checken %s"
+
+#~ msgid "Sorting dependencies"
+#~ msgstr "Sorteren van afhankelijkheden"
+
+#~ msgid "Calculating inverse dependencies for"
+#~ msgstr "Berekenen tegengestelde afhankelijkheden voor"
+
+#~ msgid "Calculating updates"
+#~ msgstr "Berekenen van updates"
+
+#~ msgid "infinite"
+#~ msgstr "oneindig"
+
+#~ msgid "[F]"
+#~ msgstr "[B]"
+
+#~ msgid "ETA"
+#~ msgstr "ETA"
+
+#~ msgid "sec"
+#~ msgstr "sec"
+
+#~ msgid "Aggregated download"
+#~ msgstr "Geaggregeerde download"
+
+#~ msgid "GPG key EXPIRED for URL"
+#~ msgstr "GPG sleutel verlopen voor URL"
+
+#~ msgid "Installing GPG key for URL"
+#~ msgstr "Installeren van GPG sleutel voor URL"
+
+#~ msgid "Successfully installed GPG key for URL"
+#~ msgstr "Succesvol geinstalleerd van GPG sleutel voor URL"
+
+#~ msgid "Security Advisories"
+#~ msgstr "Beveiligings Adviesen"
+
+#~ msgid "GPG key verification successful"
+#~ msgstr "GPG sleutel verificatie succesvol"
+
+#~ msgid "Warning"
+#~ msgstr "Waarschuwing"
+
+#~ msgid "advisory broken"
+#~ msgstr "defecte 'advisory'"
+
+#~ msgid "getting latest advisories"
+#~ msgstr "laatste adviezen binnen halen"
+
+#~ msgid "updated successfully"
+#~ msgstr "succesvol bijgewerkt"
+
+#~ msgid "already up to date"
+#~ msgstr "is reeds bijgewerkt."
+
+#~ msgid "cannot download checksum, sorry"
+#~ msgstr "Kan controlesom niet downloaden, sorry"
+
+#~ msgid "unable to download advisories, sorry"
+#~ msgstr "onmogelijk adviezen te downloaden, sorry"
+
+#~ msgid "Verifying checksum"
+#~ msgstr "Controleren van controlesom"
+
+#~ msgid "cannot open packages, sorry"
+#~ msgstr "kan pakketten niet openen"
+
+#~ msgid "cannot read the checksum, sorry"
+#~ msgstr "Kan controlesom niet lezen, helaas"
+
+#~ msgid "digest verification failed, sorry"
+#~ msgstr "'digest' verificatie mislukt"
+
+#~ msgid "verification successful"
+#~ msgstr "verificatie succesvol"
+
+#~ msgid "GPG service not available"
+#~ msgstr "GPG service niet beschikbaar"
+
+#~ msgid "digest verification failed, try again later"
+#~ msgstr "digest verificatie mislukt, probeer het later opnieuw"
+
+#~ msgid "installing"
+#~ msgstr "installeren"
+
+#~ msgid "Runtime dependency"
+#~ msgstr "Opstart afhankelijkheden"
+
+#~ msgid "Post dependency"
+#~ msgstr "Afhankelijkheid"
+
+#~ msgid "Manually added (by staff) dependency"
+#~ msgstr "Handmatig toegevoegde (door staff) afhankelijkheid"
+
+#~ msgid "Build dependency"
+#~ msgstr "Afhankelijkheid"
+
+#~ msgid "Corrupted Client Repository. Please restore a backup."
+#~ msgstr "Corrupte Client Repositorie. Herstel aub een back-up."
+
+#~ msgid "reason not available"
+#~ msgstr "reden niet beschikbaar"
+
+#~ msgid "user package.mask"
+#~ msgstr "gebruikers package.mask"
+
+#~ msgid "system keywords"
+#~ msgstr "systeem sleutelwoorden"
+
+#~ msgid "user package.unmask"
+#~ msgstr "gebruikers package.unmask"
+
+#~ msgid "user repo package.keywords (all packages)"
+#~ msgstr "gebruikers repo package.keywords (alle pakketten)"
+
+#~ msgid "user repo package.keywords"
+#~ msgstr "gebruikers repo package.keywords"
+
+#~ msgid "user package.keywords"
+#~ msgstr "gebruikers package.keywords"
+
+#~ msgid "completely masked (by keyword?)"
+#~ msgstr "volledig afgeschermd (op sleutelwoord?)"
+
+#~ msgid "repository general packages.db.mask"
+#~ msgstr "repositorie generale packages.db.mask"
+
+#~ msgid "repository general packages.db.keywords"
+#~ msgstr "repositorie generale packages.db.keywords"
+
+#~ msgid "user license.mask"
+#~ msgstr "gebruikers license.mask"
+
+#~ msgid "user live unmask"
+#~ msgstr "gebruikers live unmask"
+
+#~ msgid "user live mask"
+#~ msgstr "gebruikers live mask"
+
+#~ msgid "directory"
+#~ msgstr "map"
+
+#~ msgid "Cleaned"
+#~ msgstr "Opgeruimd"
+
+#~ msgid "files and directories"
+#~ msgstr "bestanden en mappen"
+
+#~ msgid "corrupted"
+#~ msgstr "is corrupt"
+
+#~ msgid "Not installed"
+#~ msgstr "niet geinstalleerd"
+
+#~ msgid "branch"
+#~ msgstr "branche"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "version"
+#~ msgstr "versie"
+
+#~ msgid "revision"
+#~ msgstr "Herziening"
+
+#~ msgid "Size"
+#~ msgstr "Grootte"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Checksum"
+#~ msgstr "Controlesom"
+
+#~ msgid "Legend"
+#~ msgstr "Legenda"
+
+#~ msgid "Conflicts"
+#~ msgstr "Conflicten"
+
+#~ msgid "Homepage"
+#~ msgstr "Website"
+
+#~ msgid "Entry API"
+#~ msgstr "Entry API"
+
+#~ msgid "Compiled with"
+#~ msgstr "gecompileerd met"
+
+#~ msgid "Created"
+#~ msgstr "Aangemaakt"
+
+#~ msgid "Reverse graphing installed package"
+#~ msgstr "Dit zijn de geinstalleerde pakketten"
+
+#~ msgid "No packages found"
+#~ msgstr "Geen pakketten gevonden"
+
+#~ msgid "packages passed as arguments"
+#~ msgstr "pakketten doorgevoerd als argumenten"
+
+#~ msgid "packages with no further dependencies"
+#~ msgstr "pakketten zonder enige verdere afhankelijkheden"
+
+#~ msgid "packages with further dependencies (node)"
+#~ msgstr "pakketten met verdere afhankelijkheden (knooppunt)"
+
+#~ msgid ""
+#~ "packages already pulled in as dependency in upper levels (circularity)"
+#~ msgstr ""
+#~ "pakketten die al ingevoerd zijn als afhankelijkheden in hogere lagen "
+#~ "(circulair)"
+
+#~ msgid "Graphing"
+#~ msgstr "Graphische"
+
+#~ msgid "Entropy got a question for you"
+#~ msgstr "Entropy heeft een vraag voor u"
+
+#~ msgid "Interrupted"
+#~ msgstr "Onderbroken"
+
+#~ msgid "Selected number"
+#~ msgstr "Geselecteerd nummer"
+
+#~ msgid "Please select an option"
+#~ msgstr "selecteer een optie"
+
+#~ msgid "Discard all"
+#~ msgstr "Alles afwijzen"
+
+#~ msgid "Confirm"
+#~ msgstr "Bevestigen"
+
+#~ msgid "Add item"
+#~ msgstr "Item toevoegen"
+
+#~ msgid "Edit item"
+#~ msgstr "Item bewerken"
+
+#~ msgid "Remove item"
+#~ msgstr "Verwijder item"
+
+#~ msgid "Show current list"
+#~ msgstr "geef huidige lijst weer"
+
+#~ msgid "Your choice (type a number and press enter):"
+#~ msgstr "Jouw keuze (typ een nummer en druk op enter):"
+
+#~ msgid "You don't have typed a number."
+#~ msgstr "Je hebt geen nummer gegeven."
+
+#~ msgid "Invalid action."
+#~ msgstr "Ongeldige actie."
+
+#~ msgid "String to add (-1 to go back):"
+#~ msgstr "Invoer om toe te voegen (-1 om terug te gaan):"
+
+#~ msgid "Invalid string."
+#~ msgstr "Ongeldige invoer."
+
+#~ msgid "Element number to edit (-1 to go back):"
+#~ msgstr "Nummer van element om te bewerken (-1 om terug te gaan):"
+
+#~ msgid "old"
+#~ msgstr "oud"
+
+#~ msgid "new value:"
+#~ msgstr "nieuwe waarde:"
+
+#~ msgid "Invalid element."
+#~ msgstr "Ongeldig element."
+
+#~ msgid "Element number to remove (-1 to go back):"
+#~ msgstr "Nummer van element om te verwijderen (-1 om terug te gaan):"
+
+#~ msgid "scanning for broken reverse dependencies"
+#~ msgstr "Scannen voor gebroken tegengestelde afhankelijken"
+
+#~ msgid "broken libraries detected"
+#~ msgstr "gebroken bibliotheken gevonden"
+
+#~ msgid "needs"
+#~ msgstr "benodigdheden"
+
+#~ msgid "Searching for missing Runtime dependencies"
+#~ msgstr "Aan het zoeken naar ontbrekende Runtime afhankelijkheden"
+
+#~ msgid "scanning"
+#~ msgstr "Scannen"
+
+#~ msgid "no packages"
+#~ msgstr "geen pakketten"
+
+#~ msgid "blacklisted dependencies !!!"
+#~ msgstr "uitgesloten afhankelijkheden !!!"
+
+#~ msgid "is potentially missing these dependencies"
+#~ msgstr "mist waarschijnlijk de volgende afhankelijkheden"
+
+#~ msgid "Broken symbols packages list"
+#~ msgstr "beschadigde symbool pakketten lijst"
+
+#~ msgid "Broken executables list"
+#~ msgstr "Beschadigde uitvoerbestanden lijst"
+
+#~ msgid "discarding directory"
+#~ msgstr "afwijzen van map"
+
+#~ msgid "because it's symlinked on"
+#~ msgstr "omdat hij gekoppeld is aan"
+
+#~ msgid "Collecting broken executables"
+#~ msgstr "Opzoeken van beschadigde opstartbestanden"
+
+#~ msgid "don't worry about libraries that are shown here but not later."
+#~ msgstr ""
+#~ "maak je geen zorgen over bibliotheken die hier worden getoond maar niet "
+#~ "later."
+
+#~ msgid "Scanning libraries"
+#~ msgstr "Scannen van bibliotheken"
+
+#~ msgid "various broken symbols"
+#~ msgstr "meerdere gebroken symbolen"
+
+#~ msgid "Matching broken libraries/executables"
+#~ msgstr "vergelijken van gebroken bibliotheken/opstartbestanden"
+
+#~ msgid "Not prepared yet"
+#~ msgstr "Nog niet voorbereid"
+
+#~ msgid "Another Entropy is currently running."
+#~ msgstr "Een ander Entropy proces draait nog."
+
+#~ msgid "Cleaning Entropy cache, please wait ..."
+#~ msgstr "Opruimen van Entropy cache, een moment geduld ..."
+
+#~ msgid "Entropy cache cleaned."
+#~ msgstr "Entropy cache geleegd"
+
+#~ msgid "You must be either root or in this group:"
+#~ msgstr "Je moet of root zijn of in deze groep zitten:"
+
+#~ msgid "You must be an administrator."
+#~ msgstr "U moet een beheerder zijn."
+
+#~ msgid "No advisories provided"
+#~ msgstr "Geen advisories opgegeven."
+
+#~ msgid "Advisory"
+#~ msgstr "Advisory"
+
+#~ msgid "GLSA Identifier"
+#~ msgstr "GLSA Identifier"
+
+#~ msgid "Exploitable"
+#~ msgstr "Exploiteerbaarheid"
+
+#~ msgid "Impact type"
+#~ msgstr "Inslag type"
+
+#~ msgid "Upstream bugs"
+#~ msgstr "Opwaartse bugs"
+
+#~ msgid "Affected"
+#~ msgstr "Aangetast"
+
+#~ msgid "vulnerable versions"
+#~ msgstr "kwetsbare versies"
+
+#~ msgid "unaffected versions"
+#~ msgstr "onaangetast versies"
+
+#~ msgid "No advisories available or applicable"
+#~ msgstr "Geen 'advisories' beschikbaar of bruikbaar"
+
+#~ msgid "Installed packages repository is not available"
+#~ msgstr "Geinstalleerde pakketten repositorie niet beschikbaar"
+
+#~ msgid "Checking system files"
+#~ msgstr "checken van systeem bestanden"
+
+#~ msgid "no checksum information"
+#~ msgstr "geen controlesom informatie"
+
+#~ msgid "altered files"
+#~ msgstr "Aangepaste bestanden"
+
+#~ msgid "assimilated new hashes and mtime"
+#~ msgstr "nieuwe hashes en mtime afgemaakt"
+
+#~ msgid "unavailable"
+#~ msgstr "Niet beschikbaar"
+
+#~ msgid "No altered files found"
+#~ msgstr "Aangepaste bestanden gevonden"
+
+#~ msgid "Altered files have been found"
+#~ msgstr "Er zijn aangepaste bestanden gevonden"
+
+#~ msgid "Packages have been reinstalled successfully"
+#~ msgstr "Pakketten zijn succesvol geherinstalleerd"
+
+#~ msgid "Calculating security updates"
+#~ msgstr "Berekenen beveiliging Updates"
+
+#~ msgid "All the available updates have been already installed"
+#~ msgstr "Alle beschikbare updates zijn al geinstalleerde"
+
+#~ msgid "Wrong parameters"
+#~ msgstr "Foutieve parameters"
+
+#~ msgid "You must be root"
+#~ msgstr "U moet root zijn"
+
+#~ msgid "invalid data, skipping"
+#~ msgstr "ongeldige data, overslaan"
+
+#~ msgid "Adding repository string"
+#~ msgstr "Toevoegen van repositorie waarde"
+
+#~ msgid "Repository id:"
+#~ msgstr "Repositorie id:"
+
+#~ msgid "Description:"
+#~ msgstr "Omschrijving:"
+
+#~ msgid "Repository format:"
+#~ msgstr "Repositorie formaat:"
+
+#~ msgid "Packages URL:"
+#~ msgstr "Pakketten URL:"
+
+#~ msgid "None given"
+#~ msgstr "Niets gegeven"
+
+#~ msgid "Repository URL:"
+#~ msgstr "Repositorie URL:"
+
+#~ msgid "repository added succesfully"
+#~ msgstr "Repositorie succesvol toegevoegd"
+
+#~ msgid "repository id not available"
+#~ msgstr "repositorie id is ongeldig"
+
+#~ msgid "repository removed succesfully"
+#~ msgstr "Repositories succesvol verwijderd"
+
+#~ msgid "repository already enabled"
+#~ msgstr "repositorie reeds ingeschakeld"
+
+#~ msgid "repository not available"
+#~ msgstr "repositorie is niet beschikbaar"
+
+#~ msgid "repository enabled"
+#~ msgstr "Repositorie ingeschakeld"
+
+#~ msgid "repository already disabled"
+#~ msgstr "repositorie is al uitgeschakeld"
+
+#~ msgid "cannot disable repository"
+#~ msgstr "kan repositorie niet uitschakelen"
+
+#~ msgid "repository disabled"
+#~ msgstr "repositorie uitgeschakeld"
+
+#~ msgid "not enough repositories specified"
+#~ msgstr "niet genoeg repositories gespecificeerd"
+
+#~ msgid "repositories not found"
+#~ msgstr "repositories niet gevonden"
+
+#~ msgid "repository cannot be source and destination"
+#~ msgstr "repositorie kan geen bron en bestemming zijn"
+
+#~ msgid "merging repositories"
+#~ msgstr "samenvoegen van repositories"
+
+#~ msgid "working on repository"
+#~ msgstr "werken met repositorie"
+
+#~ msgid "merging package"
+#~ msgstr "Pakket samenvoegen"
+
+#~ msgid "done merging packages"
+#~ msgstr "Pakketen samenvoegen gereed"
+
+#~ msgid "mirrors sorted successfully"
+#~ msgstr "spiegels succesvol uitgezocht"
+
+#~ msgid "active"
+#~ msgstr "actief"
+
+#~ msgid "never synced"
+#~ msgstr "nooit gesynchroniseerd"
+
+#~ msgid "Packages URL"
+#~ msgstr "Pakketten URL"
+
+#~ msgid "Database URL"
+#~ msgstr "Database URL"
+
+#~ msgid "Repository name"
+#~ msgstr "Repositorie naam"
+
+#~ msgid "Repository database path"
+#~ msgstr "Repositorie database pad"
+
+#~ msgid "Sending the update request to Entropy Services"
+#~ msgstr "De update aanvraag sturen naar de Entropy Services"
+
+#~ msgid "Repositories will be updated in background"
+#~ msgstr "Repositories worden op de achtergrond bijgewerkt"
+
+#~ msgid "Have a nice day"
+#~ msgstr "Een prettige dag verder"
+
+#, fuzzy
+#~ msgid "Repositories Updated not allowed"
+#~ msgstr "Repositorie is niet beschikbaar"
+
+#~ msgid "Notice board not available"
+#~ msgstr "Notitie bord is niet beschikbaar"
+
+#~ msgid "Press Enter to continue"
+#~ msgstr "Druk op Enter om door te gaan"
+
+#~ msgid "Exit"
+#~ msgstr "Afsluiten"
+
+#~ msgid "Choose one by typing its identifier"
+#~ msgstr "Kies a.u.b. een door het identificatie nummer te typen."
+
+#~ msgid "Notice board"
+#~ msgstr "Notitie Bord"
+
+#~ msgid "You are not root"
+#~ msgstr "Je bent geen root"
+
+#~ msgid "Scanning filesystem"
+#~ msgstr "Scannen van bestandssysteem"
+
+#~ msgid "All fine baby. Nothing to do!"
+#~ msgstr "'t Zit goed schat. Niets te doen!"
+
+#~ msgid "file"
+#~ msgstr "bestand"
+
+#, fuzzy
+#~ msgid "Type a number"
+#~ msgstr "Geef een nummer."
+
+#~ msgid "Discarding"
+#~ msgstr "Wordt afgewezen"
+
+#, fuzzy
+#~ msgid "Automerging"
+#~ msgstr "Auto-samenvoegen van bestand"
+
+#~ msgid "Selected file"
+#~ msgstr "Geselecteerd bestand"
+
+#, fuzzy
+#~ msgid "Replacing %s with %s"
+#~ msgstr "Vervangen"
+
+#, fuzzy
+#~ msgid "Cannot merge %s"
+#~ msgstr "Kan bestand niet auto-samenvoegen"
+
+#, fuzzy
+#~ msgid "Deleting %s"
+#~ msgstr "Verwijderen van bestand"
+
+#, fuzzy
+#~ msgid "Cannot remove %s"
+#~ msgstr "Kan koppeling niet verwijderen"
+
+#, fuzzy
+#~ msgid "Interactive merge"
+#~ msgstr "Interactief samenvoegen"
+
+#, fuzzy
+#~ msgid "OSError during interactive merge"
+#~ msgstr "Fout tijdens herstellen"
+
+#, fuzzy
+#~ msgid "IOError during interactive merge"
+#~ msgstr "Interactief samenvoegen"
+
+#, fuzzy
+#~ msgid "Unable to merge file"
+#~ msgstr "Kan bestand niet auto-samenvoegen"
+
+#~ msgid "Editing file"
+#~ msgstr "Veranderen van bestand"
+
+#~ msgid "Edited file"
+#~ msgstr "Aangepast bestand"
+
+#, fuzzy
+#~ msgid "showing difference"
+#~ msgstr "verschillen worden weergegeven"
+
+#, fuzzy
+#~ msgid "Source file"
+#~ msgstr "Broncode"
+
+#, fuzzy
+#~ msgid "Destination file"
+#~ msgstr "Bestemming"
+
+#~ msgid "Overwrite ?"
+#~ msgstr "Overschrijven ?"
+
+#, fuzzy
+#~ msgid "Cannot merge"
+#~ msgstr "Kan bestand niet auto-samenvoegen"
+
+#~ msgid "Discard ?"
+#~ msgstr "Afwijzen ?"
+
+#, fuzzy
+#~ msgid "Cannot remove"
+#~ msgstr "Kan koppeling niet verwijderen"
+
+#~ msgid "Please choose a file to update by typing its identification number."
+#~ msgstr ""
+#~ "Kies a.u.b. een bestand voor update door zijn identificatie nummer te "
+#~ "typen."
+
+#~ msgid "Other options are:"
+#~ msgstr "Andere opties zijn:"
+
+#~ msgid "Automerge all the files asking you one by one"
+#~ msgstr ""
+#~ "Automatisch samenvoegen van alle bestanden na een voor een te vragen"
+
+#~ msgid "Automerge all the files without questioning"
+#~ msgstr "Automatisch samenvoegen van alle bestanden zonder te vragen"
+
+#~ msgid "Discard all the files asking you one by one"
+#~ msgstr "Wijs alle bestanden af na een voor een te vragen"
+
+#~ msgid "Discard all the files without questioning"
+#~ msgstr "Wijs alle bestanden af zonder te vragen"
+
+#~ msgid "Please choose an action to take for the selected file."
+#~ msgstr "Kies een actie voor het geselecteerde bestand."
+
+#~ msgid "Come back to the files list"
+#~ msgstr "kom terug bij de lijst met bestanden"
+
+#~ msgid "Replace original with update"
+#~ msgstr "Verwissel origineel met update"
+
+#~ msgid "Delete update, keeping original as is"
+#~ msgstr "Verwijder update, houd origineel zoals hij is"
+
+#~ msgid "Edit proposed file and show diffs again"
+#~ msgstr "Verander aangegeven bestand en bekijk de verschillen opnieuw"
+
+#~ msgid "Interactively merge original with update"
+#~ msgstr "Interactief samenvoegen van origineel met update"
+
+#~ msgid "Show differences again"
+#~ msgstr "bekijk verschillen opnieuw"
+
+#~ msgid "Invalid repository"
+#~ msgstr "Ongeldige repositorie"
+
+#~ msgid "Repository does not support Entropy Services."
+#~ msgstr "repositorie ondersteund geen Entropy Services."
+
+#~ msgid "Already logged in as"
+#~ msgstr "Reeds Ingelogd als"
+
+#~ msgid "Please logout first"
+#~ msgstr "A.u.b. eerst uitloggen"
+
+#~ msgid "Successfully logged in as"
+#~ msgstr "Succesvol ingelogd als"
+
+#~ msgid "From now on, any UGC action will be committed as this user"
+#~ msgstr ""
+#~ "Van nu af aan, zal elke GGI actie als deze gebruiker worden toegevoegd"
+
+#~ msgid "Not logged in."
+#~ msgstr "Niet ingelogd."
+
+#~ msgid "has been logged out."
+#~ msgstr "is uitgelogd."
+
+#~ msgid "Not logged in, please login first."
+#~ msgstr "Niet ingelogged, log aub eerst in."
+
+#~ msgid "UGC error"
+#~ msgstr "GGI Fout"
+
+#~ msgid "add vote"
+#~ msgstr "Stem toevoegen"
+
+#~ msgid "Insert your vote (from 1 to 5)"
+#~ msgstr "Voer jouw stem in (van 1 t/m 5)"
+
+#~ msgid "Entropy UGC vote submission"
+#~ msgstr "Entropy GGI stemmen toevoeging"
+
+#~ msgid "invalid vote, must be in range"
+#~ msgstr "ongeldige stem, moet zitten tussen"
+
+#~ msgid "Please review your submission"
+#~ msgstr "Herzie uw toevoeging"
+
+#~ msgid "Vote"
+#~ msgstr "Stem"
+
+#~ msgid "Do you want to submit?"
+#~ msgstr "Wil je ze toevoegen?"
+
+#~ msgid "already voted"
+#~ msgstr "reeds gestemd"
+
+#~ msgid "vote added, thank you!"
+#~ msgstr "stem toegevoegd, dank je!"
+
+#~ msgid "No User Generated Content available."
+#~ msgstr "Geen Gebruiker Gegenereerde Inhoud beschikbaar."
+
+#~ msgid "Add document"
+#~ msgstr "Document toevoegen"
+
+#~ msgid "text comment"
+#~ msgstr "tekst commentaar"
+
+#~ msgid "icon"
+#~ msgstr "ikoon"
+
+#~ msgid "simple file"
+#~ msgstr "simpel bestand"
+
+#~ msgid "simple image"
+#~ msgstr "simpel plaatje"
+
+#~ msgid "video"
+#~ msgstr "video"
+
+#~ msgid "Insert document title"
+#~ msgstr "Voer document titel in"
+
+#~ msgid "Insert document description/comment"
+#~ msgstr "Voer document onderwerp/commentaar in"
+
+#~ msgid "Insert document's keywords (space separated)"
+#~ msgstr "Voer document's Sleutel woorden in (met spaties gescheiden)"
+
+#~ msgid "Choose document type"
+#~ msgstr "Kies document type"
+
+#~ msgid "Entropy UGC document submission"
+#~ msgstr "Entropy GGI document indiening"
+
+#~ msgid "Insert document path"
+#~ msgstr "Voer document pad in"
+
+#~ msgid "Document path"
+#~ msgstr "Document pad"
+
+#~ msgid "Invalid document"
+#~ msgstr "Ongeldig document"
+
+#~ msgid "Document added, thank you!"
+#~ msgstr "Document toegevoegd. Dank u!"
+
+#~ msgid "Documents removal"
+#~ msgstr "Documenten verwijderd"
+
+#~ msgid "Document identifiers"
+#~ msgstr "Document herkenningen"
+
+#~ msgid "No valid identifiers"
+#~ msgstr "Geen geldige herkennings punten"
+
+#~ msgid "Would you like to review them?"
+#~ msgstr "Wilt u ze nog nakijken ?"
+
+#~ msgid "Would you like to continue with the removal?"
+#~ msgstr "Wil je doorgaan met verwijderen?"
+
+#~ msgid "cannot get the requested Document"
+#~ msgstr "kan gevraagde document niet ophalen"
+
+#~ msgid "UGC status"
+#~ msgstr "GGI Status"
+
+#~ msgid "removed successfully"
+#~ msgstr "succesvol verwijderd"
+
+#~ msgid "No title"
+#~ msgstr "Geen titel"
+
+#~ msgid "no votes"
+#~ msgstr "geen stemmen"
+
+#~ msgid "current package vote"
+#~ msgstr "Huidige pakket stem"
+
+#~ msgid "Malformed command"
+#~ msgstr "Misvormd commando"
+
+#~ msgid "Searching"
+#~ msgstr "Bezig met zoeken"
+
+#~ msgid "Repository is not available"
+#~ msgstr "Repositorie is niet beschikbaar"
+
+#~ msgid "Keyword"
+#~ msgstr "Sleutelwoord"
+
+#~ msgid "Found"
+#~ msgstr "Gevonden"
+
+#~ msgid "entries"
+#~ msgstr "overeenkomsten"
+
+#~ msgid "Belong Search"
+#~ msgstr "Zoeken op bijbehorenden"
+
+#~ msgid "ChangeLog Search"
+#~ msgstr "Zoeken op Veranderingen-Log"
+
+#~ msgid "No match for"
+#~ msgstr "Geen overeenkomsten voor"
+
+#~ msgid "No ChangeLog available"
+#~ msgstr "Geen Veranderingen-Log beschikbaar"
+
+#~ msgid "Attention: developer-repo option not enabled"
+#~ msgstr "Attentie: developer-repo optie niet ingeschakeld"
+
+#~ msgid "Inverse Dependencies Search"
+#~ msgstr "Tegengestelde afhankelijkheden Zoeken"
+
+#~ msgid "Matched"
+#~ msgstr "Overeenkomend"
+
+#~ msgid "from repository"
+#~ msgstr "uit repositorie"
+
+#~ msgid "from installed packages database"
+#~ msgstr "uit geinstalleerde pakketten database"
+
+#~ msgid "Needed Search"
+#~ msgstr "Zoeken op Benodigde"
+
+#~ msgid "libraries"
+#~ msgstr "bibliotheken"
+
+#~ msgid "Required Search"
+#~ msgstr "Zoeken op Benodigde"
+
+#~ msgid "Library"
+#~ msgstr "Bibliotheek"
+
+#~ msgid "files"
+#~ msgstr "bestanden"
+
+#~ msgid "Orphans Search"
+#~ msgstr "Zoeken op Wezen"
+
+#~ msgid "Analyzing"
+#~ msgstr "Analyseren"
+
+#~ msgid "Analyzed directories"
+#~ msgstr "Geanalyseerde mappen"
+
+#~ msgid "Masked directories"
+#~ msgstr "Afgeschermde mappen"
+
+#~ msgid "Number of files collected on the filesystem"
+#~ msgstr "Aantal bestanden gevonden op het bestandssysteem"
+
+#~ msgid "Now looking into Installed Packages database"
+#~ msgstr "Nu zoeken in geinstalleerde pakketten database"
+
+#~ msgid "Intersecting with content of the package"
+#~ msgstr "Kruisend met de inhoud van het pakket"
+
+#~ msgid "Intersection completed. Showing statistics"
+#~ msgstr "Kruising afgesloten. Weergeven van statistieken"
+
+#~ msgid "Number of total files"
+#~ msgstr "totaal aantal bestanden"
+
+#~ msgid "Number of matching files"
+#~ msgstr "Aantal overeenkomende bestanden"
+
+#~ msgid "Number of orphaned files"
+#~ msgstr "Aantal wees bestanden"
+
+#~ msgid "Writing file to disk"
+#~ msgstr "bestand wordt geschreven naar schijf"
+
+#~ msgid "Total wasted space"
+#~ msgstr "Totaal verbruikte ruimte"
+
+#~ msgid "Removal Search"
+#~ msgstr "Zoek op verwijderde"
+
+#~ msgid "Ouch!"
+#~ msgstr "Auw!"
+
+#~ msgid "the following system packages were pulled in"
+#~ msgstr "de volgende systeem pakketten worden meegenomen"
+
+#~ msgid "No matches"
+#~ msgstr "Geen overeenkomsten"
+
+#~ msgid "Searching mimetype"
+#~ msgstr "Zoeken op bestandstype"
+
+#~ msgid "Matching"
+#~ msgstr "Overeenkomende"
+
+#~ msgid "Slot Search"
+#~ msgstr "Zoek op slot"
+
+#~ msgid "Package Set Search"
+#~ msgstr "Pakket Set Zoeken"
+
+#~ msgid "Tag Search"
+#~ msgstr "Zoek op tag"
+
+#~ msgid "Revision Search"
+#~ msgstr "Zoeken op Revisie"
+
+#~ msgid "Installed packages repository"
+#~ msgstr "GeÃ¯nstalleerde Pakketten"
+
+#~ msgid "License Search"
+#~ msgstr "Zoeken op Licentie"
+
+#~ msgid "Description Search"
+#~ msgstr "Zoeken op Beschrijving"
+
+#~ msgid "Source Package Manager backend not available"
+#~ msgstr "Source Pakket Beheerder back-end niet beschikbaar"
+
+#~ msgid "Installed packages database not available"
+#~ msgstr "Geinstalleerde pakketten database niet beschikbaar"
+
+#~ msgid "is deprecated, please use"
+#~ msgstr "is afgeschreven, gebruik "
+
+#~ msgid "Vacuum cleaning System Database"
+#~ msgstr "Stofzuigen van Systeem Database"
+
+#~ msgid "Vacuum cleaned System Database"
+#~ msgstr "Systeem Database gestofzuigd"
+
+#~ msgid "No System Databases found"
+#~ msgstr "Geen Systeem Database gevonden"
+
+#~ msgid "No backed up databases found"
+#~ msgstr "Geen gebackupte databasen gevonden"
+
+#~ msgid "Select the database you want to restore"
+#~ msgstr "Selecteer de database die je wilt herstellen"
+
+#~ msgid "Entropy installed packages database restore tool"
+#~ msgstr "Entropy geinstalleerde pakketten database herstel gereedschap"
+
+#~ msgid "Regenerating counters table"
+#~ msgstr "Hergenereren van verschillen tabel"
+
+#~ msgid "Counters table regenerated. Look above for errors."
+#~ msgstr "Verschillen tabel her gegenereerd. Kijk hierboven voor fouten."
+
+#~ msgid ""
+#~ "The installed package database will be resurrected, this will take a LOT "
+#~ "of time."
+#~ msgstr ""
+#~ "De geinstalleerde pakket database wordt tot leven gewekt, dit kan LANGE "
+#~ "tijd duren."
+
+#~ msgid ""
+#~ "Please use this function ONLY if you are using an Entropy-aware "
+#~ "distribution."
+#~ msgstr ""
+#~ "Gebruik deze functie ALLEEN met een distributie die van Entropy af weet"
+
+#~ msgid "Can I continue ?"
+#~ msgstr "Mag ik doorgaan ?"
+
+#~ msgid "Are you REALLY sure ?"
+#~ msgstr "Bent u HEEL zeker?"
+
+#~ msgid "Do you even know what you're doing ?"
+#~ msgstr "Enig idee wat je aan het doen bent ?"
+
+#~ msgid "Creating backup of the previous database, if exists."
+#~ msgstr "Maken van een back-up van de vorige database, als deze bestaat."
+
+#~ msgid "Initializing the new database at"
+#~ msgstr "Initialiseren van nieuwe database op"
+
+#~ msgid "Database reinitialized correctly at"
+#~ msgstr "Database herinitialisatie correct op"
+
+#~ msgid "Collecting installed files"
+#~ msgstr "verzamelen van geinstalleerde bestanden"
+
+#~ msgid "Writing to temporary file"
+#~ msgstr "schrijven naar tijdelijk bestand"
+
+#~ msgid "Please wait"
+#~ msgstr "Een moment a.u.b."
+
+#~ msgid "You must have 'find' installed"
+#~ msgstr "Je moet 'find' geinstalleerd hebben"
+
+#~ msgid "Found %s files on the system. Assigning packages"
+#~ msgstr "%s bestanden gevonden op het systeem. Koppelen aan pakketten"
+
+#~ msgid "Matching in repository"
+#~ msgstr "overeen komenden in repositorie"
+
+#~ msgid "Matching files from packages"
+#~ msgstr "Overeen komende bestanden van pakketten"
+
+#~ msgid "Found %s packages"
+#~ msgstr "%s pakketten gevonden"
+
+#~ msgid "Filling database"
+#~ msgstr "database vullen"
+
+#~ msgid "Adding"
+#~ msgstr "Toevoegen"
+
+#~ msgid "Database resurrected successfully"
+#~ msgstr "Database succesvol herrezen"
+
+#~ msgid "Now indexing tables"
+#~ msgstr "Nu aan het indexeren van tabellen"
+
+#~ msgid "Database reinitialized successfully"
+#~ msgstr "Database herinitialisatie succesvol"
+
+#~ msgid ""
+#~ "Keep in mind that virtual packages couldn't be matched. They don't own "
+#~ "any files."
+#~ msgstr ""
+#~ "Onthoud dat virtuele pakketten niet konden worden vergeleken. Ze bezitten "
+#~ "geen enkel bestand."
+
+#~ msgid ""
+#~ "Scanning Source Package Manager and Entropy databases for differences"
+#~ msgstr ""
+#~ "Scannen van Source Pakket Manager en Entropy databases voor verschillen"
+
+#~ msgid "Collecting Source Package Manager metadata"
+#~ msgstr "Binnenhalen van Source Pakket Manager metadata"
+
+#~ msgid "Collecting Entropy packages"
+#~ msgstr "Verzamelen van Entropy pakketten"
+
+#~ msgid "Differential Scan"
+#~ msgstr "Differentiele Scan"
+
+#~ msgid "Databases already synced"
+#~ msgstr "Databases reeds gesynchroniseerd"
+
+#~ msgid "Entropy locked, giving up"
+#~ msgstr "Entropy geblokkeerd, ik geef op"
+
+#~ msgid "Someone removed these packages"
+#~ msgstr "Iemand heeft deze pakketten verwijderd"
+
+#~ msgid "They would be removed from the system database"
+#~ msgstr "Deze zullen worden verwijderd uit de systeem database"
+
+#~ msgid "Continue with removal ?"
+#~ msgstr "Verder gaan met verwijderen ?"
+
+#~ msgid "Database removal complete"
+#~ msgstr "Database verwijdering compleet"
+
+#~ msgid "Someone added these packages"
+#~ msgstr "Iemand heeft deze pakketten toegevoegd"
+
+#~ msgid "They would be added to the system database"
+#~ msgstr "Deze worden toegevoegd aan de systeem database"
+
+#~ msgid "Continue with adding ?"
+#~ msgstr "Verder gaan met toevoegen ?"
+
+#~ msgid "An error occured while analyzing"
+#~ msgstr "Er deed zich een fout voor bij het analiseren"
+
+#~ msgid "Exception"
+#~ msgstr "Uitzondering"
+
+#~ msgid "Database update completed"
+#~ msgstr "Database update voltooid"
+
+#~ msgid ""
+#~ "The installed package repository will be regenerated using Source Package "
+#~ "Manager"
+#~ msgstr ""
+#~ "De geinstalleerd pakket repositorie zal opnieuw worden gegenereerd "
+#~ "middels de Source Pakket Manager"
+
+#~ msgid ""
+#~ "If you dont know what you're doing just, don't do this. Really. I'm not "
+#~ "joking."
+#~ msgstr ""
+#~ "Als je niet weet waar je mee bezig bent, doe het dan niet. Serieus. Ik "
+#~ "maak geen grap."
+
+#~ msgid "Understood ?"
+#~ msgstr "Begrepen ?"
+
+#~ msgid "Really ?"
+#~ msgstr "Echt?!"
+
+#~ msgid "This is your last chance"
+#~ msgstr "Dit is je laatste kans"
+
+#~ msgid "Ok?"
+#~ msgstr "Ok?"
+
+#~ msgid "Transductingactioningintactering databases"
+#~ msgstr "Transductingactioningintactering databases"
+
+#~ msgid ""
+#~ "All the Source Package Manager packages have been injected into Entropy "
+#~ "database"
+#~ msgstr "Alle Gentoo pakketten zijn geinjecteerd in de Entropy database"
+
+#~ msgid "Sanity Check"
+#~ msgstr "Gezondheids check"
+
+#~ msgid "installed packages repository"
+#~ msgstr "Geinstalleerde Pakketten repositorie"
+
+#~ msgid "Scanning..."
+#~ msgstr "Scannen..."
+
+#~ msgid "Error checking package"
+#~ msgstr "Fout tijdens pakket controle"
+
+#~ msgid "passed"
+#~ msgstr "voltooid"
+
+#~ msgid "database does not exist or is badly broken"
+#~ msgstr "database bestaat niet of is gevaarlijk beschadigd"
+
+#~ msgid "You are not"
+#~ msgstr "U bent niet"
+
+#~ msgid "No packages specified"
+#~ msgstr "Geen pakketten opgegeven"
+
+#~ msgid "Cannot find"
+#~ msgstr "Kan `%s' niet vinden."
+
+#~ msgid "No valid packages specified"
+#~ msgstr "Geen geldige pakketten opgegeven"
+
+#~ msgid "This is the list of the packages that would be quickpkg'd"
+#~ msgstr "De volgende pakketten zullen worden ge-quickpkgt"
+
+#~ msgid "installed"
+#~ msgstr "Geinstalleerd"
+
+#~ msgid "Would you like to recompose the selected packages ?"
+#~ msgstr "Wil je de geselecteerde pakketten her-composeren ?"
+
+#~ msgid "Compressing"
+#~ msgstr "Comprimeren"
+
+#~ msgid "Error while creating package for"
+#~ msgstr "Fout bij aanmaken van pakket voor"
+
+#~ msgid "Cannot continue"
+#~ msgstr "Kan niet verder"
+
+#~ msgid "Saved in"
+#~ msgstr "Opgeslagen in"
+
+#~ msgid "directory does not exist"
+#~ msgstr "map bestaat niet"
+
+#~ msgid "is not a valid Entropy package"
+#~ msgstr "is geen geldig Entropy pakket"
+
+#~ msgid "Using branch"
+#~ msgstr "Gebruiken van Branche"
+
+#~ msgid "Extracting package metadata"
+#~ msgstr "Uitpakken van pakket metadata"
+
+#~ msgid "Package extraction complete"
+#~ msgstr "Uitpakken van pakket is compleet"
+
+#~ msgid "Inflated package"
+#~ msgstr "Geinfleerd pakket"
+
+#~ msgid "Deflating"
+#~ msgstr "Deflatie"
+
+#~ msgid "Deflated package"
+#~ msgstr "Gedefleerd pakket"
+
+#~ msgid "Extracting Entropy metadata from"
+#~ msgstr "Entropy metadata wordt uitgepakt vanaf"
+
+#~ msgid "Extracted Entropy metadata from"
+#~ msgstr "Entropy metadata uitgepakt vanaf"
+
+#~ msgid ""
+#~ "This is the list of the packages that would be merged into a single one"
+#~ msgstr ""
+#~ "De volgende pakketten zullen worden samengevoegd in een enkel pakket"
+
+#~ msgid "Would you like to create the packages above ?"
+#~ msgstr "Wilt u de pakketten hierboven creeren ?"
+
+#~ msgid "Creating merged Smart Package"
+#~ msgstr "Aanmaken van samengevoegde 'Smart Package'"
+
+#~ msgid "collecting Entropy metadata"
+#~ msgstr "verzamelen van Entropy metadata"
+
+#~ msgid "Unpack failed due to unknown reasons"
+#~ msgstr "Uitpakken gefaald door een onbekende reden"
+
+#~ msgid "Compressing smart package"
+#~ msgstr "Comprimeren van 'smart' pakket"
+
+#~ msgid "Compression failed due to unknown reasons"
+#~ msgstr "Compressie gefaald door een onbekende reden"
+
+#~ msgid "Compressed file does not exist"
+#~ msgstr "Gecomprimeerd bestand bestaat niet meer"
+
+#~ msgid "You should run equo --help"
+#~ msgstr "Probeer eens equo --help"
+
+#~ msgid "You didn't run equo --help, did you?"
+#~ msgstr "Heb je equo --help al eens geprobeerd?"
+
+#~ msgid "Did you even read equo --help??"
+#~ msgstr "Nog steeds equo --help niet gelezen??"
+
+#~ msgid "I give up. Run that equo --help !!!!!!!"
+#~ msgstr "Ik geef het op. doe equo --help !!!!!!!"
+
+#~ msgid "OH MY GOD. RUN equo --heeeeeeeeeeeeeelp"
+#~ msgstr "O MIJN GOD. DOE NOU equo --heeeeeeeeeeeeeelp"
+
+#~ msgid "Illiteracy is a huge problem in this world"
+#~ msgstr "Analfabetisme is een groot probleem in deze wereld"
+
+#~ msgid "Ok i give up, you are hopeless"
+#~ msgstr "Ok, ik geef het op. Jij bent hopeloos"
+
+#~ msgid "Go to hell."
+#~ msgstr "STERF!"
+
+#~ msgid "Basic Options"
+#~ msgstr "Basis Opties"
+
+#~ msgid "this output"
+#~ msgstr "deze uitvoer"
+
+#~ msgid "print version"
+#~ msgstr "versie weergeven"
+
+#~ msgid "disable colorized output"
+#~ msgstr "schakel gekleurde weergave uit"
+
+#~ msgid "force colorized output"
+#~ msgstr "forceer gekleurde weergave"
+
+#~ msgid "print a bash completion script to stdout"
+#~ msgstr "print het bash voltooiing script naar stdout"
+
+#~ msgid "Application Options"
+#~ msgstr "Programma Opties"
+
+#~ msgid "update configured repositories"
+#~ msgstr "update geconfigureerde repositories"
+
+#~ msgid "force sync regardless repositories status"
+#~ msgstr "forceer sync ongeacht de status van de repositories"
+
+#~ msgid "manage your repositories"
+#~ msgstr "onderhoud een repositorie"
+
+#~ msgid "enable given repository"
+#~ msgstr "gespecificeerde repositorie aanzetten"
+
+#~ msgid "disable given repository"
+#~ msgstr "gespecificeerde repositorie uitzetten"
+
+#~ msgid "add repository (pass repository string)"
+#~ msgstr "voeg repositorie toe (geef repositorie waarde)"
+
+#~ msgid "remove repository"
+#~ msgstr "verwijder repositorie"
+
+#~ msgid "reorder mirrors basing on response time"
+#~ msgstr "rangschik spiegels gebaseerd op reactietijd"
+
+#~ msgid "merge content of source repos to dest [for developers]"
+#~ msgstr "Voeg inhoud van source repos toe aan dest [for ontwikkelaars]"
+
+#~ msgid "also remove dependency conflicts during merge"
+#~ msgstr "verwijder ook de afhankelijke conflicten tijdens de samenvoeging"
+
+#~ msgid "repository notice board reader"
+#~ msgstr "repositorie notitie bord lezer"
+
+#~ msgid "show respositories status"
+#~ msgstr "geef repositories status weer"
+
+#~ msgid "search packages in repositories"
+#~ msgstr "zoek naar pakketten in repositories"
+
+#~ msgid "match a package in repositories"
+#~ msgstr "vergelijk een pakket in de repositories"
+
+#~ msgid "return all the possible matches"
+#~ msgstr "geef alle mogelijke gelijkenissen weer"
+
+#~ msgid "match inside installed packages repository"
+#~ msgstr "Geinstalleerde Pakketten"
+
+#~ msgid "return matches from every repository"
+#~ msgstr "geef overeenkomsten van alle repositories"
+
+#~ msgid "print repository information (w/--quiet)"
+#~ msgstr "print repositorie informatie (incl. --quiet)"
+
+#~ msgid "print description too (w/--quiet)"
+#~ msgstr "print ook de beschrijving (incl. --quiet)"
+
+#~ msgid "upgrade your distribution to a new release (branch)"
+#~ msgstr "upgrade je distributie naar een nieuwe uitgave (branche)"
+
+#~ msgid "update system with the latest available packages"
+#~ msgstr "update systeem met de laatst beschikbare pakketten"
+
+#~ msgid "ask before making any changes"
+#~ msgstr "vragen voor maken van veranderingen"
+
+#~ msgid "just download packages"
+#~ msgstr "pakketten alleen downloaden"
+
+#~ msgid "only show what would be done"
+#~ msgstr "alleen laten zien wat er zou gebeuren"
+
+#~ msgid "show more details about what is going on"
+#~ msgstr "laat meer details zien over wat er gaande is"
+
+#~ msgid "reinstall all the packages and their dependencies"
+#~ msgstr "Her installeer alle pakketten en hun afhankelijkheden"
+
+#~ msgid "same as --replay"
+#~ msgstr "zelfde als --replay"
+
+#~ msgid "resume previously interrupted operations"
+#~ msgstr "vervolg vorige onderbroken actie"
+
+#~ msgid "used with --resume, makes the first package to be skipped"
+#~ msgstr "in combinatie met --resume, wordt het eerste pakket overgeslagen"
+
+#~ msgid "download multiple packages in parallel (default 3)"
+#~ msgstr "download meerdere pakketten parallel (standaard 3)"
+
+#~ msgid "download N packages in parallel (max 10)"
+#~ msgstr "download N pakketten parallel (max. 10)"
+
+#~ msgid "security infrastructure functions"
+#~ msgstr "beveiliging infrastructuur functies"
+
+#~ msgid "verify installed files using stored checksums"
+#~ msgstr ""
+#~ "controleren van geinstalleerde bestanden met opgeslagen controlesommen"
+
+#~ msgid "consider mtime instead of SHA256 (false positives ahead)"
+#~ msgstr "gebruik mtime in plaats van SA256 (onjuiste calculatie mogelijk)"
+
+#~ msgid "update hashes and mtime (useful after editing config files)"
+#~ msgstr ""
+#~ "update hashes en mtime (handig na het aanpassen van configuratie "
+#~ "bestanden)"
+
+#~ msgid "reinstall faulty packages"
+#~ msgstr "herinstalleer foute pakketten"
+
+#~ msgid "show less details (useful for scripting)"
+#~ msgstr "laat minder details zien (handig voor scripts)"
+
+#~ msgid "also list removed files"
+#~ msgstr "geef ook een lijst met verwijderde bestanden"
+
+#~ msgid "download the latest Security Advisories"
+#~ msgstr "download de laatste Beveiligings Adviezen"
+
+#~ msgid "force download even if already up-to-date"
+#~ msgstr "forceer download ook al is hij bijgewerkt"
+
+#~ msgid "list all the available Security Advisories"
+#~ msgstr "laat alle mogelijke Beveiliging Adviezen zien"
+
+#~ msgid "list only affected"
+#~ msgstr "laat alleen aangetasten zien"
+
+#~ msgid "list only unaffected"
+#~ msgstr "laat alleen desinfecteerde zien"
+
+#~ msgid "show information about provided advisories identifiers"
+#~ msgstr "geef informatie over gegeven adviezen herkenningen"
+
+#~ msgid "automatically install all the available security updates"
+#~ msgstr "installeer alle beschikbare beveiliging updates automatisch"
+
+#~ msgid "just show what would be done"
+#~ msgstr "laat alleen zien wat er gedaan zou worden"
+
+#~ msgid "install atoms or binary packages"
+#~ msgstr "installeer atomen of binaire pakketten"
+
+#~ msgid "just download packages without doing the install"
+#~ msgstr "download de pakketten zonder ze te installeren"
+
+#~ msgid "do not pull in any dependency"
+#~ msgstr "voeg geen afhankelijkheden toe"
+
+#~ msgid "also pull in build-time dependencies"
+#~ msgstr "neem ook build-time afhankelijkheden mee"
+
+#~ msgid "used with --resume, makes the first package in queue to be skipped"
+#~ msgstr ""
+#~ "in combinatie met --resume, wordt het eerste pakket in rij overgeslagen"
+
+#~ msgid "remove downloaded packages after being used"
+#~ msgstr "verwijder gedownload pakket nadat deze is gebruikt"
+
+#~ msgid "pull all the dependencies in, regardless their state"
+#~ msgstr "voeg alle afhankelijkheden toe, ongeacht hun status"
+
+#~ msgid "calm down dependencies resolution algorithm (might be risky)"
+#~ msgstr "verzacht afhankelijkheid ontwikkeling algoritmes (is risico vol) "
+
+#~ msgid "makes dependency rules stricter"
+#~ msgstr "maakt afhankelijkheid regels strikter"
+
+#~ msgid "makes old configuration files to be removed"
+#~ msgstr "zorgt ervoor dat oude configuratie bestanden worden verwijderd"
+
+#~ msgid "download atoms source code"
+#~ msgstr "download atomen bron code"
+
+#~ msgid "save sources in current working directory"
+#~ msgstr "sla bronnen op in de huidige map"
+
+#~ msgid "remove one or more packages"
+#~ msgstr "verwijder een of meerdere pakketten"
+
+#~ msgid "also pull unused dependencies where reverse deps list is empty"
+#~ msgstr ""
+#~ "neem ook ongebruikte afhankelijkheden mee waar tegengestelde "
+#~ "afhankelijken lijst leeg is"
+
+#~ msgid "when used with --deep, helps the removal of virtual packages"
+#~ msgstr ""
+#~ "in combinatie met --deep is het mogelijk virtuele pakketten te verwijderen"
+
+#~ msgid "makes configuration files to be removed"
+#~ msgstr "zorgt voor verwijdering van configuratie bestanden"
+
+#~ msgid "dangerous: forces system packages removal, do not use this!"
+#~ msgstr "gevaarlijk: forceerd systeempakket verwijdering, gebruik dit niet!"
+
+#~ msgid "mask one or more packages"
+#~ msgstr "blokkeer een of meerdere pakketten"
+
+#~ msgid "unmask one or more packages"
+#~ msgstr "deblokkeer een of meerdere pakketten"
+
+#~ msgid "configure one or more installed packages"
+#~ msgstr "configureer een of meer geinstalleerde pakketten"
+
+#~ msgid "look for unsatisfied dependencies"
+#~ msgstr "zoek naar onbevredigde afhankelijkheden"
+
+#~ msgid "look for unused packages (pay attention)"
+#~ msgstr "zoek naar ongebruikte pakketten (let op!)"
+
+#~ msgid "sort packages by disk size"
+#~ msgstr "sorteer pakketten op schijf grootte"
+
+#~ msgid "look for missing libraries"
+#~ msgstr "zoek naar ontbrekende bibliotheken"
+
+#~ msgid "dump results to files"
+#~ msgstr "resultaten naar bestand schrijven"
+
+#~ msgid "print broken files to stdout"
+#~ msgstr "print gebroken bestand naar stdout"
+
+#~ msgid "configuration files update tool"
+#~ msgstr "configuratie bestanden update gereedschap"
+
+#~ msgid "run the configuration files update function"
+#~ msgstr "voer de configuratie bestanden update functie uit"
+
+#~ msgid "do misc queries on repository and local databases"
+#~ msgstr "doe diverse queries op repositorie en lokale databases"
+
+#~ msgid "search from what package a file belongs"
+#~ msgstr "zoek naar welk pakket een bestand behoort"
+
+#~ msgid "show packages changelog"
+#~ msgstr "bekijk pakketten veranderingen-log"
+
+#~ msgid "search what packages depend on the provided atoms"
+#~ msgstr "zoek naar welke pakketten afhangen van de gegeven atomen"
+
+#~ msgid "search packages by description"
+#~ msgstr "zoek pakketten op beschrijving"
+
+#~ msgid "show files owned by the provided atoms"
+#~ msgstr "geef bestanden weer behorend aan de gegeven atomen"
+
+#~ msgid "search a package into the local database"
+#~ msgstr "zoek naar een pakket in de lokale database"
+
+#~ msgid "show packages owning the provided licenses"
+#~ msgstr "geef pakketten weer behorende bij de gegeven licenties"
+
+#~ msgid "list packages based on the chosen parameter below"
+#~ msgstr "som pakketten gebaseerd op de gekozen parameter hieronder op"
+
+#~ msgid "list installed packages"
+#~ msgstr "Toon geinstalleerde pakketten"
+
+#~ msgid "list available packages"
+#~ msgstr "Toon beschikbare pakketten"
+
+#~ msgid "search packages able to handle given mimetypes"
+#~ msgstr "zoek pakketten met behulp van mimetypes"
+
+#~ msgid "search among installed packages"
+#~ msgstr "zoek tussen geinstalleerde pakketten"
+
+#~ msgid "associate given file paths to applications able to read them"
+#~ msgstr ""
+#~ "verbind gegeven bestand paden aan applicaties zodat deze ze kunnen "
+#~ "uitlezen"
+
+#~ msgid "show runtime libraries needed by the provided atoms"
+#~ msgstr ""
+#~ "geef runtime bibliotheken weer die nodig zijn voor de gegeven atomen"
+
+#~ msgid "search files that do not belong to any package"
+#~ msgstr "zoek naar bestanden die niet behoren tot een enkel pakket"
+
+#~ msgid "show the removal tree for the specified atoms"
+#~ msgstr "Geef de verwijder lijst voor de gespecificeerde atomen weer"
+
+#~ msgid "show atoms needing the provided libraries"
+#~ msgstr "geef atomen weer die nodig zijn voor de gegeven bibliotheken"
+
+#~ msgid "search available package sets"
+#~ msgstr "zoek beschikbare pakket sets"
+
+#~ msgid "show packages owning the provided slot"
+#~ msgstr "geef pakketten weer behorend aan het gegeven slot"
+
+#~ msgid "show packages owning the provided tags"
+#~ msgstr "geef pakketten weer behorend aan de gegeven tags"
+
+#~ msgid "show direct depdendencies tree for provided installable atoms"
+#~ msgstr ""
+#~ "geef directe afhankelijkheden boom weer voor gegeven installeer-bare "
+#~ "atomen"
+
+#~ msgid "include system packages, build deps and circularity information"
+#~ msgstr ""
+#~ "Neem systeem pakketten mee, opbouwen afhankelijkheden en circulaire "
+#~ "informatie"
+
+#~ msgid "show reverse depdendencies tree for provided installed atoms"
+#~ msgstr ""
+#~ "geef tegengestelde afhankelijkheden boom weer voor gegeven geinstalleerde "
+#~ "atomen"
+
+#~ msgid "show more details"
+#~ msgstr "meer details tonen"
+
+#~ msgid "print results in a scriptable way"
+#~ msgstr "print resultaten in een scriptbare manier"
+
+#~ msgid "!!! Use --verbose to get full help output"
+#~ msgstr "!!! Gebruik --verbose voor volledige hulp uitvoer"
+
+#~ msgid "Extended Options"
+#~ msgstr "Uitgebreide Opties"
+
+#~ msgid "handles extended functionalities"
+#~ msgstr "behandelt uitgebreide functionaliteiten"
+
+#~ msgid ""
+#~ "make a smart package for the provided atoms (multiple packages into one "
+#~ "file)"
+#~ msgstr ""
+#~ "maak een 'smart' pakket voor de gegeven atomen (meerdere pakketten in een "
+#~ "bestand)"
+
+#~ msgid "recreate an Entropy package from your System"
+#~ msgstr "Recreeer een Entropy pakket vanaf je systeem"
+
+#~ msgid "save new packages into the specified directory"
+#~ msgstr "sla nieuwe pakketten op in de gespecificeerde map"
+
+#~ msgid ""
+#~ "convert provided Source Package Manager package files into Entropy "
+#~ "packages"
+#~ msgstr ""
+#~ "zet gegeven Source Pakket Beheerder pakket bestanden om in Entropy "
+#~ "pakketten"
+
+#~ msgid "convert provided Entropy packages into Source Package Manager ones"
+#~ msgstr ""
+#~ "converteer gegeven Entropy pakketten naar die van de Source Pakketten "
+#~ "Manager"
+
+#~ msgid "extract Entropy metadata from provided Entropy package files"
+#~ msgstr "pak Entropy metadata uit van gegeven Entropy pakket bestanden"
+
+#~ msgid "save new metadata into the specified directory"
+#~ msgstr "sla nieuwe metadata op naar de gespecificeerde map"
+
+#~ msgid "contains System rescue tools"
+#~ msgstr "bevat systeemherstel gereedschap"
+
+#~ msgid "check installed packages repository for errors"
+#~ msgstr "Geinstalleerde Pakketten"
+
+#~ msgid ""
+#~ "remove installed packages repository internal indexes to save disk space"
+#~ msgstr ""
+#~ "verwijder geinstalleerde interne pakketten repositorie indexen on ruimte "
+#~ "te besparen"
+
+#~ msgid ""
+#~ "generate installed packages database using Source Package Manager "
+#~ "repositories"
+#~ msgstr ""
+#~ "genereer geinstalleerde pakketten database door middel van Bron Pakketten "
+#~ "Beheer repositories"
+
+#~ msgid ""
+#~ "generate installed packages database using files on the system [last hope]"
+#~ msgstr ""
+#~ "genereer geinstalleerde pakketten database door middel van bestanden op "
+#~ "het systeem [laatste hoop]"
+
+#~ msgid "regenerate SPM UIDs map (SPM <-> Entropy packages)"
+#~ msgstr "hergenereer SPM UIDs overzicht (SPM <-> Entropy pakketten)"
+
+#~ msgid "makes Entropy aware of your Source Package Manager updated packages"
+#~ msgstr ""
+#~ "maakt Entropy bewust van jouw Source Pakket Manager bijgewerkte pakketten"
+
+#~ msgid "backup the current Entropy installed packages database"
+#~ msgstr "back up de huidige Entropy geinstalleerde pakketten database"
+
+#~ msgid "restore a previously backed up Entropy installed packages database"
+#~ msgstr ""
+#~ "herstel een eerdere back up van de Entropy geinstalleerde pakketten "
+#~ "database"
+
+#~ msgid "handles User Generated Content features"
+#~ msgstr "handelt Gebruiker Gedefinieerde Inhoud mogelijkheden"
+
+#~ msgid "login against a specified repository"
+#~ msgstr "Log in op een gespecificeerde repositorie"
+
+#~ msgid "logout from a specified repository"
+#~ msgstr "uitloggen van een gespecificeerde repositorie"
+
+#~ msgid "force action"
+#~ msgstr "forceer actie"
+
+#~ msgid ""
+#~ "manage package documents for the selected repository (comments, files, "
+#~ "videos)"
+#~ msgstr ""
+#~ "beheer pakket documenten voor de geselecteerde repositorie (commentaar, "
+#~ "bestanden, video's)"
+
+#~ msgid ""
+#~ "get available documents for the specified package key (example: x11-libs/"
+#~ "qt)"
+#~ msgstr ""
+#~ "haal beschikbare documenten op voor de gespecificeerde pakket sleutel "
+#~ "(example: x11-libs/qt)"
+
+#~ msgid ""
+#~ "add a new document to the specified package key (example: x11-libs/qt)"
+#~ msgstr ""
+#~ "voeg een nieuw document to aan de gespecificeerde pakket sleutel "
+#~ "(voorbeeld: x11-libs/qt)"
+
+#~ msgid "remove documents from database using their identifiers"
+#~ msgstr ""
+#~ "verwijder documenten van de database door middel van hun "
+#~ "identificatiemiddelen"
+
+#~ msgid "manage package votes for the selected repository"
+#~ msgstr "beheer pakket stemmen voor de geselecteerde repositorie"
+
+#~ msgid "get vote for the specified package key (example: x11-libs/qt)"
+#~ msgstr ""
+#~ "haal stemmen voor de geselecteerde pakket sleutel op (voorbeeld: x11-libs/"
+#~ "qt)"
+
+#~ msgid "add vote for the specified package key (example: x11-libs/qt)"
+#~ msgstr ""
+#~ "voeg een stem toe voor de gespecificeerde pakket sleutel (voorbeeld: x11-"
+#~ "libs/qt)"
+
+#~ msgid "handles Entropy cache"
+#~ msgstr "behandeld Entropy cache"
+
+#~ msgid "clean Entropy cache"
+#~ msgstr "gooi Entropy cache leeg"
+
+#~ msgid "remove downloaded packages and clean temp. directories"
+#~ msgstr "verwijder gedownloade pakketten en gooi temp. mappen leeg"
+
+#~ msgid "show system information"
+#~ msgstr "systeem informatie weergeven"
+
+#~ msgid "not enough parameters"
+#~ msgstr "onvoldoende parameters"
+
+#~ msgid "Installed packages repository corrupted. Please re-generate it"
+#~ msgstr ""
+#~ "Geinstalleerde pakketten repositorie corrupt. Genereer a.u.b. een nieuwe"
+
+#~ msgid "Your hard drive is full! Your fault!"
+#~ msgstr "Je harde schijf is vol!"
+
+#~ msgid "No more memory dude! Your fault!"
+#~ msgstr "Onvoldoende geheugen"
+
+#~ msgid ""
+#~ "Hi. My name is Bug Reporter. I am sorry to inform you that Equo crashed. "
+#~ "Well, you know, shit happens."
+#~ msgstr ""
+#~ "He. Mijn naam is Bug Reporter. Het spijt me dat ik je moet informeren dat "
+#~ "Equo is gecrashed. Nou ja, weet je, shit happens."
+
+#~ msgid ""
+#~ "But there's something you could do to help Equo to be a better "
+#~ "application."
+#~ msgstr ""
+#~ "Maar er is iets dat je kan doen om Equo een beter programma te maken."
+
+#~ msgid ""
+#~ "-- EVEN IF I DON'T WANT YOU TO SUBMIT THE SAME REPORT MULTIPLE TIMES --"
+#~ msgstr ""
+#~ "-- OOK AL WIL IK NIET DAT JE MEERDERE KEREN HETZELFDE RAPPORT STUURT --"
+
+#~ msgid ""
+#~ "Now I am showing you what happened. Don't panic, I'm here to help you."
+#~ msgstr ""
+#~ "Nu zal ik je laten zien wat er is gebeurt. Vrees niet, Ik ben hier om je "
+#~ "te helpen."
+
+#~ msgid ""
+#~ "Oh well, I cannot even write to /tmp. So, please copy the error and mail "
+#~ "lxnay@sabayon.org."
+#~ msgstr ""
+#~ "Ach ja, Ik kan niet eens schrijven naar /tmp. Dus, kopieer de fout en "
+#~ "mail hem naar lxnay@sabayon.org."
+
+#~ msgid "Of course you are on the Internet..."
+#~ msgstr "Natuurlijk zijn we verbonden met Internet..."
+
+#~ msgid ""
+#~ "Erm... Can I send the error, along with some information\n"
+#~ "about your hardware to my creators so they can fix me? (Your IP will be "
+#~ "logged)"
+#~ msgstr ""
+#~ "Erm... Kan ik de fout sturen, samen met wat extra informatie\n"
+#~ "over je hardware, naar mijn makers zodat zij me kunnen repareren? (Uw IP "
+#~ "wordt gelogged)"
+
+#~ msgid "Ok, ok ok ok... Sorry!"
+#~ msgstr "ok, ok ok ok... Sorry!"
+
+#~ msgid ""
+#~ "If you want to be contacted back (and actively supported), also answer "
+#~ "the questions below:"
+#~ msgstr ""
+#~ "Als je bericht terug wilt ontvangen (en actief mee helpt), beantwoord dan "
+#~ "ook deze vragen:"
+
+#~ msgid "Your Full name:"
+#~ msgstr "Je volledige naam:"
+
+#~ msgid "Your E-Mail address:"
+#~ msgstr "Je e-mail adres:"
+
+#~ msgid "What you were doing:"
+#~ msgstr "Waar was je mee bezig:"
+
+#~ msgid ""
+#~ "Thank you very much. The error has been reported and hopefully, the "
+#~ "problem will be solved as soon as possible."
+#~ msgstr ""
+#~ "Dank je hartelijk. De fout is doorgestuurd en hopelijk wordt het probleem "
+#~ "zo snel mogelijk verholpen."
+
+#~ msgid ""
+#~ "Ugh. Cannot send the report. When you want, mail the file below to "
+#~ "lxnay@sabayon.org."
+#~ msgstr ""
+#~ "Ouch. Kan rapport niet verzenden. Als je wil, mail dan het volgende "
+#~ "bestand naar lxnay@sabayon.org."
+
+#~ msgid "Entropy/Equo version mismatch"
+#~ msgstr "Entropy/Equo versies komen niet overeen"
+
+#~ msgid "it could make your system explode!"
+#~ msgstr "het kan uw systeem exploderen!"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Niets te doen"
+
+#~ msgid "Scanning configuration files to update"
+#~ msgstr "Scannen van configuratie bestanden om up te daten"
+
+#~ msgid "Configuration files scan complete."
+#~ msgstr "Configuratie bestanden scan compleet."
+
+#~ msgid "Please run"
+#~ msgstr "Voer eerst uit"
+
+#~ msgid "Packages matching update"
+#~ msgstr "Overeenkomende pakketten voor update"
+
+#~ msgid "Packages matching not available"
+#~ msgstr "Overeenkomende pakketten zijn niet beschikbaar"
+
+#~ msgid "Packages matching already up to date"
+#~ msgstr "Overeenkomende pakketten zijn reeds bijgewerkt"
+
+#~ msgid "Nothing to resume"
+#~ msgstr "Niks om te hervatten"
+
+#~ msgid "Resume cache corrupted"
+#~ msgstr "Her start cache corrupt"
+
+#~ msgid "Running with"
+#~ msgstr "Starten met"
+
+#~ msgid "Calculating System Updates"
+#~ msgstr "Calculeren van Systeem Updates"
+
+#~ msgid "Nothing to update"
+#~ msgstr "Niets te updaten"
+
+#~ msgid ""
+#~ "On the system there are packages that are not available anymore in the "
+#~ "online repositories"
+#~ msgstr ""
+#~ "Op het systeem zijn pakketten aangetroffen die niet meer beschikbaar zijn "
+#~ "op de online repositories"
+
+#~ msgid ""
+#~ "Even if they are usually harmless, it is suggested (after proper "
+#~ "verification) to remove them."
+#~ msgstr ""
+#~ "Zelfs al zijn ze onschadelijk, het is aangeraden om ze te verwijderen."
+
+#~ msgid "Selective"
+#~ msgstr "Selectief"
+
+#~ msgid "Would you like to remove them?"
+#~ msgstr "Wilt u ze verwijderen?"
+
+#~ msgid "Remove this?"
+#~ msgstr "Verwijderen?"
+
+#~ msgid "Nothing to remove"
+#~ msgstr "Niets te verwijderen"
+
+#~ msgid "There are more updates to install, reloading Entropy"
+#~ msgstr "Er zijn meer updates te vinden, herladen van Entropy"
+
+#~ msgid "Cannot switch branch as user"
+#~ msgstr "Kan branche niet schakelen als gebruiker"
+
+#~ msgid "Already on branch"
+#~ msgstr "Reeds in branche"
+
+#~ msgid "Succesfully switched to branch"
+#~ msgstr "Succesvol geschakeld naar branche"
+
+#~ msgid "Now run 'equo upgrade' to upgrade your distribution to"
+#~ msgstr "Start nu 'equo upgrade' om de distributie te upgraden naar"
+
+#~ msgid "Unable to switch to branch"
+#~ msgstr "Onmogelijk om branche te wisselen"
+
+#~ msgid "Every package matching"
+#~ msgstr "Alle overeenkomende pakketten"
+
+#~ msgid "is masked"
+#~ msgstr "is gemaskeerd"
+
+#~ msgid "matching"
+#~ msgstr "overeenkomend"
+
+#~ msgid "is broken"
+#~ msgstr "is beschadigd"
+
+#~ msgid "atom"
+#~ msgstr "atoom"
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#~ msgid "in repositories"
+#~ msgstr "in repositories"
+
+#~ msgid "Not found"
+#~ msgstr "Niet gevonden"
+
+#~ msgid "Probably needed by"
+#~ msgstr "Waarschijnlijk gebruikt door"
+
+#~ msgid "Skipped"
+#~ msgstr "Overgeslagen"
+
+#~ msgid "These are the packages that should be MANUALLY removed"
+#~ msgstr "Dit zijn de pakketten die HANDMATIG verwijderd moeten worden"
+
+#~ msgid "These are the chosen packages"
+#~ msgstr "Dit zijn de gekozen pakketten"
+
+#~ msgid "Versions"
+#~ msgstr "Versies"
+
+#~ msgid "Switch repo"
+#~ msgstr "Wissel repo"
+
+#~ msgid "Upgrade"
+#~ msgstr "Upgrade"
+
+#~ msgid "Downgrade"
+#~ msgstr "Downgrade"
+
+#~ msgid "Action"
+#~ msgstr "Actie"
+
+#~ msgid "Packages involved"
+#~ msgstr "Pakketten die betrokken zijn"
+
+#~ msgid "Would you like to continue with dependencies calculation ?"
+#~ msgstr "Wil je doorgaan met de afhankelijkheden calculatie ?"
+
+#~ msgid "When you wrote"
+#~ msgstr "Toen je schreef"
+
+#~ msgid "You Meant(tm)"
+#~ msgstr "U bedoelde(tm)"
+
+#~ msgid "one of these below?"
+#~ msgstr "een van de onderstaande?"
+
+#~ msgid "Calculating dependencies"
+#~ msgstr "Berekenen van afhankelijkheden"
+
+#~ msgid "Cannot find needed dependencies"
+#~ msgstr "Kan benodigde afhankelijkheden niet vinden"
+
+#~ msgid "Conflicting packages were pulled in"
+#~ msgstr "Conflicterende pakketten zijn ingevoerd"
+
+#~ msgid "Please mask conflicts using"
+#~ msgstr "Maskeer aub de conflicten van"
+
+#~ msgid "Source code download"
+#~ msgstr "Bron code download"
+
+#~ msgid "All done"
+#~ msgstr "Alles verwerkt"
+
+#~ msgid "sources fetch"
+#~ msgstr "bronnen ophaal"
+
+#~ msgid "fetch"
+#~ msgstr "ophalen"
+
+#~ msgid "These are the packages that would be installed"
+#~ msgstr "Dit zijn de pakketten die zouden worden geinstalleerd"
+
+#~ msgid "conflicting/substituted"
+#~ msgstr "conflicterend/vervangen"
+
+#~ msgid "Packages needing to be installed/updated/downgraded"
+#~ msgstr "Pakketten die moeten worden geinstalleerd/geupdate/gedowngrade"
+
+#~ msgid "Packages needing to be removed"
+#~ msgstr "Pakketten die moeten worden verwijderd"
+
+#~ msgid "Packages needing to be installed"
+#~ msgstr "Pakketten die moeten worden geinstalleerd"
+
+#~ msgid "Packages needing to be reinstalled"
+#~ msgstr "Pakketten die moeten worden geherinstalleerd"
+
+#~ msgid "Packages needing to be updated"
+#~ msgstr "Pakketten die moeten worden geupdate"
+
+#~ msgid "Packages needing to be downgraded"
+#~ msgstr "Pakketten die moeten worden gedowngrade"
+
+#~ msgid "Download size"
+#~ msgstr "Download grootte"
+
+#~ msgid "Used disk space"
+#~ msgstr "Gebruikte schijf ruimte"
+
+#~ msgid "You need at least"
+#~ msgstr "Je hebt minimaal nodig"
+
+#~ msgid "of free space"
+#~ msgstr "aan vrije ruimte"
+
+#~ msgid ""
+#~ "You don't have enough space for the installation. Free some space into"
+#~ msgstr ""
+#~ "Je hebt niet genoeg ruimte voor de installatie. Maak meer ruimte vrij in"
+
+#~ msgid "Would you like to execute the queue ?"
+#~ msgstr "Wilt u de wachtrij uitvoeren ?"
+
+#~ msgid "Resuming previous operations"
+#~ msgstr "Doorgaan met vorige acties"
+
+#~ msgid "Resume cache no longer valid"
+#~ msgstr "Her start cache niet meer beschikbaar"
+
+#~ msgid "Read the license"
+#~ msgstr "Lees de licentie"
+
+#~ msgid "Accept the license (I've read it)"
+#~ msgstr "Accepteer de licentie (Ik heb 'm gelezen)"
+
+#~ msgid "Accept the license and don't ask anymore (I've read it)"
+#~ msgstr "Accepteer de licentie en vraag er niet meer om (gelezen)"
+
+#~ msgid "Quit"
+#~ msgstr "Afsluiten"
+
+#~ msgid "Your choice (type a number and press enter)"
+#~ msgstr "Jouw keuze (typ een nummer en druk op enter)"
+
+#~ msgid "You need to accept the licenses below"
+#~ msgstr "Je moet de licentie hieronder accepteren"
+
+#~ msgid "needed by"
+#~ msgstr "nodig voor"
+
+#~ msgid "No file viewer"
+#~ msgstr "Geen bestand viewer"
+
+#~ msgid "License saved into"
+#~ msgstr "Licentie opgeslagen in"
+
+#~ msgid "Download incomplete"
+#~ msgstr "Download onvolledig"
+
+#~ msgid "Download complete"
+#~ msgstr "Download voltooid"
+
+#~ msgid "install"
+#~ msgstr "Installeer"
+
+#~ msgid "Installation complete"
+#~ msgstr "Installatie voltooid"
+
+#~ msgid "These are the packages that would be masked"
+#~ msgstr "Dit zijn de pakketten die zouden worden gemaskeerd"
+
+#~ msgid "Would you like to continue?"
+#~ msgstr "Wilt u doorgaan ?"
+
+#~ msgid "action not executed"
+#~ msgstr "actie is niet uitgevoerd"
+
+#~ msgid "is not installed"
+#~ msgstr "is niet geinstalleerd"
+
+#~ msgid "Installed from"
+#~ msgstr "geinstalleerd vanuit"
+
+#~ msgid "Would you like to configure them now ?"
+#~ msgstr "Wil je ze nu configureren ?"
+
+#~ msgid "configure"
+#~ msgstr "configureren"
+
+#~ msgid "vital package"
+#~ msgstr "vitaal pakket"
+
+#~ msgid "Removal forbidden"
+#~ msgstr "Verwijderen verboden"
+
+#~ msgid "Would you like to calculate dependencies ?"
+#~ msgstr "Wilt u de afhankelijkheden berekenen ?"
+
+#~ msgid "Would you like to remove them now ?"
+#~ msgstr "Wilt u ze nu verwijderen ?"
+
+#~ msgid "Cannot calculate dependencies"
+#~ msgstr "Kan afhankelijkheden niet berekenen"
+
+#~ msgid "please run equo as superuser"
+#~ msgstr "equo dient als root gebruiker te worden uitgevoerd"
+
+#~ msgid "Total bandwidth wasted"
+#~ msgstr "Totaal verbruikte bandbreedte"
+
+#~ msgid "Would you like to proceed ?"
+#~ msgstr "Wilt u doorgaan ?"
+
+#~ msgid "Starting removal in"
+#~ msgstr "Start verwijderen in"
+
+#~ msgid ""
+#~ "Running unused packages test, pay attention, there are false positives"
+#~ msgstr ""
+#~ "Starten van ongebruikte pakketten test, houdt aandacht, er zijn valse "
+#~ "positieven"
+
+#~ msgid "Running dependency test"
+#~ msgstr "Start afhankelijkheids test"
+
+#~ msgid "Would you like to install the available packages ?"
+#~ msgstr "Wil je de beschikbare pakketten installeren ?"
+
+#~ msgid "Installing available packages in"
+#~ msgstr "Installeren van beschikbare pakketten in"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 seconden"
+
+#~ msgid "Libraries/Executables statistics"
+#~ msgstr "Statistieken van Bibliotheken/Opstartbestanden"
+
+#~ msgid "Not matched"
+#~ msgstr "Niet overeenkomend"
+
+#~ msgid "Would you like to install them ?"
+#~ msgstr "Will je ze installeren ?"
+
+#~ msgid "local revision"
+#~ msgstr "Herziening"
+
+#~ msgid "stored packages"
+#~ msgstr "opgeslagen pakketten"
+
+#~ msgid "upload packages"
+#~ msgstr "upload pakketten"
+
+#~ msgid "not available"
+#~ msgstr "niet beschikbaar"
+
+#~ msgid "Entropy repository has been initialized"
+#~ msgstr "Entropy repositorie is geinitialiseerd"
+
+#~ msgid "move packages from a repository to another"
+#~ msgstr "verplaats pakketten van de ene repositorie naar een ander"
+
+#~ msgid "this help"
+#~ msgstr "deze hulp"
+
+#~ msgid "Commit message"
+#~ msgstr "Verstuur bericht"
+
+#~ msgid "Host"
+#~ msgstr "Host"
+
+#~ msgid "Aborting !"
+#~ msgstr "Afbreken !"
+
+#~ msgid "Choose the one you want to remove"
+#~ msgstr "Kies degene die je wilt verwijderen"
+
+#~ msgid "Are you sure you want to remove this?"
+#~ msgstr "Weet je zeker dat je deze wilt verwijderen?"
+
+#~ msgid "Exit/Commit"
+#~ msgstr "Sluiten/Indienen"
+
+#~ msgid "Cannot match"
+#~ msgstr "Komt niet overeen"
+
+#~ msgid "No valid packages to repackage."
+#~ msgstr "Er zijn geen geldige pakketten om opnieuw te verpakken."
+
+#~ msgid "expired"
+#~ msgstr "verlopen"
+
+#~ msgid "Remove this package?"
+#~ msgstr "Dit pakket verwijderen?"
+
+#~ msgid "Add this package?"
+#~ msgstr "Dit pakket toevoegen?"
+
+#~ msgid "warning"
+#~ msgstr "Waarschuwing"
+
+#~ msgid "Would you like to package them now ?"
+#~ msgstr "Wil je ze nu inpakken ?"
+
+#~ msgid "inside"
+#~ msgstr "binnenin"
+
+#~ msgid "Compressing packages"
+#~ msgstr "Pakketten comprimeren"
+
+#~ msgid "Ignoring broken Spm entry, please recompile it"
+#~ msgstr "Negeren van gebroken Spm ingang, hercompileer a.u.b."
+
+#~ msgid "Nothing to do, check later."
+#~ msgstr "Niets te doen, controleer later."
+
+#~ msgid "Entries handled"
+#~ msgstr "Invoer behandeld"
+
+#, fuzzy
+#~ msgid "list repositories"
+#~ msgstr "in repositories"
+
+#, fuzzy
+#~ msgid "add repository"
+#~ msgstr "repositorie"
+
+#, fuzzy
+#~ msgid "repository id"
+#~ msgstr "Repositorie id:"
+
+#, fuzzy
+#~ msgid "repository description"
+#~ msgstr "Repositorie herziening"
+
+#, fuzzy
+#~ msgid "repository uri"
+#~ msgstr "repositorie"
+
+#, fuzzy
+#~ msgid "Invalid repository name"
+#~ msgstr "Ongeldige repositorie"
+
+#, fuzzy
+#~ msgid "Repository already available"
+#~ msgstr "repositorie is al uitgeschakeld"
+
+#, fuzzy
+#~ msgid "Invalid URI"
+#~ msgstr "Ongeldige Titel"
+
+#, fuzzy
+#~ msgid "Cannot read configuration file"
+#~ msgstr "Configuratiebestand"
+
+#, fuzzy
+#~ msgid "no description"
+#~ msgstr "Geen omschrijving"
+
+#, fuzzy
+#~ msgid "Adding repository"
+#~ msgstr "indexeren van repositorie"
+
+#~ msgid "Configuration file"
+#~ msgstr "Configuratiebestand"
+
+#, fuzzy
+#~ msgid "Please initialize the repository using"
+#~ msgstr "Initialiseren van repositorie"
+
+#, fuzzy
+#~ msgid "packages"
+#~ msgstr "Pakketten"
+
+#, fuzzy
+#~ msgid "manage repositories"
+#~ msgstr "onderhoud een repositorie"
+
+#, fuzzy
+#~ msgid "remove from given repository"
+#~ msgstr "verwijder repositorie"
+
+#~ msgid "do not include reverse dependencies"
+#~ msgstr "voer geen tegengestelde afhankelijkheden door"
+
+#~ msgid "package dependencies"
+#~ msgstr "pakket afhankelijkheden"
+
+#~ msgid "No dependencies"
+#~ msgstr "Geen afhankelijkheden"
+
+#~ msgid "Dependency type"
+#~ msgstr "Afhankelijkheden type"
+
+#~ msgid "Select a dependency type for"
+#~ msgstr "Selecteer een afhankelijkheid type voor"
+
+#~ msgid "Dependencies editor"
+#~ msgstr "Afhankelijkheden editor"
+
+#~ msgid "Confirm ?"
+#~ msgstr "Bevestigen"
+
+#~ msgid "dependencies updated successfully"
+#~ msgstr "afhankelijkheden succesvol geupdate"
+
+#~ msgid "copy packages from a repository to another"
+#~ msgstr "kopieer pakketten van de ene repositorie naar de andere"
+
+#~ msgid "import keypair, bind to given repository"
+#~ msgstr "importeer sleutel paar, en koppen die met de gegeven repositorie"
+
+#~ msgid "GPG interface loaded, home directory"
+#~ msgstr "GPG omgeving geladen, thuis map"
+
+#~ msgid "Creating keys for repository"
+#~ msgstr "Creeer sleutels voor repositorie"
+
+#~ msgid "Another key already exists for repository"
+#~ msgstr "Een ander sleutel bestaat al voor repositorie"
+
+#~ msgid "Insert e-mail"
+#~ msgstr "Voer e-mail in"
+
+#~ msgid "Insert expiration days (0=no expiration)"
+#~ msgstr "Voer verloop tijd in dagen in (0= geen verloop tijd)"
+
+#~ msgid "Insert passphrase (empty=no passphrase)"
+#~ msgstr "Voer wachtzin in (leeg=geen wachtzin)"
+
+#~ msgid "Repository GPG keypair creation"
+#~ msgstr "Repositorie GPG sleutel paar creatie"
+
+#~ msgid "Produced GPG key with fingerprint"
+#~ msgstr "GPG sleutel gemaakt met vingerafdruk"
+
+#~ msgid "Now you should sign all the packages in it"
+#~ msgstr "Nu moet je alle pakketten erin ondertekenen"
+
+#~ msgid "Deleting keys for repository"
+#~ msgstr "Verwijder sleutels van repositorie"
+
+#~ msgid "No keys available for given repository"
+#~ msgstr "Geen sleutels beschikbaar voor gegeven repositorie"
+
+#~ msgid "Are you really sure?"
+#~ msgstr "Weet je het zeker?"
+
+#~ msgid "Keys metadata not available for"
+#~ msgstr "Sleutel metadata niet beschikbaar voor"
+
+#~ msgid "Deleted GPG key with fingerprint"
+#~ msgstr "GPG sleutel verwijderd met vingerafdruk"
+
+#~ msgid "GPG information for repository"
+#~ msgstr "GPG informatie voor repositorie"
+
+#~ msgid "Public key identifier"
+#~ msgstr "Publieke sleutel herkenning"
+
+#~ msgid "Public key fingerprint"
+#~ msgstr "Publieke sleutel vingerafdruk"
+
+#~ msgid "Key size"
+#~ msgstr "Sleutel grootte"
+
+#~ msgid "Expires on"
+#~ msgstr "Verloopt op"
+
+#~ msgid "Imported GPG key with fingerprint"
+#~ msgstr "Geimporteerde GPG sleutel met vingerafdruk"
+
+#~ msgid "Exporting private key for repository"
+#~ msgstr "Exporteren van prive sleutel voor repositorie"
+
+#~ msgid "Exporting public key for repository"
+#~ msgstr "Exporteren van publieke sleutel voor repositorie"
+
+#~ msgid "No keypair available for repository"
+#~ msgstr "Geen sleutelpaar voor repositorie"
+
+#~ msgid "Keypair is EXPIRED for repository"
+#~ msgstr "Sleutel VERLOPEN voor deze repositorie"
+
+#~ msgid "Unable to export GPG key for repository"
+#~ msgstr "Onmogelijk de GPG sleutel te exporteren voor repositorie"
+
+#~ msgid "Exported GPG key for repository"
+#~ msgstr "Geexporteerde GPG sleutel voor repositorie"
+
+#~ msgid "Magneto Entropy Updates Applet"
+#~ msgstr "Magneto Entropy Updates Applet"
+
+#~ msgid "Your system currently has an outdated version of"
+#~ msgstr "Jouw systeem heeft op dit moment een verouderde versie van"
+
+#~ msgid "the latest available version is"
+#~ msgstr "de laatst beschikbare versie is"
+
+#~ msgid ""
+#~ "It is recommended that you upgrade to the latest before updating any "
+#~ "other packages"
+#~ msgstr ""
+#~ "Het is aangeraden eerst te upgraden voordat je een ander pakket update"
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
+
+#, fuzzy
+#~ msgid "Launch Application Browser"
+#~ msgstr "Applicaties"
+
+#~ msgid "Application updates"
+#~ msgstr "Applicatie updates"
+
+#~ msgid "Latest version"
+#~ msgstr "Laatste versie"
+
+#~ msgid "Critical Information"
+#~ msgstr "Kritische Informatie"
+
+#~ msgid "_Disable Notification Applet"
+#~ msgstr "_Schakel Notificatie Applet Uit"
+
+#~ msgid "Disable Notification Applet"
+#~ msgstr "Schakel Notificatie Applet Uit"
+
+#~ msgid "_Enable Notification Applet"
+#~ msgstr "_Schakel Notificatie Applet In"
+
+#~ msgid "Enable Notification Applet"
+#~ msgstr "Schakel Notificatie Applet In"
+
+#~ msgid "_Check for updates"
+#~ msgstr "_Controleren op updates"
+
+#~ msgid "Check for updates"
+#~ msgstr "Controleren op updates"
+
+#~ msgid "_Launch Package Manager"
+#~ msgstr "_Start Pakketten Beheerder"
+
+#~ msgid "Launch Package Manager"
+#~ msgstr "Start Pakketten Beheerder"
+
+#~ msgid "_Packages Website"
+#~ msgstr "_Pakketten Website"
+
+#~ msgid "Use Packages web interface"
+#~ msgstr "Gebruik Pakketten web omgeving"
+
+#~ msgid "_Sabayon Linux Website"
+#~ msgstr "_Sabayon Linux Website"
+
+#~ msgid "Launch Sabayon Linux Website"
+#~ msgstr "Ga naar Sabayon Linux Website"
+
+#~ msgid "_Exit"
+#~ msgstr "_Beeindig"
+
+#~ msgid "Cannot monitor Sabayon updates"
+#~ msgstr "Kan Sabayon updates niet monitoren"
+
+#~ msgid "Entropy DBus service not available"
+#~ msgstr "Entropy DBus service niet beschikbaar"
+
+#~ msgid "unable to communicate with the updates service"
+#~ msgstr "onmogelijk te communiceren met de updates service"
+
+#~ msgid "Sabayon updates service loaded"
+#~ msgstr "Sabayon updates service geladen"
+
+#~ msgid "Entropy DBus service loaded"
+#~ msgstr "Entropy DBus service geladen"
+
+#~ msgid "your Sabayon will notify you once updates are available"
+#~ msgstr "jouw Sabayon zal je melden wanneer er updates beschikbaar zijn"
+
+#~ msgid "Sabayon updates available"
+#~ msgstr "Sabayon updates beschikbaar"
+
+#~ msgid "Your Sabayon is up-to-date"
+#~ msgstr "Jouw Sabayon is up-to-date"
+
+#~ msgid "No updates available at this time, cool!"
+#~ msgstr "Geen updates beschikbaar op dit moment, cool!"
+
+#~ msgid "Repositories are being updated"
+#~ msgstr "Repositories worden bijgewerkt"
+
+#~ msgid "Sabayon repositories status"
+#~ msgstr "Sabayon repositories status"
+
+#~ msgid "Repositories are being updated automatically"
+#~ msgstr "Repositories worden automatisch bijgewerkt"
+
+#~ msgid "Updates Notification Applet Disabled"
+#~ msgstr "Updates Notificatie Applet Uitgeschakeld"
+
+#~ msgid "Updates Notification Applet Enabled"
+#~ msgstr "Updates Notificatie Applet Geactiveerd"
+
+#~ msgid "has been installed."
+#~ msgstr "is geinjecteerd"
+
+#~ msgid "some external drivers cannot work across multiple kernels."
+#~ msgstr ""
+#~ "sommige externe drivers werken niet met verschillende kernel versies."
+
+#~ msgid "Please reboot your computer now !"
+#~ msgstr "Herstart uw computer!"
+
+#~ msgid "No kernel packages given"
+#~ msgstr "Geen kernel pakket"
+
+#~ msgid "More than one kernel package given"
+#~ msgstr "Meer dan 1 kernel pakket gegeven"
+
+#~ msgid "Package does not exist"
+#~ msgstr "Pakket bestaat niet"
+
+#~ msgid "Not a kernel"
+#~ msgstr "Geen kernel"
+
+#~ msgid "No kernel packages found"
+#~ msgstr "Geen kernel pakketten gevonden"
+
+#~ msgid "Sabayon Linux Kernel Switcher BETA"
+#~ msgstr "Sabayon Linux Kernel-wisselaar  BETA"
+
+#~ msgid "switch kernel"
+#~ msgstr "Wissel kernel"
+
+#~ msgid "list kernels"
+#~ msgstr "toon kernels"
+
+#~ msgid "Magneto Application Updates Notifier"
+#~ msgstr "Magneto Software update kennisgever"
+
+#~ msgid "Available Updates"
+#~ msgstr "Beschikbare Updates"
+
+#~ msgid "_Load Package Manager"
+#~ msgstr "_Start Pakketten Beheerder"

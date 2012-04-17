@@ -1,0 +1,5503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Sabayon Entropy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-17 21:25+0200\n"
+"PO-Revision-Date: 2012-04-17 21:23+0100\n"
+"Last-Translator: Fabio Erculiani <lxnay@sabayonlinux.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: ../src/sulfur/views.py:92 ../src/sulfur/views.py:152
+#: ../src/sulfur/views.py:2805 ../src/sulfur/package.py:316
+#: ../src/sulfur/dialogs.py:2526 ../src/sulfur/dialogs.py:2759
+#: ../src/sulfur/dialogs.py:2770 ../src/sulfur/dialogs.py:2781
+#: ../src/sulfur/dialogs.py:2792 ../src/sulfur/dialogs.py:2803
+msgid "No description"
+msgstr "Нет описания"
+
+#: ../src/sulfur/views.py:346 ../src/sulfur/views.py:386
+#: ../src/sulfur/package.py:340 ../src/sulfur/package.py:347
+#: ../src/sulfur/__init__.py:1091
+msgid "Not available"
+msgstr "Недоступно"
+
+#: ../src/sulfur/views.py:355
+msgid "entered the repository"
+msgstr "вошел в репозиторий"
+
+#: ../src/sulfur/views.py:398
+msgid "license"
+msgstr "лицензия"
+
+#: ../src/sulfur/views.py:425
+msgid "No category"
+msgstr "Нет категории"
+
+#: ../src/sulfur/views.py:428
+msgid "Applications without a group"
+msgstr "Приложения вне групп"
+
+#: ../src/sulfur/views.py:490
+msgid "Sel"
+msgstr ""
+
+#. as in Selection
+#: ../src/sulfur/views.py:491
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: ../src/sulfur/views.py:1295
+msgid "These are the packages that would be disabled"
+msgstr "Здесь пакеты, которые должны быть отключены"
+
+#: ../src/sulfur/views.py:1296
+msgid "Once confirmed, these packages will be considered masked."
+msgstr "После подтверждения эти пакеты будут точно замаскированы."
+
+#: ../src/sulfur/views.py:1403
+msgid "Package Set has broken dependencies, Sets not found"
+msgstr "Набор пакетов обладает испорченными зависимостям, наборы не найдены"
+
+#: ../src/sulfur/views.py:1413
+msgid "There are incomplete package sets, continue at your own risk"
+msgstr "Имеются неполные наборы пакетов, продолжайте на свой риск"
+
+#: ../src/sulfur/views.py:1720
+msgid "Application"
+msgstr "Приложения"
+
+#: ../src/sulfur/views.py:2016 ../src/sulfur/dialogs.py:1330
+#: ../src/sulfur/dialogs.py:2028 ../src/sulfur/events.py:836
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: ../src/sulfur/views.py:2017 ../src/sulfur/dialogs.py:1331
+#: ../src/sulfur/dialogs.py:2029 ../src/sulfur/events.py:837
+msgid "Password"
+msgstr "Пароль"
+
+#: ../src/sulfur/views.py:2021 ../src/sulfur/dialogs.py:1335
+#: ../src/sulfur/dialogs.py:2033 ../src/sulfur/events.py:841
+msgid "Please login against"
+msgstr "Пожалуйста, залогиньтесь снова"
+
+#: ../src/sulfur/views.py:2021 ../src/sulfur/dialogs.py:1335
+#: ../src/sulfur/dialogs.py:2033 ../src/sulfur/events.py:841
+msgid "repository"
+msgstr "репозиторий"
+
+#: ../src/sulfur/views.py:2035
+msgid "Web Service is currently unavailable."
+msgstr ""
+
+#: ../src/sulfur/views.py:2040 ../src/sulfur/dialogs.py:1350
+#: ../src/sulfur/dialogs.py:2048 ../src/sulfur/events.py:857
+msgid "Authentication error. Not logged in."
+msgstr ""
+
+#: ../src/sulfur/views.py:2043 ../src/sulfur/dialogs.py:1358
+msgid "Successfully logged in."
+msgstr ""
+
+#: ../src/sulfur/views.py:2053 ../src/sulfur/dialogs.py:2102
+msgid "Unsupported Service"
+msgstr ""
+
+#: ../src/sulfur/views.py:2092 ../src/sulfur/dialogs.py:1385
+msgid "Vote registered successfully"
+msgstr "Голос зарегистрирован успешно"
+
+#: ../src/sulfur/views.py:2096
+msgid "Error registering vote"
+msgstr "Ошибка при регистрации голоса"
+
+#: ../src/sulfur/views.py:2097 ../src/sulfur/dialogs.py:1388
+msgid "Already voted"
+msgstr ""
+
+#: ../src/sulfur/views.py:2717 ../src/sulfur/__init__.py:460
+#: ../src/sulfur/sulfur.glade.h:78
+msgid "Applications"
+msgstr "Приложения"
+
+#: ../src/sulfur/views.py:2755
+msgid "Applications to remove"
+msgstr ""
+
+#: ../src/sulfur/views.py:2760
+msgid "Applications to downgrade"
+msgstr ""
+
+#: ../src/sulfur/views.py:2765
+msgid "Applications to install"
+msgstr ""
+
+#: ../src/sulfur/views.py:2770
+msgid "Applications to update"
+msgstr ""
+
+#: ../src/sulfur/views.py:2775
+msgid "Applications to reinstall"
+msgstr ""
+
+#: ../src/sulfur/views.py:2844
+msgid "Proposed"
+msgstr "Предлагается"
+
+#: ../src/sulfur/views.py:2851
+msgid "Destination"
+msgstr "Расположение"
+
+#: ../src/sulfur/views.py:2858
+msgid "Rev."
+msgstr "Версия"
+
+#: ../src/sulfur/views.py:2907 ../src/sulfur/dialogs.py:363
+msgid "Status"
+msgstr "Статус"
+
+#: ../src/sulfur/views.py:2914
+msgid "Security id."
+msgstr ""
+
+#: ../src/sulfur/views.py:2922
+msgid "Application name"
+msgstr ""
+
+#: ../src/sulfur/views.py:2930 ../src/sulfur/views.py:3164
+#: ../src/sulfur/dialogs.py:684 ../src/sulfur/sulfur.glade.h:5
+msgid "Description"
+msgstr "Описание"
+
+#: ../src/sulfur/views.py:3000 ../src/sulfur/packages.py:1120
+msgid "Please wait, loading..."
+msgstr ""
+
+#: ../src/sulfur/views.py:3001
+msgid "Advisories are being loaded"
+msgstr ""
+
+#: ../src/sulfur/views.py:3058
+msgid "No advisories"
+msgstr "Нет уведомлений"
+
+#: ../src/sulfur/views.py:3059
+msgid "There are no items to show"
+msgstr "Нечего показывать"
+
+#: ../src/sulfur/views.py:3085 ../src/sulfur/__init__.py:1124
+msgid "Repository"
+msgstr "Репозиторий"
+
+#: ../src/sulfur/views.py:3085
+msgid "Filename"
+msgstr "Имя файла"
+
+#: ../src/sulfur/views.py:3106
+msgid "Cannot disable repository!"
+msgstr ""
+
+#: ../src/sulfur/views.py:3142
+msgid "Active"
+msgstr "Активный"
+
+#: ../src/sulfur/views.py:3152 ../src/sulfur/sulfur.glade.h:190
+msgid "Update"
+msgstr "Обновить"
+
+#. Setup revision column
+#: ../src/sulfur/views.py:3160 ../src/sulfur/sulfur.glade.h:214
+msgid "Revision"
+msgstr "Версия"
+
+#. Setup reponame & repofile column's
+#: ../src/sulfur/views.py:3163
+msgid "Repository Identifier"
+msgstr "Имя репозитория"
+
+#: ../src/sulfur/packages.py:101 ../src/sulfur/packages.py:432
+#: ../src/sulfur/packages.py:454 ../src/sulfur/__init__.py:1358
+#: ../src/sulfur/dialogs.py:3086
+msgid "Attention"
+msgstr "Внимание"
+
+#: ../src/sulfur/packages.py:102
+msgid ""
+"There are packages that can't be installed at the same time, thus are "
+"blocking your request:"
+msgstr ""
+"Здесь перечислены пакеты, которые не могут быть установлены в то же время, "
+"поскольку блокируют Ваш запрос."
+
+#: ../src/sulfur/packages.py:150
+msgid "These are the needed packages"
+msgstr "Здесь перечислены требуемые пакеты"
+
+#: ../src/sulfur/packages.py:151
+msgid ""
+"These packages must be removed from the removal queue because they depend on "
+"your last selection. Do you agree?"
+msgstr ""
+"Эти пакеты должны буть удалены из очереди к удалению, поскольку они зависят "
+"от Вашего последнего выбора. Вы согласны?"
+
+#: ../src/sulfur/packages.py:216
+msgid "These packages must be excluded"
+msgstr "Данные пакеты должны быть исключены"
+
+#: ../src/sulfur/packages.py:217
+msgid ""
+"These packages must be removed from the queue because they depend on your "
+"last selection. Do you agree?"
+msgstr ""
+"Эти пакеты должны буть удалены из очереди к удалению, поскольку они зависят "
+"от Вашего последнего выбора. Вы согласны?"
+
+#: ../src/sulfur/packages.py:433
+msgid ""
+"Some dependencies couldn't be found. It can either be because they are "
+"masked or because they aren't in any active repository."
+msgstr ""
+"Некоторые зависимости не могут быть найдены. Это может быть в том числе и "
+"потому, что они замаскированы, или из-за того, что их нет ни в одном "
+"активном репозитории."
+
+#: ../src/sulfur/packages.py:455
+msgid "Conflicting packages were pulled in, in the same key and slot"
+msgstr ""
+
+#: ../src/sulfur/packages.py:456
+msgid "Please mask packages that are causing the issue"
+msgstr ""
+
+#: ../src/sulfur/packages.py:524
+msgid "Needed disk space"
+msgstr "Требуемое пространство на диске"
+
+#: ../src/sulfur/packages.py:527
+msgid "Freed disk space"
+msgstr "Свободное место на диске"
+
+#: ../src/sulfur/packages.py:531
+msgid "These are the packages that would be installed/updated"
+msgstr "Здесь перечислены пакеты, которые будут установлены/обновлены"
+
+#: ../src/sulfur/packages.py:569
+msgid "Cannot remove packages"
+msgstr ""
+
+#: ../src/sulfur/packages.py:570
+msgid "Some dependencies couldn't be removed because they are vital."
+msgstr ""
+
+#: ../src/sulfur/packages.py:625
+msgid "Freed space"
+msgstr "Освобождённое пространство"
+
+#: ../src/sulfur/packages.py:628
+msgid "Needed space"
+msgstr "Требуемое пространство"
+
+#: ../src/sulfur/packages.py:633
+msgid "These are the packages that would be removed"
+msgstr "Здесь перечислены пакеты, которые должны быть удалены"
+
+#: ../src/sulfur/packages.py:1034
+msgid "Set from"
+msgstr "Установлено из"
+
+#: ../src/sulfur/packages.py:1035
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../src/sulfur/packages.py:1040
+msgid "User configuration"
+msgstr "Конфигурация пользователя"
+
+#: ../src/sulfur/packages.py:1105
+msgid "Try to update your repositories"
+msgstr ""
+
+#: ../src/sulfur/packages.py:1108
+msgid "No updates available"
+msgstr "Нет доступных обновлений"
+
+#: ../src/sulfur/packages.py:1109
+msgid "It seems that your system is already up-to-date. Good!"
+msgstr ""
+"Похоже, что твоя система уже обновлена до последней версии. Это не может не "
+"радовать :)"
+
+#: ../src/sulfur/packages.py:1121
+msgid "The current view is loading."
+msgstr ""
+
+#: ../src/sulfur/packages.py:1122
+msgid "Be patient, sit down and relax."
+msgstr ""
+
+#: ../src/sulfur/packages.py:1131
+msgid "No packages found means nothing to show!"
+msgstr "Ни одного пакета не найдено, и это значит, что нечего отображать! "
+
+#: ../src/sulfur/packages.py:1135
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: ../src/sulfur/packages.py:1136
+msgid "No packages found using the provided search term"
+msgstr "Ни одного пакета не найдено при выбранном условии поиска"
+
+#: ../src/sulfur/packages.py:1140 ../src/sulfur/packages.py:1143
+msgid "No packages to show"
+msgstr "Нет пакетов к отображению"
+
+#: ../src/sulfur/packages.py:1144
+msgid "There are no packages that can be shown, sorry."
+msgstr "Не имеется пакетов, которые можно было бы отобразить, уж извините."
+
+#: ../src/sulfur/setup.py:73
+msgid "Programming:"
+msgstr "Программирование:"
+
+#: ../src/sulfur/setup.py:76
+msgid "Translation:"
+msgstr "Перевод:"
+
+#: ../src/sulfur/setup.py:95
+msgid "Dedicated to:"
+msgstr "Посвящается:"
+
+#: ../src/sulfur/package.py:280
+msgid "Recursive Package Set"
+msgstr "Рекурсивный набор пакетов"
+
+#: ../src/sulfur/package.py:306
+msgid "from"
+msgstr "из"
+
+#: ../src/sulfur/package.py:330
+msgid "User"
+msgstr "Пользователь"
+
+#: ../src/sulfur/__init__.py:118
+msgid "Access denied. You don't have enough privileges to run Sulfur."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:125
+msgid "Another Entropy application is running. Sorry."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:133
+msgid "Entropy is running in safe mode"
+msgstr "Entropy запущена в безопасном режиме"
+
+#: ../src/sulfur/__init__.py:134
+msgid "Please fix as soon as possible"
+msgstr "Пожалуйста, исправьте как можно раньше"
+
+#: ../src/sulfur/__init__.py:136
+msgid "Safe Mode"
+msgstr "Безопасный режим"
+
+#: ../src/sulfur/__init__.py:140
+msgid "Entropy Store is running off a Live System"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:141
+msgid "performance could get severely compromised"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:226
+msgid "April 1st, w0000h0000! Gonna erase your hard disk!"
+msgstr "Первое апреля, бингооооооо!!! Время форматнуть твой хард!"
+
+#: ../src/sulfur/__init__.py:228
+msgid "Love love love... <3"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:230
+msgid "Oh oh ooooh... Merry Xmas!"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:462
+msgid "Sync"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:464 ../src/sulfur/sulfur.glade.h:64
+msgid "Install"
+msgstr "Инсталлировать"
+
+#: ../src/sulfur/__init__.py:466 ../src/sulfur/sulfur.glade.h:62
+msgid "Search"
+msgstr "Поиск"
+
+#: ../src/sulfur/__init__.py:627
+msgid "Default packages sorting"
+msgstr "Сортировка пакетов по умолчанию."
+
+#: ../src/sulfur/__init__.py:628
+msgid "Sort by name [A-Z]"
+msgstr "Сортировать по имени [A-Z]"
+
+#: ../src/sulfur/__init__.py:629
+msgid "Sort by name [Z-A]"
+msgstr "Сортировать по имени [Z-A]"
+
+#: ../src/sulfur/__init__.py:630
+msgid "Sort by downloads"
+msgstr "Сортировать по загрузкам"
+
+#: ../src/sulfur/__init__.py:631
+msgid "Sort by votes"
+msgstr "Сортировать по голосованию"
+
+#: ../src/sulfur/__init__.py:632
+msgid "Sort by repository"
+msgstr "Сортировать по репозиторию"
+
+#: ../src/sulfur/__init__.py:633
+msgid "Sort by date (simple)"
+msgstr "Сортировать по дате (просто)"
+
+#: ../src/sulfur/__init__.py:634
+msgid "Sort by date (grouped)"
+msgstr "Сортировать по дате (группируя)"
+
+#: ../src/sulfur/__init__.py:635
+msgid "Sort by license (grouped)"
+msgstr "Сортировать по лицензии (группируя)"
+
+#: ../src/sulfur/__init__.py:636
+msgid "Sort by Groups"
+msgstr "Сортировать по группам"
+
+#: ../src/sulfur/__init__.py:697
+msgid ""
+"The repositories listed below are configured but not available. They should "
+"be downloaded."
+msgstr ""
+"Нижеуказанные репозитории сконфигурированы, но недоступны. Они должны быть "
+"скачаны."
+
+#: ../src/sulfur/__init__.py:698
+msgid "If you don't do this now, you won't be able to use them."
+msgstr ""
+"Если Вы не знаете это сейчас, Вы не будете в состоянии их использовать."
+
+#: ../src/sulfur/__init__.py:700
+msgid "Download now"
+msgstr "Скачать сейчас"
+
+#: ../src/sulfur/__init__.py:701
+msgid "Skip"
+msgstr "Пропустить"
+
+#: ../src/sulfur/__init__.py:1040 ../src/sulfur/__init__.py:1050
+#: ../src/sulfur/__init__.py:1060 ../src/sulfur/dialogs.py:2693
+msgid "Item"
+msgstr "Предмет"
+
+#: ../src/sulfur/__init__.py:1069
+msgid "Database"
+msgstr "База данных"
+
+#: ../src/sulfur/__init__.py:1072 ../src/sulfur/sulfur.glade.h:238
+msgid "Date"
+msgstr "Дата"
+
+#: ../src/sulfur/__init__.py:1088
+msgid "Not logged in"
+msgstr "Не вошел в систему"
+
+#: ../src/sulfur/__init__.py:1132
+msgid "Logged in as"
+msgstr "Вошёл как"
+
+#: ../src/sulfur/__init__.py:1139
+msgid "UGC Status"
+msgstr "Статус UGC"
+
+#: ../src/sulfur/__init__.py:1162 ../src/sulfur/__init__.py:1198
+msgid "Error setting parameter"
+msgstr "Ошибка при установке параметра"
+
+#: ../src/sulfur/__init__.py:1164
+msgid "An issue occured while loading a preference"
+msgstr "Произошла проблема при загрузке настройки"
+
+#: ../src/sulfur/__init__.py:1165 ../src/sulfur/__init__.py:1201
+#: ../src/sulfur/events.py:367
+msgid "Parameter"
+msgstr "Параметр"
+
+#: ../src/sulfur/__init__.py:1166 ../src/sulfur/__init__.py:1202
+msgid "must be of type"
+msgstr "должен быть типа"
+
+#: ../src/sulfur/__init__.py:1166 ../src/sulfur/__init__.py:1202
+msgid "got"
+msgstr "было"
+
+#: ../src/sulfur/__init__.py:1200 ../src/sulfur/events.py:366
+msgid "An issue occured while saving a preference"
+msgstr "Возникла проблема при сохранении настройки"
+
+#: ../src/sulfur/__init__.py:1353
+msgid "Error saving preferences"
+msgstr "Ошибка при сохранении настроек"
+
+#: ../src/sulfur/__init__.py:1359
+msgid ""
+"These packages are masked either by default or due to your choice. Please be "
+"careful, at least."
+msgstr ""
+"Данные пакеты замаскированы изначально по умолчанию либо по Вашему выбору. В "
+"любом случае, будьте осторожны."
+
+#: ../src/sulfur/__init__.py:1415
+msgid "Generating metadata. Please wait."
+msgstr "Генерация метаинформации. Пожалуйста, подождите."
+
+#: ../src/sulfur/__init__.py:1423
+msgid "Error during list population"
+msgstr "Ошибка при заполнении списка"
+
+#: ../src/sulfur/__init__.py:1425
+msgid "Retrying in 1 second."
+msgstr "Следующая попытка через 1 секунду"
+
+#: ../src/sulfur/__init__.py:1455
+msgid "Error loading advisories"
+msgstr "Ошибка при загрузке уведомлений"
+
+#: ../src/sulfur/__init__.py:1522
+msgid "Errors updating repositories."
+msgstr "Ошибки при обновлении репозиториев"
+
+#: ../src/sulfur/__init__.py:1524
+msgid "Please check logs below for more info"
+msgstr "Пожалуйста, заполни логи ниже для большей информации"
+
+#: ../src/sulfur/__init__.py:1527
+msgid "Repositories updated successfully"
+msgstr "Репозитории обновлены успешно"
+
+#: ../src/sulfur/__init__.py:1530
+msgid "sys-apps/entropy needs to be updated as soon as possible."
+msgstr "sys-apps/entropy должен быть обновлён как можно раньше."
+
+#: ../src/sulfur/__init__.py:1557 ../src/sulfur/__init__.py:2368
+msgid ""
+"Another Entropy instance is locking this task at the moment. Try in a few "
+"minutes."
+msgstr ""
+"Другая сессия Entropy блокирует это задание в данный момент. Попробуйте "
+"через несколько минут."
+
+#: ../src/sulfur/__init__.py:1567
+msgid "No repositories specified in"
+msgstr "Ни одного репозитория не отмечено в"
+
+#: ../src/sulfur/__init__.py:1574
+msgid "Unhandled exception"
+msgstr "Непредвиденное исключение"
+
+#: ../src/sulfur/__init__.py:1583
+msgid "Updating repositories..."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1586 ../src/sulfur/__init__.py:1608
+#: ../src/sulfur/__init__.py:1692 ../src/sulfur/__init__.py:2374
+msgid "Running tasks"
+msgstr "Запуск заданий"
+
+#: ../src/sulfur/__init__.py:1605
+msgid "Testing dependencies..."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1625
+msgid "No missing dependencies found."
+msgstr "Недостающие зависимости не найдены."
+
+#: ../src/sulfur/__init__.py:1662
+msgid "Missing dependencies found, but none of them are on the repositories."
+msgstr ""
+"Недостающие зависимости найдены, но некоторые из них имеются в репозиториях."
+
+#: ../src/sulfur/__init__.py:1669
+msgid ""
+"Some missing dependencies have not been matched, others are going to be "
+"added to the queue."
+msgstr ""
+"Несколько недостающих зависимостей не подсчитаны, другие отправлены на "
+"добавление в очередь"
+
+#: ../src/sulfur/__init__.py:1672
+msgid "All the missing dependencies are going to be added to the queue"
+msgstr "Все отсутствующие зависимости будут добавлены в очередь."
+
+#: ../src/sulfur/__init__.py:1689
+msgid "Testing libraries..."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1723
+msgid "Libraries test aborted"
+msgstr "Тест библиотек отменён"
+
+#: ../src/sulfur/__init__.py:1733
+msgid ""
+"Some broken packages have not been matched, others are going to be added to "
+"the queue."
+msgstr ""
+"Несколько испорченных пакетов не подсчитаны, другие отправлены на добавление "
+"в очередь"
+
+#: ../src/sulfur/__init__.py:1736
+msgid "All the broken packages are going to be added to the queue"
+msgstr "Все испорченные пакеты отправлены на добавление в очередь"
+
+#: ../src/sulfur/__init__.py:1842
+msgid "These packages are no longer available"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1843
+msgid ""
+"These packages should be removed (if you agree) because support has been "
+"dropped. Do you want to remove them?"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1858
+msgid "These are orphaned vital packages"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1859
+msgid ""
+"You should make sure that they are no longer needed and remove manually."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1867
+msgid "These are packages from unavailable repositories"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1868
+msgid "You are not going to receive updates for the following packages."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1880
+msgid "updates"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:1935
+msgid "Showing"
+msgstr "Доступно элементов"
+
+#: ../src/sulfur/__init__.py:1935
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../src/sulfur/__init__.py:1977
+msgid "No packages need or can be queued at the moment."
+msgstr ""
+"Ни одного пакета не требуется и не представляется возможным поставить в "
+"очередь на данный момент."
+
+#: ../src/sulfur/__init__.py:2075
+msgid "Name"
+msgstr "Имя"
+
+#: ../src/sulfur/__init__.py:2075
+msgid "Name and description"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2077
+msgid "Search string"
+msgstr "Строка поиска"
+
+#: ../src/sulfur/__init__.py:2078
+msgid "Search type"
+msgstr "Тип поиска"
+
+#: ../src/sulfur/__init__.py:2081
+msgid "Entropy Search"
+msgstr "Поиск Entropy"
+
+#: ../src/sulfur/__init__.py:2140
+msgid "Please update the following critical packages"
+msgstr "Пожалуйста, обновитье следующие критические пакеты"
+
+#: ../src/sulfur/__init__.py:2141
+msgid "You should install them as soon as possible"
+msgstr "Вы должны установить их как можно раньше"
+
+#: ../src/sulfur/__init__.py:2144
+msgid "Abort action"
+msgstr "Отменить действие"
+
+#: ../src/sulfur/__init__.py:2145
+msgid "Ignore"
+msgstr "Игнорировать"
+
+#: ../src/sulfur/__init__.py:2207
+msgid "Tasks completed successfully."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2208
+msgid "Please make sure to read all the messages in the terminal below."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2211
+msgid "Oh, a fairytale gone bad!"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2212
+msgid ""
+"Something bad happened, have a look at the messages in the terminal below."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2213
+msgid "Don't feel guilty, it's all my fault!"
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2273
+msgid ""
+"Attention. An error occured while processing the queue.\n"
+"Please have a look at the terminal."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2289
+msgid ""
+"Attention. Something really bad happened.\n"
+"Please have a look at the terminal."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2300
+msgid ""
+"Attention. Other updates that must be installed.\n"
+"Sulfur will be reloaded."
+msgstr ""
+
+#: ../src/sulfur/__init__.py:2306
+msgid ""
+"Attention. You have updated Entropy.\n"
+"Sulfur will be reloaded."
+msgstr ""
+"Внимание. Вы обновили Entropy.\n"
+"Sulfur будет перезагружен."
+
+#: ../src/sulfur/__init__.py:2387
+msgid "Processing Packages in queue"
+msgstr "Обработка пакетов в очереди"
+
+#: ../src/sulfur/__init__.py:2442
+msgid "No packages selected"
+msgstr "Ни одного пакета не выбрано"
+
+#: ../src/sulfur/__init__.py:2507
+msgid "Skipping current mirror."
+msgstr "Пропускаем текущее зеркало"
+
+#: ../src/sulfur/dialogs.py:76
+msgid ""
+"Did you know that you can comment, vote and add documents to applications "
+"like in a wiki?"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:77
+msgid ""
+"Did you know that you can add icons or files to applications by simply "
+"dropping images from your Desktop onto them?"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:78
+msgid ""
+"Did you know that Sulfur has an Advanced mode, just click Sulfur -> Advanced "
+"mode?"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:79
+msgid ""
+"Did you know that the guy who wrote this tip was really asleep at the time?"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:80
+msgid ""
+"Did you know that you can backup your installed application repository by "
+"enabling Advanced mode and going to Preferences tab?"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:81
+msgid ""
+"Did you know that you can customize interface colors by enabling Advanced "
+"mode and going to Preferences tab?"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:177
+msgid "No Repository Identifier"
+msgstr "Нет имени репозитория"
+
+#: ../src/sulfur/dialogs.py:181
+msgid "Duplicated Repository Identifier"
+msgstr "Продублированное имя репозитория"
+
+#: ../src/sulfur/dialogs.py:186
+msgid "Invalid Repository Identifier"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:192
+msgid "No download mirrors"
+msgstr "Нет зеркал скачивания"
+
+#: ../src/sulfur/dialogs.py:197
+msgid "Repository URL must be a valid URL"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:228 ../src/sulfur/dialogs.py:242
+msgid "Insert URL"
+msgstr "Введите URL"
+
+#: ../src/sulfur/dialogs.py:229
+msgid "Enter a download mirror, HTTP or FTP"
+msgstr "Введите зеркало закачки, HTTP или FTP"
+
+#: ../src/sulfur/dialogs.py:243
+msgid "Enter a download mirror URL"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:249
+msgid "You must enter either a valid URL."
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:254
+msgid "Insert Repository"
+msgstr "Введите репозиторий"
+
+#: ../src/sulfur/dialogs.py:255
+msgid "Insert Repository identification string"
+msgstr "Введите строку идентификации репозитория"
+
+#: ../src/sulfur/dialogs.py:266
+msgid "This Repository identification string is malformed"
+msgstr "Данная строка идентификации репозитория запорчена"
+
+#: ../src/sulfur/dialogs.py:280 ../src/sulfur/dialogs.py:309
+msgid "Unable to add repository"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:285 ../src/sulfur/dialogs.py:292
+msgid "Wrong entries, errors"
+msgstr "Неправильные записи, ошибки"
+
+#: ../src/sulfur/dialogs.py:304
+msgid "Unable to remove/disable repository"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:328 ../src/sulfur/sulfur.glade.h:168
+msgid "Repositories Notice Board"
+msgstr "Доска уведомлений репозиториев"
+
+#: ../src/sulfur/dialogs.py:329
+msgid ""
+"Here below you will find a list of important news directly issued by your "
+"applications maintainers.\n"
+"Double click on each item to retrieve detailed info."
+msgstr ""
+"Здесь ниже Вы можете наблюдать список важных новостей, напрямую выпускаемых "
+"разработчиками Ваших приложений.\n"
+"Щёлкните двойным кликом на каждую из новостей, чтобы получить "
+"детализированную информацию."
+
+#: ../src/sulfur/dialogs.py:358
+msgid "Notice"
+msgstr "Уведомление"
+
+#: ../src/sulfur/dialogs.py:382 ../src/sulfur/dialogs.py:701
+#: ../src/sulfur/sulfur.glade.h:237
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../src/sulfur/dialogs.py:505 ../src/sulfur/dialogs.py:674
+#: ../src/sulfur/dialogs.py:679 ../src/sulfur/dialogs.py:692
+#: ../src/sulfur/dialogs.py:1079 ../src/sulfur/dialogs.py:1907
+#: ../src/sulfur/dialogs.py:1915 ../src/sulfur/dialogs.py:1917
+#: ../src/sulfur/dialogs.py:1919
+msgid "N/A"
+msgstr "N/A"
+
+#: ../src/sulfur/dialogs.py:668
+msgid "Expand to browse"
+msgstr "Расширить поиск"
+
+#: ../src/sulfur/dialogs.py:696 ../src/sulfur/sulfur.glade.h:251
+msgid "Author"
+msgstr "Автор"
+
+#: ../src/sulfur/dialogs.py:710 ../src/sulfur/dialogs.py:1441
+#: ../src/sulfur/sulfur.glade.h:250
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: ../src/sulfur/dialogs.py:1132 ../src/sulfur/dialogs.py:1176
+msgid "Please wait..."
+msgstr ""
+
+#. masked ?
+#: ../src/sulfur/dialogs.py:1221 ../src/sulfur/entropyapi.py:395
+msgid "No"
+msgstr "Нет"
+
+#: ../src/sulfur/dialogs.py:1225 ../src/sulfur/dialogs.py:2094
+#: ../src/sulfur/events.py:304 ../src/sulfur/events.py:745
+#: ../src/sulfur/entropyapi.py:395
+msgid "Yes"
+msgstr "Да"
+
+#: ../src/sulfur/dialogs.py:1275
+msgid "Package ChangeLog"
+msgstr "Лог изменений пакета"
+
+#: ../src/sulfur/dialogs.py:1354 ../src/sulfur/dialogs.py:2052
+#: ../src/sulfur/events.py:861
+msgid "Communication error. Not logged in."
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:1388 ../src/sulfur/events.py:971
+#: ../src/sulfur/events.py:980 ../src/sulfur/events.py:1021
+#: ../src/sulfur/sulfur.glade.h:26
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../src/sulfur/dialogs.py:1417
+msgid "License name"
+msgstr "Имя лицензии"
+
+#: ../src/sulfur/dialogs.py:1425
+msgid "Sources"
+msgstr "Источники"
+
+#: ../src/sulfur/dialogs.py:1433 ../src/sulfur/sulfur.glade.h:6
+msgid "Mirrors"
+msgstr "Зеркала"
+
+#: ../src/sulfur/dialogs.py:1449
+msgid "USE flags"
+msgstr "USE-флаги"
+
+#: ../src/sulfur/dialogs.py:1457
+msgid "Dependencies"
+msgstr "Зависимости"
+
+#: ../src/sulfur/dialogs.py:1465
+msgid "Depends"
+msgstr "Зависимости"
+
+#: ../src/sulfur/dialogs.py:1473
+msgid "Needed libraries"
+msgstr "Требуемые библиотеки"
+
+#: ../src/sulfur/dialogs.py:1481
+msgid "Protected item"
+msgstr "Защищенный элемент"
+
+#: ../src/sulfur/dialogs.py:1484 ../src/sulfur/dialogs.py:1496
+#: ../src/sulfur/dialogs.py:1508
+msgid "Type"
+msgstr "Тип"
+
+#: ../src/sulfur/dialogs.py:1492
+msgid "File"
+msgstr "Файл"
+
+#: ../src/sulfur/dialogs.py:1518 ../src/sulfur/sulfur.glade.h:252
+msgid "Content"
+msgstr "Содержимое"
+
+#: ../src/sulfur/dialogs.py:1572
+msgid "Number of downloads"
+msgstr "Число загрузок"
+
+#: ../src/sulfur/dialogs.py:1642
+msgid "Remotely"
+msgstr "Удалённо"
+
+#: ../src/sulfur/dialogs.py:1648
+msgid "Removed repository"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:1704 ../src/sulfur/dialogs.py:2687
+msgid "Package"
+msgstr "Пакет"
+
+#: ../src/sulfur/dialogs.py:1712
+msgid "Bug"
+msgstr "Баг"
+
+#: ../src/sulfur/dialogs.py:1720
+msgid "Reference"
+msgstr "Ссылка"
+
+#: ../src/sulfur/dialogs.py:1797
+msgid "impact"
+msgstr "влияние"
+
+#: ../src/sulfur/dialogs.py:1801
+msgid "access"
+msgstr "доступ"
+
+#: ../src/sulfur/dialogs.py:1816
+msgid "Vulnerables"
+msgstr "Уязвимое"
+
+#: ../src/sulfur/dialogs.py:1820
+msgid "Unaffected"
+msgstr "Неуязвимое"
+
+#: ../src/sulfur/dialogs.py:1910
+msgid "Id"
+msgstr "Id"
+
+#: ../src/sulfur/dialogs.py:1937
+msgid "No keywords"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:2011
+msgid "Write your"
+msgstr "Запишите ваш"
+
+#: ../src/sulfur/dialogs.py:2015
+msgid "Select your"
+msgstr "Выберите ваш"
+
+#: ../src/sulfur/dialogs.py:2059
+msgid "Submit issue"
+msgstr "Проблема при подтверждении"
+
+#: ../src/sulfur/dialogs.py:2072
+msgid "Empty Document"
+msgstr "Пустой документ"
+
+#: ../src/sulfur/dialogs.py:2077
+msgid "Invalid Description"
+msgstr "Некорректное описание"
+
+#: ../src/sulfur/dialogs.py:2084
+msgid "Invalid Document Type"
+msgstr "Некорректный тип документа"
+
+#: ../src/sulfur/dialogs.py:2088
+msgid "Invalid Title"
+msgstr "Некорректный заголовок"
+
+#. confirm ?
+#: ../src/sulfur/dialogs.py:2093
+msgid "Do you confirm your submission?"
+msgstr "Вы подтверждаете Ваше предоставление документов?"
+
+#: ../src/sulfur/dialogs.py:2109 ../src/sulfur/dialogs.py:2113
+msgid "Service is unavailable"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:2169
+msgid "Invalid fields"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:2191
+msgid "Document added successfully. Thank you"
+msgstr "Документ успешно добавлен. Спасибо"
+
+#: ../src/sulfur/dialogs.py:2192
+msgid "Success!"
+msgstr "Успешно!"
+
+#: ../src/sulfur/dialogs.py:2200
+msgid "UGC Error"
+msgstr "Ошибка UGC"
+
+#: ../src/sulfur/dialogs.py:2212
+msgid "Downloading"
+msgstr "Скачивание"
+
+#: ../src/sulfur/dialogs.py:2214
+msgid "Uploading"
+msgstr ""
+
+#: ../src/sulfur/dialogs.py:2238
+msgid "Write your document"
+msgstr "Запишите Ваш документ"
+
+#: ../src/sulfur/dialogs.py:2246
+msgid "Select your file"
+msgstr "Выберите Ваш файл"
+
+#: ../src/sulfur/dialogs.py:2287
+msgid "On repository"
+msgstr "В репозитории"
+
+#: ../src/sulfur/dialogs.py:2356
+msgid "These are the packages that must be enabled to satisfy your request"
+msgstr ""
+"Здесь перечислены пакеты, которые должны быть активированы для "
+"удовлетворения Вашего запроса"
+
+#: ../src/sulfur/dialogs.py:2358
+msgid "Some packages are masked"
+msgstr "Некоторые пакеты маскированы"
+
+#: ../src/sulfur/dialogs.py:2445
+msgid "Masked package"
+msgstr "Маскированный пакет"
+
+#: ../src/sulfur/dialogs.py:2453
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../src/sulfur/dialogs.py:2649
+msgid "Please confirm the actions above"
+msgstr "Пожалуйста, подтвердите вышеуказанные действия"
+
+#: ../src/sulfur/dialogs.py:2710 ../src/sulfur/dialogs.py:2764
+msgid "To be downgraded"
+msgstr "К обновлению до более старой версии"
+
+#: ../src/sulfur/dialogs.py:2716 ../src/sulfur/dialogs.py:2753
+msgid "To be removed"
+msgstr "К удалению"
+
+#: ../src/sulfur/dialogs.py:2722 ../src/sulfur/dialogs.py:2775
+msgid "To be reinstalled"
+msgstr "К переустановке"
+
+#: ../src/sulfur/dialogs.py:2728 ../src/sulfur/dialogs.py:2786
+msgid "To be installed"
+msgstr "К установке"
+
+#: ../src/sulfur/dialogs.py:2734 ../src/sulfur/dialogs.py:2797
+msgid "To be updated"
+msgstr "К обновлению"
+
+#: ../src/sulfur/dialogs.py:2934
+msgid "About"
+msgstr "О программе"
+
+#. open file selector
+#: ../src/sulfur/dialogs.py:3019
+msgid "Sulfur file chooser"
+msgstr "Выбор файла"
+
+#: ../src/sulfur/dialogs.py:3055
+msgid "Sulfur Question"
+msgstr "Вопрос Sulfur"
+
+#: ../src/sulfur/dialogs.py:3060
+msgid "Hey!"
+msgstr "Эй!"
+
+#: ../src/sulfur/dialogs.py:3102
+msgid "Please fill the following form"
+msgstr "Пожалуйста, запомните следующую форму"
+
+#: ../src/sulfur/dialogs.py:3172
+msgid "Add atom"
+msgstr "Добавить атом"
+
+#: ../src/sulfur/dialogs.py:3173
+msgid "Atom"
+msgstr "Атом"
+
+#: ../src/sulfur/dialogs.py:3328 ../src/sulfur/dialogs.py:3330
+msgid "Invalid entry"
+msgstr "Некорректная запись"
+
+#: ../src/sulfur/dialogs.py:3390
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../src/sulfur/dialogs.py:3478
+msgid "License"
+msgstr "Лицензия"
+
+#. new
+#: ../src/sulfur/dialogs.py:3481
+msgid "Accepted"
+msgstr "Принято"
+
+#: ../src/sulfur/dialogs.py:3548 ../src/sulfur/events.py:733
+msgid "license text"
+msgstr "Текст лицензии"
+
+#: ../src/sulfur/dialogs.py:3588
+msgid "Exception caught"
+msgstr "Обнаружено исключение"
+
+#: ../src/sulfur/dialogs.py:3589
+msgid "Sulfur crashed! An unexpected error occured."
+msgstr "Сульфур накрылся! Случилась непредвиденная ошибка."
+
+#: ../src/sulfur/dialogs.py:3612
+msgid "Your report has been submitted successfully! Thanks a lot."
+msgstr "Ваш отчёт отправлен успешно! Большое спасибо."
+
+#: ../src/sulfur/dialogs.py:3614
+msgid "Cannot submit your report. Not connected to Internet?"
+msgstr "Невозможно отправить Ваш отчёт. Нет связи с интернетом?"
+
+#: ../src/sulfur/events.py:69
+msgid "Error during backup"
+msgstr "Ошибка при создании резервной копии"
+
+#: ../src/sulfur/events.py:72
+msgid "Backup complete"
+msgstr "Создание резервной копии завершено"
+
+#: ../src/sulfur/events.py:105
+msgid "Error during restore"
+msgstr "Ошибка при восстановлении"
+
+#: ../src/sulfur/events.py:110
+msgid "Restore complete"
+msgstr "Восстановление завершено"
+
+#: ../src/sulfur/events.py:131
+msgid "Error during removal"
+msgstr "Ошибка при удалении"
+
+#: ../src/sulfur/events.py:143
+msgid "The chosen package is not vulnerable"
+msgstr "Выбранный пакет не страдает уязвимостями"
+
+#: ../src/sulfur/events.py:151
+msgid "Packages in Advisory have been queued."
+msgstr "Пакеты из информационного уведомления поставлены в очередь"
+
+#: ../src/sulfur/events.py:169
+msgid "Packages in all Advisories have been queued."
+msgstr "Пакеты из всех информационных уведомлений поставлены в очередь"
+
+#: ../src/sulfur/events.py:303
+msgid "Are you sure you want to remove the default repository?"
+msgstr ""
+
+#: ../src/sulfur/events.py:308
+msgid "Unable to remove repository"
+msgstr ""
+
+#: ../src/sulfur/events.py:348
+msgid "Are you sure ?"
+msgstr "Вы уверены?"
+
+#: ../src/sulfur/events.py:365
+msgid "Error saving parameter"
+msgstr "Ошибка при сохранении параметра"
+
+#: ../src/sulfur/events.py:367
+msgid "not saved"
+msgstr "не сохранено"
+
+#: ../src/sulfur/events.py:380 ../src/sulfur/events.py:386
+#: ../src/sulfur/events.py:392 ../src/sulfur/events.py:416
+#: ../src/sulfur/events.py:427 ../src/sulfur/events.py:438
+msgid "New"
+msgstr "Новый"
+
+#: ../src/sulfur/events.py:380 ../src/sulfur/events.py:386
+#: ../src/sulfur/events.py:392
+msgid "Please insert a new path"
+msgstr "Пожалуйста, введите новый путь"
+
+#: ../src/sulfur/events.py:417 ../src/sulfur/events.py:428
+#: ../src/sulfur/events.py:439
+msgid "Please edit the selected path"
+msgstr "Пожалуйста, отредактируйте выбранный путь"
+
+#: ../src/sulfur/events.py:463
+msgid "You have chosen to install this package"
+msgstr "Вы выбрали установку этого пакета"
+
+#: ../src/sulfur/events.py:465
+msgid "Are you sure?"
+msgstr ""
+
+#: ../src/sulfur/events.py:618
+msgid "Please select at least one repository"
+msgstr "Пожалуйста, выберите хоть какой-то репозиторий"
+
+#. Check there are any packages in the queue
+#: ../src/sulfur/events.py:641
+msgid "No packages in queue"
+msgstr "Нет пакетов в очереди"
+
+#: ../src/sulfur/events.py:679
+msgid "Queue is too old. Cannot load."
+msgstr "Очередь слишком старая. Невозможно загрузить."
+
+#: ../src/sulfur/events.py:744
+msgid "Update your system now ?"
+msgstr ""
+
+#: ../src/sulfur/events.py:759
+msgid ""
+"You have chosen to interrupt the processing. Are you sure you want to do it ?"
+msgstr "Вы выбрали прекращение процесса. Оно Вам действительно надо?"
+
+#: ../src/sulfur/events.py:846
+msgid "Login aborted. Not logged in."
+msgstr ""
+
+#: ../src/sulfur/events.py:892
+msgid "UGC credentials cleared"
+msgstr "Учётные записи UGC очищены"
+
+#: ../src/sulfur/events.py:932
+msgid "Choose what Package Set you want to add"
+msgstr "Выберите, какой набор пакетов Вы хотите добавить"
+
+#: ../src/sulfur/events.py:934
+msgid "Choose what Package Set you want to edit"
+msgstr "Выберите, какой набор пакетов Вы хотите править"
+
+#: ../src/sulfur/events.py:950 ../src/sulfur/events.py:955
+msgid "Package Set name"
+msgstr "Имя набора пакетов"
+
+#: ../src/sulfur/events.py:951 ../src/sulfur/events.py:956
+msgid "Package atoms"
+msgstr "Атомы пакетов"
+
+#: ../src/sulfur/events.py:998
+msgid "No package sets available for removal."
+msgstr "Ни одного набора пакетов не доступно для удаления."
+
+#: ../src/sulfur/events.py:1004
+msgid "Removable Package Set"
+msgstr "Удаляемый набор пакетов"
+
+#: ../src/sulfur/events.py:1009
+msgid "Choose what Package Set you want to remove"
+msgstr "Выберите, какой набор пакетов Вы хотите удалить"
+
+#: ../src/sulfur/entropyapi.py:107
+msgid "Error enabling masked package"
+msgstr "Ошибка при доступе к маскированному пакету"
+
+#: ../src/sulfur/entropyapi.py:119
+msgid "dependencies not found"
+msgstr ""
+
+#: ../src/sulfur/entropyapi.py:123
+msgid "dependency collisions found"
+msgstr ""
+
+#: ../src/sulfur/entropyapi.py:144
+msgid "Fetching"
+msgstr "Загрузка"
+
+#: ../src/sulfur/entropyapi.py:146
+msgid "Downloading sources"
+msgstr "Скачивание исходников"
+
+#: ../src/sulfur/entropyapi.py:237
+msgid "Removing package"
+msgstr "Удаление пакета"
+
+#: ../src/sulfur/entropyapi.py:246
+msgid "Removing"
+msgstr "Удаление"
+
+#: ../src/sulfur/entropyapi.py:288
+msgid "Installing"
+msgstr "Установка"
+
+#: ../src/sulfur/entropyapi.py:407
+msgid "Entropy needs your attention"
+msgstr "Entropy требует Вашего внимания"
+
+#: ../src/sulfur/sulfur.glade.h:1
+msgid "Add/Edit Repository"
+msgstr "Добавить/редактировать репозиторий"
+
+#: ../src/sulfur/sulfur.glade.h:2
+msgid "Adding a <b>new repository</b> lets you access <b>extra software</b>"
+msgstr ""
+"Добавление <b>нового репозитория</b> даёт вам доступ к <b>дополнительному "
+"софту</b>"
+
+#: ../src/sulfur/sulfur.glade.h:3
+msgid "Compression"
+msgstr "Сжатие"
+
+#: ../src/sulfur/sulfur.glade.h:4
+msgid "Identifier"
+msgstr "Наименование"
+
+#: ../src/sulfur/sulfur.glade.h:7
+msgid "URI"
+msgstr "URI"
+
+#: ../src/sulfur/sulfur.glade.h:8
+msgid "Repository information"
+msgstr "Информация репозиториев"
+
+#: ../src/sulfur/sulfur.glade.h:9
+msgid "_Insert String"
+msgstr "_Вставить строку"
+
+#: ../src/sulfur/sulfur.glade.h:10
+msgid "Advisory information"
+msgstr "Информация уведомления"
+
+#: ../src/sulfur/sulfur.glade.h:11
+msgid "button"
+msgstr "кнопка"
+
+#: ../src/sulfur/sulfur.glade.h:12
+msgid "Background"
+msgstr "Фон"
+
+#: ../src/sulfur/sulfur.glade.h:13
+msgid "Impact"
+msgstr "Влияние"
+
+#: ../src/sulfur/sulfur.glade.h:14
+msgid "_Overview"
+msgstr "_Обзор"
+
+#: ../src/sulfur/sulfur.glade.h:15
+msgid "Affected packages"
+msgstr "Уязвимые пакеты"
+
+#: ../src/sulfur/sulfur.glade.h:16
+msgid "Bugs"
+msgstr "Баги"
+
+#: ../src/sulfur/sulfur.glade.h:17
+msgid "References"
+msgstr "Ссылки"
+
+#: ../src/sulfur/sulfur.glade.h:18
+msgid "_Details"
+msgstr "_Детали"
+
+#: ../src/sulfur/sulfur.glade.h:19
+msgid "Announced"
+msgstr "Объявлено"
+
+#: ../src/sulfur/sulfur.glade.h:20
+msgid "Revised"
+msgstr "Проверено"
+
+#: ../src/sulfur/sulfur.glade.h:21
+msgid "Synopsis"
+msgstr "Перспектива"
+
+#: ../src/sulfur/sulfur.glade.h:22
+msgid "Workaround"
+msgstr "Оптимизация"
+
+#: ../src/sulfur/sulfur.glade.h:23
+msgid "Resolution"
+msgstr "Разрешение"
+
+#: ../src/sulfur/sulfur.glade.h:24
+msgid "_More"
+msgstr "_Больше"
+
+#: ../src/sulfur/sulfur.glade.h:25
+msgid "Please Confirm"
+msgstr "Пожалуйста, подтвердите"
+
+#: ../src/sulfur/sulfur.glade.h:27
+msgid "S_end Error Report"
+msgstr "П_ослать отчёт об ошибке"
+
+#: ../src/sulfur/sulfur.glade.h:28
+msgid ""
+"Please submit this error to us providing as much information as possible."
+msgstr ""
+"Пожалуйста, перешлите нам эту ошибку, предоставив как можно больше информации"
+
+#: ../src/sulfur/sulfur.glade.h:29
+msgid "What you were doing"
+msgstr "Что Вы делали"
+
+#: ../src/sulfur/sulfur.glade.h:30
+msgid "Your E-mail"
+msgstr "Ваш E-mail"
+
+#: ../src/sulfur/sulfur.glade.h:31
+msgid "Your Full Name"
+msgstr "Ваше полное имя"
+
+#: ../src/sulfur/sulfur.glade.h:32
+msgid ""
+"You <b>need to accept</b> the licenses below.\n"
+"Please read them carefully and <b>make your choice</b>."
+msgstr ""
+"Вы <b>должны принять</b> нижеуказанные лицензии. \n"
+"Пожалуйста, прочитайте их внимательно и <b>сделайте свой выбор</b>."
+
+#: ../src/sulfur/sulfur.glade.h:34
+msgid "_Read License"
+msgstr "_Читать лицензию"
+
+#: ../src/sulfur/sulfur.glade.h:35
+msgid "_Accept License"
+msgstr "_Принять лицензию"
+
+#: ../src/sulfur/sulfur.glade.h:36
+msgid "Sulfur"
+msgstr "Sulfur"
+
+#: ../src/sulfur/sulfur.glade.h:37
+msgid "_Sulfur"
+msgstr "_Sulfur"
+
+#: ../src/sulfur/sulfur.glade.h:38
+msgid "Install from binary package..."
+msgstr "Установить из бинарного пакета..."
+
+#: ../src/sulfur/sulfur.glade.h:39
+msgid "Install a stand-alone package file"
+msgstr "Установить одиночный пакетный файл"
+
+#: ../src/sulfur/sulfur.glade.h:40
+msgid "Switch Sulfur to Advanced Mode"
+msgstr "Переключить Sulfur в расширенный режим"
+
+#: ../src/sulfur/sulfur.glade.h:41
+msgid "Advanced Mode"
+msgstr "Расширенный режим"
+
+#: ../src/sulfur/sulfur.glade.h:42
+msgid "S_ervices"
+msgstr "С_лужбы"
+
+#: ../src/sulfur/sulfur.glade.h:43
+msgid "R_epositories Notice Board"
+msgstr "До_ска уведомлений репозиториев"
+
+#: ../src/sulfur/sulfur.glade.h:44
+msgid "_Help"
+msgstr "_Помощь"
+
+#: ../src/sulfur/sulfur.glade.h:45
+msgid "Tips 'n tricks"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:46
+msgid "Show Sulfur tips and tricks"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:47
+msgid "Download updated repositories containing new applications"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:48
+msgid "Refresh"
+msgstr "Обновить"
+
+#: ../src/sulfur/sulfur.glade.h:49
+msgid "Show updates"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:50
+msgid "Updates"
+msgstr "Обновления"
+
+#: ../src/sulfur/sulfur.glade.h:51
+msgid "Show available applications"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:52
+msgid "Available"
+msgstr "Доступно"
+
+#: ../src/sulfur/sulfur.glade.h:53
+msgid "Show installed applications"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:54
+msgid "Installed"
+msgstr "Установлено"
+
+#: ../src/sulfur/sulfur.glade.h:55
+msgid "Show masked applications"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:56
+msgid "Masked"
+msgstr "Замаскировано"
+
+#: ../src/sulfur/sulfur.glade.h:57
+msgid "Show any existing application"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:58
+msgid "All"
+msgstr "Все"
+
+#: ../src/sulfur/sulfur.glade.h:59
+msgid "Show package sets (groups)"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:60
+msgid "Sets"
+msgstr "Наборы"
+
+#: ../src/sulfur/sulfur.glade.h:61
+msgid "Click to start searching"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:63
+msgid "Show install queue"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:65
+msgid ""
+"Filter currently shown items, or paste entropy:// action strings (for eg. "
+"entropy://amarok, to install Amarok!)"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:66
+msgid "_Update all"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:67
+msgid "_Remove All"
+msgstr "_Удалить всё"
+
+#: ../src/sulfur/sulfur.glade.h:68
+msgid "_Update Repositories"
+msgstr "_Обновить репозитории"
+
+#: ../src/sulfur/sulfur.glade.h:69
+msgid "Cl_ean"
+msgstr "О_чистить"
+
+#: ../src/sulfur/sulfur.glade.h:70
+msgid "Download only"
+msgstr "Только скачать"
+
+#: ../src/sulfur/sulfur.glade.h:71
+msgid "If selected, packages will be downloaded only"
+msgstr "Будучи выбранными, пакеты будут скачаны только"
+
+#: ../src/sulfur/sulfur.glade.h:72
+msgid "Download source code"
+msgstr "Скачать исходный код"
+
+#: ../src/sulfur/sulfur.glade.h:73
+msgid "_Commit Actions"
+msgstr "_Подтвердить действия"
+
+#: ../src/sulfur/sulfur.glade.h:74
+msgid "_Add Set"
+msgstr "_Добавить набор"
+
+#: ../src/sulfur/sulfur.glade.h:75
+msgid "_Remove Set"
+msgstr "_Удалить набор"
+
+#: ../src/sulfur/sulfur.glade.h:76
+msgid "_Edit Set"
+msgstr "_Править набор"
+
+#: ../src/sulfur/sulfur.glade.h:77
+msgid "Browse applications"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:79
+msgid "Show unapplied"
+msgstr "Показать непринятое"
+
+#: ../src/sulfur/sulfur.glade.h:80
+msgid "Show applied"
+msgstr "Показать принятое"
+
+#: ../src/sulfur/sulfur.glade.h:81
+msgid "Show all"
+msgstr "Показать всё"
+
+#: ../src/sulfur/sulfur.glade.h:82
+msgid "Q_ueue packages in selected Advisory"
+msgstr "Д_обавить пакеты из выбранного уведомления"
+
+#: ../src/sulfur/sulfur.glade.h:83
+msgid "_Queue all vulnerable packages"
+msgstr "_Отправить в очередь все уязвимые пакеты"
+
+#: ../src/sulfur/sulfur.glade.h:84
+msgid "Security advisories, make sure your 'puter is really secure"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:85
+msgid "Security"
+msgstr "Безопасность"
+
+#: ../src/sulfur/sulfur.glade.h:86
+msgid "_Force repositories update"
+msgstr "_Автообновление репозиториев"
+
+#: ../src/sulfur/sulfur.glade.h:87
+msgid "Repositories options"
+msgstr "Опции репозиториев"
+
+#: ../src/sulfur/sulfur.glade.h:88
+msgid "R_egenerate Cache"
+msgstr "_Восстановить кэш"
+
+#: ../src/sulfur/sulfur.glade.h:89
+msgid "Update, enable, disable application repositories"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:90
+msgid "Repositories"
+msgstr "Репозитории"
+
+#: ../src/sulfur/sulfur.glade.h:91
+msgid "C_hanges"
+msgstr "_Изменения"
+
+#: ../src/sulfur/sulfur.glade.h:92
+msgid "M_erge"
+msgstr "_Объединить"
+
+#: ../src/sulfur/sulfur.glade.h:93
+msgid "Dele_te all"
+msgstr "Удал_ить всё"
+
+#: ../src/sulfur/sulfur.glade.h:94
+msgid "Merge all"
+msgstr "Об_ъединить всё"
+
+#: ../src/sulfur/sulfur.glade.h:95
+msgid ""
+"Applications can alter your system configuration, merge requested changes "
+"manually"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:96
+msgid "System files"
+msgstr "Системные файлы"
+
+#: ../src/sulfur/sulfur.glade.h:97
+msgid "Prevents files belonging to a package being overwritten by another"
+msgstr ""
+"Предохраняет файлы, относящиеся к пакету, от перезаписывания кем-то ещё"
+
+#: ../src/sulfur/sulfur.glade.h:98
+msgid ""
+"Disabled\n"
+"Removal only\n"
+"Install+Removal"
+msgstr ""
+"Деактивировано\n"
+"Только к удалению\n"
+"К установке+удалению"
+
+#: ../src/sulfur/sulfur.glade.h:101
+msgid "Collision protection"
+msgstr "Защита противоречий"
+
+#: ../src/sulfur/sulfur.glade.h:102
+msgid "This is what they call \"nice level\""
+msgstr "Это то, что обычно называют \"nice level\""
+
+#: ../src/sulfur/sulfur.glade.h:103
+msgid "Process priority (nice)"
+msgstr "Приоритет процесса"
+
+#: ../src/sulfur/sulfur.glade.h:104
+msgid "Backup configuration files"
+msgstr "Файлы конфигурации резервной копии"
+
+#: ../src/sulfur/sulfur.glade.h:105
+msgid "Entropy can keep a backup of your updated configuration files"
+msgstr ""
+"Entropy может создать резервную копию Ваших обновлённых файлов конфигурации"
+
+#: ../src/sulfur/sulfur.glade.h:106
+msgid "Dependencies algorithm"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:107
+msgid ""
+"Reliable\n"
+"Relaxed"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:109
+msgid "Ignored protected files"
+msgstr "Игнорированные защищённые файлы"
+
+#: ../src/sulfur/sulfur.glade.h:110
+msgid "Protected files and directories mask"
+msgstr "Маска защищённых файлов и папок"
+
+#: ../src/sulfur/sulfur.glade.h:111
+msgid "Protected files and directories"
+msgstr "Защищенные файлы и папки"
+
+#: ../src/sulfur/sulfur.glade.h:112
+msgid "System"
+msgstr "Система"
+
+#: ../src/sulfur/sulfur.glade.h:113
+msgid "type your password here"
+msgstr "введите здесь свой пароль"
+
+#: ../src/sulfur/sulfur.glade.h:114
+msgid "type your username here"
+msgstr "введите здесь своё имя пользователя"
+
+#: ../src/sulfur/sulfur.glade.h:115
+msgid "Proxy Password"
+msgstr "Пароль прокси"
+
+#: ../src/sulfur/sulfur.glade.h:116
+msgid "Proxy Username"
+msgstr "Имя пользователя прокси"
+
+#: ../src/sulfur/sulfur.glade.h:117
+msgid "kB/sec"
+msgstr "Кб/сек"
+
+#: ../src/sulfur/sulfur.glade.h:118
+msgid "0 = no limit; 100 = 100kB/sec"
+msgstr "0 = без лимита; 100 = 100Кб/сек"
+
+#: ../src/sulfur/sulfur.glade.h:119
+msgid "Download speed limit"
+msgstr "Предел скорости загрузки"
+
+#: ../src/sulfur/sulfur.glade.h:120
+msgid "Example: http://proxy:1234"
+msgstr "Пример: http://proxy:1234"
+
+#: ../src/sulfur/sulfur.glade.h:121
+msgid "HTTP Proxy"
+msgstr "HTTP Proxy"
+
+#: ../src/sulfur/sulfur.glade.h:122
+msgid "FTP Proxy"
+msgstr "FTP Proxy"
+
+#: ../src/sulfur/sulfur.glade.h:123
+msgid "Socket settings"
+msgstr "Настройки сокета"
+
+#: ../src/sulfur/sulfur.glade.h:124
+msgid "Networking"
+msgstr "Сеть"
+
+#: ../src/sulfur/sulfur.glade.h:125
+msgid "Generate login information"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:126
+msgid "Discard login information"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:127
+msgid "Clear all credentials"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:128
+msgid "User Generated Content"
+msgstr "Контент пользователя"
+
+#: ../src/sulfur/sulfur.glade.h:129
+msgid "Terminal font"
+msgstr "Шрифт терминала"
+
+#: ../src/sulfur/sulfur.glade.h:130
+msgid "Generic title 1"
+msgstr "Основной заголовок 1"
+
+#: ../src/sulfur/sulfur.glade.h:131
+msgid "Generic title 2"
+msgstr "Основной заголовок 2"
+
+#: ../src/sulfur/sulfur.glade.h:132
+msgid "Background error message"
+msgstr "Фоновое сообщение об ошибке"
+
+#: ../src/sulfur/sulfur.glade.h:133
+msgid "Error message"
+msgstr "Сообщение об ошибке"
+
+#: ../src/sulfur/sulfur.glade.h:134
+msgid "Successful message"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:135
+msgid "Background succ. message"
+msgstr "Фоновое сообщение об успехе"
+
+#: ../src/sulfur/sulfur.glade.h:136
+msgid "Text on succ. message"
+msgstr "Текст сообщения об успехе"
+
+#: ../src/sulfur/sulfur.glade.h:137
+msgid "Text on error message"
+msgstr "Текст сообщения об ошибке"
+
+#: ../src/sulfur/sulfur.glade.h:138
+msgid "General"
+msgstr "Основной"
+
+#: ../src/sulfur/sulfur.glade.h:139
+msgid "Package (default)"
+msgstr "Пакет (по умолчанию)"
+
+#: ../src/sulfur/sulfur.glade.h:140
+msgid "Package not installed"
+msgstr "Пакет не установлен"
+
+#: ../src/sulfur/sulfur.glade.h:141
+msgid "Package removed"
+msgstr "Пакет удален"
+
+#: ../src/sulfur/sulfur.glade.h:142
+msgid "Package updated"
+msgstr "Пакет обновлен"
+
+#: ../src/sulfur/sulfur.glade.h:143
+msgid "Package reinstalled"
+msgstr "Пакет переустановлен"
+
+#: ../src/sulfur/sulfur.glade.h:144
+msgid "Package description"
+msgstr "Описание пакета"
+
+#: ../src/sulfur/sulfur.glade.h:145
+msgid "Package subtitle"
+msgstr "Подзаголовок пакета"
+
+#: ../src/sulfur/sulfur.glade.h:146
+msgid "Package sub-description"
+msgstr "Суб-описание пакета"
+
+#: ../src/sulfur/sulfur.glade.h:147
+msgid "Package category"
+msgstr "Категория пакета"
+
+#: ../src/sulfur/sulfur.glade.h:148
+msgid "Package downgrade"
+msgstr "Обновление пакета до более старой версии"
+
+#: ../src/sulfur/sulfur.glade.h:149
+msgid "Packages"
+msgstr "Пакеты"
+
+#: ../src/sulfur/sulfur.glade.h:150
+msgid "Interface Colors"
+msgstr "Цвета интерфейса"
+
+#: ../src/sulfur/sulfur.glade.h:151
+msgid "<b>Entropy database backup tool</b>"
+msgstr "<b>Инструмент создания резервной копии базы данных Entropy</b>"
+
+#: ../src/sulfur/sulfur.glade.h:152
+msgid ""
+"<small>Using this tool, you will be able to backup and restore your "
+"Operating System packages database.</small>"
+msgstr ""
+"<small>Используя этот инструмент,Вы получите возможность создать резервную "
+"копию и восстановить базу данных пакетов Вашей операционной системы.</small>"
+
+#: ../src/sulfur/sulfur.glade.h:153
+msgid "New backup"
+msgstr "Новая резервная копия"
+
+#: ../src/sulfur/sulfur.glade.h:154
+msgid "Restore selected"
+msgstr "Восстановить выбранное"
+
+#: ../src/sulfur/sulfur.glade.h:155
+msgid "Delete selected"
+msgstr "Удалить выбранное"
+
+#: ../src/sulfur/sulfur.glade.h:156
+msgid "Dependencies test"
+msgstr "Тест зависимостей"
+
+#: ../src/sulfur/sulfur.glade.h:157
+msgid "Libraries test"
+msgstr "Тест библиотек"
+
+#: ../src/sulfur/sulfur.glade.h:158
+msgid "System Database"
+msgstr "Системная БД"
+
+#: ../src/sulfur/sulfur.glade.h:159
+msgid "Restore"
+msgstr "Восстановить"
+
+#: ../src/sulfur/sulfur.glade.h:160
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../src/sulfur/sulfur.glade.h:161
+msgid "Change Sulfur preferences"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:162
+msgid "Preferences"
+msgstr "Настройки"
+
+#: ../src/sulfur/sulfur.glade.h:163
+msgid "_Skip mirror"
+msgstr "_Пропустить зеркало"
+
+#: ../src/sulfur/sulfur.glade.h:164
+msgid "_Abort"
+msgstr "_Отменить"
+
+#: ../src/sulfur/sulfur.glade.h:165
+msgid "Process details"
+msgstr "Детали процесса"
+
+#: ../src/sulfur/sulfur.glade.h:166
+msgid "Monitor applications install/removal execution process"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:167
+msgid "Progress"
+msgstr "Прогресс"
+
+#: ../src/sulfur/sulfur.glade.h:169
+msgid "Hide this until something new happens"
+msgstr "Не показывать это окно, пока не появится что-то новое"
+
+#: ../src/sulfur/sulfur.glade.h:170
+msgid "Install the selected package"
+msgstr "Установить выбранный пакет"
+
+#: ../src/sulfur/sulfur.glade.h:171
+msgid "Undo Install"
+msgstr "Отменить установку"
+
+#: ../src/sulfur/sulfur.glade.h:172
+msgid "Undo Install action"
+msgstr "Отменить действие установки"
+
+#: ../src/sulfur/sulfur.glade.h:173
+msgid "Disable"
+msgstr "Деактивировать"
+
+#: ../src/sulfur/sulfur.glade.h:174
+msgid "Mask this package"
+msgstr "Маскировать данный пакет"
+
+#: ../src/sulfur/sulfur.glade.h:175
+msgid "Reinstall"
+msgstr "Переустановить"
+
+#: ../src/sulfur/sulfur.glade.h:176
+msgid "Reinstall the selected package"
+msgstr "Переустановить выбранный пакет"
+
+#: ../src/sulfur/sulfur.glade.h:177
+msgid "Undo Reinstall"
+msgstr "Отменить переустановку"
+
+#: ../src/sulfur/sulfur.glade.h:178
+msgid "Undo Reinstall action"
+msgstr "Отменить действие переустановки"
+
+#: ../src/sulfur/sulfur.glade.h:179
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../src/sulfur/sulfur.glade.h:180
+msgid "Remove the selected package"
+msgstr "Удалить выбранный пакет"
+
+#: ../src/sulfur/sulfur.glade.h:181
+msgid "Undo Remove"
+msgstr "Отменить удаление"
+
+#: ../src/sulfur/sulfur.glade.h:182
+msgid "Undo Remove action"
+msgstr "Отменить действие удаления"
+
+#: ../src/sulfur/sulfur.glade.h:183
+msgid "Purge"
+msgstr "Очистить"
+
+#: ../src/sulfur/sulfur.glade.h:184
+msgid "Remove the selected package and its configuration"
+msgstr "Удалить выбранный пакет и его конфигурацию"
+
+#: ../src/sulfur/sulfur.glade.h:185
+msgid "Undo Purge"
+msgstr "Отменить очистку"
+
+#: ../src/sulfur/sulfur.glade.h:186
+msgid "Undo Purge action"
+msgstr "Отменить действие очистки"
+
+#: ../src/sulfur/sulfur.glade.h:187
+msgid "Enable"
+msgstr "_Активировать"
+
+#: ../src/sulfur/sulfur.glade.h:188
+msgid "Unmask this package"
+msgstr "Демаскировать этот пакет"
+
+#: ../src/sulfur/sulfur.glade.h:189
+msgid "Mask the selected packages"
+msgstr "Маскировать выбранные пакеты"
+
+#: ../src/sulfur/sulfur.glade.h:191
+msgid "Undo Update"
+msgstr "Отменить обновление"
+
+#: ../src/sulfur/sulfur.glade.h:192
+msgid "Package Masking"
+msgstr "Маскировка пакета"
+
+#: ../src/sulfur/sulfur.glade.h:193
+msgid "_Enable"
+msgstr "_Активировать"
+
+#: ../src/sulfur/sulfur.glade.h:194
+msgid "Enable _all"
+msgstr "_Активировать всё"
+
+#: ../src/sulfur/sulfur.glade.h:195
+msgid "_Properties"
+msgstr "_Параметры"
+
+#: ../src/sulfur/sulfur.glade.h:196
+msgid "Install Packages in Set"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:197
+msgid "Install packages in Set"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:198
+msgid "Undo Install Packages in Set"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:199
+msgid "Undo Install Set action"
+msgstr "Отменить действие установки набора"
+
+#: ../src/sulfur/sulfur.glade.h:200
+msgid "Remove Packages in Set"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:201
+msgid "Remove packages in Set"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:202
+msgid "Undo Remove Packages in Set"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:203
+msgid "Undo Remove Set action"
+msgstr "Отменить действие удаления набора"
+
+#: ../src/sulfur/sulfur.glade.h:204
+msgid "Update the selected package"
+msgstr "Обновить выбранный пакет"
+
+#: ../src/sulfur/sulfur.glade.h:205
+msgid "Undo Update action"
+msgstr "Отменить действие обновления"
+
+#: ../src/sulfur/sulfur.glade.h:206
+msgid "Package Information"
+msgstr "Информация пакета"
+
+#: ../src/sulfur/sulfur.glade.h:207
+msgid "Creation date"
+msgstr "Дата создания"
+
+#: ../src/sulfur/sulfur.glade.h:208
+msgid "Install Size"
+msgstr "Размер установки"
+
+#: ../src/sulfur/sulfur.glade.h:209
+msgid "Package Size"
+msgstr "Размер пакета"
+
+#: ../src/sulfur/sulfur.glade.h:210
+msgid "MD5 Signature"
+msgstr "Подпись MD5"
+
+#: ../src/sulfur/sulfur.glade.h:211
+msgid "Download Path"
+msgstr "Путь загрузки"
+
+#: ../src/sulfur/sulfur.glade.h:212
+msgid "Entropy API"
+msgstr "Entropy API"
+
+#: ../src/sulfur/sulfur.glade.h:213
+msgid "Branch"
+msgstr "Ветка"
+
+#: ../src/sulfur/sulfur.glade.h:215
+msgid "Kernel Tag"
+msgstr "Тэг ядра"
+
+#: ../src/sulfur/sulfur.glade.h:216
+msgid "Slot"
+msgstr "Слот"
+
+#: ../src/sulfur/sulfur.glade.h:217
+msgid "Version"
+msgstr "Версия"
+
+#: ../src/sulfur/sulfur.glade.h:218
+msgid "Location"
+msgstr "Расположение"
+
+#: ../src/sulfur/sulfur.glade.h:219
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: ../src/sulfur/sulfur.glade.h:220
+msgid "Show ChangeLog"
+msgstr "Показать лог изменений"
+
+#: ../src/sulfur/sulfur.glade.h:221
+msgid "ChangeLog"
+msgstr "Лог изменений"
+
+#: ../src/sulfur/sulfur.glade.h:222
+msgid "CHOST"
+msgstr "CHOST"
+
+#: ../src/sulfur/sulfur.glade.h:223
+msgid "CFLAGS"
+msgstr "CFLAGS"
+
+#: ../src/sulfur/sulfur.glade.h:224
+msgid "CXXFLAGS"
+msgstr "CXXFLAGS"
+
+#: ../src/sulfur/sulfur.glade.h:225
+msgid "_References"
+msgstr "_Ссылки"
+
+#: ../src/sulfur/sulfur.glade.h:226
+msgid "D_ependencies"
+msgstr "_Зависимости"
+
+#: ../src/sulfur/sulfur.glade.h:227
+msgid "External Trigger"
+msgstr "Внешний триггер"
+
+#: ../src/sulfur/sulfur.glade.h:228
+msgid "CONFIG_PROTECT"
+msgstr "CONFIG_PROTECT"
+
+#: ../src/sulfur/sulfur.glade.h:229
+msgid "O_ther"
+msgstr "О_стальное"
+
+#: ../src/sulfur/sulfur.glade.h:230
+msgid "Add Document"
+msgstr "Добавить документ"
+
+#: ../src/sulfur/sulfur.glade.h:231
+msgid "Remove Selected"
+msgstr "Удалить выбранное"
+
+#: ../src/sulfur/sulfur.glade.h:232
+msgid "Show Selected"
+msgstr "Показать выбранное"
+
+#: ../src/sulfur/sulfur.glade.h:233
+msgid "Load User Generated Content"
+msgstr "Загрузить содержимое, созданное пользователем"
+
+#: ../src/sulfur/sulfur.glade.h:234
+msgid "Notice Board Entry Information"
+msgstr "Информация записи доски обновлений"
+
+#: ../src/sulfur/sulfur.glade.h:235
+msgid "http://www.sabayon.org"
+msgstr "http://www.sabayon.org"
+
+#: ../src/sulfur/sulfur.glade.h:236
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../src/sulfur/sulfur.glade.h:239
+msgid "Notice board Id"
+msgstr "Идентификатор доски уведомлений"
+
+#: ../src/sulfur/sulfur.glade.h:240
+msgid "Mark as read"
+msgstr "Отметить как прочитанное"
+
+#: ../src/sulfur/sulfur.glade.h:241
+msgid "Close notice"
+msgstr "Закрыть уведомление"
+
+#: ../src/sulfur/sulfur.glade.h:242
+msgid "Sulfur tips and tricks"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:243
+msgid "tooltip text"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:244
+msgid "Show tips on startup"
+msgstr ""
+
+#: ../src/sulfur/sulfur.glade.h:245
+msgid "UGC Entry Information"
+msgstr "Информация записи UGC"
+
+#: ../src/sulfur/sulfur.glade.h:246
+msgid "Document type"
+msgstr "Тип документа"
+
+#: ../src/sulfur/sulfur.glade.h:247
+msgid "Keywords (space separated)"
+msgstr "Ключевые слова (выделено место)"
+
+#: ../src/sulfur/sulfur.glade.h:248
+msgid "_Submit Document"
+msgstr "_Принять документ"
+
+#: ../src/sulfur/sulfur.glade.h:249
+msgid "Submit a new document"
+msgstr "Принять новый документ"
+
+#: ../src/sulfur/sulfur.glade.h:253
+msgid "_Open Document"
+msgstr "_открыть документ"
+
+#~ msgid "Syncing current database"
+#~ msgstr "Синхронизация текущей базы данных"
+
+#~ msgid "please wait"
+#~ msgstr "пожалуйста, подождите"
+
+#~ msgid "Removing entry"
+#~ msgstr "Удаление записи"
+
+#~ msgid "Adding entry"
+#~ msgstr "Добавление записи"
+
+#~ msgid "Exporting database table"
+#~ msgstr "Экспорт таблицы базы данных"
+
+#~ msgid "ATTENTION"
+#~ msgstr "ВНИМАНИЕ"
+
+#~ msgid "SPM"
+#~ msgstr "SPM"
+
+#~ msgid "it could take a while"
+#~ msgstr "это может занять время"
+
+#~ msgid "ENTROPY"
+#~ msgstr "ENTROPY"
+
+#~ msgid "action"
+#~ msgstr "действие"
+
+#~ msgid "package move actions complete"
+#~ msgstr "перемещение пакета завершено"
+
+#~ msgid "WARNING"
+#~ msgstr "ОСТОРОЖНО"
+
+#~ msgid "Cannot run SPM cleanup, error"
+#~ msgstr "Невозможно запустить очистку SPM, ошибка"
+
+#~ msgid "package moves completed successfully"
+#~ msgstr "перемещения пакета успешно завершены"
+
+#~ msgid "Moving old entry"
+#~ msgstr "Перемещение старой записи"
+
+#~ msgid "to"
+#~ msgstr "на"
+
+#~ msgid "Office"
+#~ msgstr "Офис"
+
+#~ msgid "Applications used in office environments"
+#~ msgstr "Приложения, используемые в офисной среде"
+
+#~ msgid "Development"
+#~ msgstr "Разработка"
+
+#~ msgid "Applications or system libraries"
+#~ msgstr "Приложения или системные библиотеки"
+
+#~ msgid "System applications or libraries"
+#~ msgstr "Системные приложения или библиотеки"
+
+#~ msgid "Games"
+#~ msgstr "Игры"
+
+#~ msgid "Games, enjoy your spare time"
+#~ msgstr "Игры, наслаждайтесь своим отдыхом"
+
+#~ msgid "GNOME Desktop"
+#~ msgstr "Среда GNOME"
+
+#~ msgid "Applications and libraries for the GNOME Desktop"
+#~ msgstr "Приложения и библиотеки для среды GNOME"
+
+#~ msgid "KDE Desktop"
+#~ msgstr "Среда KDE"
+
+#~ msgid "Applications and libraries for the KDE Desktop"
+#~ msgstr "Приложения и библиотеки для среды KDE"
+
+#~ msgid "XFCE Desktop"
+#~ msgstr "Среда XFCE"
+
+#~ msgid "Applications and libraries for the XFCE Desktop"
+#~ msgstr "Приложения и библиотеки для среды XFCE"
+
+#~ msgid "LXDE Desktop"
+#~ msgstr "Среда LXDE"
+
+#~ msgid "Applications and libraries for the LXDE Desktop"
+#~ msgstr "Приложения и библиотеки для среды LXDE"
+
+#~ msgid "Multimedia"
+#~ msgstr "Мультимедиа"
+
+#~ msgid "Applications and libraries for Multimedia"
+#~ msgstr "Приложения и библиотеки для мультимедиа"
+
+#~ msgid "Applications and libraries for Networking"
+#~ msgstr "Приложения и библиотеки для подключения к сети"
+
+#~ msgid "Science"
+#~ msgstr "Наука"
+
+#~ msgid "Scientific applications and libraries"
+#~ msgstr "Научные приложения и библиотеки"
+
+#~ msgid "X11"
+#~ msgstr "X11"
+
+#~ msgid "Applications and libraries for X11"
+#~ msgstr "Приложения и библиотеки для X11"
+
+#~ msgid "error"
+#~ msgstr "ошибка"
+
+#~ msgid "not found"
+#~ msgstr "не найдено"
+
+#~ msgid "QA"
+#~ msgstr "QA"
+
+#~ msgid "Cannot run Source Package Manager trigger for"
+#~ msgstr "Невозможно запустить триггер Источника Пакетного Менеджера для"
+
+#~ msgid "Please report it"
+#~ msgstr "Пожалуйста, сообщите об этом"
+
+#~ msgid "Attach this"
+#~ msgstr "Вложить это"
+
+#~ msgid "Cannot run SPM configure phase for"
+#~ msgstr "Невозможно запустить фазу конфигурации SPM для"
+
+#~ msgid "repackaging"
+#~ msgstr "перепаковка"
+
+#~ msgid "Cannot complete quickpkg for atom"
+#~ msgstr "Невозможно завершить quickpkg для атома"
+
+#~ msgid "do it manually"
+#~ msgstr "сделайте это вручную"
+
+#~ msgid "package files rebuild did not run properly"
+#~ msgstr "пересборка файлов пакета не запущена корректно"
+
+#~ msgid "Please update packages manually"
+#~ msgstr "Будьте добры обновить пакеты вручную"
+
+#~ msgid "forcing package updates"
+#~ msgstr "принуждение к обновлению пакетов"
+
+#~ msgid "Syncing with"
+#~ msgstr "Синхронизация с"
+
+#~ msgid "Cannot complete quickpkg for atoms"
+#~ msgstr "Невозможно завершить quickpkg для атомов"
+
+#~ msgid "Cannot update Portage database to destination"
+#~ msgstr "Невозможно обновить базу данных портеджа по расположению"
+
+#~ msgid "SPM uid update error"
+#~ msgstr "Ошибка при обновлении SPM uid"
+
+#~ msgid "Cannot update SPM installed pkgs file"
+#~ msgstr "Невозможно обновить файл установленных пакетов SPM"
+
+#~ msgid "preserved libraries have been found on system"
+#~ msgstr "в системе найдены устаревшие библиотеки"
+
+#~ msgid "does not exist"
+#~ msgstr "не существует"
+
+#~ msgid "Overwriting"
+#~ msgstr "Перезапись"
+
+#~ msgid "variable differs"
+#~ msgstr "всевозможные различия"
+
+#~ msgid "Updating"
+#~ msgstr "Обновление"
+
+#~ msgid "updating critical variables"
+#~ msgstr "Обновление критических переменных"
+
+#~ msgid "differs"
+#~ msgstr "различия"
+
+#~ msgid "Reverting"
+#~ msgstr "Возвращение"
+
+#~ msgid "Skipping configuration files update, you are not root."
+#~ msgstr "Пропуск обновления файлов конфигурации, Вы не root."
+
+#~ msgid "Error calculating dependencies"
+#~ msgstr "Ошибка при подсчёте зависимостей"
+
+#~ msgid "not supported"
+#~ msgstr "не поддерживается"
+
+#~ msgid "Probably Portage API has changed"
+#~ msgstr "Возможно, был изменен API портеджа"
+
+#~ msgid "verifying upload (if supported)"
+#~ msgstr "проверка закачки (если поддерживается)"
+
+#~ msgid "digest verification"
+#~ msgstr "проверка подписей"
+
+#~ msgid "so far, so good!"
+#~ msgstr "Чем дальше - тем лучше!"
+
+#~ msgid "malformed md5 provided to function"
+#~ msgstr "испорченная md5 предоставлена функции"
+
+#~ msgid "remote md5 is invalid"
+#~ msgstr "удаленная md5 неверна"
+
+#~ msgid "successful"
+#~ msgstr "успешно"
+
+#~ msgid "failed, retrying"
+#~ msgstr "не вышло, начинаем снова"
+
+#~ msgid "not critical"
+#~ msgstr "не критично"
+
+#~ msgid "continuing"
+#~ msgstr "продолжаем"
+
+#~ msgid "connecting to mirror"
+#~ msgstr "соединение с зеркалом"
+
+#~ msgid "Entropy Server Mirrors Interface loaded"
+#~ msgstr "Загружен интерфейс зеркал сервера Entropy"
+
+#~ msgid "looking for file in mirror"
+#~ msgstr "поиск файла на зеркале"
+
+#~ msgid "unlocking"
+#~ msgstr "разблокировка"
+
+#~ msgid "locking"
+#~ msgstr "блокировка"
+
+#~ msgid "mirror"
+#~ msgstr "зеркало"
+
+#~ msgid "mirror for download"
+#~ msgstr "зеркало для загрузки"
+
+#~ msgid "mirror already locked for download"
+#~ msgstr "зеркало уже заблокировано для загрузки"
+
+#~ msgid "mirror already unlocked for download"
+#~ msgstr "зеркало уже разблокировано для загрузки"
+
+#~ msgid "for download"
+#~ msgstr "для загрузки"
+
+#~ msgid "mirror successfully locked"
+#~ msgstr "зеркало успешно заблокировано"
+
+#~ msgid "mirror not locked"
+#~ msgstr "зеркало не заблокировано"
+
+#~ msgid "mirror successfully unlocked"
+#~ msgstr "зеркало успешно разблокировано"
+
+#~ msgid "unlock error"
+#~ msgstr "ошибка при разблокировке"
+
+#~ msgid "mirror not unlocked"
+#~ msgstr "зеркало не разблокировано"
+
+#~ msgid "connecting to download package"
+#~ msgstr "подключение для скачивания пакета"
+
+#~ msgid "downloading package"
+#~ msgstr "скачивание пакета"
+
+#~ msgid "is not listed in the repository !"
+#~ msgstr "отсутствует в списках в текущей базе данных репозиториев!!"
+
+#~ msgid "verifying checksum of package"
+#~ msgstr "проверка контрольной суммы пакета"
+
+#~ msgid "downloaded successfully"
+#~ msgstr "скачано успешно"
+
+#~ msgid "checksum does not match. re-downloading..."
+#~ msgstr "контрольная сумма не подсчитана. Перезагрузка..."
+
+#~ msgid "seems broken. Consider to re-package it. Giving up!"
+#~ msgstr "кажется, сломалось. Попробуйте это перепаковать. Прекращаю!"
+
+#~ msgid "unable to download repository revision"
+#~ msgstr "невозможно скачать версию репозитория"
+
+#~ msgid "mirror doesn't have valid revision file"
+#~ msgstr "зеркало не обладает корректным файлом версии"
+
+#~ msgid "mirror already locked"
+#~ msgstr "зеркало уже заблокировано"
+
+#~ msgid "waiting up to 2 minutes before giving up"
+#~ msgstr "ждем две минуты перед передачей данных"
+
+#~ msgid "mirror unlocked"
+#~ msgstr "зеркало разблокировано"
+
+#~ msgid "Local statistics"
+#~ msgstr "Локальная статистика"
+
+#~ msgid "upload directory"
+#~ msgstr "директория закачки"
+
+#~ msgid "files ready"
+#~ msgstr "файлы готовы"
+
+#~ msgid "packages directory"
+#~ msgstr "директория пакетов"
+
+#~ msgid "upload"
+#~ msgstr "закачка"
+
+#~ msgid "download"
+#~ msgstr "скачать"
+
+#~ msgid "copy"
+#~ msgstr "копировать"
+
+#~ msgid "remove"
+#~ msgstr "удалить"
+
+#~ msgid "Packages to be removed"
+#~ msgstr "Пакеты к удалению"
+
+#~ msgid "Packages to be moved locally"
+#~ msgstr "Пакеты к локальному перемещению"
+
+#~ msgid "Packages to be uploaded"
+#~ msgstr "Пакеты к закачке"
+
+#~ msgid "Total removal size"
+#~ msgstr "Общий объём к удалению"
+
+#~ msgid "Total upload size"
+#~ msgstr "Общий объём к закачке"
+
+#~ msgid "Total download size"
+#~ msgstr "Общий объём к скачиванию"
+
+#~ msgid "Remote statistics for"
+#~ msgstr "Статистика по удаленным операциям для"
+
+#~ msgid "remote packages"
+#~ msgstr "отдалённые пакеты"
+
+#~ msgid "files stored"
+#~ msgstr "хранимые файлы"
+
+#~ msgid "Calculating queues"
+#~ msgstr "Подсчёт очередей"
+
+#~ msgid "removing package+hash"
+#~ msgstr "удаление пакета и хэша"
+
+#~ msgid "sync"
+#~ msgstr "синхронизация"
+
+#~ msgid "removal complete"
+#~ msgstr "удаление завершено"
+
+#~ msgid "copying file+hash to repository"
+#~ msgstr "копирование файла и хэша в репозиторий"
+
+#~ msgid "upload errors"
+#~ msgstr "ошибки при закачке"
+
+#~ msgid "reason"
+#~ msgstr "причина"
+
+#~ msgid "upload completed successfully"
+#~ msgstr "закачка успешно завершена"
+
+#~ msgid "download errors"
+#~ msgstr "ошибки загрузки"
+
+#~ msgid "download completed successfully"
+#~ msgstr "загрузка успешно завершена"
+
+#~ msgid "QA checking package file"
+#~ msgstr "QA проверяет файл пакета"
+
+#~ msgid "faulty package file, please fix"
+#~ msgstr "ошибочный файл пакета, будьте добры исправить"
+
+#~ msgid "starting packages sync"
+#~ msgstr "начало синхронизации пакетов"
+
+#~ msgid "packages sync"
+#~ msgstr "синхронизация пакетов"
+
+#~ msgid "socket error"
+#~ msgstr "ошибка сокета"
+
+#~ msgid "on"
+#~ msgstr "на"
+
+#~ msgid "nothing to do on"
+#~ msgstr "нечего делать на"
+
+#~ msgid "Expanding queues"
+#~ msgstr "Расширение очередей"
+
+#~ msgid "nothing to sync for"
+#~ msgstr "нечего синхронизировать для"
+
+#~ msgid "Would you like to run the steps above ?"
+#~ msgstr "Желаете ли Вы применить вышеуказанные шаги?"
+
+#~ msgid "keyboard interrupt !"
+#~ msgstr "клавиатура прекратила работу !!"
+
+#~ msgid "you must package them again"
+#~ msgstr "вам необходимо запаковать их снова"
+
+#~ msgid "exception caught"
+#~ msgstr "обнаружено исключение"
+
+#~ msgid "at least one mirror synced properly!"
+#~ msgstr "свершилось, одно зеркало синхронизировалась нормально!"
+
+#~ msgid "tidy"
+#~ msgstr "чисто"
+
+#~ msgid "collecting expired packages"
+#~ msgstr "сборка устаревших пакетов"
+
+#~ msgid "collecting expired packages in the selected branches"
+#~ msgstr "сборка устаревших пакетов на выбранной ветке"
+
+#~ msgid "nothing to remove on this branch"
+#~ msgstr "нечего удалять по этой ветви"
+
+#~ msgid "these are the expired packages"
+#~ msgstr "здесь - устаревшие пакеты"
+
+#~ msgid "Would you like to continue ?"
+#~ msgstr "Желаете ли продолжить?"
+
+#~ msgid "removing packages remotely"
+#~ msgstr "удаленное удаление пакетов"
+
+#~ msgid "remove errors"
+#~ msgstr "ошибки при удалении"
+
+#~ msgid "removing packages locally"
+#~ msgstr "локальное удаление пакетов"
+
+#~ msgid "downloading notice board from mirrors to"
+#~ msgstr "скачивание доски уведомлений с зеркал на"
+
+#~ msgid "notice board downloaded successfully from"
+#~ msgstr "доска уведомлений успешно скачана с"
+
+#~ msgid "uploading notice board from"
+#~ msgstr "закачка доски уведомлений с"
+
+#~ msgid "notice board upload failed on"
+#~ msgstr "закачка доски уведомлений провалена на"
+
+#~ msgid "notice board upload success"
+#~ msgstr "доска уведомлений закачана успешно"
+
+#~ msgid "download path"
+#~ msgstr "путь загрузки"
+
+#~ msgid "errors"
+#~ msgstr "ошибки"
+
+#~ msgid "failed to download from mirror"
+#~ msgstr "не удалось загрузить с зеркала"
+
+#~ msgid "Troubles with treeupdates"
+#~ msgstr "Проблемы с treeupdates"
+
+#~ msgid "Bumping old data back"
+#~ msgstr "Отправка старой информации назад"
+
+#~ msgid "configured package sets"
+#~ msgstr "конфигурированные наборы пакетов"
+
+#~ msgid "None configured"
+#~ msgstr "Ничего не сконфигурировано"
+
+#~ msgid "dump light"
+#~ msgstr "лёгкий дамп"
+
+#~ msgid "dump light checksum"
+#~ msgstr "контрольная сумма лёгкого дампа"
+
+#~ msgid "opener"
+#~ msgstr "открыватель"
+
+#~ msgid "compressed checksum"
+#~ msgstr "контрольная сумма сжатой базы данных"
+
+#~ msgid "disabled EAPI"
+#~ msgstr "деактивированный EAPI"
+
+#~ msgid "download issues"
+#~ msgstr "Проблемы с загрузкой"
+
+#~ msgid "upload issues"
+#~ msgstr "проблемы с закачкой"
+
+#~ msgid "INJECT"
+#~ msgstr "ДОБАВЛЕНИЕ"
+
+#~ msgid "has been injected"
+#~ msgstr "добавлено"
+
+#~ msgid "quickpkg manually to update embedded db"
+#~ msgstr "сделайте quickpkg вручную, чтобы обновить вложенную базу данных"
+
+#~ msgid "repository not configured"
+#~ msgstr "репозиторий не сконфигурирован"
+
+#~ msgid "protected repository id, can't use this, sorry dude..."
+#~ msgstr ""
+#~ "защищённый ID репозитория, невозможно это использовать, тут уж звиняйте..."
+
+#~ msgid "defaulting to 0"
+#~ msgstr "установка по умолчанию на 0"
+
+#~ msgid "cannot match"
+#~ msgstr "невозможно подсчитать"
+
+#~ msgid "Invalid tag specified"
+#~ msgstr "выбран неправильный тэг"
+
+#~ msgid "flushing back selected packages from branches"
+#~ msgstr "возвращение выбранных пакетов с веток"
+
+#~ msgid "nothing to do"
+#~ msgstr "нечего делать"
+
+#~ msgid "these are the packages that will be flushed"
+#~ msgstr "вот пакеты, которые будут возвращены"
+
+#~ msgid "checking package hash"
+#~ msgstr "проверка хэша пакета"
+
+#~ msgid "hash does not match for"
+#~ msgstr "хэш не подсчитан для"
+
+#~ msgid "wrong md5"
+#~ msgstr "неверная md5"
+
+#~ msgid "error downloading packages from mirrors"
+#~ msgstr "ошибка при скачивании пакетов с зеркал"
+
+#~ msgid "working on branch"
+#~ msgstr "работа с веткой"
+
+#~ msgid "updating package"
+#~ msgstr "обновление пакета"
+
+#~ msgid "package flushed"
+#~ msgstr "пакет возвращён"
+
+#~ msgid "Preparing to move selected packages to"
+#~ msgstr "Подготовка к перемещению выбранных пакетов в"
+
+#~ msgid "Preparing to copy selected packages to"
+#~ msgstr "Подготовка к копированию выбранных пакетов в"
+
+#~ msgid "Note"
+#~ msgstr "Замечание"
+
+#~ msgid ""
+#~ "all old packages with conflicting scope will be removed from destination "
+#~ "repo unless injected"
+#~ msgstr ""
+#~ "все старые пакеты с конфликтующими возможностями будут удалены из "
+#~ "репозитория назначения ещё до добавления"
+
+#~ msgid "new tag"
+#~ msgstr "новый тэг"
+
+#~ msgid "dependency"
+#~ msgstr "зависимость"
+
+#~ msgid "switching"
+#~ msgstr "переключение"
+
+#~ msgid "cannot switch, package not found, skipping"
+#~ msgstr "невозможно подключить, пакет не найден, пропускем"
+
+#~ msgid "moving file"
+#~ msgstr "переключение файла"
+
+#~ msgid "successfully handled atom"
+#~ msgstr "успешно обслуженный атом"
+
+#~ msgid "Injecting entropy metadata into built packages"
+#~ msgstr "Добавление метаинформации entropy в собранные пакеты"
+
+#~ msgid "injecting entropy metadata"
+#~ msgstr "добавление метаинформации entropy"
+
+#~ msgid "injection complete"
+#~ msgstr "добавление завершено"
+
+#~ msgid "removing package"
+#~ msgstr "удаление пакета"
+
+#~ msgid "Integrity verification of the selected packages"
+#~ msgstr "Проверка целостности выбранных пакетов"
+
+#~ msgid "All the packages in repository will be checked."
+#~ msgstr "Все пакеты в репозитории Entropy Packages будут проверены."
+
+#~ msgid "This is the list of the packages that would be checked"
+#~ msgstr "Вот список пакетов, которые будут проверены"
+
+#~ msgid "Working on mirror"
+#~ msgstr "Работа на зеркале"
+
+#~ msgid "checking hash"
+#~ msgstr "проверка хэша"
+
+#~ msgid "digest verification of"
+#~ msgstr "проверка списков"
+
+#~ msgid "NOT healthy"
+#~ msgstr "НЕ в порядке"
+
+#~ msgid "This is the list of broken packages"
+#~ msgstr "Здесь список испорченных пакетов"
+
+#~ msgid "Mirror"
+#~ msgstr "Зеркало"
+
+#~ msgid "Statistics"
+#~ msgstr "Статистика"
+
+#~ msgid "Number of checked packages"
+#~ msgstr "Число проверенных пакетов"
+
+#~ msgid "Number of healthy packages"
+#~ msgstr "Число нормальных пакетов"
+
+#~ msgid "Number of broken packages"
+#~ msgstr "Число испорченных пакетов"
+
+#~ msgid "local"
+#~ msgstr "локально"
+
+#~ msgid "checking status of"
+#~ msgstr "проверка статуса для"
+
+#~ msgid "is corrupted, stored checksum"
+#~ msgstr "испорчен, накоплена контрольная сумма"
+
+#~ msgid "checked packages"
+#~ msgstr "проверены пакеты"
+
+#~ msgid "healthy packages"
+#~ msgstr "нормальные пакеты"
+
+#~ msgid "broken packages"
+#~ msgstr "испорченные пакеты"
+
+#~ msgid "downloaded packages"
+#~ msgstr "скачанные пакеты"
+
+#~ msgid "failed downloads"
+#~ msgstr "проваленные загрузки"
+
+#~ msgid "available"
+#~ msgstr "доступно"
+
+#~ msgid "upload/ignored"
+#~ msgstr "закачано/игнорируется"
+
+#~ msgid "Starting to download missing files"
+#~ msgstr "Начало загрузки недостающих файлов"
+
+#~ msgid "Searching missing/broken files on another mirror"
+#~ msgstr "Поиск недостающих/испорченных файлов на другом зеркале"
+
+#~ msgid "Binary packages downloaded successfully."
+#~ msgstr "Бинарные пакеты скачаны успешно."
+
+#~ msgid "These are the packages that cannot be found online"
+#~ msgstr "А вот эти пакеты не могут быть найдены онлайн"
+
+#~ msgid "They won't be checked"
+#~ msgstr "Они не будут проверены"
+
+#~ msgid "Please setup your branch to"
+#~ msgstr "Пожалуйста, установите Вашу ветку на"
+
+#~ msgid "and retry"
+#~ msgstr "и попробуйте"
+
+#~ msgid "Switching packages"
+#~ msgstr "Переключение пакетов"
+
+#~ msgid "Ignoring"
+#~ msgstr "Игнорирование"
+
+#~ msgid "already in branch"
+#~ msgstr "уже на ветке"
+
+#~ msgid "migration loop completed"
+#~ msgstr "миграционный цикл завершён"
+
+#~ msgid "Running orphaned SPM packages test"
+#~ msgstr "Запуск теста осиротевших пакетов SPM"
+
+#~ msgid "Scanning package"
+#~ msgstr "Сканирование пакета"
+
+#~ msgid "not found anymore"
+#~ msgstr "больше ничего не найдено"
+
+#~ msgid "Packages string"
+#~ msgstr "Строка пакетов"
+
+#~ msgid "Checking"
+#~ msgstr "Проверка"
+
+#~ msgid "Running dependencies test"
+#~ msgstr "Запускаем тест зависимостей"
+
+#~ msgid "These are the dependencies not found"
+#~ msgstr "Имеются ненайденные зависимости"
+
+#~ msgid "Needed by"
+#~ msgstr "Необходимо для"
+
+#~ msgid "by repo"
+#~ msgstr "для репозитория"
+
+#~ msgid "Every dependency is satisfied. It's all fine."
+#~ msgstr "Все зависимости удовлетворены. С чем и поздравляю."
+
+#~ msgid "Broken and matched packages list"
+#~ msgstr "Список испорченных и подсчитанных пакетов"
+
+#~ msgid "Dumping results into these files"
+#~ msgstr "Запись результатов в эти файлы"
+
+#~ msgid "System is healthy"
+#~ msgstr "В системе все в порядке"
+
+#~ msgid "Matching libraries with Spm, please wait"
+#~ msgstr "Подсчет библиотек через SPM, подождите немного"
+
+#~ msgid "These are the matched packages"
+#~ msgstr "Здесь - подсчитанные пакеты"
+
+#~ msgid "No matched packages"
+#~ msgstr "Нет подсчитанных пакетов"
+
+#~ msgid "Your default repository is not initialized"
+#~ msgstr "Ваш репозиторий по умолчанию не инициализирован"
+
+#~ msgid "Do you want to initialize your default repository ?"
+#~ msgstr "Вы желаете инициализировать Ваш репозиторий по умолчанию ?"
+
+#~ msgid "Continuing with an uninitialized repository"
+#~ msgstr "Продолжаем с неинициализированным репозиторием"
+
+#~ msgid "Mirrors status table"
+#~ msgstr "Таблица дополнительных репозиториев"
+
+#~ msgid "Unlocked"
+#~ msgstr "Разблокировано"
+
+#~ msgid "Locked"
+#~ msgstr "Заблокировано"
+
+#~ msgid "cannot lock mirror"
+#~ msgstr "невозможно заблокировать зеркало"
+
+#~ msgid "successfully initialized"
+#~ msgstr "успешно инициализировано"
+
+#~ msgid "adding package"
+#~ msgstr "добавление пакета"
+
+#~ msgid "added package"
+#~ msgstr "добавлен пакет"
+
+#~ msgid "rev"
+#~ msgstr "версия"
+
+#~ msgid "manual dependencies for"
+#~ msgstr "ручные зависимости для"
+
+#~ msgid "Exception caught, closing tasks"
+#~ msgstr "Обнаружено исключение, закрываем задания"
+
+#~ msgid "server-side repository"
+#~ msgstr "репозиторий сервера"
+
+#~ msgid "community repository"
+#~ msgstr "репозиторий сообщества"
+
+#~ msgid "Entropy Server Interface Instance on repository"
+#~ msgstr "Сессия Entropy Server Interface в репозитории"
+
+#~ msgid "current branch"
+#~ msgstr "текущая ветка"
+
+#~ msgid "type"
+#~ msgstr "тип"
+
+#~ msgid "Currently configured repositories"
+#~ msgstr "Актуально сконфигурированные репозитории"
+
+#~ msgid "config files"
+#~ msgstr "файлы конфигурации"
+
+#~ msgid "checking system"
+#~ msgstr "проверка системы"
+
+#~ msgid "there are configuration files not updated yet"
+#~ msgstr "имеются ещё не обновленные файлы конфигурации"
+
+#~ msgid "Comments"
+#~ msgstr "Комментарии"
+
+#~ msgid "Images/Screenshots"
+#~ msgstr "Изображения/скриншоты"
+
+#~ msgid "Generic Files"
+#~ msgstr "Общие файлы"
+
+#~ msgid "Comment"
+#~ msgstr "Комментарий"
+
+#~ msgid "Image/Screenshot"
+#~ msgstr "Изображение/скриншот"
+
+#~ msgid "Generic File"
+#~ msgstr "Общий файл"
+
+#~ msgid "Automerging file"
+#~ msgstr "Автообъединение файла"
+
+#, fuzzy
+#~ msgid "Found update"
+#~ msgstr "Отменить обновление"
+
+#~ msgid "System Error"
+#~ msgstr "Системная ошибка"
+
+#~ msgid "Cannot automerge file"
+#~ msgstr "Невозможно автоматически объединить файл"
+
+#~ msgid "forcing packages metadata update"
+#~ msgstr "принуждение к обновлению метаинформации пакетов"
+
+#~ msgid "Updating system database using repository"
+#~ msgstr "Обновление системной базы данных, используя ID репозитория"
+
+#~ msgid "is corrupted"
+#~ msgstr "испорчен"
+
+#~ msgid "Already prepared"
+#~ msgstr "Уже подготовлено"
+
+#~ msgid "Not yet prepared"
+#~ msgstr "Ещё не подготовлено"
+
+#~ msgid "maximum failure threshold reached"
+#~ msgstr "Максимальный порог ошибок достигнут"
+
+#~ msgid "success"
+#~ msgstr "успех"
+
+#~ msgid "Aggregated transfer rate"
+#~ msgstr "Аггрегированная скорость передачи"
+
+#~ msgid "second"
+#~ msgstr "сек."
+
+#~ msgid "Error downloading from"
+#~ msgstr "Ошибка при скачивании с"
+
+#~ msgid "data not available on this mirror"
+#~ msgstr "информация недоступна на этом зеркале"
+
+#~ msgid "wrong checksum"
+#~ msgstr "неверная контрольная сумма"
+
+#~ msgid "timeout error"
+#~ msgstr "ошибка при превышении времени ожидания"
+
+#~ msgid "discarded download"
+#~ msgstr "отмененная загрузка"
+
+#~ msgid "unknown reason"
+#~ msgstr "неизвестная причина"
+
+#~ msgid "Downloading from"
+#~ msgstr "Скачивание с"
+
+#~ msgid "Successfully downloaded from"
+#~ msgstr "Успешно скачано с"
+
+#~ msgid "at"
+#~ msgstr "на"
+
+#~ msgid "file not available on this mirror"
+#~ msgstr "файл недоступен на этом зеркале"
+
+#~ msgid "timeout, retrying on this mirror"
+#~ msgstr "превышено время ожидания, повтор попытки на данном зеркале"
+
+#~ msgid "timeout, giving up"
+#~ msgstr "превышено время ожидания, прекращаю"
+
+#~ msgid "does not match the recorded one"
+#~ msgstr "не подсчитывает записанный"
+
+#~ msgid "matches"
+#~ msgstr "подсчёты"
+
+#~ msgid "Checking package checksum..."
+#~ msgstr "Подсчёт контрольной суммы пакета..."
+
+#~ msgid "Package checksum matches"
+#~ msgstr "Контрольная сумма пакета корректна"
+
+#~ msgid "Checksum does not match. Download attempt #%s"
+#~ msgstr "Контрольная сумма пакета некорректна. Попытка загрузки #%s"
+
+#~ msgid "Cannot properly fetch package! Quitting."
+#~ msgstr "В общем, невозможно загрузить пакет! Выход."
+
+#~ msgid "Cannot fetch package or checksum does not match"
+#~ msgstr "Невозможно загрузить пакет либо контрольная сумма некорректна."
+
+#~ msgid "Try to download latest repositories"
+#~ msgstr "Попробуйте загрузить последние репозитории"
+
+#~ msgid "Unpacking"
+#~ msgstr "Распаковка"
+
+#~ msgid "configuration phase"
+#~ msgstr "Фаза конфигурации"
+
+#~ msgid "Removing from Entropy"
+#~ msgstr "Removing from Entropy"
+
+#~ msgid "Removing config file, never modified"
+#~ msgstr "Удаление конфигурационного файла, никогда не модифицированного"
+
+#~ msgid "Protecting config file"
+#~ msgstr "Защита конфигурационного файла"
+
+#~ msgid "This package contains a badly encoded file !!!"
+#~ msgstr "Данный пакет содержит файл с испорченной кодировкой!!!"
+
+#~ msgid "Collision found during removal of"
+#~ msgstr "Произошла ошибка при удалении"
+
+#~ msgid "Updating database"
+#~ msgstr "Обновление базы данных"
+
+#~ msgid "%s is a file when should be a directory !! Removing in 20 seconds..."
+#~ msgstr ""
+#~ "%s - это файл, который должен быть папкой !! Удаляется в течение 20 "
+#~ "секунд..."
+
+#~ msgid "directory expected, symlink found"
+#~ msgstr "найден ярлык, хотя нужна была папка"
+
+#~ msgid "Removing in 20 seconds !!"
+#~ msgstr "Удаление через 20 секунд !!"
+
+#~ msgid "Automerging config file, never modified"
+#~ msgstr ""
+#~ "Автообъединение конфигурационного файла, никогда не модифицировавшегося"
+
+#~ msgid "file expected, directory found"
+#~ msgstr "найдена папка, хотя нужен был файл"
+
+#~ msgid "File move error"
+#~ msgstr "Ошибка при перемещении файла"
+
+#~ msgid "please report"
+#~ msgstr "пожалуйста, отправьте отчет"
+
+#~ msgid "Skipping file installation/removal"
+#~ msgstr "Пропуск установки/удаления файла"
+
+#~ msgid "Collision found during install for"
+#~ msgstr "Обнаружено противоречие во время установки"
+
+#~ msgid "cannot overwrite"
+#~ msgstr "невозможно перезаписать"
+
+#~ msgid "Local path"
+#~ msgstr "Локальный путь"
+
+#~ msgid "Package cannot be fetched. Try to update repositories"
+#~ msgstr "Пакет не может быть загружен. Попробуйте обновить репозитории."
+
+#~ msgid "Some packages cannot be fetched"
+#~ msgstr "Некоторые пакеты не могут быть загружены"
+
+#~ msgid "Try to update your repositories and retry"
+#~ msgstr "Попробуйте обновить репозитории и попробовать снова"
+
+#~ msgid "Package cannot be downloaded, unknown error."
+#~ msgstr "Пакет не может быть скачан, неизвестная ошибка."
+
+#~ msgid "Installed package in queue vanished, skipping."
+#~ msgstr "Установленные пакеты в очереди очищены, пропускаем."
+
+#~ msgid "Merging package"
+#~ msgstr "Соединение пакета"
+
+#~ msgid "You are running out of disk space"
+#~ msgstr "Осталось совсем мало места на диске"
+
+#~ msgid "I bet, you're probably Michele"
+#~ msgstr "Спорим, что ты Микеле"
+
+#~ msgid "An error occured while trying to unpack the package"
+#~ msgstr "Произошла ошибка при попытке распаковать пакет"
+
+#~ msgid "Check if your system is healthy"
+#~ msgstr "Проверьте, всё ли в порядке с системой"
+
+#~ msgid "Installing package"
+#~ msgstr "Установка пакета"
+
+#~ msgid "An error occured while trying to install the package"
+#~ msgstr "Произошла ошибка при попытке установить пакет"
+
+#~ msgid "Removing data"
+#~ msgstr "Удаление информации"
+
+#~ msgid "An error occured while trying to remove the package"
+#~ msgstr "Произошла ошибка при попытке удалить пакет"
+
+#~ msgid "Check if you have enough disk space on your hard disk"
+#~ msgstr "Проверьте, достаточно ли места на жёстком диске"
+
+#~ msgid "Cleaning"
+#~ msgstr "Очистка"
+
+#~ msgid "Configuring package"
+#~ msgstr "Конфигурирование пакета"
+
+#~ msgid "An error occured while trying to configure the package"
+#~ msgstr "Случилась ошибка при попытке конфигурирования пакета"
+
+#~ msgid "Make sure that your system is healthy"
+#~ msgstr "Будьте уверены, что с Вашей системой всё в порядке"
+
+#~ msgid "It seems that Source Package Manager entry is missing"
+#~ msgstr "Это означает, что недостаёт записи Менеджера Пакетов Источника"
+
+#~ msgid "Installed package vanished"
+#~ msgstr "Установленный пакет исчез"
+
+#~ msgid "Fetch not available"
+#~ msgstr "Загрузка недоступна"
+
+#~ msgid "Multi Fetching"
+#~ msgstr "Мульти-загрузка"
+
+#~ msgid "Fetching sources"
+#~ msgstr "Загрузка источников"
+
+#~ msgid "Verifying"
+#~ msgstr "Проверка"
+
+#~ msgid "Multi Verification"
+#~ msgstr "Мульти-проверка"
+
+#~ msgid "Merging"
+#~ msgstr "Объединение"
+
+#~ msgid "Postinstall"
+#~ msgstr "Завершение установки"
+
+#~ msgid "Preinstall"
+#~ msgstr "Подготовка к установке"
+
+#~ msgid "Preremove"
+#~ msgstr "Подготовка к удалению"
+
+#~ msgid "Postremove"
+#~ msgstr "Завершение удаления"
+
+#~ msgid "Configuring"
+#~ msgstr "Конфигурирование"
+
+#~ msgid "An error occured. Action aborted."
+#~ msgstr "Произошла ошибка. Действие отменено."
+
+#~ msgid "Injecting downloaded dump"
+#~ msgstr "Добавляется объём загруженного"
+
+#~ msgid "Repository is being updated"
+#~ msgstr "Репозиторий обновляется"
+
+#~ msgid "Try again in a few minutes"
+#~ msgstr "Попробуйте снова через несколько минут"
+
+#~ msgid "Downloading checksum"
+#~ msgstr "Загрузка контрольной суммы"
+
+#~ msgid "Cannot fetch checksum"
+#~ msgstr "Невозможно загрузить контрольную сумму"
+
+#~ msgid "Unpacking database to"
+#~ msgstr "Распаковка базы данных в"
+
+#~ msgid "Cannot unpack compressed package"
+#~ msgstr "Невозможно распаковать сжатый пакет"
+
+#~ msgid "Skipping repository"
+#~ msgstr "Пропуск репозитория"
+
+#~ msgid "Indexing Repository metadata"
+#~ msgstr "Индексирование метаинформации репозитория"
+
+#~ msgid "Downloading repository metafile"
+#~ msgstr "Скачивание метафайла репозитория"
+
+#~ msgid "Downloading Notice Board"
+#~ msgstr "Загрузка доски уведомлений"
+
+#~ msgid "unpacked meta file"
+#~ msgstr "распакованный файл meta"
+
+#~ msgid "not available, it's ok"
+#~ msgstr "недоступно, но это нормально"
+
+#~ msgid "available, w00t!"
+#~ msgstr "ура, доступно!"
+
+#~ msgid "Repository revision"
+#~ msgstr "Версия репозитория"
+
+#~ msgid "Cannot open digest"
+#~ msgstr "Невозможно открыть обзор"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "ERROR"
+#~ msgstr "ОШИБКА"
+
+#~ msgid "Giving up"
+#~ msgstr "Прекращаю"
+
+#~ msgid "skipping differential sync"
+#~ msgstr "пропуск различной синхронизации"
+
+#~ msgid "threshold"
+#~ msgstr "порог"
+
+#~ msgid "Local status"
+#~ msgstr "Локальный статус"
+
+#~ msgid "Fetching segments"
+#~ msgstr "Загрузка сегментов"
+
+#~ msgid "cannot fetch repository metadata"
+#~ msgstr "невозможно загрузить метаинформацию репозитория"
+
+#~ msgid "cannot update treeupdates data"
+#~ msgstr "невозможно обновить treeupdates-информацию"
+
+#~ msgid "cannot update package sets data"
+#~ msgstr "невозможно обновить информацию по наборам пакетов"
+
+#~ msgid "Fetch error on segment while adding"
+#~ msgstr "Ошибка загрузки сегмента при добавлении"
+
+#~ msgid "repository error while adding packages"
+#~ msgstr "Ошибка репозитория при добавлении пакетов"
+
+#~ msgid "repository error while removing packages"
+#~ msgstr "ошибка репозитория при удалении пакетов"
+
+#~ msgid "remote"
+#~ msgstr "отдаленное"
+
+#~ msgid "Configuration files update error, not critical, continuing"
+#~ msgstr "Ошибка при обновлении файлов конфигурации, некритично, продолжаем"
+
+#~ msgid "Please update your repositories now in order to remove this message!"
+#~ msgstr ""
+#~ "Пожалуйста, обновите ваши репозитории сейчас, чтобы убрать это сообщение!"
+
+#~ msgid "is not available"
+#~ msgstr "недоступен"
+
+#~ msgid "Cannot validate"
+#~ msgstr "Невозможно подтвердить"
+
+#~ msgid "bad repository id specified"
+#~ msgstr "выбран неправильный ID репозитория"
+
+#~ msgid "Repository %s hasn't been downloaded yet."
+#~ msgstr "Репозиторий %s ещё не скачан."
+
+#~ msgid "System database not found or corrupted"
+#~ msgstr "База данных системы не найдена или испорчена"
+
+#~ msgid "All fine"
+#~ msgstr "Всё замечательно"
+
+#~ msgid "Unable to unpack"
+#~ msgstr "Невозможно распаковать"
+
+#~ msgid "Resources unlocked, let's go!"
+#~ msgstr "Ресурсы освобождены. Поехали!"
+
+#~ msgid "not a valid method"
+#~ msgstr "неправильный метод"
+
+#~ msgid "Source Package Manager interface can't be loaded"
+#~ msgstr "Пакетный менеджер источника не может быть загружен"
+
+#~ msgid "please fix"
+#~ msgstr "пожалуйста, пофиксите"
+
+#~ msgid "Cannot run External trigger for"
+#~ msgstr "Невозможно запустить Внешний триггер для"
+
+#~ msgid "post-install phase"
+#~ msgstr "фаза постустановки"
+
+#~ msgid "pre-install phase"
+#~ msgstr "фаза предустановки"
+
+#~ msgid "setup phase"
+#~ msgstr "фаза установки"
+
+#~ msgid "pre-remove phase"
+#~ msgstr "фаза предудаления"
+
+#~ msgid "post-remove phase"
+#~ msgstr "фаза постудаления"
+
+#~ msgid "Something bad happened. Please have a look."
+#~ msgstr "Случилось что-то нехорошее. Пожалуйста, взгляните."
+
+#~ msgid "a new release is available"
+#~ msgstr "доступна новая версия"
+
+#~ msgid "Mind to install it before any other package"
+#~ msgstr "Не забудьте установить это перед любыми другими пакетами"
+
+#~ msgid "Advisories fetch error"
+#~ msgstr "Ошибка при загрузке уведомлений"
+
+#~ msgid "Repositories synchronization"
+#~ msgstr "Синхронизация репозитория"
+
+#~ msgid "Name already taken"
+#~ msgstr "Имя уже установлено"
+
+#~ msgid "Cannot remove the old element"
+#~ msgstr "Невозможно удалить старый элемент"
+
+#~ msgid "Cannot create the element"
+#~ msgstr "Невозможно создать элемент"
+
+#~ msgid "cannot start with"
+#~ msgstr "невозможно стартовать с"
+
+#~ msgid "Already removed"
+#~ msgstr "Уже удалено"
+
+#~ msgid "Not defined by user"
+#~ msgstr "Не указано пользователем"
+
+#~ msgid "Set not found or unable to remove"
+#~ msgstr "Набор не найден или невозможно удалить"
+
+#~ msgid "Checking %s"
+#~ msgstr "Проверка %s"
+
+#~ msgid "Sorting dependencies"
+#~ msgstr "Сортировка зависимостей"
+
+#~ msgid "Calculating inverse dependencies for"
+#~ msgstr "Подсчет противоположных зависимостей для"
+
+#~ msgid "infinite"
+#~ msgstr "бесконечно"
+
+#~ msgid "[F]"
+#~ msgstr "[F]"
+
+#~ msgid "ETA"
+#~ msgstr "ЕТА"
+
+#~ msgid "sec"
+#~ msgstr "сек"
+
+#~ msgid "Aggregated download"
+#~ msgstr "Аггрегированная загрузка"
+
+#~ msgid "Security Advisories"
+#~ msgstr "Предостережения по безопасности"
+
+#~ msgid "Warning"
+#~ msgstr "Осторожно"
+
+#~ msgid "advisory broken"
+#~ msgstr "уведомление испорчено"
+
+#~ msgid "updated successfully"
+#~ msgstr "успешно обновлено"
+
+#~ msgid "already up to date"
+#~ msgstr "уже обновлено до последней версии"
+
+#~ msgid "Verifying checksum"
+#~ msgstr "Проверка контрольной суммы"
+
+#~ msgid "cannot open packages, sorry"
+#~ msgstr "увы, невозможно открыть пакеты"
+
+#~ msgid "cannot read the checksum, sorry"
+#~ msgstr "жаль, но невозможно прочитать контрольную сумму"
+
+#~ msgid "digest verification failed, sorry"
+#~ msgstr "Не удалось проверить списки, увы"
+
+#~ msgid "digest verification failed, try again later"
+#~ msgstr "проверка списков не удалась, попробуйте позже"
+
+#~ msgid "installing"
+#~ msgstr "установка"
+
+#~ msgid "Corrupted Client Repository. Please restore a backup."
+#~ msgstr ""
+#~ "Испорчен клиент репозитория. Пожалуйста, восстановите из резервной копии."
+
+#~ msgid "reason not available"
+#~ msgstr "причина недоступна"
+
+#~ msgid "user package.mask"
+#~ msgstr "package.mask пользователя"
+
+#~ msgid "system keywords"
+#~ msgstr "системные ключевые слова"
+
+#~ msgid "user package.unmask"
+#~ msgstr "package.unmask пользователя"
+
+#~ msgid "user repo package.keywords (all packages)"
+#~ msgstr "user repo package.keywords (все пакеты)"
+
+#~ msgid "user repo package.keywords"
+#~ msgstr "user repo package.keywords"
+
+#~ msgid "user package.keywords"
+#~ msgstr "package.keywords пользователя"
+
+#~ msgid "completely masked (by keyword?)"
+#~ msgstr "полностью замаскировано (по ключевому слову?)"
+
+#~ msgid "repository general packages.db.mask"
+#~ msgstr "repository general packages.db.mask"
+
+#~ msgid "repository general packages.db.keywords"
+#~ msgstr "repository in branch packages.db.mask"
+
+#~ msgid "user license.mask"
+#~ msgstr "user license.mask"
+
+#~ msgid "user live unmask"
+#~ msgstr "user live unmask"
+
+#~ msgid "user live mask"
+#~ msgstr "user live mask"
+
+#~ msgid "Not installed"
+#~ msgstr "Не установлено"
+
+#~ msgid "branch"
+#~ msgstr "ветка"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "version"
+#~ msgstr "версия"
+
+#~ msgid "revision"
+#~ msgstr "версия"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Download"
+#~ msgstr "Загрузка"
+
+#~ msgid "Checksum"
+#~ msgstr "Контрольная сумма"
+
+#~ msgid "Conflicts"
+#~ msgstr "Конфликты"
+
+#~ msgid "Homepage"
+#~ msgstr "Домашняя страница"
+
+#~ msgid "Entry API"
+#~ msgstr "Запись API"
+
+#~ msgid "Compiled with"
+#~ msgstr "Компилировано с"
+
+#~ msgid "Created"
+#~ msgstr "Создано"
+
+#~ msgid "No packages found"
+#~ msgstr "Пакетов не найдено"
+
+#~ msgid "Entropy got a question for you"
+#~ msgstr "у Entropy есть к Вам вопросы"
+
+#~ msgid "Interrupted"
+#~ msgstr "Отменено"
+
+#~ msgid "Selected number"
+#~ msgstr "Выбранный номер"
+
+#~ msgid "Please select an option"
+#~ msgstr "Пожалуйста, выберите опцию"
+
+#~ msgid "Discard all"
+#~ msgstr "Отменить всё"
+
+#~ msgid "Confirm"
+#~ msgstr "Подтвердить"
+
+#~ msgid "Add item"
+#~ msgstr "Добавить предмет"
+
+#~ msgid "Remove item"
+#~ msgstr "Удалить предмет"
+
+#~ msgid "Show current list"
+#~ msgstr "Показать текущий список"
+
+#~ msgid "Your choice (type a number and press enter):"
+#~ msgstr "Ваш выбор (введите номер и нажмите Enter)"
+
+#~ msgid "You don't have typed a number."
+#~ msgstr "Вы не ввели номер."
+
+#~ msgid "Invalid action."
+#~ msgstr "Неправильное действие."
+
+#~ msgid "Invalid string."
+#~ msgstr "Неправильная строка."
+
+#~ msgid "Invalid element."
+#~ msgstr "Неправильный элемент."
+
+#~ msgid "broken libraries detected"
+#~ msgstr "испорченные библиотеки найдены"
+
+#~ msgid "needs"
+#~ msgstr "требует"
+
+#~ msgid "Broken symbols packages list"
+#~ msgstr "Список испорченных пакетов символов"
+
+#~ msgid "Broken executables list"
+#~ msgstr "Список испорченных исполняемых файлов"
+
+#~ msgid "discarding directory"
+#~ msgstr "папка забракованного"
+
+#~ msgid "because it's symlinked on"
+#~ msgstr "поскольку оно ссылается на"
+
+#~ msgid "Collecting broken executables"
+#~ msgstr "Ищутся испорченные исполняемые файлы"
+
+#~ msgid "don't worry about libraries that are shown here but not later."
+#~ msgstr "не беспокойтесь о библиотеках, которые показаны здесь, но не позже"
+
+#~ msgid "Scanning libraries"
+#~ msgstr "Сканирование библиотек"
+
+#~ msgid "various broken symbols"
+#~ msgstr "Различные испорченные символы"
+
+#~ msgid "Matching broken libraries/executables"
+#~ msgstr "Подсчет испорченных библиотек/исполняемых приложений"
+
+#~ msgid "Not prepared yet"
+#~ msgstr "Ещё не подготовлено."
+
+#~ msgid "No advisories provided"
+#~ msgstr "Уведомлений не предоставлено"
+
+#~ msgid "Advisory"
+#~ msgstr "Уведомление"
+
+#~ msgid "GLSA Identifier"
+#~ msgstr "Идентификатор GLSA"
+
+#~ msgid "Exploitable"
+#~ msgstr "Добываемое"
+
+#~ msgid "Impact type"
+#~ msgstr "Тип влияния"
+
+#~ msgid "Upstream bugs"
+#~ msgstr "Баги в процессе"
+
+#~ msgid "Affected"
+#~ msgstr "Уязвимо"
+
+#~ msgid "vulnerable versions"
+#~ msgstr "уязвимые версии"
+
+#~ msgid "unaffected versions"
+#~ msgstr "неуязвимые версии"
+
+#~ msgid "No advisories available or applicable"
+#~ msgstr "Нет доступных либо применимых уведомлений"
+
+#~ msgid "Calculating security updates"
+#~ msgstr "Подсчёт обновлений безопасности"
+
+#~ msgid "All the available updates have been already installed"
+#~ msgstr "Все возможные обновления уже были установлены"
+
+#~ msgid "Wrong parameters"
+#~ msgstr "Неправильные параметры"
+
+#~ msgid "active"
+#~ msgstr "активно"
+
+#~ msgid "never synced"
+#~ msgstr "никогда не синхронизировалось"
+
+#~ msgid "Packages URL"
+#~ msgstr "URL пакета"
+
+#~ msgid "Database URL"
+#~ msgstr "URL базы данных"
+
+#~ msgid "Repository name"
+#~ msgstr "Имя репозитория"
+
+#~ msgid "Repository database path"
+#~ msgstr "Путь к базе данных репозитория"
+
+#, fuzzy
+#~ msgid "Repositories Updated not allowed"
+#~ msgstr "Репозитории обновляются"
+
+#~ msgid "Notice board not available"
+#~ msgstr "Доска уведомлений недоступна"
+
+#~ msgid "Press Enter to continue"
+#~ msgstr "Нажмите Enter, чтобы продолжить"
+
+#~ msgid "Exit"
+#~ msgstr "Выход"
+
+#~ msgid "Choose one by typing its identifier"
+#~ msgstr "Выберите один, набрав его название"
+
+#~ msgid "Notice board"
+#~ msgstr "Доска уведомлений"
+
+#~ msgid "You are not root"
+#~ msgstr "Вы не root"
+
+#~ msgid "Scanning filesystem"
+#~ msgstr "Сканирование файловой системы"
+
+#~ msgid "All fine baby. Nothing to do!"
+#~ msgstr "Всё пучком. Нечего делать!"
+
+#~ msgid "file"
+#~ msgstr "файл"
+
+#, fuzzy
+#~ msgid "Type a number"
+#~ msgstr "Введите число."
+
+#~ msgid "Discarding"
+#~ msgstr "Отклонено"
+
+#, fuzzy
+#~ msgid "Automerging"
+#~ msgstr "Автообъединение файла"
+
+#~ msgid "Selected file"
+#~ msgstr "Выбранный файл"
+
+#, fuzzy
+#~ msgid "Replacing %s with %s"
+#~ msgstr "Перемещение"
+
+#, fuzzy
+#~ msgid "Cannot merge %s"
+#~ msgstr "Невозможно автоматически объединить файл"
+
+#, fuzzy
+#~ msgid "Deleting %s"
+#~ msgstr "Удаление файла"
+
+#, fuzzy
+#~ msgid "Cannot remove %s"
+#~ msgstr "Невозможно открыть обзор"
+
+#, fuzzy
+#~ msgid "Interactive merge"
+#~ msgstr "Цвета интерфейса"
+
+#, fuzzy
+#~ msgid "OSError during interactive merge"
+#~ msgstr "Ошибка при восстановлении"
+
+#, fuzzy
+#~ msgid "IOError during interactive merge"
+#~ msgstr "Ошибка при восстановлении"
+
+#, fuzzy
+#~ msgid "Unable to merge file"
+#~ msgstr "Невозможно автоматически объединить файл"
+
+#~ msgid "Editing file"
+#~ msgstr "Редактирование файла"
+
+#~ msgid "Edited file"
+#~ msgstr "Редактированный файл"
+
+#, fuzzy
+#~ msgid "showing difference"
+#~ msgstr "показываем различия"
+
+#, fuzzy
+#~ msgid "Source file"
+#~ msgstr "Источники"
+
+#, fuzzy
+#~ msgid "Destination file"
+#~ msgstr "Расположение"
+
+#~ msgid "Overwrite ?"
+#~ msgstr "Переписать ?"
+
+#, fuzzy
+#~ msgid "Cannot merge"
+#~ msgstr "Невозможно автоматически объединить файл"
+
+#~ msgid "Discard ?"
+#~ msgstr "Отклонить ?"
+
+#, fuzzy
+#~ msgid "Cannot remove"
+#~ msgstr "Завершение удаления"
+
+#~ msgid "Please choose a file to update by typing its identification number."
+#~ msgstr "Выберите файл к обновлению, набрав его идентификационный номер"
+
+#~ msgid "Other options are:"
+#~ msgstr "Другие опции:"
+
+#~ msgid "Automerge all the files asking you one by one"
+#~ msgstr "Автоматически объединить файлы, спрашивая Вас о каждом"
+
+#~ msgid "Automerge all the files without questioning"
+#~ msgstr "Автоматически объединить все файлы без вопросов"
+
+#~ msgid "Discard all the files asking you one by one"
+#~ msgstr "Пропустить все файлы, спрашивая Вас о каждом"
+
+#~ msgid "Discard all the files without questioning"
+#~ msgstr "Пропустить все файлы без вопросов"
+
+#~ msgid "Please choose an action to take for the selected file."
+#~ msgstr "Выберите, что сделать с этим файлом"
+
+#~ msgid "Come back to the files list"
+#~ msgstr "Обратно в список файлов"
+
+#~ msgid "Replace original with update"
+#~ msgstr "Заменить оригинал обновлением"
+
+#~ msgid "Delete update, keeping original as is"
+#~ msgstr "Удалить обновление и оставить оригинал, как было"
+
+#~ msgid "Edit proposed file and show diffs again"
+#~ msgstr "Редактировать предлагаемый файл и показать различия снова"
+
+#~ msgid "Show differences again"
+#~ msgstr "Показать различия снова"
+
+#~ msgid "Invalid repository"
+#~ msgstr "Некорректный репозиторий"
+
+#~ msgid "Already logged in as"
+#~ msgstr "Уже вошли в систему как"
+
+#~ msgid "Please logout first"
+#~ msgstr "Пожалуйста, сначала выйдите из системы."
+
+#~ msgid "Successfully logged in as"
+#~ msgstr "Успешно вошли в систему как"
+
+#~ msgid "From now on, any UGC action will be committed as this user"
+#~ msgstr ""
+#~ "С текущего момента любое действие UGC будет определено как от этого "
+#~ "пользователя"
+
+#~ msgid "UGC error"
+#~ msgstr "Ошибка UGC"
+
+#~ msgid "Insert your vote (from 1 to 5)"
+#~ msgstr "Введите Ваш голос (от 1 до 5)"
+
+#~ msgid "Entropy UGC vote submission"
+#~ msgstr "Подчинение оценки Entropy UGC"
+
+#~ msgid "Please review your submission"
+#~ msgstr "Пожалуйста, оставьте своё мнение"
+
+#~ msgid "Vote"
+#~ msgstr "Проголосовать"
+
+#~ msgid "Add document"
+#~ msgstr "Добавить документ"
+
+#~ msgid "text comment"
+#~ msgstr "текстовый документ"
+
+#~ msgid "simple file"
+#~ msgstr "простой файл"
+
+#~ msgid "simple image"
+#~ msgstr "простое изображение"
+
+#~ msgid "Insert document title"
+#~ msgstr "Введите заголовок документа"
+
+#~ msgid "Insert document description/comment"
+#~ msgstr "Введите описание/комментарий к документу"
+
+#~ msgid "Insert document's keywords (space separated)"
+#~ msgstr "Введите ключевые слова документа (разделяя их пробелом)"
+
+#~ msgid "Choose document type"
+#~ msgstr "Выберите тип документа"
+
+#~ msgid "Entropy UGC document submission"
+#~ msgstr "Представление документов Entropy UGC"
+
+#~ msgid "Insert document path"
+#~ msgstr "Введите путь к документу"
+
+#~ msgid "Document path"
+#~ msgstr "Путь к документу"
+
+#~ msgid "Document added, thank you!"
+#~ msgstr "Документ добавлен, спасибо!"
+
+#~ msgid "Documents removal"
+#~ msgstr "Удаление документов"
+
+#~ msgid "Document identifiers"
+#~ msgstr "Имена документов"
+
+#~ msgid "No valid identifiers"
+#~ msgstr "Нет корректных идентификаторов"
+
+#~ msgid "UGC status"
+#~ msgstr "Статус UGC"
+
+#~ msgid "No title"
+#~ msgstr "Нет заголовка"
+
+#~ msgid "Malformed command"
+#~ msgstr "Испорченная команда"
+
+#~ msgid "Searching"
+#~ msgstr "Поиск"
+
+#~ msgid "Keyword"
+#~ msgstr "Ключевое слово"
+
+#~ msgid "Found"
+#~ msgstr "Найдено"
+
+#~ msgid "entries"
+#~ msgstr "записей"
+
+#~ msgid "Belong Search"
+#~ msgstr "Поиск принадлежностей"
+
+#~ msgid "ChangeLog Search"
+#~ msgstr "Поиск логов изменений"
+
+#~ msgid "No match for"
+#~ msgstr "Ничего не найдено для"
+
+#~ msgid "No ChangeLog available"
+#~ msgstr "Недоступно ни одного лога изменений"
+
+#~ msgid "Inverse Dependencies Search"
+#~ msgstr "Поиск обратных зависимостей"
+
+#~ msgid "Matched"
+#~ msgstr "Подсчитано"
+
+#~ msgid "from repository"
+#~ msgstr "из репозитория"
+
+#~ msgid "from installed packages database"
+#~ msgstr "из базы данных по инсталлированным пакетам"
+
+#~ msgid "Needed Search"
+#~ msgstr "Поиск необходимого"
+
+#~ msgid "libraries"
+#~ msgstr "библиотеки"
+
+#~ msgid "Required Search"
+#~ msgstr "Поиск требуемого"
+
+#~ msgid "Library"
+#~ msgstr "Библиотека"
+
+#~ msgid "files"
+#~ msgstr "файлы"
+
+#~ msgid "Orphans Search"
+#~ msgstr "Поиск осиротевших файлов"
+
+#~ msgid "Analyzing"
+#~ msgstr "Анализ"
+
+#~ msgid "Analyzed directories"
+#~ msgstr "Проанализированные директории"
+
+#~ msgid "Masked directories"
+#~ msgstr "Замаскированные директории"
+
+#~ msgid "Number of files collected on the filesystem"
+#~ msgstr "Число файлов, собранных в файловой системе"
+
+#~ msgid "Now looking into Installed Packages database"
+#~ msgstr "Теперь посмотрите в базу данных по установленным пакетам"
+
+#~ msgid "Intersecting with content of the package"
+#~ msgstr "Пересечение с содержанием пакета"
+
+#~ msgid "Intersection completed. Showing statistics"
+#~ msgstr "Пересечение завершено. Показать статистику."
+
+#~ msgid "Number of total files"
+#~ msgstr "Всего файлов"
+
+#~ msgid "Number of matching files"
+#~ msgstr "Число подсчитанных файлов"
+
+#~ msgid "Number of orphaned files"
+#~ msgstr "Число осиротевших файлов"
+
+#~ msgid "Writing file to disk"
+#~ msgstr "Запись файла на диск"
+
+#~ msgid "Total wasted space"
+#~ msgstr "Всего потрачено места"
+
+#~ msgid "Removal Search"
+#~ msgstr "Поиск удалений"
+
+#~ msgid "No matches"
+#~ msgstr "Ничего не найдено"
+
+#~ msgid "Matching"
+#~ msgstr "Подсчёт"
+
+#~ msgid "Slot Search"
+#~ msgstr "Поиск слота"
+
+#~ msgid "Package Set Search"
+#~ msgstr "Поиск набора пакетов"
+
+#~ msgid "Tag Search"
+#~ msgstr "Поиск тэга"
+
+#~ msgid "License Search"
+#~ msgstr "Поиск лицензии"
+
+#~ msgid "Description Search"
+#~ msgstr "Поиск описания"
+
+#~ msgid "Source Package Manager backend not available"
+#~ msgstr "backend пакетного менеджера источника недоступен"
+
+#~ msgid "Installed packages database not available"
+#~ msgstr "База данных установленных пакетов недоступна"
+
+#~ msgid "Vacuum cleaning System Database"
+#~ msgstr "Вакуум очищает базу данных системы"
+
+#~ msgid "Vacuum cleaned System Database"
+#~ msgstr "Вакуум очистил базу данных системы"
+
+#~ msgid "No System Databases found"
+#~ msgstr "Не найдено баз данных системы"
+
+#~ msgid "No backed up databases found"
+#~ msgstr "Не найдено зарезервированных баз данных"
+
+#~ msgid "Select the database you want to restore"
+#~ msgstr "Выберите базу данных, которую хотите восстановить"
+
+#~ msgid "Entropy installed packages database restore tool"
+#~ msgstr ""
+#~ "Инструмент восстановления базы данных по установленным пакетам Entropy"
+
+#~ msgid "Regenerating counters table"
+#~ msgstr "Восстановление таблицы счётчиков"
+
+#~ msgid "Counters table regenerated. Look above for errors."
+#~ msgstr "Таблица счётчиков восстановлена. Проверьте на наличие ошибок."
+
+#~ msgid ""
+#~ "The installed package database will be resurrected, this will take a LOT "
+#~ "of time."
+#~ msgstr ""
+#~ "База данных по инсталлированным пакетам будет восстановлена, это займёт "
+#~ "МНОГО времени."
+
+#~ msgid ""
+#~ "Please use this function ONLY if you are using an Entropy-aware "
+#~ "distribution."
+#~ msgstr ""
+#~ "Пожалуйста, используй функцию ТОЛЬКО В ТОМ СЛУЧАЕ, если ты используешь "
+#~ "дистрибутив, знакомый с Entropy"
+
+#~ msgid "Can I continue ?"
+#~ msgstr "Могу я продолжить ?"
+
+#~ msgid "Are you REALLY sure ?"
+#~ msgstr "Вы ДЕЙСТВИТЕЛЬНО уверены ?"
+
+#~ msgid "Do you even know what you're doing ?"
+#~ msgstr "Ты вообще понимаешь, что делаешь ?"
+
+#~ msgid "Creating backup of the previous database, if exists."
+#~ msgstr ""
+#~ "Создание бэкапа предыдущей базы данных, если таковая имеется в наличии."
+
+#~ msgid "Initializing the new database at"
+#~ msgstr "Инициализация новой базы данных на"
+
+#~ msgid "Database reinitialized correctly at"
+#~ msgstr "База данных реинициализированна корректно на"
+
+#~ msgid "Collecting installed files"
+#~ msgstr "Сбор инсталлированных файлов"
+
+#~ msgid "Writing to temporary file"
+#~ msgstr "Запись во временный файл"
+
+#~ msgid "Please wait"
+#~ msgstr "Пожалуйста, подождите"
+
+#~ msgid "You must have 'find' installed"
+#~ msgstr "Вы должны инсталлировать 'find'"
+
+#~ msgid "Found %s files on the system. Assigning packages"
+#~ msgstr "Найдите файлы %s в системе. Определение пакетов."
+
+#~ msgid "Matching in repository"
+#~ msgstr "Подсчет в репозитории"
+
+#~ msgid "Matching files from packages"
+#~ msgstr "Подсчет файлов из пакетов"
+
+#~ msgid "Found %s packages"
+#~ msgstr "Найдено %s пакетов"
+
+#~ msgid "Filling database"
+#~ msgstr "Заполнение базы данных"
+
+#~ msgid "Adding"
+#~ msgstr "Добавление"
+
+#~ msgid "Database resurrected successfully"
+#~ msgstr "База данных успешно восстановлена"
+
+#~ msgid "Now indexing tables"
+#~ msgstr "Сейчас индексируются таблицы"
+
+#~ msgid "Database reinitialized successfully"
+#~ msgstr "База данных реинициализирована успешно"
+
+#~ msgid "Collecting Entropy packages"
+#~ msgstr "Сборка пакетов Entropy"
+
+#~ msgid "Differential Scan"
+#~ msgstr "Дифференцированный поиск"
+
+#~ msgid "Databases already synced"
+#~ msgstr "Уже синхронизированные базы данных"
+
+#~ msgid "Entropy locked, giving up"
+#~ msgstr "Entropy заблокирована, прекращаю"
+
+#~ msgid "Someone removed these packages"
+#~ msgstr "Кто-то удалил  эти пакеты"
+
+#~ msgid "They would be removed from the system database"
+#~ msgstr "Они будут стёрты из системной базы данных"
+
+#~ msgid "Continue with removal ?"
+#~ msgstr "Продолжить удаление ?"
+
+#~ msgid "Database removal complete"
+#~ msgstr "Удаление базы данных завершено"
+
+#~ msgid "Someone added these packages"
+#~ msgstr "Кто-то добавил эти пакеты"
+
+#~ msgid "They would be added to the system database"
+#~ msgstr "Они будут добавлены в системную базу данных"
+
+#~ msgid "Continue with adding ?"
+#~ msgstr "Продолжить с добавлением ?"
+
+#~ msgid "An error occured while analyzing"
+#~ msgstr "Произошла ошибка при анализе"
+
+#~ msgid "Exception"
+#~ msgstr "Исключение"
+
+#~ msgid "Database update completed"
+#~ msgstr "Обновление базы данных завершено"
+
+#~ msgid ""
+#~ "If you dont know what you're doing just, don't do this. Really. I'm not "
+#~ "joking."
+#~ msgstr ""
+#~ "Если ты не знаешь, что ты делаешь - лучше не делай этого. Серьёзно. Я не "
+#~ "шучу."
+
+#~ msgid "Understood ?"
+#~ msgstr "Я ясно излагаю ?"
+
+#~ msgid "Really ?"
+#~ msgstr "Правда ?"
+
+#~ msgid "This is your last chance"
+#~ msgstr "Это твой последний шанс"
+
+#~ msgid "Ok?"
+#~ msgstr "Ok?"
+
+#~ msgid "Transductingactioningintactering databases"
+#~ msgstr "Transductingactioningintactering базы данных"
+
+#~ msgid "Sanity Check"
+#~ msgstr "проверка работоспособности"
+
+#~ msgid "Scanning..."
+#~ msgstr "Сканирование..."
+
+#~ msgid "database does not exist or is badly broken"
+#~ msgstr "База данных не существует или совсем испорчена"
+
+#~ msgid "You are not"
+#~ msgstr "Но ты не"
+
+#~ msgid "No packages specified"
+#~ msgstr "Ни одного пакета не выбрано"
+
+#~ msgid "Cannot find"
+#~ msgstr "Невозможно найти"
+
+#~ msgid "No valid packages specified"
+#~ msgstr "Ни одного действительного пакета не определено"
+
+#~ msgid "This is the list of the packages that would be quickpkg'd"
+#~ msgstr ""
+#~ "Здесь список пакетов, которые должны быть запакованы с помощью quickpkg"
+
+#~ msgid "installed"
+#~ msgstr "установлено"
+
+#~ msgid "Would you like to recompose the selected packages ?"
+#~ msgstr "Желаете ли Вы рекомпилировать выбранные пакеты?"
+
+#~ msgid "Compressing"
+#~ msgstr "Сжатие"
+
+#~ msgid "Error while creating package for"
+#~ msgstr "Ошибка при создании пакета для"
+
+#~ msgid "Cannot continue"
+#~ msgstr "Невозможно продолжить"
+
+#~ msgid "Saved in"
+#~ msgstr "Сохранено в"
+
+#~ msgid "directory does not exist"
+#~ msgstr "директория не существует"
+
+#~ msgid "is not a valid Entropy package"
+#~ msgstr "это недействительный пакет Entropy"
+
+#~ msgid "Using branch"
+#~ msgstr "Используется ветвь"
+
+#~ msgid "Extracting package metadata"
+#~ msgstr "Распаковка пакета завершена"
+
+#~ msgid "Package extraction complete"
+#~ msgstr "Распаковка пакета завершена"
+
+#~ msgid "Inflated package"
+#~ msgstr "Увеличенный пакет"
+
+#~ msgid "Deflating"
+#~ msgstr "Сжатие"
+
+#~ msgid "Deflated package"
+#~ msgstr "Сжатый пакет"
+
+#~ msgid "Extracting Entropy metadata from"
+#~ msgstr "Распаковка метаинформации Entropy из"
+
+#~ msgid "Extracted Entropy metadata from"
+#~ msgstr "Распакована метаинформация Entropy из"
+
+#~ msgid ""
+#~ "This is the list of the packages that would be merged into a single one"
+#~ msgstr "Здесь список пакетов, которые должны быть сжаты в один"
+
+#~ msgid "Would you like to create the packages above ?"
+#~ msgstr "Желаете ли Вы создать вышеуказанные пакеты?"
+
+#~ msgid "Creating merged Smart Package"
+#~ msgstr "Создание объединенного Smart-пакета"
+
+#~ msgid "collecting Entropy metadata"
+#~ msgstr "Сбор метаинформации Entropy"
+
+#~ msgid "Unpack failed due to unknown reasons"
+#~ msgstr "Распаковка провалилась по неизвестным причинам"
+
+#~ msgid "Compressing smart package"
+#~ msgstr "Сжатие smart-пакета"
+
+#~ msgid "Compression failed due to unknown reasons"
+#~ msgstr "Сжатие провалилось по неизвестной причине"
+
+#~ msgid "Compressed file does not exist"
+#~ msgstr "Сжатый файл отсутствует"
+
+#~ msgid "You should run equo --help"
+#~ msgstr "Вы должны запустить equo --help"
+
+#~ msgid "You didn't run equo --help, did you?"
+#~ msgstr "Вы не запустили equo --help, так ведь?"
+
+#~ msgid "Did you even read equo --help??"
+#~ msgstr "Вы когда-нибудь читали equo --help??"
+
+#~ msgid "I give up. Run that equo --help !!!!!!!"
+#~ msgstr "Я умываю руки. Запусти уже этот чёртов equo --help !!!!!!!"
+
+#~ msgid "OH MY GOD. RUN equo --heeeeeeeeeeeeeelp"
+#~ msgstr "О, Боже. ЗАПУСТИ ЭТОТ ГРЁБАНЫЙ equo --help..."
+
+#~ msgid "Illiteracy is a huge problem in this world"
+#~ msgstr "Невежество - путь к ереси."
+
+#~ msgid "Ok i give up, you are hopeless"
+#~ msgstr "Окей, я сдаюсь. Ты неисправим."
+
+#~ msgid "Go to hell."
+#~ msgstr "Иди к чёрту."
+
+#~ msgid "Basic Options"
+#~ msgstr "Основные опции"
+
+#~ msgid "this output"
+#~ msgstr "выдает этот мануал"
+
+#~ msgid "print version"
+#~ msgstr "отображает версию"
+
+#~ msgid "disable colorized output"
+#~ msgstr "деактивирует цветное отображение"
+
+#~ msgid "Application Options"
+#~ msgstr "Опции приложения"
+
+#~ msgid "update configured repositories"
+#~ msgstr "обновить конфигурированные репозитории"
+
+#~ msgid "force sync regardless repositories status"
+#~ msgstr "форсировать синхронизацию безотносительно к статусу репозитория"
+
+#~ msgid "repository notice board reader"
+#~ msgstr "просмотрщик доски уведомлений репозитория"
+
+#~ msgid "show respositories status"
+#~ msgstr "показать статус репозиториев"
+
+#~ msgid "search packages in repositories"
+#~ msgstr "найти пакеты в репозиториях"
+
+#~ msgid "match a package in repositories"
+#~ msgstr "провести подсчет по пакету в репозиториях"
+
+#~ msgid "return all the possible matches"
+#~ msgstr "показать все возможные подсчеты"
+
+#~ msgid "return matches from every repository"
+#~ msgstr "показать подсчеты по каждому репозиторию"
+
+#~ msgid "print repository information (w/--quiet)"
+#~ msgstr "отображает информацию репозитория (с --quiet)"
+
+#~ msgid "print description too (w/--quiet)"
+#~ msgstr "показывает ещё и описание (с --quiet)"
+
+#~ msgid "upgrade your distribution to a new release (branch)"
+#~ msgstr "обновить систему до новой версии (ветки)"
+
+#~ msgid "update system with the latest available packages"
+#~ msgstr "обновить систему с самыми последними доступными пакетами"
+
+#~ msgid "ask before making any changes"
+#~ msgstr "спрашивать перед любыми изменениями"
+
+#~ msgid "just download packages"
+#~ msgstr "просто загрузить пакеты"
+
+#~ msgid "only show what would be done"
+#~ msgstr "показывать только то, что будет сделано"
+
+#~ msgid "show more details about what is going on"
+#~ msgstr "показывать больше деталей на тему того, что будет происходить"
+
+#~ msgid "reinstall all the packages and their dependencies"
+#~ msgstr "переустановить все пакеты и их зависимости"
+
+#~ msgid "same as --replay"
+#~ msgstr "то же, что и --replay"
+
+#~ msgid "resume previously interrupted operations"
+#~ msgstr "принимает ранее отмененные операции"
+
+#~ msgid "used with --resume, makes the first package to be skipped"
+#~ msgstr "при использовании с --resume пропускает первый пакет"
+
+#~ msgid "download multiple packages in parallel (default 3)"
+#~ msgstr "скачать несколько пакетов параллельно (по умолчанию 3)"
+
+#~ msgid "download N packages in parallel (max 10)"
+#~ msgstr "скачать N пакетов параллельно (максимум 10)"
+
+#~ msgid "security infrastructure functions"
+#~ msgstr "функции инфраструктуры безопасности"
+
+#~ msgid "show less details (useful for scripting)"
+#~ msgstr "показать меньше деталей (полезно для скриптинга)"
+
+#~ msgid "download the latest Security Advisories"
+#~ msgstr "загружает последние уведомления о безопасности"
+
+#~ msgid "list all the available Security Advisories"
+#~ msgstr "выдаёт список всех доступных уведомлений о безопасности"
+
+#~ msgid "list only affected"
+#~ msgstr "показать только список уязвимого"
+
+#~ msgid "list only unaffected"
+#~ msgstr "показать только список неуязвимого"
+
+#~ msgid "show information about provided advisories identifiers"
+#~ msgstr "показать информацию о идентификаторах предоставленных уведомлений"
+
+#~ msgid "automatically install all the available security updates"
+#~ msgstr "автоматически установить все доступные обновления безопасности"
+
+#~ msgid "just show what would be done"
+#~ msgstr "показывает только то, что будет сделано"
+
+#~ msgid "just download packages without doing the install"
+#~ msgstr "только загрузить пакеты без установки"
+
+#~ msgid "do not pull in any dependency"
+#~ msgstr "не относить к какой-либо зависимости"
+
+#~ msgid "used with --resume, makes the first package in queue to be skipped"
+#~ msgstr "при использовании с --resume пропускает первый пакет в очереди"
+
+#~ msgid "remove downloaded packages after being used"
+#~ msgstr "удалить скачанные пакеты после использования"
+
+#~ msgid "pull all the dependencies in, regardless their state"
+#~ msgstr "добавляет все зависимости, не принимая во внимание на их статус"
+
+#~ msgid "makes dependency rules stricter"
+#~ msgstr "делает строже правила касательно зависимостей"
+
+#~ msgid "makes old configuration files to be removed"
+#~ msgstr "отправляет на удаление старые файлы конфигурации"
+
+#~ msgid "download atoms source code"
+#~ msgstr "скачать исходный код атомов"
+
+#~ msgid "save sources in current working directory"
+#~ msgstr "сохранить исходники в текущей рабочей папке"
+
+#~ msgid "remove one or more packages"
+#~ msgstr "удалить один или более пакетов"
+
+#~ msgid "makes configuration files to be removed"
+#~ msgstr "ставит конфигурационные файлы на удаление"
+
+#~ msgid "configure one or more installed packages"
+#~ msgstr "конфигурирует один или более установленных пакетов"
+
+#~ msgid "look for unsatisfied dependencies"
+#~ msgstr "ищет неудовлетворенные зависимости"
+
+#~ msgid "look for unused packages (pay attention)"
+#~ msgstr "ищет неиспользуемые пакеты (обратите внимание)"
+
+#~ msgid "sort packages by disk size"
+#~ msgstr "сортирует пакеты по размеру на диске"
+
+#~ msgid "look for missing libraries"
+#~ msgstr "ищет испорченные библиотеки"
+
+#~ msgid "dump results to files"
+#~ msgstr "записать результаты в файлы"
+
+#~ msgid "print broken files to stdout"
+#~ msgstr "записывает испорченные файлы в stdout"
+
+#~ msgid "configuration files update tool"
+#~ msgstr "инструмент обновления конфигурационных файлов"
+
+#~ msgid "run the configuration files update function"
+#~ msgstr "запускает функцию обновления конфигурационных файлов"
+
+#~ msgid "do misc queries on repository and local databases"
+#~ msgstr "делает различные запросы к репозиторию и локальной базе данных"
+
+#~ msgid "search from what package a file belongs"
+#~ msgstr "искать, какому пакету принадлежит файл"
+
+#~ msgid "show packages changelog"
+#~ msgstr "показать лог изменений пакетов"
+
+#~ msgid "search what packages depend on the provided atoms"
+#~ msgstr "искать пакеты, зависящие от предоставленных атомов"
+
+#~ msgid "search packages by description"
+#~ msgstr "искать пакеты по описанию"
+
+#~ msgid "show files owned by the provided atoms"
+#~ msgstr "показывает файлы, относящиеся к предоставленным атомам"
+
+#~ msgid "search a package into the local database"
+#~ msgstr "искать пакет в локальной базе данных"
+
+#~ msgid "show packages owning the provided licenses"
+#~ msgstr "показать пакеты с предоставленными лицензиями"
+
+#~ msgid "list packages based on the chosen parameter below"
+#~ msgstr "показать пакеты, базирующиеся на выбранном параметре"
+
+#~ msgid "list installed packages"
+#~ msgstr "показать установленные пакеты"
+
+#~ msgid "list available packages"
+#~ msgstr "показать доступные пакеты"
+
+#~ msgid "show runtime libraries needed by the provided atoms"
+#~ msgstr ""
+#~ "показывает библиотеки рабочего цикла, требуемые предоставленными атомами"
+
+#~ msgid "search files that do not belong to any package"
+#~ msgstr "искать файлы, не принадлежащие ни к одному пакету"
+
+#~ msgid "show the removal tree for the specified atoms"
+#~ msgstr "показать дерево удалений для выбранных атомов"
+
+#~ msgid "show atoms needing the provided libraries"
+#~ msgstr "показывает атомы, требующие предоставленные библиотеки"
+
+#~ msgid "search available package sets"
+#~ msgstr "поиск доступных наборов пакетов"
+
+#~ msgid "show packages owning the provided slot"
+#~ msgstr "показать пакеты, принадлежащие указанному слоту"
+
+#~ msgid "show packages owning the provided tags"
+#~ msgstr "показать пакеты, принадлежащие указанным тэгам"
+
+#~ msgid "show more details"
+#~ msgstr "показать больше деталей"
+
+#~ msgid "print results in a scriptable way"
+#~ msgstr "отображает результаты через скрипты"
+
+#~ msgid "!!! Use --verbose to get full help output"
+#~ msgstr "!!! Используйте --verbose для полного вывода помощи"
+
+#~ msgid "Extended Options"
+#~ msgstr "Расширенные Опции"
+
+#~ msgid "handles extended functionalities"
+#~ msgstr "обслуживает расширенную функциональность"
+
+#~ msgid ""
+#~ "make a smart package for the provided atoms (multiple packages into one "
+#~ "file)"
+#~ msgstr ""
+#~ "устанавливает smart-пакет для предоставленных атомов (множество пакетов в "
+#~ "один файл)"
+
+#~ msgid "recreate an Entropy package from your System"
+#~ msgstr "пересоздать пакет Entropy из Вашей системы"
+
+#~ msgid "save new packages into the specified directory"
+#~ msgstr "сохранить новые пакеты в выбранную папку"
+
+#~ msgid "save new metadata into the specified directory"
+#~ msgstr "сохранить новую метаинформацию в выбранную директорию"
+
+#~ msgid ""
+#~ "generate installed packages database using files on the system [last hope]"
+#~ msgstr ""
+#~ "генерирует базу данных установленных пакетов с использованием файлов "
+#~ "системы [последняя надежда]"
+
+#~ msgid "backup the current Entropy installed packages database"
+#~ msgstr ""
+#~ "создать резервную копию текущей базы данных установленных пакетов Entropy"
+
+#~ msgid "restore a previously backed up Entropy installed packages database"
+#~ msgstr ""
+#~ "возвращает ранее зарезервированную копию базы данных установленных "
+#~ "пакетов Entropy"
+
+#~ msgid "handles User Generated Content features"
+#~ msgstr "обслуживает элементы содержимого, сгенерированного пользователем"
+
+#~ msgid "login against a specified repository"
+#~ msgstr "залогиниться в определённый репозиторий"
+
+#~ msgid "logout from a specified repository"
+#~ msgstr "разлогиниться из определённого репозитория"
+
+#~ msgid "force action"
+#~ msgstr "принудительно запустить действие"
+
+#~ msgid ""
+#~ "manage package documents for the selected repository (comments, files, "
+#~ "videos)"
+#~ msgstr ""
+#~ "управлять документами пакетов для выбранного репозитория (комментарии, "
+#~ "файлы, видеоклипы)"
+
+#~ msgid ""
+#~ "get available documents for the specified package key (example: x11-libs/"
+#~ "qt)"
+#~ msgstr ""
+#~ "получить доступные документы по выбранному ключу пакета (пример: x11-libs/"
+#~ "qt)"
+
+#~ msgid ""
+#~ "add a new document to the specified package key (example: x11-libs/qt)"
+#~ msgstr ""
+#~ "добавить новый документ для выбранного ключа пакета (пример: x11-libs/qt)"
+
+#~ msgid "remove documents from database using their identifiers"
+#~ msgstr "удалить документы из базы данных, используя их наименования"
+
+#~ msgid "manage package votes for the selected repository"
+#~ msgstr "управлять оценками пакетов для выбранного репозитория"
+
+#~ msgid "get vote for the specified package key (example: x11-libs/qt)"
+#~ msgstr "получить голос для указанного ключа пакета (пример: x11-libs/qt)"
+
+#~ msgid "add vote for the specified package key (example: x11-libs/qt)"
+#~ msgstr "добавить голос для выбранного ключа пакета (пример: x11-libs/qt)"
+
+#~ msgid "handles Entropy cache"
+#~ msgstr "обслуживает кэш Entropy"
+
+#~ msgid "clean Entropy cache"
+#~ msgstr "очистить кэш Entropy"
+
+#~ msgid "remove downloaded packages and clean temp. directories"
+#~ msgstr "удалить загруженные пакеты и очистить временные директории"
+
+#~ msgid "show system information"
+#~ msgstr "показать информацию системы"
+
+#~ msgid "not enough parameters"
+#~ msgstr "недостаточно параметров"
+
+#~ msgid ""
+#~ "Hi. My name is Bug Reporter. I am sorry to inform you that Equo crashed. "
+#~ "Well, you know, shit happens."
+#~ msgstr ""
+#~ "Привет. Меня зовут БагРепортер. Мне очень неприятно об этом говорить, но, "
+#~ "увы, Equo накрылся медным тазом. Ну и это... ты знаешь, дерьмо случается."
+
+#~ msgid ""
+#~ "But there's something you could do to help Equo to be a better "
+#~ "application."
+#~ msgstr ""
+#~ "Но при этом Вы могли бы кое-что сделать для того, чтобы Equo стал менее "
+#~ "глючной программой."
+
+#~ msgid ""
+#~ "-- EVEN IF I DON'T WANT YOU TO SUBMIT THE SAME REPORT MULTIPLE TIMES --"
+#~ msgstr ""
+#~ "-- КАК МИНИМУМ ПОТОМУ, ЧТОБЫ Я НЕ ХОЧУ, ЧТОБЫ ТЕБЕ ПРИШЛОСЬ ПОСЫЛАТЬ ЭТОТ "
+#~ "ЧЕРТОВ ОТЧЕТ ПО СТО РАЗ --"
+
+#~ msgid ""
+#~ "Now I am showing you what happened. Don't panic, I'm here to help you."
+#~ msgstr ""
+#~ "Теперь я покажу тебе, что случилось. Не паникуй, я здесь, чтобы помочь "
+#~ "тебе. "
+
+#~ msgid ""
+#~ "Oh well, I cannot even write to /tmp. So, please copy the error and mail "
+#~ "lxnay@sabayon.org."
+#~ msgstr ""
+#~ "Оу... черт, я не могу больше записывать в /tmp. В общем, пожалуйста, "
+#~ "скопируй эту ошибку и отправь на lxnay@sabayon.org. И не вешай нос, это "
+#~ "всё ерунда."
+
+#~ msgid "Of course you are on the Internet..."
+#~ msgstr "Ну и, конечно, ты в интернете..."
+
+#~ msgid "Ok, ok ok ok... Sorry!"
+#~ msgstr "Ну ладно, ладно, ладно, хорошо, ХОРОШО, ИЗВИНИ!"
+
+#~ msgid ""
+#~ "If you want to be contacted back (and actively supported), also answer "
+#~ "the questions below:"
+#~ msgstr ""
+#~ "Когда будешь связываться (и активно общаться с техподдержкой), ответь "
+#~ "заодно на нижеуказанные вопросы:"
+
+#~ msgid "Your Full name:"
+#~ msgstr "Ваше полное имя:"
+
+#~ msgid "Your E-Mail address:"
+#~ msgstr "Ваш адрес E-Mail:"
+
+#~ msgid "What you were doing:"
+#~ msgstr "Чего ж ты такого наделал:"
+
+#~ msgid ""
+#~ "Thank you very much. The error has been reported and hopefully, the "
+#~ "problem will be solved as soon as possible."
+#~ msgstr ""
+#~ "Спасибо тебе огромное. Данные об ошибке отправлены и, если всё будет "
+#~ "нормально, проблема будет решена как можно раньше."
+
+#~ msgid "Nothing to do"
+#~ msgstr "Делать нечего"
+
+#~ msgid "Please run"
+#~ msgstr "Будьте добры запустить"
+
+#~ msgid "Packages matching update"
+#~ msgstr "Обновление пакетного подсчёта"
+
+#~ msgid "Packages matching not available"
+#~ msgstr "Пакетный подсчёт недоступен"
+
+#~ msgid "Packages matching already up to date"
+#~ msgstr "Пакетный подсчёт уже обновлён"
+
+#~ msgid "Nothing to resume"
+#~ msgstr "Нечего подтверждать"
+
+#~ msgid "Resume cache corrupted"
+#~ msgstr "Подтверждение кэша испорчено"
+
+#~ msgid "Running with"
+#~ msgstr "Запускается с"
+
+#~ msgid "Calculating System Updates"
+#~ msgstr "Подсчёт системных обновлений"
+
+#~ msgid "Nothing to update"
+#~ msgstr "Нечего обновлять"
+
+#~ msgid ""
+#~ "On the system there are packages that are not available anymore in the "
+#~ "online repositories"
+#~ msgstr ""
+#~ "В системе имеются пакеты, которые более недоступны в онлайн-репозиториях"
+
+#~ msgid "Nothing to remove"
+#~ msgstr "Нечего удалять"
+
+#~ msgid "Cannot switch branch as user"
+#~ msgstr "Невозможно переключить ветку от пользователя"
+
+#~ msgid "Already on branch"
+#~ msgstr "Уже на ветке"
+
+#~ msgid "Succesfully switched to branch"
+#~ msgstr "Успешно переключено на ветку"
+
+#~ msgid "Unable to switch to branch"
+#~ msgstr "Невозможно переключить ветку"
+
+#~ msgid "Every package matching"
+#~ msgstr "Подсчёт каждого пакета"
+
+#~ msgid "is masked"
+#~ msgstr "замаскирован"
+
+#~ msgid "matching"
+#~ msgstr "подсчитывается"
+
+#~ msgid "is broken"
+#~ msgstr "сломан"
+
+#~ msgid "atom"
+#~ msgstr "атом"
+
+#~ msgid "in"
+#~ msgstr "в"
+
+#~ msgid "in repositories"
+#~ msgstr "в репозиториях"
+
+#~ msgid "Not found"
+#~ msgstr "Не найдено"
+
+#~ msgid "Probably needed by"
+#~ msgstr "Возможно, необходимо для"
+
+#~ msgid "Skipped"
+#~ msgstr "Пропущено"
+
+#~ msgid "These are the chosen packages"
+#~ msgstr "Вот выбранные пакеты"
+
+#~ msgid "Versions"
+#~ msgstr "Версии"
+
+#~ msgid "Switch repo"
+#~ msgstr "Переключить репозиторий"
+
+#~ msgid "Upgrade"
+#~ msgstr "Обновить"
+
+#~ msgid "Downgrade"
+#~ msgstr "Обновить до более старой версии"
+
+#~ msgid "Action"
+#~ msgstr "Действие"
+
+#~ msgid "Packages involved"
+#~ msgstr "Включённые пакеты"
+
+#~ msgid "Would you like to continue with dependencies calculation ?"
+#~ msgstr "Вы желаете продолжить подсчёт зависимостей?"
+
+#~ msgid "When you wrote"
+#~ msgstr "Как Вы написали"
+
+#~ msgid "You Meant(tm)"
+#~ msgstr "А ты думал (TM)"
+
+#~ msgid "one of these below?"
+#~ msgstr "один из нижеуказанных?"
+
+#~ msgid "Calculating dependencies"
+#~ msgstr "Подсчёт зависимостей"
+
+#~ msgid "Cannot find needed dependencies"
+#~ msgstr "Невозможно найти необходимые зависимости"
+
+#~ msgid "All done"
+#~ msgstr "Всё сделано"
+
+#~ msgid "sources fetch"
+#~ msgstr "загрузка источников"
+
+#~ msgid "fetch"
+#~ msgstr "загрузить"
+
+#~ msgid "These are the packages that would be installed"
+#~ msgstr "Здесь перечислены пакеты, которые должны быть установлены"
+
+#~ msgid "conflicting/substituted"
+#~ msgstr "конфликтуют/взаимозаменяют"
+
+#~ msgid "Packages needing to be installed/updated/downgraded"
+#~ msgstr "Пакеты к установке/обновлению/обновлению до более старой версии"
+
+#~ msgid "Packages needing to be removed"
+#~ msgstr "Пакеты к удалению"
+
+#~ msgid "Packages needing to be installed"
+#~ msgstr "Пакеты к установке"
+
+#~ msgid "Packages needing to be reinstalled"
+#~ msgstr "Пакеты к переустановке"
+
+#~ msgid "Packages needing to be updated"
+#~ msgstr "Пакеты к обновлению"
+
+#~ msgid "Packages needing to be downgraded"
+#~ msgstr "Пакеты, которые необходимо обновить до более старой версии"
+
+#~ msgid "Download size"
+#~ msgstr "Размер загрузки"
+
+#~ msgid "Used disk space"
+#~ msgstr "Использованное место на диске"
+
+#~ msgid "You need at least"
+#~ msgstr "Вам нужно совсем немного"
+
+#~ msgid "of free space"
+#~ msgstr "свободного места"
+
+#~ msgid ""
+#~ "You don't have enough space for the installation. Free some space into"
+#~ msgstr ""
+#~ "У Вас недостаточно места для инсталляции. Освободите немного пространства."
+
+#~ msgid "Would you like to execute the queue ?"
+#~ msgstr "Желаете ли выполнить очередь ?"
+
+#~ msgid "Resuming previous operations"
+#~ msgstr "Подтверждение предыдущих операций"
+
+#~ msgid "Read the license"
+#~ msgstr "Читать лицензию"
+
+#~ msgid "Accept the license (I've read it)"
+#~ msgstr "Согласиться с лицензией (Я её прочитал(а))"
+
+#~ msgid "Accept the license and don't ask anymore (I've read it)"
+#~ msgstr ""
+#~ "Согласиться с лицензией и больше об этом не спрашивать (Я её прочитал(а))"
+
+#~ msgid "Quit"
+#~ msgstr "Выйти"
+
+#~ msgid "Your choice (type a number and press enter)"
+#~ msgstr "Ваш выбор (введите число и нажмите enter)"
+
+#~ msgid "You need to accept the licenses below"
+#~ msgstr "Вам нужно согласиться с нижеуказанными лицензиями"
+
+#~ msgid "needed by"
+#~ msgstr "необходимо для"
+
+#~ msgid "No file viewer"
+#~ msgstr "Нет отобразителя файла"
+
+#~ msgid "License saved into"
+#~ msgstr "Лицензия сохранена в"
+
+#~ msgid "Download complete"
+#~ msgstr "Загрузка завершена"
+
+#~ msgid "install"
+#~ msgstr "установить"
+
+#~ msgid "Installation complete"
+#~ msgstr "Установка завершена"
+
+#~ msgid "is not installed"
+#~ msgstr "не установлено"
+
+#~ msgid "Installed from"
+#~ msgstr "Установлено из"
+
+#~ msgid "Would you like to configure them now ?"
+#~ msgstr "Желаете сконфигурировать их сейчас?"
+
+#~ msgid "vital package"
+#~ msgstr "жизненно важный пакет"
+
+#~ msgid "Removal forbidden"
+#~ msgstr "Удаление запрещено"
+
+#~ msgid "Would you like to calculate dependencies ?"
+#~ msgstr "Желаете ли подсчитать зависимости?"
+
+#~ msgid "Would you like to remove them now ?"
+#~ msgstr "Вы желаете удалить их сейчас ?"
+
+#~ msgid "Would you like to proceed ?"
+#~ msgstr "Желаете продолжить ?"
+
+#~ msgid "Starting removal in"
+#~ msgstr "Запуск удаления в"
+
+#~ msgid ""
+#~ "Running unused packages test, pay attention, there are false positives"
+#~ msgstr ""
+#~ "Запуск теста неиспользуемых пакетов, обратите внимание, имеются ложные "
+#~ "позитивы"
+
+#~ msgid "Running dependency test"
+#~ msgstr "Запуск теста зависимостей"
+
+#~ msgid "Would you like to install the available packages ?"
+#~ msgstr "Вы желаете установить доступные пакеты ?"
+
+#~ msgid "Installing available packages in"
+#~ msgstr "Установка доступных пакетов в"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 секунд"
+
+#~ msgid "Libraries/Executables statistics"
+#~ msgstr "Статистика библиотек/исполняемых файлов"
+
+#~ msgid "Not matched"
+#~ msgstr "Не подсчитано"
+
+#~ msgid "Would you like to install them ?"
+#~ msgstr "Вы желаете их инсталлировать ?"
+
+#~ msgid "not available"
+#~ msgstr "недоступен"
+
+#~ msgid "move packages from a repository to another"
+#~ msgstr "переместить пакеты в другой репозиторий"
+
+#~ msgid "Commit message"
+#~ msgstr "Подтвердить сообщение"
+
+#~ msgid "Host"
+#~ msgstr "Хост"
+
+#~ msgid "Aborting !"
+#~ msgstr "Отмена !"
+
+#~ msgid "Choose the one you want to remove"
+#~ msgstr "Выберите ту, которую Вы хотите удалить"
+
+#~ msgid "Are you sure you want to remove this?"
+#~ msgstr "Вы уверены, что хотите это удалить?"
+
+#~ msgid "Exit/Commit"
+#~ msgstr "Выйти/Подтвердить"
+
+#~ msgid "Cannot match"
+#~ msgstr "Невозможно подсчитать"
+
+#~ msgid "No valid packages to repackage."
+#~ msgstr "Нет корректных пакетов к перепаковке"
+
+#~ msgid "expired"
+#~ msgstr "просрочено"
+
+#~ msgid "Would you like to package them now ?"
+#~ msgstr "Желаете ли запаковать их сейчас?"
+
+#~ msgid "inside"
+#~ msgstr "внутри"
+
+#~ msgid "Compressing packages"
+#~ msgstr "Сжатие пакетов"
+
+#~ msgid "Ignoring broken Spm entry, please recompile it"
+#~ msgstr ""
+#~ "Игнорируем испорченную запись Spm, будьте добры её перекомпилировать"
+
+#~ msgid "Nothing to do, check later."
+#~ msgstr "Делать нечего, проверьте позже."
+
+#~ msgid "Entries handled"
+#~ msgstr "Обслуженные записи"
+
+#, fuzzy
+#~ msgid "list repositories"
+#~ msgstr "в репозиториях"
+
+#, fuzzy
+#~ msgid "add repository"
+#~ msgstr "репозиторий"
+
+#, fuzzy
+#~ msgid "repository id"
+#~ msgstr "репозиторий"
+
+#, fuzzy
+#~ msgid "repository description"
+#~ msgstr "Версия репозитория"
+
+#, fuzzy
+#~ msgid "repository uri"
+#~ msgstr "репозиторий"
+
+#, fuzzy
+#~ msgid "Invalid repository name"
+#~ msgstr "Некорректный репозиторий"
+
+#, fuzzy
+#~ msgid "Repository already available"
+#~ msgstr "Версия репозитория"
+
+#, fuzzy
+#~ msgid "Invalid URI"
+#~ msgstr "Некорректный заголовок"
+
+#, fuzzy
+#~ msgid "Cannot read configuration file"
+#~ msgstr "Файл конфигурации"
+
+#, fuzzy
+#~ msgid "no description"
+#~ msgstr "Нет описания"
+
+#, fuzzy
+#~ msgid "Adding repository"
+#~ msgstr "В репозитории"
+
+#~ msgid "Configuration file"
+#~ msgstr "Файл конфигурации"
+
+#, fuzzy
+#~ msgid "Please initialize the repository using"
+#~ msgstr "отсутствует в списках в текущей базе данных репозиториев!!"
+
+#, fuzzy
+#~ msgid "packages"
+#~ msgstr "Пакеты"
+
+#, fuzzy
+#~ msgid "manage repositories"
+#~ msgstr "в репозиториях"
+
+#, fuzzy
+#~ msgid "remove from given repository"
+#~ msgstr "показать подсчеты по каждому репозиторию"
+
+#~ msgid "package dependencies"
+#~ msgstr "зависимости пакетов"
+
+#~ msgid "No dependencies"
+#~ msgstr "Без зависимостей"
+
+#~ msgid "copy packages from a repository to another"
+#~ msgstr "копировать пакеты в другой репозиторий"
+
+#~ msgid "Magneto Entropy Updates Applet"
+#~ msgstr "Апплет обновлений Entropy Magneto"
+
+#~ msgid "Your system currently has an outdated version of"
+#~ msgstr "На Вашей системе в данный момент имеется устаревшая версия"
+
+#~ msgid "the latest available version is"
+#~ msgstr "наиболее актуальная версия -"
+
+#~ msgid ""
+#~ "It is recommended that you upgrade to the latest before updating any "
+#~ "other packages"
+#~ msgstr ""
+#~ "Рекомендуется обновить до последней версии перед обновлением каких-либо "
+#~ "других пакетов"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#, fuzzy
+#~ msgid "Launch Application Browser"
+#~ msgstr "Приложения"
+
+#~ msgid "Application updates"
+#~ msgstr "Обновления приложений"
+
+#~ msgid "Latest version"
+#~ msgstr "Последняя версия"
+
+#~ msgid "Critical Information"
+#~ msgstr "Критическая информация"
+
+#~ msgid "_Disable Notification Applet"
+#~ msgstr "_Деактивировать апплет уведомлений"
+
+#~ msgid "Disable Notification Applet"
+#~ msgstr "_Деактивировать апплет уведомлений"
+
+#~ msgid "_Enable Notification Applet"
+#~ msgstr "_Aктивировать апплет уведомлений"
+
+#~ msgid "Enable Notification Applet"
+#~ msgstr "Активировать пакет уведомлений"
+
+#~ msgid "_Check for updates"
+#~ msgstr "_Проверить на обновления"
+
+#~ msgid "Check for updates"
+#~ msgstr "Проверить на обновления"
+
+#~ msgid "_Launch Package Manager"
+#~ msgstr "_Запустить пакетный менеджер"
+
+#~ msgid "Launch Package Manager"
+#~ msgstr "Запустить пакетный менеджер"
+
+#~ msgid "_Packages Website"
+#~ msgstr "_Веб-страница пакетов"
+
+#~ msgid "Use Packages web interface"
+#~ msgstr "Использовать веб-интерфейс пакетов"
+
+#~ msgid "_Sabayon Linux Website"
+#~ msgstr "Веб-_сайт Sabayon Linux"
+
+#~ msgid "Launch Sabayon Linux Website"
+#~ msgstr "Открыть сайт Sabayon Linux"
+
+#~ msgid "_Exit"
+#~ msgstr "_Выход"
+
+#~ msgid "Cannot monitor Sabayon updates"
+#~ msgstr "Невозможно отобразить обновления Sabayon"
+
+#~ msgid "Entropy DBus service not available"
+#~ msgstr "Служба DBus Entropy недоступна"
+
+#~ msgid "unable to communicate with the updates service"
+#~ msgstr "невозможно соединиться со службой обновлений"
+
+#~ msgid "Sabayon updates service loaded"
+#~ msgstr "Служба обновлений Sabayon загружена"
+
+#~ msgid "Entropy DBus service loaded"
+#~ msgstr "Служба DBus Entropy загружена"
+
+#~ msgid "your Sabayon will notify you once updates are available"
+#~ msgstr "Ваш Sabayon уведомит Вас, когда обновления будут доступны"
+
+#~ msgid "Sabayon updates available"
+#~ msgstr "Обновления Sabayon доступны"
+
+#~ msgid "Your Sabayon is up-to-date"
+#~ msgstr "Ваш Sabayon уже обновлен до последней версии"
+
+#~ msgid "No updates available at this time, cool!"
+#~ msgstr "На текущий момент обновлений не обнаружено, отлично!"
+
+#~ msgid "Repositories are being updated"
+#~ msgstr "Репозитории обновляются"
+
+#~ msgid "Sabayon repositories status"
+#~ msgstr "Статус репозиториев Sabayon"
+
+#~ msgid "Repositories are being updated automatically"
+#~ msgstr "Репозитории обновляются автоматически"
+
+#~ msgid "Updates Notification Applet Disabled"
+#~ msgstr "Апплет уведомления об обновлениях отключён"
+
+#~ msgid "Updates Notification Applet Enabled"
+#~ msgstr "Апплет уведомления об обновлениях включён"
+
+#~ msgid "Magneto Application Updates Notifier"
+#~ msgstr "Уведомитель об обновлениях приложений Magneto"
+
+#~ msgid "Available Updates"
+#~ msgstr "Доступные обновления"
+
+#~ msgid "_Load Package Manager"
+#~ msgstr "_Загрузить пакетный менеджер"
