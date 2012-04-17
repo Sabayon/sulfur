@@ -11,6 +11,9 @@
 
 """
 import os
+
+os.environ['ETP_GETTEXT_DOMAIN'] = "sulfur"
+
 import sys
 import signal
 import atexit
