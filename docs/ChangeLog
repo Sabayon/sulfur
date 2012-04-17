@@ -1,0 +1,5565 @@
+commit 39d5f0551448628d8050f1b0597bd35f1569397d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 17 21:29:36 2012 +0200
+
+    [sulfur] force "sulfur" gettext domain
+
+commit 91183bc4aac391fe01625a1a7374e3698be23f3a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 17 21:28:00 2012 +0200
+
+    [po] import .po files from entropy.git
+
+commit 36fd7b08e9d5d364bf65de441c17ab4ddf666d90
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 15 18:18:23 2012 +0200
+
+    Release Entropy 1.0_rc103
+
+commit 275997cb71534c4bc5a62cb9c8147622b1e68219
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 15 12:31:22 2012 +0200
+
+    Release Entropy 1.0_rc102
+
+commit 6bbede73f85412b7e440c460b52a68ba8d351765
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Apr 14 17:34:42 2012 +0200
+
+    Release Entropy 1.0_rc101
+
+commit 12edb23c9165d0a73c456550ad9f58c8ad4fabd8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 13 12:15:51 2012 +0200
+
+    Release Entropy 1.0_rc100
+
+commit 20f82be05dab09127c6ed8b9141909cebdc25c77
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Apr 12 19:58:28 2012 +0200
+
+    Release Entropy 1.0_rc99
+
+commit 54a7aad2c3cc50ff8e73a782adfeb9627342ef1f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Apr 11 23:24:39 2012 +0200
+
+    Release Entropy 1.0_rc98
+
+commit ff21ad7495fd530591aeeddadfe93082f4675661
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 9 18:05:17 2012 +0200
+
+    Release Entropy 1.0_rc97
+
+commit ba1c0e99c9e22f7a8a8f4c72c4936df5eaa5838d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 9 18:04:05 2012 +0200
+
+    [sulfur] fix os.environ usage
+
+commit 7ce703237149edd6f87d82e17b277a72260b8ea6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 8 23:18:57 2012 +0200
+
+    Release Entropy 1.0_rc96
+
+commit c1f672f73ff760f75d9659424445592ff72df6e8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 8 19:53:01 2012 +0200
+
+    Release Entropy 1.0_rc95
+
+commit 1761394751faed923fc2ff4be007b981363d8d2c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 6 16:52:42 2012 +0200
+
+    [sulfur] make it use the old, deprecated FileUpdates class
+    
+    Sulfur will die anyway, no reason to port it over
+
+commit 67d6ae6019535626c9e286ace848e1813dac9a74
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Apr 4 21:05:54 2012 +0200
+
+    Release Entropy 1.0_rc94
+
+commit 97beb63ab15dee5baf2a4c5631d7c76ed70ff95d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Apr 4 11:38:43 2012 +0200
+
+    Release Entropy 1.0_rc93
+
+commit 1084896e08009e5f5f3454b611265e5630685bad
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 3 16:06:21 2012 +0200
+
+    Release Entropy 1.0_rc92
+
+commit f5e3d5859feee0543df8e9ffc95e8322d89b55f3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 1 20:20:55 2012 +0200
+
+    Release Entropy 1.0_rc91
+
+commit 36d21da5ee8b28323ff64f4cfc6447b069c19ce5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 1 12:06:54 2012 +0100
+
+    Release Entropy 1.0_rc90
+
+commit 7b3737dedb9bcc3de8586a2da789badc08fa06db
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 27 23:33:12 2012 +0100
+
+    Release Entropy 1.0_rc89
+
+commit 603a90e93d4fdc905ede6c26d3a77fa6e5d2a935
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 27 22:56:58 2012 +0100
+
+    Release Entropy 1.0_rc88
+
+commit f281bf2ca499c59e78d97f9eddad0f27418a1425
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 13 14:14:45 2012 +0100
+
+    [entropy.i18n] rename P_() into ngettext().
+    
+    intltool-update doesn't understand ngettext function exposed as
+    P_().
+
+commit 791b690ae8a0f1f91fcc0588a8d7a2af38d74273
+Author: Sławomir Nizio <slawomir.nizio@sabayon.org>
+Date:   Sun Feb 12 03:04:11 2012 +0100
+
+    [i18n] use ngettext in some places where it's most useful
+
+commit eb1c541e2da3900afa3eb2c9016338d9e38aac50
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 10 13:20:50 2012 +0100
+
+    [sulfur] catch WebService.MethodNotAvailable exception during UGC login
+
+commit a0dc6e6c6fc8dd1f0089df82e99534ad0d7cdc2d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 3 23:06:41 2012 +0100
+
+    Release Entropy 1.0_rc87
+
+commit ae8da0d0058b28231fee5ea6a90ab71f8d26c16f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 1 19:57:15 2012 +0100
+
+    Release Entropy 1.0_rc86
+
+commit 580f29f17f65bd0864e073d1ca14e1f335c700c5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 29 12:11:17 2012 +0100
+
+    Release Entropy 1.0_rc85
+
+commit 57a649988a9b5c2862877fb1a9256cdc9e1c9247
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 24 16:40:57 2012 +0100
+
+    Release Entropy 1.0_rc84
+
+commit ef91089cb941f4aa86a5396ea991a5bc91697d7d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 15 18:25:07 2012 +0100
+
+    Release Entropy 1.0_rc83
+
+commit 127a8ed3c32509882b87dd397472eef102034d1a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 12 11:08:00 2012 +0100
+
+    Release Entropy 1.0_rc82
+
+commit 13f7ac58edd9e885370b7f2cb2a699702877d753
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Dec 28 10:07:06 2011 +0100
+
+    Release Entropy 1.0_rc81
+
+commit 4cf28b5c2e826f44db6dffa3581d951375c53a72
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Dec 21 13:54:25 2011 +0100
+
+    Release Entropy 1.0_rc80
+
+commit 88b323eecc5443b9673e025901c009ec22a6ca79
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 30 19:11:18 2011 +0100
+
+    Release Entropy 1.0_rc79
+
+commit 5a3ab8e571f9f48c7752068d705c2e00fb5e9c61
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Nov 24 16:33:38 2011 +0100
+
+    Release Entropy 1.0_rc78
+
+commit 1e946d4623c1a747fa687446a83fb1873a6850b8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 23 22:37:50 2011 +0100
+
+    Release Entropy 1.0_rc77
+
+commit e28e2ee7b911ad056745d9aa6dc64e58c40524e5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 23 14:50:15 2011 +0100
+
+    [sulfur] if exit status is > 255, pass it through the mod operator (this fixes Sulfur respawns with kdesu)
+
+commit cf9baca5e44cd956ede7effe9ee4a9a68ba7c32e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Nov 21 18:42:31 2011 +0100
+
+    [sulfur.views] catch TypeError in case of concatenation failure
+
+commit eafe52e141479ba8e2b05dd0cafcaa4d5d4369e3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Nov 13 10:10:47 2011 +0100
+
+    [sulfur] PkgInfoMenu: some metadata can be not available at load time
+
+commit 84752da5d2b1d5ec0e7495c55c6a7a0132fc773f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Nov 13 07:52:00 2011 +0100
+
+    Release Entropy 1.0_rc76
+
+commit 059f16e435bf18cca476e04722531f68d4ae2973
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 12 22:22:42 2011 +0100
+
+    Release Entropy 1.0_rc75
+
+commit 2279a6ad6a59791da885d529de868e29fd237592
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 12 20:49:02 2011 +0100
+
+    Release Entropy 1.0_rc74
+
+commit c47f22459ecac03c9b690adb6846cc23b9d4e142
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 12 16:10:33 2011 +0100
+
+    [entropy.*] drop usage of another_entropy_running(), wait_resources() or similar methods should be used
+
+commit 166a6ba2baddd92a283febf215351e43443cd849
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Nov 8 10:24:12 2011 +0100
+
+    [sulfur] drop libglade warnings caused by editing sulfur.glade with latest Glade-3
+
+commit 74e0f1cc43c7db08904b19682acc971ea46108af
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Nov 8 10:22:14 2011 +0100
+
+    [sulfur] cleanup sulfur.glade xml (drop dead code)
+
+commit cc2999cfc36496f1a695115c9a8b6c33122b4808
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Nov 6 19:09:35 2011 +0100
+
+    Release Entropy 1.0_rc73
+
+commit f58fa96e900eaee0a4726d29697d085d33657218
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 5 11:27:00 2011 +0100
+
+    Release Entropy 1.0_rc72
+
+commit e7bb0d54e70ab03c2b6e570825a051e84547a73b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 2 09:43:12 2011 +0100
+
+    [sulfur] fix typo, thanks to Andrey Esin
+
+commit 976c7a8a1f2ee65b7ed05685a1e499ad9ec3df35
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Oct 31 10:36:34 2011 +0100
+
+    Release Entropy 1.0_rc71
+
+commit 16e08e8d2221aa4a28b3b8922c703caee57ad709
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Oct 29 13:21:07 2011 +0200
+
+    Release Entropy 1.0_rc70
+
+commit 962c8b003d358c79daf8c67f2a71c99449c0ec97
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 27 15:01:51 2011 +0200
+
+    Release Entropy 1.0_rc69
+
+commit c0e17a3421c524c35ad97776d8a5b5151e5f27fa
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 27 14:48:13 2011 +0200
+
+    Release Entropy 1.0_rc68
+
+commit 80329c3324c0e7ac2f720bf88109c70069bbc92e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 27 11:50:05 2011 +0200
+
+    Release Entropy 1.0_rc67
+
+commit a0572b69ec60cc30ad62d55ef236f4816c8ee4f5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 27 00:43:24 2011 +0200
+
+    Release Entropy 1.0_rc66
+
+commit 5ab084871d43128f4eba8b4e69cb6e57c1b8845f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 27 00:39:20 2011 +0200
+
+    Release Entropy 1.0_rc65
+
+commit 503ed31934b88548c93b25517f25249efcce0a8a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 27 00:07:44 2011 +0200
+
+    [entropy.*] add support for /etc/entropy/repositories.conf.d/
+
+commit 2d57df870ad017a8cac8edfea577703480db3988
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 26 17:28:31 2011 +0200
+
+    [entropy.const] drop another global variable, etpConst['repositoriesconf']
+
+commit 153899ee14be7307d799411a5b2da7be69c251d3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 26 15:14:12 2011 +0200
+
+    [entropy.const] drop etpConst['clientconf']
+
+commit 8608d5fec446067ad58246807c3fdab8793d1b1b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 26 12:42:10 2011 +0200
+
+    [entropy.const] drop etpConst['entropyconf']
+
+commit 842f5df9907eef641a615a1ee8406c26b8d54a1b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 26 12:02:42 2011 +0200
+
+    Release Entropy 1.0_rc64
+
+commit 6bb130d908b66334145bcd61398bfe2a314fc7fb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Oct 21 20:05:53 2011 +0200
+
+    Release Entropy 1.0_rc63
+
+commit 371b8e07e90f199cb06ae6a467f799e2f58f57cd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Oct 21 19:01:44 2011 +0200
+
+    Release Entropy 1.0_rc62
+
+commit a4d5217048d133bb5e784f11321a01a495c42711
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 20 19:44:08 2011 +0200
+
+    Release Entropy 1.0_rc61
+
+commit fcb76f519e3c92371af6b413087777e5ef542ea5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 20 16:16:46 2011 +0200
+
+    Release Entropy 1.0_rc60
+
+commit dfc2ba7a472233ef52a678566b6aebea07afe76e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Oct 17 14:27:58 2011 +0200
+
+    [entropy] move libraries/ to lib/
+
+commit f60102b73ff1b1a11c9ee9a53ec8385cb2c265fb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Oct 9 10:17:49 2011 +0200
+
+    [sulfur.views] fix get_stars_rating caching, was causing rendering problems with installed packages icons
+
+commit a375d27fed8683a5d099c059582455d7d5549a1b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 5 22:51:12 2011 +0200
+
+    [entropy.client.interfaces.dep] update get_install_queue() public API
+
+commit b09cb956a675749e745e88293f7de8e13b01b53e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 5 10:44:42 2011 +0200
+
+    [entropy] simplify entropy locks management code, drop non-atomic functions
+
+commit 91f9cdbd85b2e414853aa05227c37a2113b98e9f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Oct 4 20:44:43 2011 +0200
+
+    [sulfur] try to acquire Entropy locks for at most 5 seconds before giving up
+
+commit 0c45436ca60b46b735f49225d1a5944f61598fde
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 28 23:19:43 2011 +0200
+
+    Release Entropy 1.0_rc59
+
+commit 371410a7d1d4f7bfb8dbfd91189b9b1d0cb1d27e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 28 14:08:05 2011 +0200
+
+    Release Entropy 1.0_rc58
+
+commit 81afd260c07a3795c9231f7e9d1cdc075803b3ae
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 28 11:52:46 2011 +0200
+
+    Release Entropy 1.0_rc57
+
+commit 855afeb05f7a50b0cd0a300f79c2968ac77761cc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 25 12:27:23 2011 +0200
+
+    Release Entropy 1.0_rc56
+
+commit bc6367eb278830cf0577d1ff1377bc362508aa02
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 22 17:00:36 2011 +0200
+
+    Release Entropy 1.0_rc55
+
+commit 4770ddcafefcdfbe70e1efd5d64e73dc904daaaf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 21 19:30:22 2011 +0200
+
+    Release Entropy 1.0_rc54
+
+commit 703b4cb5f66497c657d2c0d4d923237aa11a30da
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 18 12:27:40 2011 +0200
+
+    Release Entropy 1.0_rc53
+
+commit ecbe4d48aff39ef2c5afae52764e832b73b53322
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 17 17:53:53 2011 +0200
+
+    Release Entropy 1.0_rc52
+
+commit fdbaa58e77e484178464ede0b96d4287b47a7a26
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 11 17:09:12 2011 +0200
+
+    Release Entropy 1.0_rc51
+
+commit 31af25acb0194eee9a028d24d96179c8f75df251
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 7 15:19:33 2011 +0200
+
+    Release Entropy 1.0_rc50
+
+commit 0f79d657c40fbbb9648be1aac1832e6363cf7be9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 5 18:09:40 2011 +0200
+
+    Release Entropy 1.0_rc49
+
+commit 98a78383129f1526c315fdf11e3c99f3ac521686
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 4 23:26:43 2011 +0200
+
+    Release Entropy 1.0_rc48
+
+commit 8d4c68dc74ba4f1a8d3c5672c040d77c2f469b9f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 30 11:39:18 2011 +0200
+
+    Release Entropy 1.0_rc47
+
+commit c14a6f8687576323fe560173365ba81953e2112d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Aug 29 06:56:00 2011 +0200
+
+    Release Entropy 1.0_rc46
+
+commit 100d016d96494965622e6772c8488e90d9408f48
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Aug 28 20:17:39 2011 +0200
+
+    Release Entropy 1.0_rc45
+
+commit 387e27679fa5bf1528ea7ce8a4f79e66a23a3a10
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Aug 25 19:36:52 2011 +0200
+
+    Release Entropy 1.0_rc44
+
+commit 5556857a7d5c55c03eb8a07d9c05e614c5a147db
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Aug 21 14:23:02 2011 +0200
+
+    Release Entropy 1.0_rc43
+
+commit de45f6ed28a7a7085c1f811e12624c7a30829022
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 20 14:01:23 2011 +0200
+
+    Release Entropy 1.0_rc42
+
+commit d5afa0a04642715cb12f6e6baeff78440557805a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Aug 18 17:53:44 2011 +0200
+
+    Release Entropy 1.0_rc41
+
+commit 3d61b8864d4b4fde53b6b1fd092f3df185ceebb7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Aug 15 16:37:39 2011 +0200
+
+    Release Entropy 1.0_rc40
+
+commit 4bb0a45bb99acd72747ae06eef73ee513a9e8774
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 13 11:51:00 2011 +0200
+
+    Release Entropy 1.0_rc39
+
+commit 96be654e212e5fff38b77634ca1cc314cd8fe6b7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Aug 11 16:52:26 2011 +0200
+
+    Release Entropy 1.0_rc38
+
+commit 1c6dfe4cf0f5872f6d124c62595a7a86d45d4c12
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Aug 11 07:25:52 2011 +0200
+
+    Release Entropy 1.0_rc37
+
+commit a5eaaea167e168ac0fbf6319451e7260a4a49660
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Aug 10 10:28:57 2011 +0200
+
+    Release Entropy 1.0_rc36
+
+commit 121eb6fdf5ed9ac85ec9c74b351bb37010a1613e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 9 22:17:54 2011 +0200
+
+    Release Entropy 1.0_rc35
+
+commit 5c6eceabf1a1f6b79d62285a58d92ff7a66f0178
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 9 12:41:16 2011 +0200
+
+    [sulfur] implement support for split package files
+
+commit 31c708e8fe1dd991759eb318120491e6696a2314
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Aug 7 18:39:25 2011 +0200
+
+    Release Entropy 1.0_rc34
+
+commit 8ac5b413b0b7c9a204d273985dcc7fdcd29093c6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 6 23:17:21 2011 +0200
+
+    Release Entropy 1.0_rc33
+
+commit bafe7bcd8bae62e14f87a3a94eb646e08a2c5365
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Aug 4 10:26:04 2011 +0200
+
+    Release Entropy 1.0_rc32
+
+commit e3283d5a519dad2635218fe7603783ce5c52851c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Aug 3 09:41:57 2011 +0200
+
+    Release Entropy 1.0_rc31
+
+commit 4648c39cfabd72dca67f19cd4b2772807d5b49c1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 2 19:47:04 2011 +0200
+
+    Release Entropy 1.0_rc30
+
+commit 6c8702df4e13d12f4e6ecbbfdd6291d800fbfea5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 2 08:22:31 2011 +0200
+
+    Release Entropy 1.0_rc29
+
+commit a46eca4bc88f4fe52d1e3926b488199a288c56b3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 2 07:29:11 2011 +0200
+
+    Release Entropy 1.0_rc28
+
+commit 08f75d4c55f679725986a8db7cdda5263ca893fe
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jul 17 21:59:28 2011 +0200
+
+    Release Entropy 1.0_rc27
+
+commit c20004ba5cbfbc044bd41522043558365fa269ab
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jul 13 08:21:27 2011 +0200
+
+    [sulfur] improve Entropy Packages TreeView cells rendering speed, by sticking to a more async strategy
+
+commit 7dfee36dd1e871d46d73be40394c183db94a13c6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jul 10 12:56:14 2011 +0200
+
+    Release Entropy 1.0_rc26
+
+commit badedf8b2cb3a33d0614ee49e9bf9befeb703e92
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 9 15:50:02 2011 +0200
+
+    Release Entropy 1.0_rc25
+
+commit a90519277e871722cebd5e95155fe25b32b26e5c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 8 19:54:31 2011 +0200
+
+    Release Entropy 1.0_rc24
+
+commit a27bad1966a160884b273348648c3b3ede7f68d2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 7 22:57:18 2011 +0200
+
+    Release Entropy 1.0_rc23
+
+commit 7045b0d0c3d7181b24652fb0affb473735d86757
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 7 15:32:29 2011 +0200
+
+    Release Entropy 1.0_rc22
+
+commit f54be7c8941f747e04be301685a99d6ae2448776
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 2 14:33:31 2011 +0200
+
+    Release Entropy 1.0_rc21
+
+commit bb257b1f2db4d06aaec68d9a058ca611aaf32535
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jun 29 11:33:58 2011 +0200
+
+    Release Entropy 1.0_rc20
+
+commit 32197da30ab48774931267e0a6e8fbbf2f3fb1f9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jun 28 11:13:32 2011 +0200
+
+    Release Entropy 1.0_rc19
+
+commit da40f1fbdd3d4244a8f0b4d4478a8bd97e7cfc3a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jun 26 00:09:32 2011 +0200
+
+    Release Entropy 1.0_rc18
+
+commit 43520fb5227139f12127f0459101a2820842f303
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jun 25 10:21:37 2011 +0200
+
+    [sulfur] entropyapi: properly initialize variables in GuiUrlFetcher
+
+commit 3f4a8503892ec93d3edae9d9e8dbb56236c44c23
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 22:42:04 2011 +0200
+
+    Release Entropy 1.0_rc17
+
+commit ffcad0dfbf0312d83a74a0e8e81f625e5a32b1e9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 22:09:54 2011 +0200
+
+    Release Entropy 1.0_rc16
+
+commit 24bda89e5eb41176c955b3b0485ac6361b510e54
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 21:58:56 2011 +0200
+
+    Release Entropy 1.0_rc15
+
+commit dca2d5796c6ad60cdb84d595331a203ca337d363
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 19:56:23 2011 +0200
+
+    Release Entropy 1.0_rc14
+
+commit 70b4627faf1e29f944ba5a824208592ace0da3fc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 19:30:55 2011 +0200
+
+    Release Entropy 1.0_rc13
+
+commit 005b27bf9b178c5e252abb5d464fdf485d592e1c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 18:21:22 2011 +0200
+
+    Release Entropy 1.0_rc12
+
+commit 11cf4bf5d0ed4f6f3e76b4a9b996d605521739eb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 24 15:47:13 2011 +0200
+
+    Release Entropy 1.0_rc11
+
+commit 6803f74dbabee012df8228e0c72f7353b99dea26
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jun 20 10:52:32 2011 +0200
+
+    Release Entropy 1.0_rc10
+
+commit e70b4b58c64015d6f8c689a235aaca0cdd05e2d6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jun 20 10:12:37 2011 +0200
+
+    Release Entropy 1.0_rc9
+
+commit 24b70d90d4292e69ffe0aefac4f6d2e11f201676
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jun 19 16:51:42 2011 +0200
+
+    Release Entropy 1.0_rc8
+
+commit 2a89d80f1933aa4b19c1cffa5e76de45fcdfca9c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jun 18 09:59:51 2011 +0200
+
+    Release Entropy 1.0_rc7
+
+commit 52b27a0f3a429fbc00ba3e82683aabb06282afcb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 17 22:48:42 2011 +0200
+
+    Release Entropy 1.0_rc6
+
+commit 6ce1cef3fdc779ae04fbf65e1f50455122079df5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 17 22:32:44 2011 +0200
+
+    Release Entropy 1.0_rc5
+
+commit 08be6be0419f0a2d6776d1dff50c464bc2141e02
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 17 12:37:10 2011 +0200
+
+    Release Entropy 1.0_rc4
+
+commit 1355cdbd0626e3aad9dc30e354dde0c3edf1f4e0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jun 17 10:48:52 2011 +0200
+
+    Release Entropy 1.0_rc3
+
+commit 79f76ffdd626ec19d10996640c57c70109b214fd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jun 16 21:55:20 2011 +0200
+
+    Release Entropy 1.0_rc2
+
+commit 0c78cd50b6d45156d559ea230d9b29780ed2c34e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jun 12 23:24:10 2011 +0200
+
+    Release Entropy 1.0_rc1
+
+commit dbd01336b0c3dc9a31dcc3d779804b14045517ff
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jun 12 23:03:07 2011 +0200
+
+    [sulfur] make all the Web Services threads, daemon ones
+
+commit 7bc117a31ac9c236f14d511d42d7e980b8b0c181
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jun 12 16:36:45 2011 +0200
+
+    [sulfur] when application_quit signal is raised, stop any Web Services activity so that respective threads end asap
+
+commit a79a49853495d6c434b3861cfa36d690d5448c08
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jun 8 18:06:52 2011 +0200
+
+    [sulfur] PkgInfoMenu: content metadata might not be available in package dict
+
+commit f84c6a5e474167f11bd9d445a03b958b0a668015
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jun 1 14:20:56 2011 +0200
+
+    Release Entropy 1.0_beta21
+
+commit 8e495a50313c3b313c8eea1b29dfb1f37985017d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 31 11:19:33 2011 +0200
+
+    Release Entropy 1.0_beta20
+
+commit bb655aba365cb8d3e6c07434d9476c8cd331ad9a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon May 30 22:02:31 2011 +0200
+
+    Release Entropy 1.0_beta19
+
+commit d6e1fe5fe06e8297d6b00c0b14a1f4085545403e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat May 28 20:17:02 2011 +0200
+
+    Release Entropy 1.0_beta18
+
+commit 8c02cbc70f715b4b82dfd2b7786e34920d31e92e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed May 18 22:24:11 2011 +0200
+
+    Release Entropy 1.0_beta17
+
+commit 36631fa28350190c69b9dc0680c8bbb0c84b31ba
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 17 00:08:35 2011 +0200
+
+    Release Entropy 1.0_beta16
+
+commit 63ceb7d7cb414dd210c13589b2f99807535f9146
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 12 14:42:13 2011 +0200
+
+    [sulfur] _validate_repo_submit: validate repository identifier
+
+commit 250bca84f884766a2daf862fe48746371fb4b2f6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 6 19:19:28 2011 +0200
+
+    Release Entropy 1.0_beta15
+
+commit 7d351688f59402fe3b4557328dfea6d4db6ba1c8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 5 14:47:55 2011 +0200
+
+    Release Entropy 1.0_beta14
+
+commit 0dd6b4353033f9be5df224c7f993c44f43af4bba
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 5 12:12:52 2011 +0200
+
+    Release Entropy 1.0_beta13
+
+commit 6be737d51929b43bd18b7cca3d483100f434e3bd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 5 11:35:14 2011 +0200
+
+    Release Entropy 1.0_beta12
+
+commit dba612bb1bd0459492a58c967a080379d821af69
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 5 10:26:48 2011 +0200
+
+    [sulfur] warn if running off a Live System
+
+commit e4b846bc690991bf780c691a4796738a4594a1da
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 5 10:17:08 2011 +0200
+
+    [sulfur] make sure "config_protect" and "config_protect_mask" metadata are available
+
+commit efaf553fb1c266f5f039c0087e18c81aad295b57
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed May 4 19:32:02 2011 +0200
+
+    Release Entropy 1.0_beta11
+
+commit 3770bd92d7fb6689ccf982fdb572932fbde70296
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 3 18:49:15 2011 +0200
+
+    Release Entropy 1.0_beta10
+
+commit 4a6a4090c5ab8f86f9a76acdb53a5f7f67750945
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 3 14:52:12 2011 +0200
+
+    Release Entropy 1.0_beta9
+
+commit 03f6f28542c1f82fc35089594e944de1dd0fb1f5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 3 14:50:48 2011 +0200
+
+    [sulfur] improve CellRendererStars rendering speed dramatically
+
+commit 318765d6eefa3cfe548f6ae6bd28fafdf81c0827
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 3 14:23:34 2011 +0200
+
+    [sulfur] avoid using fork_function completely, it can easily cause deadlocks
+
+commit 0239103f41102486569c93896056c338ec68b7bd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue May 3 13:42:25 2011 +0200
+
+    [sulfur] create "application_quit" signal and spawn it on application quit
+
+commit 706efddc799ace01e6b5a8f35a0e25f5f031615d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun May 1 08:22:36 2011 +0200
+
+    Release Entropy 1.0_beta8
+
+commit 86436cac1c3542b213e30512046c543e319c231a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun May 1 08:21:46 2011 +0200
+
+    Release Entropy 1.0_beta7
+
+commit 2c968e425f915b072441cbace288f6f80d794354
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun May 1 08:17:58 2011 +0200
+
+    Release Entropy 1.0_beta6
+
+commit 4d663a83dcd6cea73808ed3b8049b6731fd08cd4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Apr 30 09:56:18 2011 +0200
+
+    Release Entropy 1.0_beta5
+
+commit a80edc14e68dad554057c275351de8bd80251f1c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Apr 30 09:55:10 2011 +0200
+
+    [sulfur] _ugc_cache_icons._fetch_icons: fix function logic
+
+commit 3621707e4e4d16e8207006767f28137768d9b70d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 29 18:21:01 2011 +0200
+
+    Release Entropy 1.0_beta4
+
+commit 7f836d61ad2bf1af6ed51046c0ee4e8dd3d293a2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 29 18:16:38 2011 +0200
+
+    [sulfur] when a new icon is fetched, emit the UGC data update signal
+
+commit d2b84378e764e9682a44f8f3249abe086bc680d8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 29 18:16:02 2011 +0200
+
+    [sulfur] when fetching icons in background, use service_cache=True
+
+commit ac462adb3ca8337aa1fca3e4351a3082ec2e6f64
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 29 17:25:51 2011 +0200
+
+    Release Entropy 1.0_beta3
+
+commit c0f7b39d5e63bdf5bde92bc499fbb95fe63e39bf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 22:57:37 2011 +0200
+
+    [sulfur] fix UGC error box layout
+
+commit 188068b0f91e05c5e3527c97a5352073790c6eab
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 22:56:50 2011 +0200
+
+    [sulfur] remove credentials if UGC login fails
+
+commit 0ab8c315392dde887313aa7c01e636731b0625b9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 22:29:30 2011 +0200
+
+    [sulfur] reduce UGC data queue size
+
+commit 62820ae7a60255b1f9431fd72a0ea6584de54233
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 12:21:31 2011 +0200
+
+    Release Entropy 1.0_beta2
+
+commit 3e3c450489b2fbeede1378b309391b1f9f215fb0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 12:20:58 2011 +0200
+
+    [sulfur] remove debug output
+
+commit cde103aa63f84772c82e22cf4ddb01148cec59df
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 12:15:54 2011 +0200
+
+    [sulfur] automatically respawn Sulfur after the installation of critical updates (if there are more)
+
+commit f8796a8a46f9ca8e6212689b16df769fd1d706a0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 26 11:36:21 2011 +0200
+
+    [sulfur] correctly handle critical updates warning message when critical packages are already in the install queue
+
+commit 5a56c15e060ea7bacab607c70dd6fa04990159ca
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 25 20:01:52 2011 +0200
+
+    [sulfur] check if old signal handler returned by signal.signal() is a callable object
+
+commit 3401029b2981c618685551047c8c47b66f22d1f1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 25 19:43:28 2011 +0200
+
+    [sulfur] EntropyPackage: add dedicated UGC cache
+
+commit 823877b24fe6dba3757b81eb3e180e1ea1b27098
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 25 19:22:22 2011 +0200
+
+    [sulfur] improve speed of parallel UGC data fetch
+
+commit 1af601e76e02507dc928fece79bdf478fe31446f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Apr 23 14:49:13 2011 +0200
+
+    Release Entropy 1.0_beta1
+
+commit 58531526accca249ce32c98cc627d9b45c9e4425
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 15 08:00:30 2011 +0200
+
+    Release Entropy 1.0_alpha47
+
+commit 4408b29c334d0e139f68607e730bcac46ecb6726
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 15 07:35:51 2011 +0200
+
+    [entropy*] drop socket service related code, R.I.P.
+
+commit 45c4d8022412bb7ef516abd7fa9a938e1680335c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 15 00:42:13 2011 +0200
+
+    Release Entropy 1.0_alpha46
+
+commit d7f4ae0029032acfcd71437a654b4262dee7e682
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Apr 14 18:24:37 2011 +0200
+
+    [sulfur] when calling validate_credentials() also catch RequestError exception
+
+commit c9ba07c9bec70c830cf5124673f3fd7b46de9503
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Apr 14 15:17:54 2011 +0200
+
+    [entropy.services] goodbye old and ugly RPC service, R.I.P.
+
+commit a54c9940239f2bbe1f69369330cf304ee16ec206
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 21:28:01 2011 +0200
+
+    Release Entropy 1.0_alpha45
+
+commit fd0c9611847199fef8a8d4378be5fbc0a0a1fd59
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 21:27:30 2011 +0200
+
+    [sulfur] cleanup ugc stats code
+
+commit 455e66cd6e746358e37d79f0c1377ef14f423c0b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 16:02:15 2011 +0200
+
+    Release Entropy 1.0_alpha44
+
+commit c9d76029f5b141f7dacf964c9eca00f2f3d62c5e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 14:53:21 2011 +0200
+
+    Release Entropy 1.0_alpha43
+
+commit 87bb1fa84e9efb1066c3d92ce6f3274a1c13dfac
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 14:18:54 2011 +0200
+
+    [sulfur/package] remove some warnings
+
+commit 12cae6a7109e747e279262128accedd19addc4d8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 14:11:18 2011 +0200
+
+    [sulfur] fix another undefined reference inside setup_images()
+
+commit acb75c672071c93529ab1a0b0e4e4e1256b67e5c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 11 14:10:36 2011 +0200
+
+    [sulfur] fix undefined reference
+
+commit b7ed6afa30d0599d9de2170a5474ba3fad595e8f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 10 23:27:03 2011 +0200
+
+    Release Entropy 1.0_alpha42
+
+commit 6aef7088f0d711281da395d28403d50515425e99
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 10 23:15:13 2011 +0200
+
+    [sulfur] migrate the whole application to the use of the new Entropy Web Services interface
+
+commit dd4245d68c26be0861fa826546f1ff574f1ffc1e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 1 14:16:19 2011 +0200
+
+    Release Entropy 1.0_alpha41
+
+commit 86ec56920c5be4b43c324de9dc67eaf658924ce9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 30 21:05:36 2011 +0200
+
+    Release Entropy 1.0_alpha40
+
+commit c5d90c2dc825d09206aed6c0579c6ac49519f8c0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 30 14:20:47 2011 +0200
+
+    Release Entropy 1.0_alpha39
+
+commit 674bbd582099c66382e480152386673a36c2b8bd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 29 13:12:12 2011 +0200
+
+    Release Entropy 1.0_alpha38
+
+commit c3301fa2ac399adc524364105ef993a393585e5c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 29 12:25:32 2011 +0200
+
+    [sulfur] make possible to disable/remove the default repository
+
+commit 2f7de2809ebc2759bcbd0e365233030a8b183820
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 29 12:17:21 2011 +0200
+
+    [entropy.client.interfaces.qa] make UGCErrorReportInterface repository_id constructor argument mandatory
+
+commit eb3489d03ef8e3bd023cb763abe93995a29c9d5b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 27 22:07:51 2011 +0200
+
+    Release Entropy 1.0_alpha37
+
+commit a344b724eb6ec624343d258588fa47300e6b23c1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 27 20:26:45 2011 +0200
+
+    [sulfur] add lot of debug output to UGC icon loading code
+
+commit cd075745eadcb5fcde6cab7f93a5d3d33e1f042e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 27 20:24:28 2011 +0200
+
+    [sulfur.views] enlarge UGC icon fetch queue, lowering the thread priority caused starvation with a too small queue size
+
+commit 2d9114bf55c6e1eea5bbe5f31ef3df4d778581f7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 25 17:30:29 2011 +0100
+
+    Release Entropy 1.0_alpha36
+
+commit 5f68eed63b4c0f39e774b801e4a64ed1c5275dd1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 25 14:30:25 2011 +0100
+
+    Release Entropy 1.0_alpha35
+
+commit 8e13077771a22ecff72531253058689942e97bc9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 25 10:18:48 2011 +0100
+
+    Release Entropy 1.0_alpha34
+
+commit 5bf2f5619ede8a62379367a304b93b6b2d3e8caa
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 21 20:12:19 2011 +0100
+
+    [sulfur] package properties loader functions: "sources" metadata of package can be unavailable
+
+commit f81dced3eb306e89f326844c66e61078e0b8afbd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 21 16:17:23 2011 +0100
+
+    Release Entropy 1.0_alpha33
+
+commit 31dee988c6982b3c3ef6a706f51721fc76c2562b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 20 12:34:26 2011 +0100
+
+    Release Entropy 1.0_alpha32
+
+commit 1c926e6ae5097ef47c07f03e1f301a5075a2cd53
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 18 07:20:53 2011 +0100
+
+    Release Entropy 1.0_alpha31
+
+commit 5101b14c24870dc2e6c01aead2eaee944537d546
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 17 10:30:38 2011 +0100
+
+    [sulfur] fixup default colors, make them look good on dark background
+
+commit 5c4ef09618ce18a19ef2778161db241c325978fc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 14 15:34:48 2011 +0100
+
+    [sulfur] fix Sets API usage, regression.
+
+commit 18e4e5427e2e8c00b56145d5913b69459084e862
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 10 19:02:36 2011 +0100
+
+    [sulfur] improve reliability of load_url() usage in notice board item window
+
+commit 1d0309eef1bec7f0a40d8ff0b787746809d5289f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 10 18:35:54 2011 +0100
+
+    [sulfur] improve url loading function
+
+commit 0eb554e0d6a71235cbdfa8d1f24addefea4e3f5e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 10 18:35:39 2011 +0100
+
+    [sulfur] add custom SIGTERM signal
+
+commit db01853238f968ec70cbbc953b27f5223eb94f0e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 10 18:35:15 2011 +0100
+
+    [sulfur] fix --debug when running on kdesu
+
+commit 042399f6e95159073f6e36ece709b4b2c734764f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 10 17:09:05 2011 +0100
+
+    [sulfur] fixup package properties loader when trigger metadatum is not available
+
+commit f0840f1097849140987f12acad6feb227d935057
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 8 10:17:14 2011 +0100
+
+    Release Entropy 1.0_alpha30
+
+commit f7124b48cf80faf232df712aaeaced1b4f85555b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 7 19:52:37 2011 +0100
+
+    Release Entropy 1.0_alpha29
+
+commit adb4b471341b3548bd87bd757925eea84ca9c452
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 7 18:45:00 2011 +0100
+
+    [sulfur] catch DependenciesNotRemovable when calling get_removal_queue in .remove()
+
+commit 29fb9a948ed11735bb69d4ca4144c506049590db
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 7 18:39:16 2011 +0100
+
+    [sulfur] deny application load without proper superuser authorization
+
+commit 15ade2c199b4e17441ee45e60466c9617d261e01
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 6 20:07:50 2011 +0100
+
+    Release Entropy 1.0_alpha28
+
+commit 03c082b486bb05cc8f7bf486c13169ba2474cc67
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 6 19:46:54 2011 +0100
+
+    [sulfur] several speed improvements to the package info window
+
+commit d232c521103678cea4e78a4a0205f5d207ed8e08
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 6 17:56:27 2011 +0100
+
+    [entropy.client.interfaces.{methods,sets}] complete code cleanup, review and refactoring (and fix some minor bugs)
+
+commit b7fe135a9d534bf6f528373441e83f8c041b60ff
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 5 19:08:23 2011 +0100
+
+    [entropy.client.interfaces.methods] partially complete API documentation and cleanup
+
+commit 85724c5a3f9a99c27aeb67c2bdea3350da6d48d1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 5 13:19:04 2011 +0100
+
+    Release Entropy 1.0_alpha27
+
+commit 1274878b0be17458a530788ec823821712b04522
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 5 13:09:30 2011 +0100
+
+    [sulfur] acquire entropy write lock when loading in ANY case, avoid race condition with in-RAM data structures
+
+commit 5cd9e6e180f929a17ef32a2b1ca9ec644a2ff114
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 5 11:50:09 2011 +0100
+
+    [sulfur] drop ETP_NO_PID_HANDLING once entropy.const has been consumed
+
+commit 1e3f6c70baf6efa58a66569bad064669d6d53d4e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 5 11:28:19 2011 +0100
+
+    [sulfur] prefer ETP_NO_PID_HANDLING to --no-pid-handling to avoid having argv propagated to child process
+
+commit eda4520324275e4e977a47c5c5d1437af3cc69fe
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 5 00:03:45 2011 +0100
+
+    [sulfur] fix imports, do not use dep_getkey from entropy.tools
+
+commit 6ce3bdb0f9ac522da462089be7214f86c5c3dda5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 21:14:12 2011 +0100
+
+    [entropy.db] EntropyRepository, EntropyRepositoryBase: only return package_id from addPackage() and handlePackage()
+
+commit f714ab0e0c36a16482f6cc145c085ddb8ce0121b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 18:38:34 2011 +0100
+
+    [sulfur] improve speed of package file install
+
+commit ed3baf7e6a6c75bec181b58c8f1cd46038cedb10
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 14:11:36 2011 +0100
+
+    [sulfur] add several performance improvements, boot takes 3 seconds less average
+
+commit 6c298135eca3b9085dc9813927a305e97e477233
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 00:36:04 2011 +0100
+
+    [sulfur] set default height to 600px
+
+commit 6a4dddcd1aae915bd1490406a5d83bc99d166ed4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 00:29:25 2011 +0100
+
+    [sulfur] cache package theme icon too, this avoids resize glitches
+
+commit f244d1cfbae2b45e54b8ed668698fbac079b4db3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 00:29:04 2011 +0100
+
+    [sulfur] EntropyPackage: fix __str__ function
+
+commit cd3ff960421d13d84b6d3b9be257b58566dc2c04
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 4 00:33:49 2011 +0100
+
+    [sulfur] remove security package updates highlighting, takes a lot to compute
+
+commit cdb804cd0a4949be6cb193294d6eca9ea29a9ec5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 3 09:13:56 2011 +0100
+
+    Release Entropy 1.0_alpha26
+
+commit 6791aa39f45a91fc17e9e7e605f208cd104d5003
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 3 09:13:35 2011 +0100
+
+    [sulfur] do not show orphaned packages dialog if no repositories are available
+
+commit 9c7d63ea667fca67eb4af00a3f449d34673d6ce4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 2 22:54:29 2011 +0100
+
+    Release Entropy 1.0_alpha25
+
+commit d5cbdaf7e26523efb946f2bf0a168afa785cad8c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 2 22:53:07 2011 +0100
+
+    [sulfur] tweak application startup behaviour
+
+commit c2a528ca97eb8baf7f18fef5abfb78f1da38f91b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 1 13:13:39 2011 +0100
+
+    Release Entropy 1.0_alpha24
+
+commit 79fdb6a37891833fb21f7c14184b77c57031014d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 28 09:23:31 2011 +0100
+
+    Release Entropy 1.0_alpha23
+
+commit 6f6af07baef0e3a497cf74cc3b6bac68c49fbb01
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 19:02:10 2011 +0100
+
+    Release Entropy 1.0_alpha22
+
+commit 4911043ec2d8a0e9299e4ccd328a174bd695c7d6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 19:01:51 2011 +0100
+
+    [sulfur] fix execution with newer kdesu (4.6)
+
+commit 44b012ff583f0dc75a0ebac51ae62f962494783a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 17:26:37 2011 +0100
+
+    [sulfur] fix permissions issue while trying to install package file, gain privileges before executing os.access() (in on_installPackageItem_activate)
+
+commit 4b7f7b04308bd78ef0349f98d93ff10a03336513
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 17:12:15 2011 +0100
+
+    [sulfur] slightly tweak UI default colours
+
+commit ccb6f99cb27913427a0160f0ef7d224ab3b5e04b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 01:13:25 2011 +0100
+
+    Release Entropy 1.0_alpha21
+
+commit b101e96443e3b06b00cb7ca3d00bee32c81b451b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 01:13:00 2011 +0100
+
+    [sulfur] fix regression with lock checks
+
+commit de591dc6c4b73b29f247b9524dd221a51d47a354
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 27 00:11:09 2011 +0100
+
+    Release Entropy 1.0_alpha20
+
+commit 3e53cea26bf7b56d014d4fb958ae066bc160abbf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 26 09:48:56 2011 +0100
+
+    [sulfur] change entropy package file mime type to application/entropy-package
+
+commit 5f7b46301af89707026d63db10ae00c6921d7b39
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 26 09:46:47 2011 +0100
+
+    [sulfur] add web-install file format handling to mime type
+
+commit a869e67b13fb32a3293848898355a854775663e4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 26 01:18:08 2011 +0100
+
+    [sulfur] add support for web-install package files
+
+commit f1b23c0a0106fb873e313b721cc96b7ee8f57b24
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 20 19:22:27 2011 +0100
+
+    Release Entropy 1.0_alpha18
+
+commit f4a08fefa36ec527d9faaf66d0c94e631ea72c36
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 16 00:26:57 2011 +0100
+
+    Release Entropy 1.0_alpha16
+
+commit 5ea2b154fae9131257b579cb01c495421c92457e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 14 22:42:01 2011 +0100
+
+    Release Entropy 1.0_alpha15
+
+commit 52b467004f6a8347e8d3dba644e7c611e37dfc07
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 14 18:36:59 2011 +0100
+
+    [sulfur] change .desktop icon name to "Entropy Store"
+
+commit d4b3121bf885839000493eacdd0d10dd8f684b00
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 10 15:44:14 2011 +0100
+
+    [entropy] some python3.x fixes
+
+commit a3409fefd6ef1c8ca3143508c894f70bbf3ae6a3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 9 19:22:20 2011 +0100
+
+    [entropy] drop repository manager code, R.I.P.
+
+commit 9110fe3eb270cd67e808d24d406ed2cb81a4d158
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 9 17:58:20 2011 +0100
+
+    [entropy.client] drop urlFetcher and MultipleUrlFetcher properties, make them protected
+
+commit b867dccf7397c0cda75bffeb19d3e1906bf685a7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 7 14:07:42 2011 +0100
+
+    [entropy.client] drop FileUpdates attribute, replace with Client.PackageFileUpdates() loader
+
+commit 7fadd3664dec526f6f69034cf621bdf62e4085e8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 5 12:19:33 2011 +0100
+
+    [sulfur] add Polish translator info
+
+commit 4abdad01243046e0afeb93b03833eee4c66b7fa0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 3 22:17:02 2011 +0100
+
+    Release Entropy 1.0_alpha14
+
+commit b5b1cfad04dda0f17787249cc5c8cb439ddab2c4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 3 21:17:44 2011 +0100
+
+    Release Entropy 1.0_alpha13
+
+commit f6190f5fe2ba1505b1e891e04c55c2f7d9f463be
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 2 14:50:55 2011 +0100
+
+    [sulfur] update German translator info
+
+commit 1d20e2fe2c52cbf32274f148c84ac9b6a1e56226
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 2 12:30:36 2011 +0100
+
+    Release Entropy 1.0_alpha12
+
+commit 711816238fb810953fa266ae7d62b2f4ffb25ab6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 2 01:46:54 2011 +0100
+
+    Release Entropy 1.0_alpha11
+
+commit 285e0eb0b4c12063a8880bf5db72735466916d10
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 2 01:33:54 2011 +0100
+
+    Release Entropy 1.0_alpha10
+
+commit 5e96d5a6f1d3ee9abf5afea28574fe6d83f3ef75
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 31 14:08:35 2011 +0100
+
+    [sulfur] improve reliability of sulfur startup script
+
+commit 1becd33ec640b0833097d8ee00ad45988a776b0a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 25 15:29:22 2011 +0100
+
+    Release Entropy 1.0_alpha9
+
+commit 5f058c657e2ed89e2d4beb0bdd398e68bf339eaa
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 17 15:29:34 2011 +0100
+
+    Release Entropy 1.0_alpha8
+
+commit 24ec0a6253aa56ba2585d54e242f78065060447a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 17 13:09:16 2011 +0100
+
+    Release Entropy 1.0_alpha7
+
+commit 8d601bceb3280b02db32ac5456103ba08b6b940c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 16 19:07:43 2011 +0100
+
+    [sulfur] do not use entropy.client Client protected methods, use public API instead
+
+commit cb1723e3ac3f525c4becdc347a090816d70328e6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 6 01:46:46 2011 +0100
+
+    [sulfur.packages] catch caching issues in time inside _pkg_get_masked
+
+commit 78b0128831b66c134c78573c6d887b88c6d25228
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 6 01:22:06 2011 +0100
+
+    Release Entropy 1.0_alpha6
+
+commit 3e05ffaff6c552a76dba7af0cf95a4a10bca02f7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 6 00:54:03 2011 +0100
+
+    Release Entropy 1.0_alpha5
+
+commit cabd6b5b11d38307ed68e7cbeb6b04cdf7c16ff3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 5 09:42:30 2011 +0100
+
+    Release Entropy 1.0_alpha4
+
+commit c038a36f4c7fb4b93d619afaa2fe39b34b0aeb19
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 5 00:34:48 2011 +0100
+
+    Release Entropy 1.0_alpha3
+
+commit 79505c18258488cc1ef73fddcfad36ac7e648f6b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 3 18:55:38 2011 +0100
+
+    Release Entropy 1.0_alpha2
+
+commit bf9ff1c77fecf313e4b10237cfb2e0adb0761dff
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 2 19:45:34 2011 +0100
+
+    Release Entropy 1.0_alpha1
+
+commit 16ac139da0512a5c2799003ee6d7e2dce8791e51
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 1 16:23:34 2011 +0100
+
+    [entropy.qa] rework QA functions to add multi-repository functionalities, break API
+
+commit ac2f6f2ea9e2a6eebe0de6ea049feeac04ee3987
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Dec 21 12:41:52 2010 +0100
+
+    Release Entropy 0.99.51.20
+
+commit d94cacb164f2be8cea685dc2bcd67363a29f6ebd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Dec 14 19:48:30 2010 +0100
+
+    Release Entropy 0.99.51.12
+
+commit 869896ec147564ae28acaa0064678d9d27ba4fb7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Dec 14 19:40:00 2010 +0100
+
+    Release Entropy 0.99.51.5
+
+commit 3e9972a155980eaa9734e5661c6874f7fc2ba39e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Dec 8 16:47:56 2010 +0100
+
+    Release Entropy 0.99.51.11
+
+commit ba3ab4a2f2a4c23d56687a3e5205bc65832e37c8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Dec 8 15:44:02 2010 +0100
+
+    Release Entropy 0.99.51.10
+
+commit 5ce453631b6702fc7f74826eddd859e632721b45
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Dec 3 18:20:56 2010 +0100
+
+    [entropy.exceptions] move some exception to respective modules
+    
+    Create entropy.transceivers.exceptions package containing transceiver
+    related stuff.
+    Create entropy.services.exceptions package containing services
+    related stuff.
+    
+    Break API (yay!)
+
+commit d4bb2ac407d2fefb71c8ad442cbaccb0a0e8d520
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Nov 28 23:01:34 2010 +0100
+
+    Release Entropy 0.99.51.4
+
+commit bd20e38288ad0fbc5632817b37b1ad25523ed1e0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 27 15:03:05 2010 +0100
+
+    Release Entropy 0.99.51.3
+
+commit 3de9a71a27c83b6ea02453c6f2c6e92c39bba191
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 27 15:02:15 2010 +0100
+
+    Release Entropy test.0
+
+commit 3a889bc7a5294e5cbb3b74bf6e9d619d9a917bad
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 27 14:45:48 2010 +0100
+
+    Release Entropy 0.99.51.2
+
+commit eb280cf8ac29c4ddba679a08092a6eb4f96b9d49
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 27 14:35:41 2010 +0100
+
+    Tagging Entropy version 0.99.51.1
+
+commit c2d8c178bb2c2ffee2e8d3d42dafa22b41bdfbc1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Nov 26 20:23:38 2010 +0100
+
+    Tagging Entropy version 0.99.51
+
+commit dfdce24dbd785c925e81930cdea52dc21958ffcb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 17 18:47:39 2010 +0100
+
+    [equo,sulfur] port to new configuration files syntax
+
+commit 798d5d20196740fec0326624d9bcf2eb66b6d5fc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Nov 12 07:05:57 2010 +0100
+
+    Tagging Entropy version 0.99.50.16
+
+commit e01e280205ed8d8510219a7ac1297d22d4e7acaa
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Nov 11 19:03:36 2010 +0100
+
+    Tagging Entropy version 0.99.50.15
+
+commit 5327ac8d454b3a89f9355f29d1a8a2747fc70a9a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Nov 7 13:05:30 2010 +0100
+
+    Tagging Entropy version 0.99.50.14
+
+commit 5f72c2954bde52d94aa4c0f2be7d02da0ab4b93a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Nov 6 21:00:23 2010 +0100
+
+    Tagging Entropy version 0.99.50.13
+
+commit 6dde973c92ebb9936fef0a32e29241e1957d0f0b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 3 21:16:52 2010 +0100
+
+    Tagging Entropy version 0.99.50.12
+
+commit 994f4a80e41c450e25cacc2f2753f113dd3c71a8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Nov 3 21:15:05 2010 +0100
+
+    [sulfur.views] catch gobject.GError exception on resize_image
+
+commit 6683c3e43de4339f870d97ccf90c1f2bb787496b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Nov 1 12:55:43 2010 +0100
+
+    [entropy.client.interfaces.dep] when conflicting dependencies are pulled in, in the dep graph, bail out to avoid inconsistencies
+
+commit a0db6268e19e53cc35cb4e752fdd3b06d6815109
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Oct 28 11:28:47 2010 +0200
+
+    Tagging Entropy version 0.99.50.11
+
+commit a526bf4233b969b8e3b9de1cb579e41ae01e3bb6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 27 21:23:29 2010 +0200
+
+    Tagging Entropy version 0.99.50.10
+
+commit 8b4c484bc9e26ede9ee24bd631cecf062e5d054d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Oct 23 11:35:45 2010 +0200
+
+    Tagging Entropy version 0.99.50.9
+
+commit 486bf318d9c1e3186fb15efc3280464f487476f9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 20 11:10:49 2010 +0200
+
+    Tagging Entropy version 0.99.50.8
+
+commit d959cca52dcb52ab1cfe65af29c34afc6917f611
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Oct 20 11:05:39 2010 +0200
+
+    Tagging Entropy version 0.99.50.7
+
+commit fc2b4a6fda2bf9a7b26812df40f93ff2b736d7d7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Oct 17 19:41:14 2010 +0200
+
+    [sulfur.views] catch DatabaseError exceptions in new_ugc_pixbuf
+
+commit 86a0bcece0098984d31d66c09fff985720b4fcc2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Oct 10 18:00:15 2010 +0200
+
+    Tagging Entropy version 0.99.50.6
+
+commit 7d966674593f7e559ba51efc989fec1375d21336
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Oct 9 13:35:09 2010 +0200
+
+    [sulfur.views] catch IOError when calling resize_image
+
+commit c14b38634b73d6eb44599fd4aaaa81fa05e4f0be
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Oct 8 20:47:43 2010 +0200
+
+    Tagging Entropy version 0.99.50.5
+
+commit fd2e9f8cc4ef722744eed0cb786b37d83ca0c91b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Oct 8 20:44:46 2010 +0200
+
+    Tagging Entropy version 0.99.50.4
+
+commit 5584562d47c4c7c59bd7aeae5c4f57957c409c68
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Oct 8 18:19:49 2010 +0200
+
+    [entropy.conf] uniform setting keys (keeping backward compat)
+
+commit 131d4d46b23148c4a97adc5d7101d6fb2c96fcce
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Oct 8 18:19:38 2010 +0200
+
+    Tagging Entropy version 0.99.50.3
+
+commit c49d1807d96e092bc801fe44313311f8acdb3e65
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Oct 4 19:47:24 2010 +0200
+
+    [sulfur] validate repositories every time application cache is reset
+
+commit c4d2b71feefdc34d31e74edc4866d069e82aa2be
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Oct 4 17:15:51 2010 +0200
+
+    [sulfur] execute installed packages repository backup without blocking the UI, introduce thread lock to avoid concurrency issues.
+
+commit ab765824f50e49608c6435bf255cc18ad1cef57c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Oct 4 16:58:49 2010 +0200
+
+    [entropy.client.interfaces] improve (and change API) backup_repository() and restore_repository() reliability. Make them safe to use.
+
+commit 893f81b7ed10bbca40bd1d239a1ab053c557cb3f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Oct 3 13:53:45 2010 +0200
+
+    [entropy*] before calling Client.backup_repository() or Client.restore_repository(), make sure that transactions are committed
+
+commit 552441fc5f0925696567229cd5809bc4ad25d075
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 27 23:00:09 2010 +0200
+
+    [sulfur] fix speed regression caused by the removal of fixed_height_mode from our main gtk.TreeView
+
+commit 91397f9911f8940cbc12d2bd4b0a745f0a2307b3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 27 22:58:38 2010 +0200
+
+    [sulfur] move package installation logic (from argv) in a less annoying place, improving startup speed
+
+commit 958e519ca1aa4586e6277cbec6db923f80429fc8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 27 21:27:53 2010 +0200
+
+    [sulfur] move orphan packages dialog and logic to post-_process_queue() functions
+
+commit dd36d611c9cc58c307fae4cb58daaa9534f2ea1c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 26 15:02:24 2010 +0200
+
+    [sulfur] improve VteFakeoutfile raw input workaround (\n vs \n\r)
+
+commit 4a5dc61ef10486653ec5a9be13e8df42e8253ee4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 26 00:40:04 2010 +0200
+
+    Tagging Entropy version 0.99.50.2
+
+commit 7cd260ed25c051c5ec03b32b8bf275b5e9b13657
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 26 00:28:14 2010 +0200
+
+    [sulfur] remove debugging print
+
+commit 10cf881aaf0502cb4d449ea30e44774eed67bcbf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 26 00:25:57 2010 +0200
+
+    [sulfur] migrate deptest and libtest code to asynchronous
+
+commit 7380b8231e13ad7e1928ae28c046a8532ce56f82
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 26 00:05:45 2010 +0200
+
+    [sulfur] ease repositories update messages to user
+
+commit 462ad4c2398cac6870feced7010232587541229c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 26 00:01:36 2010 +0200
+
+    [sulfur] migrate repositories update code to asynchronous mode
+
+commit 67fa28a1b0dde0bbc4b22ce41fa9bb8d64005e3c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 23:50:12 2010 +0200
+
+    [sulfur] introduce asynchronous interface for Sulfur packages installation
+
+commit 22259cc63f2cd39ff44f127a84950d7cbe1955a3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 23:22:50 2010 +0200
+
+    [sulfur] remove unused method
+
+commit 6fb183c77d2dd8e4b36bba479cb789520dd1cc38
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 23:22:09 2010 +0200
+
+    [sulfur] fix problems with terminal output not coming with "\n\r" but just with "\n" (Portage)
+
+commit 8a477d20c2d5eb8b56e7c9b51f445ffeb621539e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 23:21:34 2010 +0200
+
+    [sulfur] SulfurConsole: set xterm emulation
+
+commit e92be827d5961e199832ce43f87e64a21d6bdf80
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 22:23:16 2010 +0200
+
+    [sulfur] move main treeview double click behaviour to EntropyPackageView, fix some minor double click annoyances
+
+commit b5f8814532305da045cc30fff6557be9efd12598
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 18:23:07 2010 +0200
+
+    [sulfur] set $TERM when instantiating SulfurConsole
+
+commit a04bc92f5a192667a4cefcdf418e9d90d1a92f54
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 13:53:24 2010 +0200
+
+    Tagging Entropy version 0.99.50.1
+
+commit b4e7144e289e0f9291328aea37a79f17f4d55c0a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 12:44:14 2010 +0200
+
+    [sulfur] make error reporting nicer for both users and developers
+
+commit b4625a1af59322cc298f11a1012a1dde71d4640a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 09:05:21 2010 +0200
+
+    Tagging Entropy version 0.99.50
+
+commit 1ad732d48bb2b621fd29871dc14b88faed1bac21
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 25 01:20:14 2010 +0200
+
+    [sulfur] improve locks handling in repositories update function
+
+commit be64174cf6d316964e715801f360c18ab04dd3d9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 20:18:29 2010 +0200
+
+    Tagging Entropy version 0.99.49.76
+
+commit be9aa340d76c34eb5fd47d3d5cca20f5b455d065
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 20:15:07 2010 +0200
+
+    Tagging Entropy version 0.99.49.75
+
+commit c483e52d944e3f53d3f0b186d5ae22a50797e128
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 19:25:46 2010 +0200
+
+    [sulfur] lock "Update all" button when application is in locked status
+
+commit 68558b4bbeef74730321db79c3d0d8c82ecb46da
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 19:25:22 2010 +0200
+
+    [sulfur] make possible to test application in locked status via "--locked" argv
+
+commit 238cda74ace00004154c1cac730561eb62bd4d55
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 14:26:50 2010 +0200
+
+    Tagging Entropy version 0.99.49.74
+
+commit 1754d6d190065634314806941b4dc98cd453fc72
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 14:25:56 2010 +0200
+
+    [sulfur] add (commented out) profiling code, fix MAIN_APP variable handling
+
+commit 000a3a6708b0af283b4d06c6a79fcd43974b8684
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 13:04:09 2010 +0200
+
+    [sulfur] delay UGC remote data retrieval by 8 seconds by default, avoid UI overloading
+
+commit 7f9d48ad2611254ab07def70ba1fac0fae0aab7b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 12:56:02 2010 +0200
+
+    [sulfur] improve queue handling buttons, effectively stop queue execution on Abort
+
+commit 6f468185eadc8d10ac855feb6f9c24d581d9f03a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 12:10:13 2010 +0200
+
+    [sulfur] do not show orphaned packages when no repos are available
+
+commit cf4ece82f3fc910a7075477954057cfdd912cab1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 11:36:17 2010 +0200
+
+    Tagging Entropy version 0.99.49.73
+
+commit 3e467c985cdaf576c665172eef4de4966f4bc3a5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 24 11:31:26 2010 +0200
+
+    [sulfur] fix regression, do not bind on_pkgFilter_toggled callback to "refresh" and "install" buttons
+
+commit 156f365ab4878200af2e341acd63e11fb505e930
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 23 19:03:20 2010 +0200
+
+    Tagging Entropy version 0.99.49.72
+
+commit 0bcce0f675a39b6233de7f2e0516f09b31bb4be5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 23 18:45:52 2010 +0200
+
+    Tagging Entropy version 0.99.49.71
+
+commit e543977d9df856a1e1e9fbb66935e6dccbb814e6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Sep 21 14:03:44 2010 +0200
+
+    [entropy.db] rename EntropyRepositoryBase.closeDB() to EntropyRepositoryBase.close() keeping backward compatibility
+
+commit e22a422adbf7e08e930669c1ca1d3713d83ad331
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Sep 17 22:14:08 2010 +0200
+
+    [sulfur] add built-in icon images, make sulfur look good in KDE
+
+commit 81922a91f0bc2f549a31ecfb258f300fb41bd10b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 16 09:22:17 2010 +0200
+
+    Tagging Entropy version 0.99.49.70
+
+commit 8c3c1700af1d4b1e9c5e65ae549fd3930595a26f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 15 20:08:51 2010 +0200
+
+    [sulfur.views] defer loading of UGC cache thread by 15 seconds to speedup UI init
+
+commit 39c59c068bd223cb0881096ba0449c54d38b390c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 15 20:04:02 2010 +0200
+
+    [sulfur.views] use gobject.timeout_add_seconds instead of gobject.timeout_add
+
+commit b5d9e4fec6083a879c5cfee89b28608447a6f3de
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 15 07:31:23 2010 +0200
+
+    [sulfur] remove isinstance(x, int) and replace by identity checking against None
+
+commit 859dbe2c13bcd157f22d19d6a3df6972807c6e24
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 15 07:27:31 2010 +0200
+
+    [sulfur] catch another OperationalError on listAllPackageIds()
+
+commit 3e173078e0d2f9f85c8e401b2df3fc289443283c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 15 07:25:48 2010 +0200
+
+    [sulfur] catch OperationalError when calling listAllPackageIds()
+
+commit 7ff120e7ed0a250c310b5de124b2a39c6a18f7a3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Sep 14 09:49:34 2010 +0200
+
+    [entropy.tools] start moving Entropy dependency handling functions to entropy.dep module
+
+commit 2b13c1d1c75c74cd7bbd0df088c498f23ca0cb30
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 13 17:38:39 2010 +0200
+
+    Tagging Entropy version 0.99.49.60
+
+commit a1d0f338ac923930006fe4528f4b7905404846ae
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 13 13:49:27 2010 +0200
+
+    Tagging Entropy version 0.99.49.59
+
+commit ab29b7cce3fcbfd5dbee70c0c294e7ffbeb99186
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 12 09:25:17 2010 +0200
+
+    Tagging Entropy version 0.99.49.58
+
+commit 8bcc345d57826a099a708da8eda770c08ccb46ed
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 11 17:09:43 2010 +0200
+
+    Tagging Entropy version 0.99.49.57
+
+commit 6d0a6b398d52cfd18f22510891811b9f9004c4ab
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 11 15:43:12 2010 +0200
+
+    Tagging Entropy version 0.99.49.56
+
+commit 46e3f9299c802401535891450105f50d580bb086
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 9 10:46:36 2010 +0200
+
+    Tagging Entropy version 0.99.49.55
+
+commit f15dd70ccace3b8ae21d41d1dca29a89fb53ffd2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 9 08:09:48 2010 +0200
+
+    [sulfur] hide installed packages repository backup tool while running unprivileged
+
+commit 79dd5bd1fd32bf79d9299d04e357e38254055a46
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Sep 9 08:00:51 2010 +0200
+
+    [sulfur] remove background caches generation, it's slowing down a bit and doesn't work as user
+
+commit 6c059f045b95c059bd28b6f97364c50d852fff66
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 8 14:05:15 2010 +0200
+
+    Tagging Entropy version 0.99.49.54
+
+commit b9926b68dd423f2e4b83ff6cd1a49a3ca2366aa5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Sep 8 00:31:30 2010 +0200
+
+    Tagging Entropy version 0.99.49.53
+
+commit 41bb1b478afdb0f2497244deb64188c3f3295edf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Sep 7 23:08:12 2010 +0200
+
+    Tagging Entropy version 0.99.49.52
+
+commit 46079bba0da63d4a29fc281d440555aeefb0d832
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Sep 7 11:16:27 2010 +0200
+
+    Tagging Entropy version 0.99.49.51
+
+commit 81fb866ef465fab4a2afb21c40fa9bcf7afbe6b9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Sep 6 23:40:16 2010 +0200
+
+    Tagging Entropy version 0.99.49.50
+
+commit 3f4f2fba6e9a695cfd2a0ddf9acaa5d9801671f5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 5 21:15:13 2010 +0200
+
+    [entropy.const] drop etpConst['supported_download_protocols'], accept any URI, entropy.fetchers.UrlFetcher will handle them using a whitelist
+
+commit 0d9ff1e16d31a0d054adceb3b6e1ac06f3475786
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 5 19:41:01 2010 +0200
+
+    [sulfur] catch TypeError exception in new_pixbuf when retrieving install_status
+
+commit 48457b6619c90c6b045a997570a3389d525daaf9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Sep 5 19:33:36 2010 +0200
+
+    [sulfur] catch OperationalError on views.new_pixbuf
+
+commit fb1937f6f07881fb0d0962a533552b24d5002a9f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 4 19:25:34 2010 +0200
+
+    [entropy.fetchers] list supported entropy.fetchers protocols in entropy.const
+
+commit 32b600390b03a2ed3edf9bb6918f9fdce4c11120
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Sep 4 15:26:16 2010 +0200
+
+    [entropy.*] remove "eclasses" metadata support
+    
+    "eclasses" package metadata is not in use in Entropy and is too
+    tight with Portage. Dropping.
+
+commit ddf3c45254fdf40d10c23b64715f628150b8f870
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Aug 25 03:44:25 2010 +0200
+
+    [sulfur] show warnings for orphaned system packages and packages unavailable in repositories
+
+commit a05a5ae544829fcea84ecbd9663bb3904253a32e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Aug 18 14:40:50 2010 +0200
+
+    Tagging Entropy version 0.99.49.21
+
+commit 02d375d46b06ff1a95259d2fb8919e6de2a472b4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Aug 17 18:29:53 2010 +0200
+
+    Tagging Entropy version 0.99.49.20
+
+commit bbccdfa0ec5eb00f60d2bc17669ec5261d5b9cec
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 14 08:42:06 2010 +0200
+
+    Tagging Entropy version 0.99.49.12
+
+commit 252208d7cc7ad6492e4e466a379579647d47ad0c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 14 02:34:51 2010 +0200
+
+    Tagging Entropy version 0.99.49.11
+
+commit ab927bfd8bdd535f7a479ff5743243a72ce37710
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Aug 12 20:51:22 2010 +0200
+
+    Tagging Entropy version 0.99.49.10
+
+commit d7f72a9b9261f4937ab7e2bba9fd4f4210103684
+Author: Daniel Halens Rodríguez <daniel.halens@sabayon.org>
+Date:   Mon Aug 9 21:52:36 2010 +0100
+
+    [i18n] Add sv translation file and add Patrik Karlsson to translators list
+
+commit e583e7282f943d02e9139deff1ca4f4b32a62731
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Aug 9 17:46:37 2010 +0200
+
+    [sulfur.views] make main treeview working with any font DPI
+
+commit 0ed0657b2d6416fc625919e5a0c676153ff48c48
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Aug 8 11:06:29 2010 +0200
+
+    [entropy.db] EntropyRepository: rename validateDatabase() to validate(), deprecate validateDatabase()
+
+commit 3aa1307d07806052808666e7cae8b57bce6fcfe0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 7 19:15:11 2010 +0200
+
+    [sulfur] fix regression that caused configuration file values to be handled incorrectly
+
+commit a1d3806b48e270788ea9d3a2de45a3922b8cf674
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 7 19:11:26 2010 +0200
+
+    [sulfur] major: run application as unprivileged user, regain privileges only when needed
+
+commit 6f68fbe7a930caa0fe7628796be79bc135ebd4c0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 7 18:30:40 2010 +0200
+
+    [sulfur.dialogs] catch PermissionDenied exception when storing UGC data fails
+
+commit 126e7b9d514e29667598136a3cd2311572b2a4bd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Aug 7 18:29:31 2010 +0200
+
+    [sulfur.setup] improve const class, make possible to reset variables by calling const.setup()
+
+commit 7e9c6d53908a818700e14af65bd602e4bc98bd55
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 31 15:14:54 2010 +0200
+
+    [entropy] several QA improvements and API changes (trivial, but still)
+
+commit 17c193dcb5c5cc5c5fd4850b867d3575abe02c7e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jul 28 08:19:38 2010 +0200
+
+    Tagging Entropy version 0.99.49.6
+
+commit d0bf738dae4bc8d79a7efb48d098d4ba33692945
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jul 27 18:59:50 2010 +0200
+
+    Tagging Entropy version 0.99.49.5
+
+commit caa6d590d1e03f2f746fa914f33d093e8f7947bc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jul 27 16:05:13 2010 +0200
+
+    Tagging Entropy version 0.99.49.4
+
+commit 4ce90891b1fe7781b73a61ba840dbdc09fc3cd40
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jul 25 13:39:04 2010 +0200
+
+    Tagging Entropy version 0.99.49.3
+
+commit bbf1ef991c01ce7f96b58c7f61052f4a9e48b961
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 24 21:31:00 2010 +0200
+
+    Tagging Entropy version 0.99.49.2
+
+commit b57b469a44a21958f24b2b9d1b0847aebafc5fc5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 24 20:39:37 2010 +0200
+
+    Tagging Entropy version 0.99.49.1
+
+commit 70f6e259f7df32e2d8c8a9b4693dbc50acacbf3c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 24 20:35:23 2010 +0200
+
+    Tagging Entropy version 0.99.49
+
+commit 34a587a62c589eb5fd3c0225d609d565a6fb3c55
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 23 19:57:55 2010 +0200
+
+    Tagging Entropy version 0.99.48.2
+
+commit c92a9da850a1a429e5cd058c2907aee6a7e96a7e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 22 11:26:23 2010 +0200
+
+    Tagging Entropy version 0.99.48.1
+
+commit 0742adfb52c0fca134258586d219ad7dca2f3c8f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 22 10:42:24 2010 +0200
+
+    Tagging Entropy version 0.99.48
+
+commit 3a63ce9eab3aab6fb70e961a66b36fd2d425768f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jul 21 13:27:53 2010 +0200
+
+    Tagging Entropy version 0.99.47.20
+
+commit 2904861b423242a1500052a51db2866cd6da9dda
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jul 20 23:52:02 2010 +0200
+
+    [entropy.db] improve robustness of EntropyRepository code
+
+commit 9bb6d7e7ff9ba4a2a38c5c988ad3f5459a317a20
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jul 19 11:31:49 2010 +0200
+
+    [sulfur] remove unwanted shebangs in sulfur modules
+
+commit 5e7836691de88996d9c1eb0d368617215855c9a0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jul 19 11:30:17 2010 +0200
+
+    [sulfur] remove shebang from module
+
+commit 8703a7b57d55b421c51056351530b54f75553ff5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jul 19 10:23:29 2010 +0200
+
+    [sulfur] change entropy-repo-manager application .desktop category (to Development)
+
+commit 2dbfafee0dc59622586e2885d2f7fa8bec4b3d58
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jul 17 09:00:43 2010 +0200
+
+    Tagging Entropy version 0.99.47.10
+
+commit 03a662d9f668a5eef7c65792d8814842af32478d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 16 23:43:42 2010 +0200
+
+    Tagging Entropy version 0.99.47.9
+
+commit e650015cbfd61d8ab6bc3c3ef5d58688554aae97
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 15 11:22:29 2010 +0200
+
+    Tagging Entropy version 0.99.47.8
+
+commit 888f256391774994e0fb7627527f2ebc3f47bc01
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 15 00:05:02 2010 +0200
+
+    Tagging Entropy version 0.99.47.7
+
+commit 61a2f94ddb7cdbe52e9aba664ad8b0b4fd49bdec
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 15 00:03:53 2010 +0200
+
+    [sulfur] catch OperationalError exception in _show_packages_group_caching()
+
+commit 178d829d6cc90cd2463d9dd3cc9b0edba8424e1d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jul 13 13:40:20 2010 +0200
+
+    Tagging Entropy version 0.99.47.6
+
+commit 3fd264f2eadff875e90b3d12a0b98a35142b35d1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jul 13 12:53:46 2010 +0200
+
+    [sulfur] use $(MAKE) instead of make
+
+commit ecb74813c2552ebc5ef32491c0286e3bd68a8517
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jul 13 12:42:14 2010 +0200
+
+    Tagging Entropy version 0.99.47.5
+
+commit b6a52e86eb293a4c0d69e0459ca65e3782109712
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 9 15:26:57 2010 +0200
+
+    [sulfur] catch OperationalError exception
+
+commit 92b70f1ff71f2c542a3c18da959387bac0032fd9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 9 14:39:16 2010 +0200
+
+    [sulfur] trivial changes
+
+commit ecd1f1573aa9fbbc4cb30d406f04281675011ba0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jul 5 18:13:24 2010 +0200
+
+    Tagging Entropy version 0.99.47.4
+
+commit cac91a87522a89ff36e77a6fc6c016d57183e538
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 2 15:27:16 2010 +0200
+
+    Tagging Entropy version 0.99.47.3
+
+commit 93bd235d706d9b0b0ccbc93f6aa524059cb74b81
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 2 09:58:10 2010 +0200
+
+    Tagging Entropy version 0.99.47.2
+
+commit fb19cc67217699bf4ea48619be6cd4c2915c7d9c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jul 2 09:08:17 2010 +0200
+
+    Tagging Entropy version 0.99.47.1
+
+commit 5673b7601c785d5e5dd5164870a45bca96a7158c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 1 14:21:45 2010 +0200
+
+    Tagging Entropy version 0.99.47
+
+commit 457dea8efbe4b956759f9002bd55498c1193e78c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 1 07:46:01 2010 +0200
+
+    [sulfur.entropyapi] add missing exception imports
+
+commit 53e2e0650e7b65a3042dffb72de6b73ce9516e9a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 1 07:44:04 2010 +0200
+
+    [sulfur.dialogs] some minor code style updates
+
+commit 969feb9f2552dedf01763d4cf9cce693b4e97131
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 1 07:37:40 2010 +0200
+
+    [sulfur] improve reliability of package search dialog
+
+commit f6ce22c38c1506aa16c3b468c7d1647f41cb09aa
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jun 30 05:28:53 2010 +0200
+
+    [sulfur] fix typo in string, thanks to Lucas Azevedo
+
+commit 38141569584568e265ff69706427291e98ce3491
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jun 26 19:15:02 2010 +0200
+
+    [entropy.client.interfaces.repository] major Repository class rework
+    
+    :: move repository update logic inside EntropyRepositoryBase.update()
+       static method
+    :: provide two new static methods EntropyRepositoryBase.revision()
+       and EntropyRepositoryBase.remote_revision() that have to be
+       implemented by subclasses if they are supporting fetching local
+       or remote revision.
+    :: several minor code quality improvements
+
+commit 6a5aed4b01cd2a9755c485202e59551b96e80f09
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jun 21 18:18:48 2010 +0200
+
+    [sulfur.core] resize_image: try saving using jpeg if png is not available
+
+commit 0fc8d243bee3c91a72006dbc650a68284be44ac4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jun 7 17:56:05 2010 +0200
+
+    [entropy.db] first chunk of major entropy.db code updates, create abstract class, move logic there, update API
+
+commit afd2127d6d5faee4ae59d376ccfa575374a69cb8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon May 31 17:36:17 2010 +0200
+
+    [entropy] remove 'messages' package metadata, no longer needed
+
+commit 49fe3f9fbf47f2443279e399975edf6164997e1c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun May 30 08:25:15 2010 +0200
+
+    Tagging Entropy version 0.99.46.9
+
+commit 1e3a6efe2d0aea4ae35f3af42e63edffc85df700
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun May 30 08:22:54 2010 +0200
+
+    Tagging Entropy version 0.99.46.8
+
+commit 04ef9b8243e5011e65cffdfdb218a2a5fb0f2a9b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 28 19:56:30 2010 +0200
+
+    Tagging Entropy version 0.99.46.7
+
+commit 494a5ae9231f1e66d62bcc7640ac8b41249918a7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 28 11:51:31 2010 +0200
+
+    Tagging Entropy version 0.99.46.5
+
+commit 9aef66fc36f4cdfa0fb94cb67165775c7ad07b8a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon May 24 11:35:47 2010 +0200
+
+    Tagging Entropy version 0.99.46.4
+
+commit b093a1b9a9cb729f4d20eee36b9be806aef51dd6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 21 22:06:18 2010 +0200
+
+    [sulfur] minor code updates
+
+commit 29405f0d618fa4422e59c419190fe8918652bc53
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 21 22:05:38 2010 +0200
+
+    [sulfur] EntropyPackage: add more caching
+
+commit 0e548c881a4e9c23213afb8249ce3fb1bd416949
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 21 20:35:26 2010 +0200
+
+    [sulfur] rename sulfur-client to sulfur_client
+
+commit d0a667fdb47805cdced865060cc64f9f8f46527a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 21 20:04:52 2010 +0200
+
+    [sulfur] make ExceptionDialog not freeze UI on exit
+
+commit 997b914acda4e44e0b5042da6e27dc7f1ed79934
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 21 20:04:19 2010 +0200
+
+    [sulfur] fix SulfurApplication.quit()
+
+commit 4e67b816f48a174b90208ee73359977213560d35
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed May 19 16:25:18 2010 +0200
+
+    [sulfur] fix KDE detection (properly use kdesu when in KDE)
+
+commit 89da0d1515562adbec3ce69e1227ba2c3b940bfd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat May 15 02:53:56 2010 +0200
+
+    Tagging Entropy version 0.99.46.3
+
+commit 0e47dce7fd8761914f7b3de98b5b431e93ead2ca
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri May 14 21:34:43 2010 +0200
+
+    Tagging Entropy version 0.99.46.2
+
+commit ea3865a32ce89944911623554259c0e113d5a96a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed May 12 16:16:40 2010 +0200
+
+    Tagging Entropy version 0.99.46.1
+
+commit 8ef645f4d5e206a4cac171abba2eee9c767ef396
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed May 12 14:25:19 2010 +0200
+
+    Tagging Entropy version 0.99.46
+
+commit 25234289aca33eb0bc98f1faf1e01d5ea86fd3f4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat May 8 18:46:54 2010 +0200
+
+    [sulfur] reduce tarball support to .tbz2 for now
+
+commit 8c7f53ec7b723a708cadf2509c31a981407b98bf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 6 21:42:43 2010 +0200
+
+    Tagging Entropy version 0.99.45.6
+
+commit b69d9ab93a5b53127aee8797a5bdd294601db012
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 6 21:08:32 2010 +0200
+
+    Tagging Entropy version 0.99.45.5
+
+commit 9b411e1ef0766becf86924a3f98b95deb1771263
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 6 20:18:19 2010 +0200
+
+    Tagging Entropy version 0.99.45.3
+
+commit 6a138a4a0842add71f5091c324b328df82c6e7ce
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 6 19:17:59 2010 +0200
+
+    Tagging Entropy version 0.99.45.2
+
+commit 4cdd694d5894c2f8548cfd8a92739473409dc65f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 6 19:00:58 2010 +0200
+
+    Tagging Entropy version 0.99.45.1
+
+commit 01ff5a2b37861edae7cd991380d6eeb92b2b6193
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu May 6 17:31:02 2010 +0200
+
+    Tagging Entropy version 0.99.45
+
+commit f0d3d789d0146af36ecfee0a0b496a2e8bd826a8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed May 5 13:18:43 2010 +0200
+
+    [sulfur] replace Client.SystemSettings with Client.Settings()
+
+commit 9d4bb470dfc28e6e7c113a115846dd8520c8bb4d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon May 3 18:26:51 2010 +0200
+
+    [entropy.client] fix reverse dependencies calculation in case of system packages
+
+commit 8d59f204fb6e931d3d917041968b8c077b6853ab
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon May 3 11:12:24 2010 +0200
+
+    [sulfur] fix EntropyPackageView.get_stars_rating CellRenderer redraw callback
+
+commit 3b3fcd1898c5d437b55e7fc49864c8dcc5dd998b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon May 3 10:28:26 2010 +0200
+
+    [sulfur] EntropyPackageView.__new_ugc_pixbuf_stash_fetch: catch OperationalError exception
+
+commit 486c4d593797605f431e4659b9d1bf9775e6eb55
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun May 2 22:33:35 2010 +0200
+
+    [sulfur] fix cell rendering under certain circumstances
+
+commit 4943fd35a86fc19e48220d99e084050041758587
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 26 23:26:51 2010 +0200
+
+    Tagging Entropy version 0.99.41.2
+
+commit 1701b9ee6a48953a403a84079fd625339c1d3aac
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 20 16:12:19 2010 +0200
+
+    [sulfur] catch SSLError exception when calling UGC.add_download_stats()
+
+commit 6b1450a5245d0a89fe0eb41a81bf1dc87dec3ebd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 20 16:09:43 2010 +0200
+
+    [sulfur] when using FileUpdates.{merge,remove,}() catch KeyError exception
+
+commit 861973b60da487b671980fc455eab861f5e92a6f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 19 17:10:22 2010 +0200
+
+    Tagging Entropy version 0.99.41.1
+
+commit c68913ad55e4f4f05b8f456a645586772ee94087
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Apr 18 13:42:38 2010 +0200
+
+    Tagging Entropy version 0.99.41
+
+commit d496b41fe0ad95384da65f309c2d4262db0cf976
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Apr 14 14:30:51 2010 +0200
+
+    [entropy.output/API] rename "type" argument of TextInterface.output to "level"
+
+commit f17eeb62bad30ded96907997725105fd890527ed
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 9 12:42:54 2010 +0200
+
+    Tagging Entropy version 0.99.40.4
+
+commit 666896d50461bd9e5e52af732f60fbf1597b48d4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 9 11:16:18 2010 +0200
+
+    Tagging Entropy version 0.99.40.3
+
+commit f5c6fa920765eb1fab2d750306d6665ad7f83045
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 6 11:18:12 2010 +0200
+
+    [sulfur] EntropyPackageView: catch OperationalError exception in new_ugc_pixbuf
+
+commit 3cd8ac1d00e15f2f723d567d85f63914b680c22e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 5 14:54:13 2010 +0200
+
+    Tagging Entropy version 0.99.40.2
+
+commit 3eb1efbb86f71673bbabc98ed6aebe9c36ab0cb7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 5 14:53:54 2010 +0200
+
+    Tagging Entropy version 0.99.41.2
+
+commit 394945b13ce545c73e9bbe0129185bde2264524d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Apr 5 11:36:47 2010 +0200
+
+    Tagging Entropy version 0.99.40.1
+
+commit eacf54188186d9327b1022a3c378f3fe2a87b531
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Apr 3 19:41:41 2010 +0200
+
+    [sulfur] CellRendererStars: catch get_pixbuf() exceptions
+
+commit 6838c8f5383403f62f05a77970141df30f3223cc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 2 19:15:56 2010 +0200
+
+    [sulfur] NameSortPackageViewModelInjector: make sure that EntropyPackage.onlyname value is valid
+
+commit 7a7c7a7f3516951e1f96a82abc6db301e2eb187d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 2 14:22:19 2010 +0200
+
+    [sulfur] catch OperationalError when querying EntropyPackage
+
+commit 60146f08f42a64e45dcf4927d4dacc468fea7a5d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Apr 2 14:16:29 2010 +0200
+
+    [entropy] properly import entropy.tools and entropy.dump
+
+commit 7a3617ba94763fa3cad5f76a7c7ec75eaf559771
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 30 20:59:54 2010 +0200
+
+    Tagging Entropy version 0.99.40
+
+commit 3ca136b062ea424dee9f0e07af7e62f7da97cc17
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 30 19:32:28 2010 +0200
+
+    [equo/reagent/sulfur] use Client.shutdown() instead of Client.destroy()
+
+commit 910d630b4b66a4f41250fb65ee6def69d6123226
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 26 17:25:03 2010 +0100
+
+    Tagging Entropy version 0.99.39
+
+commit 1be9ddf121496ebe8357de71e65c7dd33bf20721
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 23 20:45:27 2010 +0100
+
+    [entropy.client.interfaces.methods] complete module refactoring
+
+commit 586d7c8c094f2530e92bc8d4143d4f979d49db6d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 21 07:42:01 2010 +0100
+
+    Tagging Entropy version 0.99.38.7
+
+commit 52714cd35423bf91c2056fcb9311a19c3ebd3cde
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 19 15:15:47 2010 +0100
+
+    [sulfur] fix repo-manager-client.py (add missing import)
+
+commit 053fe1cb0f1078396fb6357ad70614f0360b84e7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 18 19:20:57 2010 +0100
+
+    Tagging Entropy version 0.99.38.6
+
+commit 1936fc236c44a6ab07addc9549ba661b43e4df43
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 15 09:10:17 2010 +0100
+
+    [sulfur] make package search functions fault tolerant (2)
+
+commit 5ae87b24f8753c659aee9f81472299be078f6e1a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 15 09:09:07 2010 +0100
+
+    [sulfur] make package search functions fault tolerant
+
+commit 859097a5f45ec0ecc1e0c2c0cb6cf6c7ea48b2ed
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 14 15:54:41 2010 +0100
+
+    [entropy.client] more refactoring work in entropy.client.interfaces.methods
+
+commit ce483c5bd4c1a7779fabf0ab7261546f97cecb2d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 14 12:01:15 2010 +0100
+
+    [sulfur] tweak UGC package info window's textview
+
+commit e22344f8de38d8a25a9607b86737d1333db1d446
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 14 08:13:31 2010 +0100
+
+    Tagging Entropy version 0.99.38.5
+
+commit abf49b5da4832083e77a2d4751456fdd3fccffc9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 14 07:30:20 2010 +0100
+
+    [sulfur] improve UGC package icon cache handling
+
+commit 4f2e9dcc583f716199d3053de900adc844ccec80
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 14 06:38:03 2010 +0100
+
+    [sulfur] fix Entropy Client variables initialization
+
+commit 8f6727c2e15d99f82e1a3edc27f32ff0b4de9d46
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 13 22:19:44 2010 +0100
+
+    [entropy.client] more refactoring work in entropy.client.interfaces.methods
+
+commit d634fbce45c9165a0d6d3d45c503d16ae2cafca4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 12 17:54:30 2010 +0100
+
+    Tagging Entropy version 0.99.38.4
+
+commit 3a5f1dae288fa1d20ce09c58f16a2897772a63ac
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 12 12:20:31 2010 +0100
+
+    Tagging Entropy version 0.99.38.3
+
+commit e18e59d4805a71414246594ed87e17207944f040
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 19:46:04 2010 +0100
+
+    Tagging Entropy version 0.99.38.2
+
+commit 61e6e3c4c2bac2b8ea9a294657bc29f58abb25a8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 19:27:03 2010 +0100
+
+    Tagging Entropy version 0.99.38.1
+
+commit e09fc9e19c7f2de47d1c41836fcbeae63c620ca6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 17:12:39 2010 +0100
+
+    Tagging Entropy version 0.99.38
+
+commit cf6c67faa480d038ad27cdbdff2e67c349a8cc6e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 17:10:28 2010 +0100
+
+    [sulfur] fix application exit
+
+commit babbfac248e8d11b032bac5c2e66dbc55d76090c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 16:24:12 2010 +0100
+
+    [sulfur] fix GuiUrlFetcher UI objects connection
+
+commit 33f65e033b28d108dc6193041147f46e79c03064
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 14:54:14 2010 +0100
+
+    [sulfur] make Sulfur respawn feature working
+
+commit 23df8516ea85b7027047c38e5867c9a60afb472b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 14:54:08 2010 +0100
+
+    [sulfur] fix undefined reference
+
+commit 6b0d6930bd8a639153cec13742770a36be7a3671
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Mar 11 14:50:39 2010 +0100
+
+    [sulfur] fix Update All button hide/show logic
+
+commit 87a7ee8be02926b0b4372feceb2989b9624f8600
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 10 14:41:56 2010 +0100
+
+    [sulfur] fix EntropyPackageView.on_mask_activate call
+
+commit b16e94587b00d49c985047a616ae8d87caacf144
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 10 07:18:16 2010 +0100
+
+    [entropy.client] more module refactoring work
+
+commit 5c12a126bf0d0e21eb79f905376e59bb634aeab7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 8 12:42:29 2010 +0100
+
+    Tagging Entropy version 0.99.37.2
+
+commit 34431f260041797e808c9c6fa75c3aa9b5a55d90
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Mar 7 22:17:07 2010 +0100
+
+    [entropy.client/entropy.server] make Entropy Server interface a subclass of Entropy Client
+
+commit 203420451436cfe8c1cee522beacb93b13c2cfa4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Mar 6 21:14:07 2010 +0100
+
+    [sulfur] catch OperationalError in new_ugc_pixbuf
+
+commit 974aee3b87da6c598294b938b9e0e1146d341357
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 5 15:43:21 2010 +0100
+
+    Tagging Entropy version 0.99.37.1
+
+commit 802cf66e04bd487e4598097ea3b6cdab75b6b00f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Mar 5 12:55:30 2010 +0100
+
+    Tagging Entropy version 0.99.37
+
+commit ea447910e1bad3bd9f0e279d7f1278e3620b6c6e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Mar 3 15:26:52 2010 +0100
+
+    [entropy.client.interfaces.dep] complete module refactoring
+
+commit fff532857c64f297382b0ce61ef66879b716e77f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Mar 2 08:05:15 2010 +0100
+
+    Tagging Entropy version 0.99.36.3
+
+commit 36e190a1032dfcd232f6523157cfaff7cbd72007
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 1 18:51:12 2010 +0100
+
+    Tagging Entropy version 0.99.36.2
+
+commit a572bb3b4e7337ca3b903404ef110b11184c530a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 1 15:12:52 2010 +0100
+
+    Tagging Entropy version 0.99.36.1
+
+commit 980ad362e4130105ed57dabb38b20ee4813df7a2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Mar 1 14:00:58 2010 +0100
+
+    Tagging Entropy version 0.99.36
+
+commit 86ba039559362a9b2d8c21712643f07992642816
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 28 12:57:11 2010 +0100
+
+    Tagging Entropy version 0.99.35.9
+
+commit be84ac158d4aae6d4b12a5b5c60358430e0e48b8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 25 17:34:57 2010 +0100
+
+    Tagging Entropy version 0.99.35.8
+
+commit d763397e5425c087780853a9b7e63a1d2c6f3fbf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 25 10:17:05 2010 +0100
+
+    [sulfur] catch OperationalError when filtering reinstallable packages
+
+commit 28bacd50a4c4d7c26f47ec707d7e3212e17b6de9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 25 10:10:37 2010 +0100
+
+    [sulfur] EntropyPackage: fix __str__ when repository id is None
+
+commit db90e0be89b8c017fb831089e1f268f72050fbb9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Feb 23 21:04:04 2010 +0100
+
+    [sulfur] improve Progress tab messages on labels
+
+commit 7a9089a77bd47ca1726116b803799732ded794ea
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 21 18:37:05 2010 +0100
+
+    Tagging Entropy version 0.99.35.7
+
+commit 75db29963e4235dc53158ec6f2c3b9d87eab2a00
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 21 00:19:26 2010 +0100
+
+    Tagging Entropy version 0.99.35.6
+
+commit b9bfc97433555c26e985f42acf16e8a1040e21c8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 17 12:38:56 2010 +0100
+
+    Tagging Entropy version 0.99.35.5
+
+commit 960c83376466ad68626406ab169c8357f62f4a98
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Feb 16 16:16:41 2010 +0100
+
+    Tagging Entropy version 0.99.35.3
+
+commit b1e45224667a57b5f897caf6c79d8b6d0d02a0f6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 15 22:59:31 2010 +0100
+
+    [sulfur] do not show orphans message if resources are locked
+
+commit f7b48ff4aaaa22ee10aa0b4d1c3ee72dae1fd25e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 15 19:52:25 2010 +0100
+
+    Tagging Entropy version 0.99.35.2
+
+commit dc8f15151aacdb46051c4a8a21b95b86d583573b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 15 19:51:49 2010 +0100
+
+    [sulfur] make sure all pkgs that are going to be removed are marked for removal
+
+commit e4ad7b294cb9d6fbb1eaff173e1c37d0c05798c6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 15 19:38:14 2010 +0100
+
+    [sulfur] EntropyPackage: __repr__ now prints more debugging info
+
+commit 5c5019320ddaf6958b0b13762c3abaeece78f7ae
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 14 21:09:17 2010 +0100
+
+    [sulfur] okDialog() wrap set_markup() with cleanMarkupString()
+
+commit 454b2ff1fb64d1c42d3ba0fb78680eb95de91440
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 14 10:55:30 2010 +0100
+
+    Tagging Entropy version 0.99.35.1
+
+commit d49f48c0398a4db29758f0bbc95fb8666bd11dcb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 22:47:17 2010 +0100
+
+    [sulfur] fix another icon path
+
+commit 49c396130644d7b06a15d77a44e4fa88da16a418
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 20:39:18 2010 +0100
+
+    [sulfur] fix Tips 'n tricks icon
+
+commit 4a01f4ed2ea16c22bc98256c8c5d90c7bf45ca83
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 12:59:49 2010 +0100
+
+    Tagging Entropy version 0.99.35
+
+commit c915dd8910ddfa435985a694348553ae4a81f711
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 12:48:05 2010 +0100
+
+    [sulfur] EntropyPackage: show instance memory position in hex
+
+commit d448045c4c5718e580c814a8619938dd09459912
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 12:47:41 2010 +0100
+
+    [sulfur] fix queue status rollback handling
+
+commit fae1f17f9a20c789d209603c9a3682d6c5e1def2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 12:24:47 2010 +0100
+
+    [sulfur] Queue: do not alter pkgs list passed
+
+commit 28ff13ab284cea578b813e75d7344ad3970776d0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 00:47:49 2010 +0100
+
+    [sulfur] improve UGC pkg properties view image cache handling
+
+commit 9ad08810296123599dd0d8513c8a228a8e9f42bc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 00:32:35 2010 +0100
+
+    [sulfur] remove set_busy() and unset_busy() calls
+
+commit 1e9b2d70c372b7b320718fb2c7112ab26c2947b6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Feb 13 00:19:04 2010 +0100
+
+    [sulfur] embed "Update All" icon file
+
+commit efceba35be12190dd7e3b7df94e877c82a6581bc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 17:45:20 2010 +0100
+
+    [sulfur] cache UGC icon fetch requests, improve performance
+
+commit 481fdacf010dc6253a661a95a61713fb8b5b661d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 14:05:01 2010 +0100
+
+    [sulfur] increase notice board message size
+
+commit 384ff14936ad94b42a8891922403ce072e396165
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 13:37:28 2010 +0100
+
+    Tagging Entropy version 0.99.34.4
+
+commit 0dc876c02622bde71664f6deac775ffc7d40bde0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 13:36:12 2010 +0100
+
+    [sulfur] don't ask me why, but new Notice Board RSS format returns int as id
+
+commit cf358f501294f623a531af1c0f1c65765e8cfa04
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 13:31:11 2010 +0100
+
+    [sulfur] fix typo
+
+commit 9c4bbe56cbcca8653f20399ab3830f1a06559af5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 13:16:18 2010 +0100
+
+    [sulfur] handle non-root mode
+
+commit 7d6f365d959b400c51930589d851be319026bd15
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 12 13:09:32 2010 +0100
+
+    [sulfur] catch OSError exceptions on resize_image call
+
+commit d949c87aa8e7af52eda7030a7ea84df0b16bb3f5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 11 20:40:49 2010 +0100
+
+    Tagging Entropy version 0.99.34.3
+
+commit 639b1dca8fcd826d513cb28277e207da2f1ae36d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 11 19:05:26 2010 +0100
+
+    Tagging Entropy version 0.99.34.2
+
+commit bf939daa3f42b80d989f6d8bfb2297b334fb0701
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 11 18:50:29 2010 +0100
+
+    [sulfur] dialogs: when UGC icon store path is not available, just give up
+
+commit 0724f25ff9e36587fe39e3ed36595bc6dee403b9
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 11 18:30:40 2010 +0100
+
+    Tagging Entropy version 0.99.34.1
+
+commit 439a57e6bbda6460452af2b5dec6e4fa2f529704
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 11 12:08:33 2010 +0100
+
+    Tagging Entropy version 0.99.34
+
+commit 364b27c7e365c96c07d97d9e870f77886c2bcb3f
+Author: Roger Calvó <rogerc@sabayon.(none)>
+Date:   Thu Feb 11 11:28:10 2010 +0100
+
+    [translations] fix typo in my name
+
+commit ae80988a13e65f7e752691ac3b32bfef1760d4c7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 10 22:54:32 2010 +0100
+
+    [sulfur] change console background saturation
+
+commit 41bfaeb67cc5ec3e06ac3d31083838b6d8dc9b05
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 10 22:51:33 2010 +0100
+
+    [sulfur] after pkg install, switch back to proper pkgs tab
+
+commit 67cdb7b24dd3f0de5f9cba482787254e4071e67f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 10 11:27:45 2010 +0100
+
+    [sulfur] implement security updates, properly highlight vulnerable updates
+
+commit 0e8b5b137839bbbf16b04a261259c8ae9530bdf4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 10 09:14:37 2010 +0100
+
+    [sulfur] always show installation tab
+
+commit 29874ae76e124f6d60709b17c6a9e5a590e8b5be
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Feb 9 12:39:30 2010 +0100
+
+    [sulfur] fix dependencies_test when no pkgs have to be added to queue
+
+commit bcdfdbf70bb77dfe71a3b6f00fabf921e8a6018f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Feb 5 11:41:20 2010 +0100
+
+    [entropy.client] move Entropy Package Sets interface to separate class, update API
+
+commit d22e5e2679b70f97a1f640b42a97c4732546f322
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 20:24:49 2010 +0100
+
+    [entropy.db] EntropyRepository: rename retrieveVersionTag to retrieveTag
+
+commit 811cfbac238496799712fb9b769f0a921aa385c8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 20:14:33 2010 +0100
+
+    [entropy.exceptions] ditch IncorrectParameter exceptions
+
+commit c074de36a9a51393079a51b5ec4212c475934deb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 19:25:49 2010 +0100
+
+    Tagging Entropy version 0.99.33.6
+
+commit 7a90959641e4310b4ad296e1ca580762ca11a139
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 19:16:53 2010 +0100
+
+    Tagging Entropy version 0.99.33.5
+
+commit ed426342d44a4b20077c35e3713ae4a694575d81
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 19:15:28 2010 +0100
+
+    Tagging Entropy version 0.99.33.4
+
+commit 91def056524b54059efd3cd9068df4a946fba654
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 19:08:37 2010 +0100
+
+    [build_system] install sulfur/equo revision files
+
+commit 436a8d6569fd83ced8f89d2116fd45e7e90a65c4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 19:02:25 2010 +0100
+
+    [entropy] add empty revision files to entropy-server, equo and sulfur
+
+commit 5f79897cf5bf6b0f8c167a99851776336dbdd157
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 10:01:47 2010 +0100
+
+    [sulfur] misc, minor bugfixes
+
+commit 4cabe3f5adbf33dad7ef2ceb87928263c77c24d6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 01:49:21 2010 +0100
+
+    [sulfur] actually disable fetch, was put there for debugging purposes
+
+commit f05748dcb4d56613e01e75f624239f15c0f0f4eb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 01:44:10 2010 +0100
+
+    [sulfur] make "Update all" button executing pkgs install, add updates signal handling
+
+commit 7a6909fe3617b9a60ebdcc8a5f85e77250603e56
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 01:43:35 2010 +0100
+
+    [sulfur] also print header and footer of messages to terminal
+
+commit b070f4b026a5ec348337017fa13c2178fa47be10
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Feb 4 01:18:43 2010 +0100
+
+    [sulfur] fix bug causing "Actions" button to not show up when adding orphaned pkgs to queue
+
+commit 157be40d4883fbedb6e6928a315ec5583ef1dcfb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 3 12:54:14 2010 +0100
+
+    [entropy.client] rename some Client methods, uniform to the rest of API
+
+commit 0f17f28ca9699561db32d4208a32b41443cc7e38
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 3 09:00:53 2010 +0100
+
+    [sulfur] improve orphaned packages handling
+
+commit cd66536957f0e179ce2abc50c785057e26248bec
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Feb 2 08:14:07 2010 +0100
+
+    [sulfur] code style update
+
+commit adb8f1d8bcaeb1bb5197c00b4cd664f189aebdba
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Feb 2 07:22:47 2010 +0100
+
+    [entropy.client/entropy.server] ditch any reference to sqlite ":memory:" connections, break API
+
+commit d8d3c3f3c0ea57bcfdb004bbaa0dbb7a1ead0700
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Feb 1 17:36:18 2010 +0100
+
+    [entropy.db] uniform EntropyRepository.search* API
+
+commit 4bef1f4e23f6f68fa2f332f0a1e891a40a336524
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 31 13:31:16 2010 +0100
+
+    [sulfur] do not switch back to packages tab when unknown error happens
+
+commit b51cd64b0001fba2c2ffde3f7f31c3d9ff6e0c69
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 31 13:27:49 2010 +0100
+
+    [sulfur] remove empty lines in widgets.py
+
+commit a7140fbe07796367b19eb7363716a06fbb852736
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 31 13:16:42 2010 +0100
+
+    [sulfur] grow sulfur console maximum chars length to 100000
+
+commit dcc784c3b455569be796430931d42e68b698e0c1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 31 10:57:42 2010 +0100
+
+    [sulfur] add "Update all" button
+
+commit f294cf45d391f7a3b0207026e9e41919519882bb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 30 18:49:39 2010 +0100
+
+    [entropy.client] remove Client.validRepositories, provide Client.repositories()
+
+commit 0ee503350b08b2113172fec469c19fd78256f92d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 30 18:37:39 2010 +0100
+
+    [entropy.client] drop .clientDbconn in favour of installed_repository()
+
+commit 4850dcde2e872a29c209bbf89952c46134c32996
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 29 20:46:17 2010 +0100
+
+    [entropy] make use of entropy.db.exceptions classes
+
+commit 664ebadcd6f68d376bcf5b43a0e1b406f845ad00
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 29 14:05:09 2010 +0100
+
+    [entropy.const] make use of etpConst['entropyslotprefix']
+
+commit b2ca3ca6a4ed561a381dcc56894d1fe2d9e2834f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 29 13:40:35 2010 +0100
+
+    [sulfur] when grabbing exception info, grab variables information in every frame
+
+commit 307eb2e337be6210f3ded001f42c41f8a9c66c4d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 29 12:27:36 2010 +0100
+
+    [sulfur] add missing variable reference
+
+commit 6f928372d69665dd56eac1eac6b97614b1b3d925
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 29 12:11:32 2010 +0100
+
+    [sulfur] fix exception data file creation when ExceptionDialog is called
+
+commit 60c3b0c66e1d7520669ed3f2ef064894ec6b4cb6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 29 11:26:33 2010 +0100
+
+    [sulfur] ignore invalid icon name in new_ugc_pixbuf
+
+commit ab394731dd1d1e99f8e1bd9955884d3ac0098f3f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 28 16:56:22 2010 +0100
+
+    [sulfur] highlight system packages in tree view
+
+commit 8577d7b8cb3de0edac5655ef9017563a52b22c5a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 28 16:48:12 2010 +0100
+
+    [sulfur] add more caching to EntropyPackage
+
+commit ddefc15f35f2b6f89e628670033cd711d504881c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 28 16:45:29 2010 +0100
+
+    [sulfur] cache some EntropyPackage metadata requests
+
+commit aaee3d87ffcd40d8715291c790a059c7c04f460f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 28 12:45:22 2010 +0100
+
+    [sulfur] EntropyPackageView, deal with closed repo in cell redraw callback
+
+commit 3815effdbf27876f9a545ff2a6a58e2ec176cbb7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 28 12:42:42 2010 +0100
+
+    [sulfur] move LicenseDialog.accepted at the top
+
+commit 1882b375fbbea2c8bfc934d9d088a85a54d90ce1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 28 09:57:40 2010 +0100
+
+    [sulfur] EntropyPackageView._get_cached_pkg_ugc_icon: validate variables
+
+commit ac1f511b95a2db4f572fbcd6630c485ec76d8405
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 27 08:43:02 2010 +0100
+
+    [sulfur] better check advisory object before loading advisory menu
+
+commit eeccd4c04b2fdbb6543013afa0c830e113029564
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 27 00:28:58 2010 +0100
+
+    [sulfur] improve UGC icon cache fetch in treeview under high load
+
+commit 43b10178ad11d214a9c5bb8d28a88768aed59ad5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 27 00:12:58 2010 +0100
+
+    [sulfur] show repository identifier on pkg row
+
+commit 76b10270c0c99bd0e6f0fc384d43a780cebc79a6
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 27 00:04:43 2010 +0100
+
+    [sulfur] fix packages sorting inside pkgs categories in treeview
+
+commit 319a04ed810ebfc2a67df9da4a07b1558c52b663
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 23:34:54 2010 +0100
+
+    [sulfur] catch resize_image errors
+
+commit 8135334f3ee1011c1c9c0bced632b5643a372a72
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 22:33:18 2010 +0100
+
+    [sulfur] eventually fix pkgs popup menu reposition code
+
+commit 1502cfeddaada1e46617526375fb45c3f2941bcd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 21:57:01 2010 +0100
+
+    [sulfur] properly set background color of UGC icon cell in treeview
+
+commit 4bac2bf096508ca588807482aa486818fbd23c96
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 21:45:43 2010 +0100
+
+    [sulfur] add "all" group to EntropyPackages, use this when showing "Applications" tab content. Also filter out dupies.
+
+commit c0d2d5d3fd3135e7cbfdfd346cba9d8089094cee
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 21:44:50 2010 +0100
+
+    [sulfur] make EntropyPackageView respect --nougc option
+
+commit 46e8d1b4e9ded0002637cc30dfcff935b4c5b2bf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 09:43:22 2010 +0100
+
+    [sulfur] catch EntropyRepository exceptions when view is reloading
+
+commit 123475c03a2b34447f550ad1baa505ab2d7df849
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 26 08:59:58 2010 +0100
+
+    [sulfur] when trying to load icon from theme, also catch GError exceptions
+
+commit 0aa3cb409531ca1947b250dc28d06236567d27f0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 25 09:22:06 2010 +0100
+
+    [sulfur] deal with unavailable metadata in package class
+
+commit dd585796b709f034ec18c9168b97464c0ab39210
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 25 01:20:03 2010 +0100
+
+    [sulfur] implement tips and tricks window
+
+commit da20ddf6b44247755af362d3d9c161c0996d8b64
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 25 00:27:22 2010 +0100
+
+    [sulfur] set our Entropy Client subclass as singleton class token
+
+commit 4081af174e3283d994ab7677454990a01f57adad
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 25 00:26:56 2010 +0100
+
+    [sulfur] experimentally enable colored output in terminal
+
+commit 7f0e4901a5642b6f2aa67e469ebab0216c7981df
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 23:45:41 2010 +0100
+
+    [sulfur] code style update
+
+commit c678318b51f9f9b0253a3e1e4059c919c12444e8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 23:03:14 2010 +0100
+
+    [sulfur] switch back to packages page when queue is complete
+
+commit a1697e5f649a643575706c9b2952d48fc37d331e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 18:22:35 2010 +0100
+
+    [sulfur] show abort queue button when running libtest
+
+commit f87b7799e9b80fcb961577fe810f962dbd59e00f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 18:15:28 2010 +0100
+
+    [sulfur] fix libraries test button and user interaction
+
+commit 5b8e910f713b0a34e14090875ee072351843204b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 18:08:13 2010 +0100
+
+    [sulfur] fix dependencies test button and user interaction
+
+commit c420ca42b7a1cd88586fd7c03de8c6c10a68ee58
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 17:48:14 2010 +0100
+
+    [sulfur] always convert package search string to unicode
+
+commit 26df578f96a0906d2269cbb8062502b46df7023b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 17:42:40 2010 +0100
+
+    [sulfur.dialogs] InputDialog: if self.parameters is set to None, reset to dict if required
+
+commit 4d0869e1308ffa4f544c993061870385020176f8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 15:28:43 2010 +0100
+
+    [sulfur] add the ability to add UGC data to packages (images, icons, documents) by dropping to rows in treeview
+
+commit 08eb395a4c558c8cc6d57d1f85f347feae5be7d3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 13:13:36 2010 +0100
+
+    [sulfur] when UGC package icon is not available, search into system
+
+commit 623cd78248fbbd2d30bfd46c17286029f957eb23
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 13:07:41 2010 +0100
+
+    [sulfur] remove some dead code
+
+commit 57ee6af3bf89a4b5897d9e24064e92eb779a738a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 10:21:56 2010 +0100
+
+    [sulfur] parallel UGC icon fetch only for currently shown packages
+
+commit a63acd24682f47b7f93d1695940716307a41ef8d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 09:30:45 2010 +0100
+
+    [sulfur] cache pixbuf objects in packages view
+
+commit d7ccabd08938b5ae6ac2b31eba4c6ff87b5414b4
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 09:33:26 2010 +0100
+
+    [sulfur] add missing ugc icon
+
+commit 5a526c79807763a9339b63b0ec584302b3a4d9fb
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 01:18:04 2010 +0100
+
+    [sulfur.filters] make possible to use & to concatenate search terms in filter bar
+
+commit a21079727b205ce4d4d0c50c504b24480f0a07bf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 24 00:58:22 2010 +0100
+
+    [sulfur] add package icon support to main packages view (including autoloading)
+    
+    PLEASE NOTE:
+    package icons autoloading is not perfect yet, Sulfur should rather try to
+    get icons of visible elements (will be so by next commits)
+
+commit 4fa966d2a5f9421738b29bbccae920b1aca5e9d7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 23 22:20:17 2010 +0100
+
+    [sulfur] show loading message while executing package search
+
+commit df38f3eb45bcdffea95c163d7de3576e43e31af8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 23 15:25:07 2010 +0100
+
+    [sulfur] implement package icons support in Sulfur package properties menu
+
+commit 29a971e14f7b323753d952a0dce3378876e8e986
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 23 15:24:41 2010 +0100
+
+    [sulfur] remove sulfur.misc, move everything to sulfur.core
+
+commit aed7426ea27e66c4de06738a724e5713bee0342d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 23 15:22:39 2010 +0100
+
+    [sulfur] fix some vbox orientations (due to glade bug) in sulfur.glade
+
+commit 7666d763b113b3458af4536ca17f72f42934725f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 23 08:57:55 2010 +0100
+
+    [sulfur] cleanup old spritz stuff
+
+commit fc33f732097be978e14273c4f5b7bff947786377
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 22 09:53:35 2010 +0100
+
+    [sulfur] improve treeview usability (showing a loading message)
+
+commit 728ef5bde598df40afc0fcd4d7fee4fb92488192
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 22 09:19:59 2010 +0100
+
+    [sulfur] fix InputDialog return value when cancel button is pressed
+
+commit 8ea94947117831a1481641af11c26d43cdd0077a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 21 20:52:19 2010 +0100
+
+    [entropy.tools] more module API cleanup
+
+commit 30393c3548f04c815e5ec27a74ff59c285d1f57f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 21 13:51:07 2010 +0100
+
+    [sulfur] spawn UGC in parallel after repo sync
+
+commit 8c1d3d641dd8b9e9ce7cfbc77009baf183b29205
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 20 22:06:29 2010 +0100
+
+    [sulfur] reintroduce child pids kill function, this time should be safe
+
+commit 4a2a952b690baa3eef430ea13fa08e443e92553e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 20 22:01:34 2010 +0100
+
+    [sulfur] improve InputDialog reliability
+
+commit 4ac1b9040c4a2f7a2172db1e35006cc6684f57e5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 20 21:56:01 2010 +0100
+
+    [sulfur] do not raise ValueError but just return empty list when get_installed_pkg_objs_for_selected() is not allowed
+
+commit 762e0358b6345010344d14ab8222bff18f745549
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 20 21:51:01 2010 +0100
+
+    [sulfur] improve reliability of parallel groups metadata generation
+
+commit 0666d1dfce1752c976d8289080aaef393a26f405
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 20 12:55:04 2010 +0100
+
+    [entropy.tools] more module API rework work done
+
+commit 1852cf87adbac7ed9f1af3681e89d3da887eeb95
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 19 22:32:31 2010 +0100
+
+    [sulfur] catch TimeoutError exceptions when using UGC
+
+commit 7586922024fa65acb7d15e78bf439b579a223550
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 19 18:00:31 2010 +0100
+
+    [sulfur] slightly improve boot speed
+
+commit 4ab0d34c6d2df052b1cde8037081afc73f2b8df1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 19 17:59:01 2010 +0100
+
+    [sulfur] fix RuntimeError exception issue caused by running gtk_loop() inside GTK main loop
+
+commit 3f0ed3aefe1bf32c2bdaeb6a913a7e9c1e806f89
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 18 17:49:29 2010 +0100
+
+    [sulfur] fix updates count label
+
+commit f3c8a3cd37ffe933ea84086676fc638f1130a43d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 17 12:16:02 2010 +0100
+
+    [sulfur] fix progress bar handling
+
+commit a6d5aff2d7714818bb902556e1ede65758e41153
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 17 08:36:09 2010 +0100
+
+    [sulfur] make sure that pkg vote is valid before converting it to float
+
+commit 09f980e33864ff2d2522ede30eca1db7660281dc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 17 00:14:12 2010 +0100
+
+    [sulfur] add new search icon
+
+commit 0cdb0018b5782f5225cd82f07a50f763b57467e0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 17 00:09:23 2010 +0100
+
+    [sulfur] several usability improvements, add simple search function
+
+commit 948ddf2fbc920a9f1cec18cb3e379670a58de589
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 16 20:30:29 2010 +0100
+
+    [sulfur] grow UGC update interval to 6 hours
+
+commit 00e038e567cce41cd5338a552ca95b946cf3fcf1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 16 20:24:11 2010 +0100
+
+    [equo/sulfur] do not bug user for orphaned packages not available in repos if latter don't exist
+
+commit 694e5e21241c25af3ef2372e94cbe3f0172215fd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 16 18:45:09 2010 +0100
+
+    [sulfur] make possible to load multiple instances showing warnings and disabling widgets
+
+commit 453f6de73c2d03dabd3ed504aff6d0b3f334280f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 16 18:11:33 2010 +0100
+
+    [sulfur] improve update_repositories to be more GTK friendly
+
+commit 8e03cbe338f28c3dc50f8752ed8980ef988fc586
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 16 17:59:34 2010 +0100
+
+    [sulfur] several usability improvements and bug fixing
+
+commit 999ab492fc241eb7872a8705300bc57fc8232be1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 16 16:02:53 2010 +0100
+
+    [sulfur] properly call application_lock_check
+
+commit 02cb9bd3a71d976bdd5fd788b31242475d433709
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 15 13:56:46 2010 +0100
+
+    [sulfur] kill the "Installation" notebook page, we have the "queue" tab which is much better
+
+commit 2b8f8df57aee6e8abf326fe2c17a8e2e8418a045
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 15 10:24:01 2010 +0100
+
+    [sulfur] remove description trimming based on length
+
+commit a79467e56638d6ffba73d17258bec6be637f941d
+Author: Daniel Halens Rodriguez <dhalens@lappie.(none)>
+Date:   Thu Jan 14 14:04:48 2010 +0000
+
+    [i18n] Update Slovak translation and add Bystrík Pešl as translator
+
+commit 2bd43f3f0257898d273767892c131b6412d8f51b
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Jan 13 23:17:37 2010 +0100
+
+    [sulfur] improve buttons usability
+
+commit c3aa991e3aa703e6c2d0b7862570ba9473940bef
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Jan 13 22:48:49 2010 +0100
+
+    [sulfur] execute package groups preloading in parallel
+
+commit cb480a6bcf1d6630d7dc566efe4e16368f1e0c0a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Jan 13 22:44:22 2010 +0100
+
+    [sulfur] several improvements
+    
+    :: show properties menu item on right click on packages view
+    :: fully load security advisories metadata in parallel
+    :: improve UI responsiveness
+
+commit 21470d2ac5ecd7ed8d4971f884cc7cbdaa4c0967
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Jan 13 18:17:38 2010 +0100
+
+    [sulfur] when no updates are available, properly switch to "available" or "all" tab
+
+commit 9e3eaad53f2d68265371da35eb33785e7ce42134
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Jan 13 18:07:16 2010 +0100
+
+    [sulfur] set window title to "Entropy Store"
+
+commit d7afc9735816d399c5f0cafac01f1e469a3ad764
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 12 18:44:21 2010 +0100
+
+    [sulfur] handle EntropyPackage metadata retrieval while shutdown
+
+commit b4960fa78f8e4f3190dd25510927a82439b265b3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 12 18:42:32 2010 +0100
+
+    [sulfur] fix two small pkgsets glitches
+
+commit 12d3cf1426c172b9ee77404d5d246560cc6c621a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 12 16:33:35 2010 +0100
+
+    [sulfur] improve pkgs enqueue/dequeue speed by preloading most of pkg groups
+
+commit feae99bb0bcafcc7a0ad18b4e8a87006f2c7b2c3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 12 16:26:00 2010 +0100
+
+    [sulfur] disable parallel security cache generation, causes sqlite3 db corruption (fuck sqlite!!!!)
+
+commit 07d518bac1b5578c18710759c80f6ce277118407
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 11 18:05:47 2010 +0100
+
+    [entropy.output] rename TextInterface.inputBox into input_box
+
+commit 8c3ec0a27edd8eecdbbbe89d0308ae509bbaaf9d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 11 17:59:26 2010 +0100
+
+    [entropy.output] rename TextInterface.askQuestion into ask_question
+
+commit 10725d49c638ee2c2887414256623c0c5f7e0fb8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 11 17:38:55 2010 +0100
+
+    [entropy.output] TextInterface: rename updateProgress into output
+
+commit c020639db660fc73eee41342625a7485b22ebdc7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 11 16:48:59 2010 +0100
+
+    [entropy.output] start to factor out TextInterface class
+
+commit ad98ea5d9dc3d96995586f958598a3f347d41ee7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 11 13:14:21 2010 +0100
+
+    [sulfur] improve orphans warning message conditional
+
+commit 7130233e421dd01593378cde796980a021b13951
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Jan 11 00:39:15 2010 +0100
+
+    [sulfur] small code style update
+
+commit 99c6529ad016a418854faf048e79ba293ed14507
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Jan 11 00:33:01 2010 +0100
+
+    [sulfur] move repository manager code away from sulfur codebase
+
+commit ab3b28b8c5f85af9cb217c7c8403fb4bea8e8ce3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Jan 11 00:05:56 2010 +0100
+
+    [sulfur] drop Repository Manager references from Sulfur
+
+commit 074722fa12b4e72ecd75c90ad5410f251ceb140c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jan 10 23:31:19 2010 +0100
+
+    [sulfur] properly set orphans pkgs warning shown bool
+
+commit 9a84d3a3e3cbcf2e2f5b2ab5cb161b1b8db21034
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 22:36:41 2010 +0100
+
+    [sulfur] show updates count into updates button
+
+commit 3d97126c1791e4d430cc3643377da7e549c15db3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 22:04:32 2010 +0100
+
+    [sulfur] directly show available pkgs if no updates are available
+
+commit 48736efb4ee6b6c0153a98809e3eefb5e34ff749
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 17:00:20 2010 +0100
+
+    [sulfur] removed second progress bar, made progress handling back working
+
+commit ef33f632489f38fa93ee81e000155abf91a13f95
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 09:56:45 2010 +0100
+
+    [sulfur] remove entropy.output.TextInterface.cycleDone calls and reimplementation
+
+commit 54908321e150b2424222549699ffd261d37d1dae
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 09:38:07 2010 +0100
+
+    [sulfur] all these labels below simple buttons take much space and we already have tooltips for usability
+
+commit 725e5733abea062ac9c6e6b5139985b269c65cb1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 09:35:06 2010 +0100
+
+    [sulfur] fix ill-conceived Ian's label content
+
+commit 7eb0a605941507f185e5048bbd22405ec2e6653f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 10 09:28:23 2010 +0100
+
+    [sulfur] fix undefined reference
+
+commit 7d07ba53ab78525d670d55f176fce5f29ffcf257
+Author: Ian Whyman <ian.whyman@sabayon.org>
+Date:   Sun Jan 10 00:55:59 2010 +0000
+
+    [sulfur] Improve usability of simple mode, they are 'simple' users afterall =P
+
+commit d1ba2330bf0c80c33691a5a1a16cec9269d68d8e
+Author: Ian Whyman <ian.whyman@sabayon.org>
+Date:   Sat Jan 9 22:29:05 2010 +0000
+
+    [sulfur] Remove old icons, fix icon names
+
+commit f05b13d0addc8407abf7bd07167f96876a5b7d6e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jan 9 23:57:12 2010 +0100
+
+    [sulfur] remove preferences label, not needed, fix window height issue
+
+commit 6863654489ef539ac4918214ec2c77817fc80d64
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jan 9 23:53:37 2010 +0100
+
+    [sulfur] stop maximizing sulfur by default
+
+commit 5dfab95e56e8494a827993c537f83fc132555d62
+Author: Ian Whyman <ian.whyman@sabayon.org>
+Date:   Wed Jan 6 00:37:42 2010 +0000
+
+    [sulfur] Move things about a bit, general UI improvements, shrink icons
+
+commit 03796a02cd35f139fb8920fd86125a8208fd2a3f
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jan 9 22:01:14 2010 +0100
+
+    [sulfur] inform user about orphan packages on system
+
+commit f35f9161f5184aed1162a69664001a94aa448a8b
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jan 9 20:59:26 2010 +0100
+
+    [sulfur] some code style update
+
+commit dc64a39dc52242cb5e4212ce837ae17fcd27be4c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jan 9 20:59:00 2010 +0100
+
+    [sulfur] improve vte.Terminal max number of chars shown to 6000
+
+commit 4e8221f4defbe22c8d66ae82f7f46638037334a7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jan 9 10:36:46 2010 +0100
+
+    [sulfur] make sure that keyslot property returns valid data
+
+commit 867ab3cb553ec49b5ff4051fa2a67a4a026311c5
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 8 23:58:39 2010 +0100
+
+    [sulfur] when description is not available, show "No description"
+
+commit 565d36b5a823fbebdf3dddfe04ec6d26d098ac20
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 8 14:04:50 2010 +0100
+
+    [sulfur] improve license sorter (filter out unwanted strings)
+
+commit e0e69614b4933f2ca7a8527b66053beda08fdaa8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 8 14:04:34 2010 +0100
+
+    [sulfur] after repo sync, spawn UGC update
+
+commit 1ce79e229b7dcce9f3b70c9cb8ec69c64f70c825
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 8 14:04:10 2010 +0100
+
+    [events] do not tell user to do stuff after having removed a repo
+
+commit c3c2ad654d40d6f3c93740e8cffea8db66729da1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jan 8 14:03:19 2010 +0100
+
+    [sulfur] do not show upgrade/downgrade information for installed packages (or non-updates)
+
+commit af70c83bd5f2da9f7533709c10b282b4cddcafb0
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 8 11:39:37 2010 +0100
+
+    [sulfur] sulfur love, improve per-license package sorter
+
+commit 79ab4f4ded5dccf233215c1b7c183cd18ab2bcc7
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 8 09:39:05 2010 +0100
+
+    [sulfur] it happens that corrupted repositories cause sulfur packages filter logic to crash. This is not really the right place.
+
+commit 9519e58d96d47fee9247b5f728fc7789abe9e7c3
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Fri Jan 8 09:36:58 2010 +0100
+
+    [sulfur] fix package sorter sensitivity handling
+
+commit c031995ace0b3431375a04e9d8c385adb2a7f646
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 14:17:38 2010 +0100
+
+    [sulfur] never hide main window, this is against sulfur love
+
+commit 6f140a69de72fcef7ef18512e739c07b69110d57
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 14:04:57 2010 +0100
+
+    [sulfur] kill wait window, it's against sulfur love
+
+commit e6c8a22158dd4ddecf15897527450ba592cf6ddd
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 11:19:03 2010 +0100
+
+    [sulfur] show packages sorter widget in simple mode too, improve its handling
+
+commit 2db8dd5323220b6c69c8ce7de546fd20bfd965b8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 10:00:30 2010 +0100
+
+    [sulfur] fix packages sorter widget functionality with package sets tab
+
+commit cfa2e294dec03e1c36fa2e0b3d86336b492e7868
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 09:39:45 2010 +0100
+
+    [sulfur] comment out pids killing function, might lead (needs investigation) to sqlite3 db corruption
+
+commit 9789446f746e79240b9bb423d0983ce089bce0dc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 09:37:49 2010 +0100
+
+    [sulfur] _ugc_pid does not exist anymore
+
+commit a099cbc55f6c646fb734b4e2089d50929da02436
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 09:37:17 2010 +0100
+
+    [sulfur] improve repository management dialog
+
+commit d9b5a97d8435524885c8e1816ed3f6d136495f8f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 09:36:35 2010 +0100
+
+    [sulfur] improve usability of InputDialog widgets
+
+commit e5a2d09a4abeb451c36974f761fa6e93a187893e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jan 7 09:36:07 2010 +0100
+
+    [sulfur] fix askQuestion and inputBox
+
+commit 92b6b01b1ef485071f144515449741d4e887ccd2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 6 21:10:33 2010 +0100
+
+    [sulfur] actually handle force argument when deciding to call _ugc_update()
+
+commit 629f12e9c8087aab5134c6fdc73511960af587ae
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 6 20:56:27 2010 +0100
+
+    [sulfur] improve UGC cache retrieval
+
+commit 58b5ae74130652288ed71a66863eb662c45628d2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 6 19:25:39 2010 +0100
+
+    [entropy] merge some changes around (blame git for the mess)
+
+commit 59155ce2786076e9398483af1f4fd40a8886565d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 6 11:08:02 2010 +0100
+
+    [sulfur] sulfur.glade: update "Refresh" icon
+
+commit f5d6e00ccc58491006effb98393139af47b0c444
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Jan 6 11:07:06 2010 +0100
+
+    [sulfur] fix package info window for packages whose repositories are disabled
+
+commit 5fed84e25d42f4c29d9369173034721049054cbb
+Author: Ian Whyman <ian.whyman@sabayon.org>
+Date:   Tue Jan 5 23:05:23 2010 +0000
+
+    [sulfur/views.py] Get rid of silly crosshair! w00t
+
+commit 3ad1a863fcf117a6e1644804067210d010424d04
+Author: Ian Whyman <ian.whyman@sabayon.org>
+Date:   Tue Jan 5 22:46:28 2010 +0000
+
+    [sulfur/sulfur.glade] Align pkgSorter and pkgFilter Correctly, add padding to swPkg to make it look tidier
+
+commit cbd2b5221f1439fe9a988854b9e6b4555c96af90
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 22:44:11 2010 +0100
+
+    [sulfur] fix typo in message string
+
+commit de169d8ff3df02ebcbcb47001bc8d02ad64e9382
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 22:25:08 2010 +0100
+
+    [sulfur] fix incorrect function call
+
+commit 86a9cbd92b46bff24c4642fcf9537dc54c709f53
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 22:20:49 2010 +0100
+
+    [sulfur] more and more sulfur love <3
+
+commit f161b00addb60cd8a5933a4910c3eba50aaf0bd2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 18:09:38 2010 +0100
+
+    [sulfur] more tooltips text, and UI love
+
+commit d9b97bf67720ae46f32d785990fd90657eefdda2
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 16:55:09 2010 +0100
+
+    [sulfur] several filterbar graphical improvements
+    
+    :: do not use SIGKILL (use SIGTERM)
+    :: improve filterbar performance, add filterbar action handling
+
+commit 701da9bfcd079d45631d06c2f74d9868ac004149
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 12:46:57 2010 +0100
+
+    [sulfur] hide System Files tab when empty
+
+commit 5b6b257e19c33305c5fd079ef462141fc55cb1cc
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 12:40:40 2010 +0100
+
+    [sulfur] on every quit, make sure to kill any existing child process
+
+commit 06fd6f348af972381123cb1a29651f3e30679674
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 12:39:46 2010 +0100
+
+    [entropy.cache] improve EntropyCacher, make it working over multiple processes, do not use thread locks, change API
+
+commit 212c9d3448388ecd9723d11de174daf17484ae50
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 11:35:58 2010 +0100
+
+    [sulfur] auto hide noticeboard if notice.rss is empty
+
+commit e89a0585f4d40fe6a4540086a7989e69fc16f5ba
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 10:37:22 2010 +0100
+
+    [sulfur] add some tooltips around
+
+commit a7a909e02d971dc730f2410f7a475d516b420b3d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 10:36:59 2010 +0100
+
+    [sulfur] another place where very important code was missing
+
+commit cf556b502bd42d8a7da15b3fe3315df89f72db85
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 09:56:50 2010 +0100
+
+    [sulfur] when calling populate_advisories with background = True, do not push dialog boxes
+
+commit 7975ceeef19c9ed7c424eeb4d069c64c78050d9d
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Jan 5 00:00:04 2010 +0100
+
+    [sulfur] complete filter bar with icon-click action handling
+
+commit 6f8a1ef94443eb3f4f67cc00ac2b064fecbfcd3a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 4 23:48:09 2010 +0100
+
+    [sulfur] complete filter bar implementation, improve general usability
+
+commit 5f84057876fa79f45082a50146ede5cb3928a623
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 4 23:06:27 2010 +0100
+
+    [sulfur] make Sulfur Entropy Client interface thread-safe on askQuestion and inputBox
+
+commit 79b229c8bb07a2f22b488fdee9c61bd440a6d597
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 4 21:33:51 2010 +0100
+
+    [sulfur] update glade file
+
+commit 5bd837a4915fb6d7cc72a50aeb2b382a616420e1
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 4 21:33:25 2010 +0100
+
+    [sulfur] improve speed of background cache generators, reorganize some code
+
+commit cd6af930ac0adc4027750d2cb919553171b39d52
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 4 20:12:30 2010 +0100
+
+    [sulfur] make sulfur.glade working with latest glade editor (fix VBox orientation)
+
+commit 6ab49d4f4835320e93d248a221d9373086af4d88
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Mon Jan 4 19:26:18 2010 +0100
+
+    [sulfur] make sulfur once again the first candidate for handling .tbz2 files
+
+commit 4f8e4fa74a468951fad647838be813f7b5bbcc7f
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 3 23:18:41 2010 +0100
+
+    [entropy.client] move UGC information storage outside the main entropy lib
+
+commit 37f918cf75e80fe07a007b83d64525a42f836f6e
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 3 10:15:19 2010 +0100
+
+    [sulfur] more love, transform search bar into filter bar
+
+commit 50a3c7ac8acd0223512dae0d8d0bd857b6e7124c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 3 01:04:48 2010 +0100
+
+    [sulfur] delay UGC on-click vote, fix GTK oddity
+
+commit 9506aea4abb472dcb90b6f68a8a8be869e7b9430
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 3 00:42:29 2010 +0100
+
+    [sulfur] disable connection test before checking UGC
+
+commit 9b22ce7703be910a444e100df743ad854d5df7d5
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Jan 3 00:41:58 2010 +0100
+
+    [sulfur] preload advisories cache, make security advisories tab init faster
+
+commit f452b645eacd0a2ce449f6fca7e925e045cf671c
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 2 23:30:41 2010 +0100
+
+    [sulfur] do not list empty notice boards
+
+commit c38a11842d5b602813967dd1c911ed83c1100955
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 2 15:11:20 2010 +0100
+
+    [entropy.const] move const_extract_{cli,srv}* away from entropy.const
+
+commit 6077a930ceb209a9ef38b84b77bdbe8b1c79b501
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sat Jan 2 15:00:27 2010 +0100
+
+    [entropy*] big caching routines cleanup, drop old and duplicated code
+
+commit c8bebea0d96187132afdc2b280610a96578aa3ae
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Dec 31 18:27:11 2009 +0100
+
+    [entropy.client.interfaces.repository] small & initial refactoring of Repository class
+
+commit ba35e27e346e8051c5a1e3bde872562dab8dd93b
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Dec 29 19:36:32 2009 +0100
+
+    [entropy*] several updates, etpCache removal, code cleanup, API changes
+
+commit 23da2cb86ace03187b24db7752c3177f2a4d112e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Dec 28 01:08:18 2009 +0100
+
+    [sulfur] properly send application traceback
+
+commit e9df0879ceba652f6ceef194f7625e7fd8f246c7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Dec 28 00:54:25 2009 +0100
+
+    [sulfur] run UGC on another process, to make possible to kill it without freezing the app
+
+commit a991c6dfe0c051e9d1470bbbe1fdaee9d019579e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Dec 28 00:54:06 2009 +0100
+
+    [sulfur] use exception handler instead of try/except statement
+
+commit 3f355de07e1c2a570bcedd3420317f2401d38d76
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Dec 25 13:52:43 2009 +0100
+
+    [entropy.client] rename get_world_update_cache into get_updates_cache
+
+commit 7266df2e9343d01fa406eaa2ee748f6d78dc6395
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Dec 25 12:13:47 2009 +0100
+
+    [entropy.client] rename calculate_world_updates into calculate_updates
+
+commit 5afa2510603f3bc598a75db4139f64440fd3dba5
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Dec 21 23:50:31 2009 +0100
+
+    [entropy*] move sabayonlinux.org domain info to sabayon.org, move more distro specific info to entropy.const
+
+commit 0fe000f9a5305a6495edecb0e044e00554e12d98
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Dec 20 22:32:28 2009 +0100
+
+    [entropy] add support for build dependencies, entropy will now store them in repos (future task: make possible to install build deps too)
+
+commit b4d9630006006273aed5dc6dfcfa4ee18ac874f1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Dec 18 13:45:48 2009 +0100
+
+    [entropy.const] remove sabayonlinux.org references
+
+commit 568fdefb71f649ba9ac1e76738986d4851eeda9c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Dec 14 21:33:30 2009 +0100
+
+    [entropy.*] several database size and performance improvements
+    :: implement developer-repo mode (aimed to developers who want to
+       test stuff and can download the whole packages repository db).
+       This results in 100% download size reduction for 99% of other users.
+    :: new "light" database versions now ship without packagechangelogs
+       table content to improve speed, download time and size.
+    :: cleanup entropy.client.interfaces.repository code and add support
+       for developer-repo feature
+    :: add warnings for users running "equo query changelog" without
+       developer-repo mode enabled
+
+commit c6d520ea5a3a99d0a0b6fdfe5f7398507ce05694
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Dec 8 00:46:15 2009 +0100
+
+    [entropy.client/sulfur] make use of entropy.graph.Graph (eventually!)
+
+commit 6fdaef238db033b199859d705c9b2fc0cba22092
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Dec 5 13:33:57 2009 +0100
+
+    [sulfur] fix KDE desktop session detection
+
+commit 0c07088c06277d6869bc7ff3ed0c7c4a923e1ef7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Nov 28 14:44:27 2009 +0100
+
+    [sulfur] fix getoutput() import
+
+commit b340246e242e2432b4478969c6e4572082c90807
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Nov 28 14:44:16 2009 +0100
+
+    [sulfur] fix UrlFetcher import
+
+commit 0ef5e2eddf0509145beda62b8647e9eb61d38c18
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Nov 12 15:59:41 2009 +0100
+
+    [sulfur] add support for relaxed dependencies resolution algorithm
+
+commit 303f44dc88648de8875b3907440705b4935b1c3a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Nov 5 20:12:47 2009 +0100
+
+    [sulfur.dialogs] code style update
+
+commit b41b645751ec79c05717597460865e33bb804667
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Nov 2 21:48:06 2009 +0100
+
+    [sulfur] Repository Manager: code cleanup and improvements, pause execution of other threads when locking BufferLock
+
+commit b96497f8a779400f20a49df30c9ac09398967e4d
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Oct 31 22:54:42 2009 +0100
+
+    [sulfur] remove call to undefined function
+
+commit 20d3e39d1345ab1844477efe89035abbb99b58d5
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Oct 31 14:36:40 2009 +0100
+
+    [sulfur] Repository Manager: add --debugdev argv switch
+
+commit 16a5342447aba438a6c82a790386460d686e54d6
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Oct 30 22:38:53 2009 +0100
+
+    [sulfur] improve performance of Security Advisories tab
+
+commit db49d486489aeea77be868bf65b8cc2fde601249
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Oct 30 20:49:27 2009 +0100
+
+    [sulfur] code style update
+
+commit d6c866cbc33439396a2d067332f907e836b8033e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Oct 30 14:08:21 2009 +0100
+
+    [Makefile] improve reliability of all Makefiles
+
+commit 0607b4aa4781a192dc6336e770da7936e36c97fd
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Oct 27 22:17:01 2009 +0100
+
+    [sulfur] make sulfur queue back working for both Pythons
+
+commit 09775e95710bc33d6e16ee5dc3fdc78c967578fa
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Oct 27 22:02:56 2009 +0100
+
+    [sulfur] fix imports
+
+commit 67cac7ce535f913cdb7de1972d0ca2d9b2eb61ac
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Oct 27 22:00:46 2009 +0100
+
+    [sulfur] run pdb if exception is raised and --debug is enabled
+
+commit 85041598dd419291158a0233a2b7e2c5062b774e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Oct 27 22:00:34 2009 +0100
+
+    [sulfur] fix imports
+
+commit 2933ed7b2341614e5473fe8db26e0f5afcd28b8f
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Oct 5 14:08:34 2009 +0200
+
+    [entropy] fix common idioms
+
+commit 69d22c9f038525d79f94f9994c53fcf3bf313ea0
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Oct 5 14:05:32 2009 +0200
+
+    [entropy] fix whitespace after comma
+
+commit 3e8fc7f4e09011e2ceff64bd290d44b700e57213
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Oct 5 09:51:47 2009 +0200
+
+    [sulfur] migrate code to Python 3.x compatibility
+
+commit 9a38d1b7724c5298e6176e63b09a3d8293b57d02
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Oct 5 07:37:14 2009 +0200
+
+    [sulfur] ease sorted()
+
+commit 21a35ad16becc919e346f8b51042d5890474224d
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Oct 3 20:41:41 2009 +0200
+
+    [sulfur] remove unicodism
+
+commit 2e3930eda853e379f749c9bcf523e844f63f744e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Oct 1 18:59:03 2009 +0200
+
+    [entropy] more Python 2.6/3.x compat fixes
+
+commit 77c634b54f654e7e9fe534ef9fec4257177c4b30
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Sep 30 19:53:47 2009 +0200
+
+    [entropy] migrate codebase to Python 2.6 only syntax
+
+commit f02a10889846b3e46dfd6c4a1737bfa3eba9442c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Sep 30 19:44:01 2009 +0200
+
+    [sulfur] improve code and make Python 2.6 2to3 happy
+
+commit dae89f7a1659d018e13ddec975cd6d04612ed1da
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Sep 30 19:06:14 2009 +0200
+
+    [entropy] start to port to >=Python2.6/3, remove with statement import
+
+commit 216e5ea65dc2ea0a75bcd922bad5e35094c3ee20
+Author: Daniel Halens Rodríguez <dhalens@lappie.(none)>
+Date:   Tue Sep 29 12:26:41 2009 +0100
+
+    [translations] fix a typo in translators list
+
+commit 7d12888aaf3cc9f66cfa005451f76a215bd349e3
+Author: Daniel Halens Rodríguez <dhalens@lappie.(none)>
+Date:   Mon Sep 28 00:11:05 2009 +0100
+
+    [translations] update translators list and order it by locale
+
+commit b0b1676aa523256fbe052d70e147bb374f755e40
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 26 11:43:51 2009 +0200
+
+    [sulfur] make EntropyQueueView atomic
+
+commit e58ffbb9affeb81c3b7ed078be003c962c8cb1a6
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 26 11:32:10 2009 +0200
+
+    [sulfur] fix packages metadata handling when critical updates feature is enabled
+
+commit 0536ef586316f92c1e25d54acc377790134ffd9d
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 26 11:02:55 2009 +0200
+
+    [sulfur] fix wrongly formatted output issue (on vte.Terminal)
+
+commit 48a26b23e8c6e8b2263f3a27c544d87a0d62e6f2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 26 09:18:23 2009 +0200
+
+    [entropy] fix OutputInterface.askQuestion answers handling
+
+commit 40c82c80ea980486e03b1647a59c64a2ac694438
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Sep 20 14:43:11 2009 +0200
+
+    [entropy] update file HEADER and interpreter
+
+commit edf5e8882713f11032792f60a24f4fe6a03b9c8b
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Sep 18 23:08:10 2009 +0200
+
+    [sulfur] properly show "no updates" message
+
+commit 99b450853c43eb47ba9d313c6a1efd03d28d57f8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Sep 16 17:55:38 2009 +0200
+
+    [entropy.client] rename add_tbz2_to_repos to add_package_to_repos
+
+commit 92bd78d678156b6c4e8ebc28e6df95afed883558
+Author: Daniel Halens Rodríguez <dhalens@lappie.(none)>
+Date:   Wed Sep 9 01:36:55 2009 +0100
+
+    [i18n] Update French translation and add Benjamin Guay to translators list
+
+commit f1f38a747d1ee5d55f8de922aaba2f21f42a474a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 5 19:22:08 2009 +0200
+
+    [sulfur] when initializing a new QueueExecutor, also reset variables around
+
+commit 75add81dbc4005b53853626f7caeddb0719594e8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 5 19:21:30 2009 +0200
+
+    [sulfur] fix abort queue button to also work when downloading
+
+commit ef7884cfe4f85bf5808e8162c7f541b1217a2925
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 5 19:20:59 2009 +0200
+
+    [sulfur] add some debugging output to abort queue button callback
+
+commit f245e1216c2a24f5d321c92e5ccf9a91f1704d25
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Sep 5 14:35:55 2009 +0200
+
+    [entropy] ditch os.F_OK everywhere
+
+commit 709864a36a473e6d7a768aec94a8f11931274e51
+Author: Daniel Halens Rodríguez <dhalens@lappie.(none)>
+Date:   Fri Sep 4 14:12:43 2009 +0100
+
+    [i18n] Add Russian translation and add Maksim Belyanovskiy to translators list.
+
+commit 1808495e5427662a9fcbe26b7f8b57ea083c2181
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Sep 4 08:38:22 2009 +0200
+
+    [sulfur] misc cleanup
+
+commit ff7e2b2bc202cd3729a0655248ee14cbcc336640
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Sep 4 08:34:41 2009 +0200
+
+    [sulfur] always "kill" other threads before exit
+
+commit 4842f0c15efadcfd5635038d2b02f53f932c4ee3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Sep 4 08:34:22 2009 +0200
+
+    [sulfur] do not check resources lock but application lock instead
+
+commit 4829b4b6777ca622c1fc8c83575918fa62e47e61
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Sep 4 08:23:35 2009 +0200
+
+    [sulfur] remove gtk.Tooltips
+
+commit 0ba67e0dc23b13d71319c89c62c5d07b6683ebe1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Sep 3 21:30:40 2009 +0200
+
+    [sulfur] when SystemExit exceptions are raised, make sure to exit with given exit status
+
+commit b3ae69b7b8865ab5d20a331e26a3dbd7c48accd5
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Sep 1 17:01:48 2009 +0200
+
+    [entropy.client] destroy infoDict, renamed to pkgmeta
+
+commit ea327ff8fc0182b28ef90c2b6bb8db99379e2aa3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Aug 30 12:52:25 2009 +0200
+
+    [sulfur] handle timeout errors when loading UGC
+
+commit 1b33eaffbc0a560a71a2c624168954b3c9dd6855
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Aug 25 20:03:48 2009 +0200
+
+    [entropy.client] noticeboard methods stabilisation + sulfur feature
+    
+    :: complete noticeboard entropy.client API and methods names
+    :: add "stfu" feature to Sulfur noticeboard viewer as per Ian Whyman
+       request
+
+commit 3b9b0781a21c3a40a446df735d701daddf70f304
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Aug 19 18:03:40 2009 +0200
+
+    [sulfur] implement Package Groups sorter
+
+commit bcbd5854107d3bad78c4f5a92aa98d02a87c1cf1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Aug 19 15:00:19 2009 +0200
+
+    [sulfur.package] add repoid_clean property to EntropyPackage*
+    
+    Using gettext results as repoid when metadatum is not available
+    and when dealing UGC cache is not nice.
+
+commit ca274751b92e819a95dad77252a309425cbc5c59
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Aug 19 14:42:32 2009 +0200
+
+    [sulfur.package] fix get_repository method
+
+commit 5df717e9d7724aa8597026c7a9c5f6f089a60a92
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Aug 19 12:58:36 2009 +0200
+
+    [sulfur.package] code style update
+
+commit f8352faa9c5d27ca710fd4eee3393355bfae4af4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed Aug 19 08:25:20 2009 +0200
+
+    [sulfur] strengthen get_nameDesc repository id retrieval
+
+commit 40933b70579a2d07cb505d0a7f0401e6706897f8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Aug 16 14:58:02 2009 +0200
+
+    [sulfur] fix binary packages install from shell
+
+commit 0b750cf4d76069d143fa7eccaf90e929fe75d06e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Aug 15 22:27:41 2009 +0200
+
+    [entropy.db] complete API docstring and refactoring work
+
+commit 44b9c030df283e32e6d0a226b285cb717da61d64
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Aug 14 16:37:56 2009 +0200
+
+    [entropy.db] entropy.db API break+docstring merge almost complete
+
+commit 09985c77d705a71431284d8fad5636ecc0456ede
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Aug 11 13:33:18 2009 +0200
+
+    [entropy.db] API docstring merge + code review + API changes
+
+commit 9c54f51c5f1c21c353aec6ddcf7f9681e434bb9a
+Author: Daniel Halens Rodríguez <dhalens@lappie.(none)>
+Date:   Tue Aug 4 17:19:15 2009 +0100
+
+    [translations] update Portuguese translation and add Lucas Azevedo to translators credits
+
+commit 10a528a10e5bbb992167ce9f7d59f82a25296357
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jul 28 14:46:29 2009 +0200
+
+    [sulfur] ignore Cacher exceptions when downloading UGC on the UGC thread
+
+commit 7fbbf849b2d70f4e61e1df0aeb10ad851da5667a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 26 16:37:35 2009 +0200
+
+    [entropy.client.interfaces.dep] handle client db errors on calculate_world_updates()
+    
+    Raise SystemDatabaseError exception when client database is corrupted
+    when calling Client.calculate_world_updates()
+
+commit b237448d851d8b50c273ab3d56ceafda0c261149
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 26 09:54:04 2009 +0200
+
+    [sulfur.dialogs] show package license text with proper encoding
+
+commit f8629e6059e1bfe4cd369cb2e9276c8ab643dd36
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 26 09:19:37 2009 +0200
+
+    [sulfur.packages] add missing method to EntropyPackages used to show empty content information
+
+commit c14be4e076c7f5ab26d9f335de522006af9a674d
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 26 00:36:52 2009 +0200
+
+    [sulfur.package] fix downloads number in package properties window for installed packages
+
+commit 309712c10b7c1d603055bb767a2a84f121e275da
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 25 19:49:50 2009 +0200
+
+    [entropy.views] show "update" icon for updatable installed packages
+
+commit 43684b19c95aa64575bf3706e16e6eb7e54dc841
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 25 19:36:16 2009 +0200
+
+    [sulfur] add the ability to update packages from the installed packages tab, if updates are available
+
+commit ddac4a3e07adfd35bc6c223c1389bb39b229b0ee
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 25 18:43:49 2009 +0200
+
+    [sulfur.views] when nothing will be shown to user, show a message about it instead of nothing
+
+commit 044c2ee4fe21173b0c766cb2ebbbad272f2b951b
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 25 18:08:59 2009 +0200
+
+    [sulfur.dialogs] make "Read License" button working for every selected item on LicenseDialog
+
+commit 55d36e5a25545544036c5f5a3176bfd7a4455e52
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 25 18:06:39 2009 +0200
+
+    [sulfur.dialogs] properly handle ddata metadata coming from UGC queries
+
+commit 1b93513ff749eb6c9ab42feee3234d97fae3fa5e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 24 22:45:56 2009 +0200
+
+    [sulfur.events] make sure that string "s" is unicode when passed to package_set_match
+
+commit e8931141fc108971c5775083dc0c86cd643fdbc8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 24 22:41:55 2009 +0200
+
+    [sulfur] trivial changes to package sets handling logic
+
+commit 09183b2e2244a6ce7f5e075af328077a31637d38
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 24 14:14:58 2009 +0200
+
+    [sulfur.views] remove Python debugger call
+
+commit 3285cebb84746099f0aeba0050a8394c00e55f5e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 24 14:14:22 2009 +0200
+
+    [sulfur.views] add more comments to code added in previous commit
+
+commit 1e4984a35f24bf85eb35183f444f781919249954
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 24 14:12:32 2009 +0200
+
+    [sulfur] fix issues when dealing with interdependent package sets
+
+commit b220064b4cabc0440a7fd0a1c0adba1d76b50b66
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 23 22:15:33 2009 +0200
+
+    [sulfur.events] enable/disable "Edit Set" button automatically when needed
+
+commit 07ebf65b6a8e77ff1491144891a9a1f677973177
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 23 22:14:49 2009 +0200
+
+    [sulfur.package/sulfur.views] add the ability to determine if a package class is a set category object
+
+commit b4a8b51fc87cc77b240ec453aac07f60c4ec0a2a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 23 16:43:47 2009 +0200
+
+    [sulfur.events] when clicking "Remove Sets" check if there are actually sets that can be removed
+
+commit 2186dff8e93a864e1b995077e2ae3f6747e92919
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 23 16:25:19 2009 +0200
+
+    [sulfur.dialogs] when showing the user a list of packages through ConfirmationDialog, show removals first
+
+commit d8f01fb92729f77e81e00216a202ad6d87806bf8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 16 16:28:48 2009 +0200
+
+    [sulfur.dialogs] fix okDialog call for UGCAddMenu
+
+commit 6ce8c4c21ef2318dfab90def3c02de3b908ad8dd
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 16 08:59:20 2009 +0200
+
+    [sulfur.packages] fix invalid method call
+
+commit 0627fc04da6cca9e5136c353cd470144aadf0372
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jul 16 08:49:51 2009 +0200
+
+    [entropy.qa] rename libraries_test method to test_shared_objects
+
+commit 66e7cd2cbb931eac158b8b8358d598f44f684d90
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jul 14 16:51:20 2009 +0200
+
+    [sulfur.dialogs/sulfur.event] Package info window fixes:
+    
+    :: make User Generated Content tab sending a signal when clicked
+       (instead of keeping the app locked with UGC data retrieval)
+    :: make UGC refresh button working (bug in data handling)
+
+commit 749ea8549ae0cf1d486cec6d19d96cffce24fcae
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jul 14 16:50:47 2009 +0200
+
+    [sulfur] when loading UGC cache, sync EntropyCacher to make sure that data is ready
+
+commit 307e22700cb537f44363fbd5173cb8b13df05877
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jul 14 16:12:19 2009 +0200
+
+    [sulfur] rename Packages tab to Applications
+
+commit 222371197507b518efb08ae0f0dae2b2d1afc4b9
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Jul 13 16:20:06 2009 +0200
+
+    [sulfur.Makefile] fix Sulfur installation
+
+commit da474e3f41a09949cdb8f9d09bc36112fd1408ee
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:29:18 2009 +0200
+
+    [sulfur.packages] several speed improvements and fixes
+    
+    :: make Queue class using SulfurSignals to emit queue changes
+    :: dramatically improve speed of EntropyPackages._pkg_get_downgrade
+    :: add some debugging output to EntropyPackages class
+
+commit 77f8df8aa9dfdf387e089d481c6c1e96e1a694c5
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:28:24 2009 +0200
+
+    [entropy.package] improve constructor of EntropyPackage, add (commented out) __getattr__ method to ease debugging
+
+commit d62829a2ed2d291b91b84273d679a2ebd4fd23e2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:27:05 2009 +0200
+
+    [sulfur] handle new signals declared into sulfur.event
+
+commit 8aa3a647ffb7589f9f78c17dd09789f1a3a8d359
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:26:42 2009 +0200
+
+    [sulfur] use const.debug to determine if Sulfur is running in debug mode
+
+commit 022fe57b5c0e0683ab38d99b556f98b1dee8076c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:25:33 2009 +0200
+
+    [sulfur.setup] move debugging mode code here
+
+commit 62eaf33ce6686b8de7d5c3d16dfde25bd087cc40
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:24:58 2009 +0200
+
+    [sulfur.views] fix bug that caused inability to "undo" actions on the "Queued" tab
+
+commit c226ca68f748c33cde0619eab5539933a14abefe
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 21:24:21 2009 +0200
+
+    [sulfur.event] register new UI events
+
+commit 625e129e08b96ac5abecf34f0585cdebfeb01cb4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 18:09:12 2009 +0200
+
+    [sulfur.views] refresh QueueView items when UGC data has been updated.
+
+commit 3ca6d58145502e19fd285b7396a5196c70c05757
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jul 12 18:03:36 2009 +0200
+
+    [sulfur] change name of the repository edit confirmation button, from "edit" to "save"
+
+commit 77739a66d88d3d5180d9d4a6040ae843fc578a4c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 22:22:30 2009 +0200
+
+    [sulfur] improve packages search bar experience
+
+commit 5b00415b438e926a794a927c649035c8a3329bf2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 21:42:41 2009 +0200
+
+    [sulfur] change GLSA error message when no packages have been queued
+
+commit 4ab34fa4b356a4d9e6ed4648d96c59cc14f12f74
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 21:40:47 2009 +0200
+
+    [sulfur.dialogs] set proper title to Sulfur file chooser window
+
+commit d924e922882566fcd181ab5975a5c232f256ecb2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 21:40:30 2009 +0200
+
+    [sulfur.packages] remove commented out code
+
+commit 844d0bd5bec44d0d4b64ec7473c8b9710d20aae5
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 21:36:29 2009 +0200
+
+    [sulfur.package/sulfur.packages/sulfur.views] add support for broken package sets
+
+commit 4ca96985c23418d2d2bce402b4457235a572df68
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 20:16:40 2009 +0200
+
+    [sulfur] add support for editing user-defined package sets
+
+commit cc33666928a75cfe24af57d125dbca57f32eea58
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 20:16:17 2009 +0200
+
+    [sulfur.dialogs] implement filled_text InputDialog type support
+
+commit 86b98211a0214b70c564e4b7af9202eab44d0eef
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 11:25:03 2009 +0200
+
+    [sulfur.events] correctly handle package set name duplication verification
+
+commit 7b887ab46dc6508040470210e7f8a7af91f6564f
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 11:17:02 2009 +0200
+
+    [sulfur.dialogs] fix window hierarchy on InputDialog callback error windows
+
+commit 645b9eeb4e29f5b13a183cb57950e3cccbdc20a7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 11:13:50 2009 +0200
+
+    [sulfur.entropyapi] askQuestion, make it accepting arbitrary parent windows
+
+commit e1435591e33f5b348fcd3c3741e833c51c61ecca
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 11:12:43 2009 +0200
+
+    [sulfur.entropyapi] inputBox, make it accepting arbitrary parent windows
+
+commit d9f1e334b414dea21c52e1383b80fec3549fc00c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 11:10:14 2009 +0200
+
+    [sulfur] remove debugging output
+
+commit 5acc38adbee9613ed89b69a2390f3fb6648d3499
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 10:31:41 2009 +0200
+
+    [sulfur] add new event management infrastructure, UGC update handler is the first user
+
+commit 64ac151286dbd2014492244b06474fb947cdaef8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 09:30:28 2009 +0200
+
+    [sulfur] Package info window: make "User Generated Content" string translatable
+
+commit 7985a200fad3ee1ae5a2efeee7f5bb1ecc96acd9
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 09:12:28 2009 +0200
+
+    [sulfur] implement a very important check :-)
+
+commit 6f4f67d7e9c746b4109f45cac3e338b6c3acf415
+Author: root <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 09:02:20 2009 +0200
+
+    [sulfur] GLSA entry window: make advisory link clickable
+
+commit fd2eac84538b48560fe1c09c4efa937b72cb8da1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 08:50:14 2009 +0200
+
+    [sulfur] add packages view per license sorter
+
+commit 297e421099107d41330d26186525ae08439971d2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 08:16:30 2009 +0200
+
+    [sulfur] fix various installation handling glitches
+    
+    :: make installation errors handling easier
+    :: better handle package masking install abortions
+    :: when not accepting a license, push user back to install queue tab
+    :: make the "show license" button work better (use gtk.Window.show()
+       and not show_all())
+    :: make possible to accept a package license by also clicking on
+       packages, which are children of the license identifier TreeIter
+       parent object
+
+commit a66719a34ceda377d686dfb8605b502706778d8a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jul 11 07:47:47 2009 +0200
+
+    [sulfur.dialogs] make LicenseDialog window title translatable
+
+commit 1bbc21f890872e6aa1cf58fea06a9d7d4c0f1d13
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 22:15:59 2009 +0200
+
+    [sulfur] usability work
+    
+    :: hide progress tab until installation is started
+    :: rename "Queue" to "Installation", small but effective change
+
+commit 9fb6e71b2ba643ed89e9dae4ab089118aba7e239
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 22:02:12 2009 +0200
+
+    [sulfur.dialogs] Package menu: show changelog window fixes
+    
+    :: fix changelog viewer window hierarchy (now transient for parent window)
+    :: hide unbound buttons
+
+commit 667bd3b0c2bc1e4589a341651e87cc477cea3c05
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 19:59:13 2009 +0200
+
+    [sulfur.dialogs] Package info menu: make pkg maskeing information translatable
+
+commit ac26efe65616a4a7ae06ee8c35e6d1cf3c5404e7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 19:57:34 2009 +0200
+
+    [sulfur.dialogs] Package info menu: change location text for installed packages
+
+commit 7e59fc502d9361efd85eae2e097e6cda6e0a5d56
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 19:51:36 2009 +0200
+
+    [sulfur] add UGC icons installation to Makefile
+
+commit a6a9b910b02d1e835d8c474faa32af274db83b5a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 19:45:11 2009 +0200
+
+    [sulfur] fix syntax error
+
+commit 633962e409ed2eaf314007c54462e92d78406560
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 19:34:59 2009 +0200
+
+    [sulfur] split noticeboard subtitle
+
+commit 9672fc2da8a075b0e820fcab35975832f663c7a3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jul 10 19:34:39 2009 +0200
+
+    [sulfur] don't spam text during package install when running with --debug
+
+commit e11a8e419733029d8d06a3b4268b38538a82b825
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jul 7 12:38:01 2009 +0200
+
+    [entropy.client/entropy.qa] move libraries_test to entropy.qa
+
+commit 6d1aad291ee546e87ae0ab4d4630b0e0f87da07d
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jun 28 00:19:34 2009 +0200
+
+    [entropy.*] 'branches' metadatum is dead, eventually.
+    
+    This commit removes the quirk used mainly server-side to make
+    tidy working on branches sharing package files.
+    Since tidy function now uses a more intelligent technique, this
+    is not needed anymore.
+
+commit e883cdc46796b845bc5997f2f1e4047c5091a736
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jun 27 19:05:53 2009 +0200
+
+    [sulfur] clear SystemSettings at the end of packages installation to allow branch hooks to run
+
+commit 8497e70ac7d6d6ca0ef01c675b690324a15e292e
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Jun 22 04:09:55 2009 +0200
+
+    [entropy.const/entropy.qa/equo/sulfur] make ErrorReportInterface post_url arg. mandatory
+    
+    In the aim of removing all the sabayon-centric settings from the "entropy"
+    library, error report via http post url has been moved outside it.
+
+commit 42b99d38fb1c62c6462bede08e3d9ba5d9168d05
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jun 20 23:05:18 2009 +0200
+
+    [entropy/sulfur/equo] implement critical updates installation priority
+
+commit 240175743f25cf0301d287c82b0a58da0f597a33
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat Jun 20 15:26:43 2009 +0200
+
+    [sulfur] force application restart when Entropy updates are installed
+
+commit b92bc71a56003fc8df5fba5bc686bff82e93cca4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jun 16 14:37:48 2009 +0200
+
+    [sulfur] when double clicking on a category view item, only packages from such category will be shown
+
+commit 57f491385bf63d308b009c651e2a4c3cdc5009a0
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun Jun 14 17:34:38 2009 +0200
+
+    [sulfur] add date sorters
+
+commit e853495ea45a12a2747bc683225f000ef609c2dc
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri Jun 12 19:47:48 2009 +0200
+
+    fix Sulfur const paths
+
+commit 3fc56cc3edf977f54326a8cbf017e84feb4b87ad
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu Jun 11 15:12:48 2009 +0200
+
+    fix sulfur glade file path
+
+commit 6b352efda6e5712a6901babfe3a17e8507b6c8f9
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jun 9 23:31:16 2009 +0200
+
+    Sulfur: fix weird issues when switching between tabs
+
+commit 1b374ecee76d112436e0e0e9c10c5261d01ba6d2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jun 9 23:02:07 2009 +0200
+
+    Sulfur: fix Repository Manager, queue polling was too high
+
+commit e4a4d4213dd59cdd87fcd746297e9d160789c47c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jun 9 22:17:24 2009 +0200
+
+    Sulfur: fix vte.Terminal handling on dialogs module too
+
+commit 9342ec22e859652beacd928a9d56d7026f32a6dd
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jun 9 21:32:23 2009 +0200
+
+    fix vte.Terminal freezes
+
+commit 17b1bc8eccb7f62f1e56822b6588b529e7e7bab6
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue Jun 9 19:43:12 2009 +0200
+
+    Sulfur: several stability fixes
+
+commit bcfff35a3188b0137120bd34eabda1c584d9af97
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon Jun 1 18:07:35 2009 +0200
+
+    add UGC Entropy Error Report interface to Sulfur
+
+commit 5870d0756f41e9b5ed574edaf972b9248e9eb1cf
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun May 31 22:25:13 2009 +0200
+
+    Sulfur: packages view, make possible to expand/collapse rows through the "selection" column
+
+commit c99b4082369cbc83178c373c3107721eed40c135
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun May 31 22:15:45 2009 +0200
+
+    Sulfur: fix packages view expansion when selected
+
+commit e37d779e44601d4532371bec5d383649fda1496b
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun May 31 11:16:38 2009 +0200
+
+    Sulfur, RemoteConnectionMenu, make sure that connection port value is valid
+
+commit 83d50ba5f57aab73f7af9c12880fcf4c2e9b34a8
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 28 17:40:21 2009 +0200
+
+    make ugc calls synchronous
+
+commit b40f38bf3db005e32ee94017d724de1d7b407ed2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 28 06:35:44 2009 +0200
+
+    entropy.misc.RSS: renamed camelCase methods
+
+commit 1aad11d3910d936d5b37c9409e7051471055e2e4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 28 06:22:10 2009 +0200
+
+    entropy.misc: initial code review and cleanup, rssFeed class renamed to RSS
+
+commit da323f65257eba55d22942bf808e2edfa5acab23
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 28 06:00:14 2009 +0200
+
+    entropy.client.interfaces.Client: rename methods
+    
+    - _resources_run_check_lock => resources_check_lock
+    - _resources_run_remove_lock => resources_remove_lock
+
+commit 8615f502c9e2519c94091395fa3097b68fc68c67
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed May 27 19:58:06 2009 +0200
+
+    Sulfur: when syncing repositories, hide notebook tabs
+
+commit 2d0cb51bee7c89317f5b1253c2780d0fe7085fd3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue May 26 17:17:21 2009 +0200
+
+    Sulfur: make popup menu items translatable
+
+commit 6fb65af58ddaee05f1bfadef6f236a048f806aab
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 25 21:08:38 2009 +0200
+
+    revert interpreter to /usr/bin/python instead of python2 due to issues with Gentoo's python2 symlink not being updated properly
+
+commit d6219d34c7c557633c250fe2078ab185f70c14d1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 25 21:07:30 2009 +0200
+
+    revert interpreter to /usr/bin/python instead of python2 due to issues
+    with Gentoo's python2 symlink not being updated properly
+
+commit f476248171199038ac108984a10f8a7ae09ae372
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 25 13:02:59 2009 +0200
+
+    Sulfur: make "Edit Repository" button working again
+
+commit 7be38ec884393890b8585b18051a0413f0fb2e07
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 25 12:57:21 2009 +0200
+
+    make "install from binary package ..." Sulfur menu icon translatable
+
+commit 7399edcfbecb2d3481aed9d89703e93933999f28
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun May 24 18:44:34 2009 +0200
+
+    Sulfur: on notebook switch, run required tasks if needed
+
+commit 495a299dc017279fdd0e2aadc6506d0cf773ff2c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 22:41:55 2009 +0200
+
+    repository manager client, fix progress_log_write
+
+commit d99013683b08af58a61331ff0fa6a333cb62b75a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 20:00:57 2009 +0200
+
+    hide Sulfur notebook tabs during install
+
+commit ee736a856b570ad1b7599a2aba1c2575b1ebe8dd
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 19:25:09 2009 +0200
+
+    add downgradable packages support so Sulfur
+
+commit d8594ef1c774fb1fbed977ab9799f3b1aeacd897
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 15:12:49 2009 +0200
+
+    Sulfur: trivial changes
+
+commit 3e9e98ca723ad0cde7c1f2df0037f1ccc844c3c1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 14:49:41 2009 +0200
+
+    sulfur.packages: fix typo
+
+commit 8d8db6ca6e4dd1c176d861caf793ff842ed0ff86
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 14:39:37 2009 +0200
+
+    improve Sulfur usability by improving gtk Notebook settings
+
+commit a8d1472d468fb2ae0fc0ecea9d13f2e41f8494f3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 13:16:15 2009 +0200
+
+    sulfur.packages: trivial update
+
+commit 19bad24c98a9e9480d8e9c1db7a70ffaa208d8cd
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 10:39:59 2009 +0200
+
+    fix "Add All" button
+
+commit ff7f060f2b6be9ef764e68a801c15feeaca523e2
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sat May 23 10:36:55 2009 +0200
+
+    fix Sulfur window height
+
+commit 546e8b10417c0db2393310a25614aa66a528c18d
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri May 22 07:55:15 2009 +0200
+
+    do not filter Queued view elements if filter bar is active
+
+commit abff6f0fe69a8247d0c87a24c8fb26dd9d6544ba
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Fri May 22 07:52:20 2009 +0200
+
+    misc bugfixes on Sulfur
+
+commit 62cf6022a9c1b0da0603e7bdb08610512f8e64f7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 21:34:58 2009 +0200
+
+    update Sulfur sidebar buttons
+
+commit 6a5992992e782b8915e563a358d71985767838ac
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 20:19:20 2009 +0200
+
+    more usability work on Sulfur
+
+commit 33cc2dd41627917e477124d8897cf794c90e8ea4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 20:19:07 2009 +0200
+
+    update Sulfur queue icon
+
+commit b678c2aa59d51839a579c56b6fad6c3a32df30b3
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 09:53:42 2009 +0200
+
+    Some UI updates to make Glade 3.6 happy
+
+commit 58a48d02d9b791c705b9bebfa046e1195c1229d1
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 09:01:57 2009 +0200
+
+    fine tune Sulfur first page buttons
+
+commit 4ea7ed4ed842d703524838a980864a6136349776
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 08:56:15 2009 +0200
+
+    improve Sulfur "simple mode"
+
+commit 3ceab98dc3af59717b20bba0e01c94f2a14e78d4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Thu May 21 02:27:19 2009 +0200
+
+    Add Sulfur "simple mode" and "advanced mode" options
+
+commit 66e5047b2e53f3cbca409ad50793ab5eea8cc955
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed May 20 20:00:24 2009 +0200
+
+    Sulfur code refactoring, phase 3, methods
+
+commit 36a25f88424084748498d114c9cf2af76d3f20fc
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed May 20 16:08:21 2009 +0200
+
+    make sulfur.packages using sulfur.dialogs.WaitWindow
+
+commit 6ca1a34a5d4d563a11dd698fc19bf8f1bc834042
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed May 20 16:07:09 2009 +0200
+
+    complete migration to sulfur.dialogs.WaitWindow
+
+commit a0cfc06ecae118d4eca91613fc708c728e2e1f4a
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed May 20 15:47:57 2009 +0200
+
+    move Wait Window to sulfur.dialogs
+
+commit 009214d0ccdec67c40ab7ec6e0835a6b80b338a7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Wed May 20 11:11:17 2009 +0200
+
+    Sulfur: code refactoring, second phase
+
+commit 50947fc4fd9bc1ae9ec824111fa78ebbf3aeefd7
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Tue May 19 14:59:14 2009 +0200
+
+    Sulfur: first chunk of code, refactoring in progress
+
+commit 09c769eb3801b6f39bc43307bcb5d1fd1f2d0eb4
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 18 09:39:19 2009 +0200
+
+    Sulfur: improve package stars visualization
+
+commit d4af9bea3cea94e9f1b7a5e46683ec963ad19bd0
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 18 09:01:55 2009 +0200
+
+    Sulfur: more code cleanup
+
+commit afd64a74700b16419151fba1e48c86c369374d68
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Mon May 18 08:57:35 2009 +0200
+
+    Sulfur: remove some unused gfx and code
+
+commit fceca044da928bce41ad75615cb013162c3d3d96
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun May 17 12:05:17 2009 +0200
+
+    Makefile: fix install target
+
+commit e1a56707c3c7d30b20be7a527fa65da543b6933c
+Author: Fabio Erculiani <lxnay@sabayonlinux.org>
+Date:   Sun May 17 10:24:37 2009 +0200
+
+    Spritz becomes Sulfur
