@@ -29,7 +29,7 @@ from sulfur.core import get_entropy_webservice
 import gobject
 
 # Entropy Imports
-from entropy.const import etpConst, etpUi, const_debug_write
+from entropy.const import etpConst, const_debug_write
 from entropy.output import print_generic, nocolor, decolorize
 from entropy.client.interfaces import Client
 from entropy.fetchers import UrlFetcher
