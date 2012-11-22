@@ -1,3 +1,27 @@
+commit 69bad25260768915ffef01259955364c33453c61
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Nov 22 22:02:26 2012 +0100
+
+    Release Sulfur 1.0_rc105
+
+commit f89587792e592a9d85fb8eb7dd57931f6cd95039
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Nov 22 22:01:33 2012 +0100
+
+    Restore compatibility with current Entropy Library
+
+commit 18a30a528ebefc11d4d9804ca763c28167d64904
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 17 22:04:09 2012 +0200
+
+    [scripts] re-add tag script
+
+commit 543a9fb2f914812e20fe99b36187c7b9c0b80399
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Tue Apr 17 22:02:09 2012 +0200
+
+    Tagging Sulfur version 1.0_rc103
+
 commit 838e39fc7264c2ec4f964b85f59d504500242662
 Author: Fabio Erculiani <lxnay@sabayon.org>
 Date:   Tue Apr 17 22:02:09 2012 +0200
