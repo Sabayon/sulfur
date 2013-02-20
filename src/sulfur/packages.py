@@ -28,6 +28,7 @@ from entropy.exceptions import DependenciesNotFound, RepositoryError, \
 from entropy.output import print_generic
 from entropy.graph import Graph
 from entropy.db.exceptions import OperationalError
+from entropy.client.interfaces.db import InstalledPackagesRepository
 import entropy.tools
 
 from sulfur.setup import SulfurConf, cleanMarkupString, const
@@ -283,10 +284,13 @@ class Queue:
                     return -10, 0
                 mydependencies = set()
                 myQA = self.Entropy.QA()
+                cl_repo_name = etpConst.get(
+                    'clientdbid',
+                    getattr(InstalledPackagesRepository, "NAME", None))
                 for pkg in q_pkgs:
-                    pkg_match = (pkg.matched_atom[0], etpConst['clientdbid'])
+                    pkg_match = (pkg.matched_atom[0], cl_repo_name)
                     mydeps = myQA.get_deep_dependency_list(self.Entropy,
-                        pkg_match, match_repo = (etpConst['clientdbid'],))
+                        pkg_match, match_repo = (cl_repo_name,))
                     mydependencies |= set([x for x, y in mydeps if x in xlist])
                 # what are in queue?
                 mylist = set(xlist)

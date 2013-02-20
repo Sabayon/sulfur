@@ -36,6 +36,7 @@ from entropy.i18n import _
 from entropy.misc import ParallelTask
 from entropy.client.mirrors import StatusInterface
 from entropy.services.client import WebService
+from entropy.client.interfaces.db import InstalledPackagesRepository
 import entropy.dump
 
 from sulfur.filters import Filter
@@ -55,10 +56,13 @@ class SulfurApplicationEventsMixin:
     def on_dbBackupButton_clicked(self, widget):
 
         def _run_backup(callback):
+            cl_repo_name = etpConst.get(
+                'clientdbid',
+                getattr(InstalledPackagesRepository, "NAME", None))
             with self._privileges:
                 with self._async_event_execution_lock:
                     status, err_msg = self._entropy.backup_repository(
-                        etpConst['clientdbid'],
+                        cl_repo_name,
                         os.path.dirname(etpConst['etpdatabaseclientfilepath']))
                     gobject.idle_add(callback, status, err_msg)
 
@@ -88,11 +92,15 @@ class SulfurApplicationEventsMixin:
         dbpath = model.get_value(myiter, 0)
 
         def _run_restore(callback):
+            cl_repo_name = etpConst.get(
+                'clientdbid',
+                getattr(InstalledPackagesRepository, "NAME", None))
+
             with self._async_event_execution_lock:
                 with self._privileges:
                     status, err_msg = self._entropy.restore_repository(dbpath,
                         etpConst['etpdatabaseclientfilepath'],
-                        etpConst['clientdbid'])
+                        cl_repo_name)
                     gobject.idle_add(callback, status, err_msg)
 
         def _restore_done(status, err_msg):
