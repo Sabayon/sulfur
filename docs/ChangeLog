@@ -1,3 +1,23 @@
+commit 757d4b97319b99bffbc0412c514fef79d6636e1b
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 20 00:52:19 2013 +0000
+
+    Release Sulfur 1.0_rc106
+
+commit dd610aae12137fc34146aee406640bc8e6a2bfe8
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 20 00:44:41 2013 +0000
+
+    Add forward compatibility with the upcoming Entropy Library version.
+    
+    etpConst['clientdbid'] is going to be deprecated.
+
+commit 3c0a98aa5f21688b253167316d8dcfc22c5fde4a
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Nov 22 22:02:26 2012 +0100
+
+    Tagging Sulfur version 1.0_rc105
+
 commit 69bad25260768915ffef01259955364c33453c61
 Author: Fabio Erculiani <lxnay@sabayon.org>
 Date:   Thu Nov 22 22:02:26 2012 +0100
