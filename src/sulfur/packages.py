@@ -770,8 +770,13 @@ class EntropyPackages:
         self.get_groups("reinstallable")
 
         with self.Entropy.Cacher():
-            updates, remove, fine, spm_fine = self.Entropy.calculate_updates(
-                    critical_updates = False)
+            outcome = self.Entropy.calculate_updates(
+                critical_updates = False)
+            if isinstance(outcome, dict):
+                updates, remove, fine, spm_fine = outcome['update'], \
+                    outcome['remove'], outcome['fine'], outcome['spm_fine']
+            else:
+                updates, remove, fine, spm_fine = outcome
 
         # verify that client database idpackage still exist,
         # validate here before passing removePackage() wrong info
@@ -870,9 +875,15 @@ class EntropyPackages:
 
         try:
             with self.Entropy.Cacher():
-                updates, remove, fine, spm_fine = \
-                    self.Entropy.calculate_updates(
-                        critical_updates = critical_updates)
+                outcome = self.Entropy.calculate_updates(
+                    critical_updates = critical_updates)
+
+            if isinstance(outcome, dict):
+                updates, remove, fine, spm_fine = outcome['update'], \
+                    outcome['remove'], outcome['fine'], outcome['spm_fine']
+            else:
+                updates, remove, fine, spm_fine = outcome
+
         except SystemDatabaseError:
             # broken client db
             return []
