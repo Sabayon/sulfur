@@ -1,3 +1,21 @@
+commit 6a596192571008e4ea782a979dc2d78cc2c0e875
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 24 13:38:03 2013 +0000
+
+    Release Sulfur 1.0_rc107
+
+commit 207906017622c5e966f4ff102d0db747117a7aae
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 24 13:37:30 2013 +0000
+
+    [packages] add Entropy 179 compatibility
+
+commit 7ddb30a93042e15dffc7ee249a6d8cf9a2b4fbdf
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Wed Feb 20 00:52:19 2013 +0000
+
+    Tagging Sulfur version 1.0_rc106
+
 commit 757d4b97319b99bffbc0412c514fef79d6636e1b
 Author: Fabio Erculiani <lxnay@sabayon.org>
 Date:   Wed Feb 20 00:52:19 2013 +0000
