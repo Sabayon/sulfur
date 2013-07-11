@@ -141,45 +141,6 @@ class SulfurApplicationEventsMixin:
         self.fill_pref_db_backup_page()
         self.dbBackupView.queue_draw()
 
-    def on_updateAdvSelected_clicked( self, widget ):
-
-        if not self.etpbase.selected_advisory_item:
-            return
-
-        key, affected, data = self.etpbase.selected_advisory_item
-        if not affected:
-            okDialog( self.ui.main, _("The chosen package is not vulnerable") )
-            return
-        atoms = set()
-        for mykey in data['affected']:
-            affected_data = data['affected'][mykey][0]
-            atoms |= set(affected_data['unaff_atoms'])
-
-        rc = self.add_atoms_to_queue(atoms, always_ask = True)
-        if rc: okDialog( self.ui.main, _("Packages in Advisory have been queued.") )
-
-    def on_updateAdvAll_clicked( self, widget ):
-
-        security = self._entropy.Security()
-        adv_data = security.get_advisories_metadata()
-        atoms = set()
-        for key in adv_data:
-            affected = security.is_affected(key)
-            if not affected:
-                continue
-            for mykey in adv_data[key]['affected']:
-                affected_data = adv_data[key]['affected'][mykey][0]
-                atoms |= set(affected_data['unaff_atoms'])
-
-        rc = self.add_atoms_to_queue(atoms, always_ask = True)
-        if rc:
-            okDialog( self.ui.main,
-                _("Packages in all Advisories have been queued.") )
-
-    def on_advInfoButton_clicked( self, widget ):
-        if self.etpbase.selected_advisory_item:
-            self.load_advisory_info_menu(self.etpbase.selected_advisory_item)
-
     def on_filesDelete_clicked( self, widget ):
         identifier, source, dest = self._get_Edit_filename()
         if not identifier:
@@ -538,19 +499,6 @@ class SulfurApplicationEventsMixin:
         # but use on_PageButton_pressed
         if page == "filesconf":
             self._populate_files_update()
-        elif page == "glsa":
-
-            def adv_populate():
-                self.populate_advisories(None, "affected")
-
-            def setup_metadata():
-                self.advisoriesView.populate_loading_message()
-                self.gtk_loop()
-                security = self._entropy.Security()
-                security.get_advisories_metadata()
-                gobject.timeout_add(0, adv_populate)
-
-            gobject.idle_add(setup_metadata)
 
         if do_set:
             self.set_notebook_page(const.PAGES[page])
@@ -696,13 +644,6 @@ class SulfurApplicationEventsMixin:
         self.reset_cache_status()
         self.set_package_radio("updates")
         self.show_packages()
-
-    def on_adv_doubleclick( self, widget, iterator, path ):
-        ( model, iterator ) = widget.get_selection().get_selected()
-        if model != None and iterator != None:
-            data = model.get_value( iterator, 0 )
-            if data and data != (None, None, None):
-                self.load_advisory_info_menu(data)
 
     def on_pkg_click(self, widget):
         """

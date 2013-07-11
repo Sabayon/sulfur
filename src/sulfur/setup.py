@@ -28,18 +28,16 @@ class const:
 
     DAY_IN_SECONDS = 86400
     # Page -> Notebook page numbers
-    PAGE_REPOS = 2
+    PAGE_REPOS = 1
     PAGE_PKG = 0
-    PAGE_OUTPUT = 5
-    PAGE_FILESCONF = 3
-    PAGE_GLSA = 1
-    PAGE_PREFERENCES = 4
+    PAGE_OUTPUT = 4
+    PAGE_FILESCONF = 2
+    PAGE_PREFERENCES = 3
     PAGES = {
        'packages'  : PAGE_PKG,
        'repos'     : PAGE_REPOS,
        'output'    : PAGE_OUTPUT,
        'filesconf' : PAGE_FILESCONF,
-       'glsa'      : PAGE_GLSA,
        'preferences': PAGE_PREFERENCES
     }
 

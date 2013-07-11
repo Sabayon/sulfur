@@ -316,8 +316,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         self.pkgView = EntropyPackageView(self.ui.viewPkg, self.queue, self.ui,
             self.etpbase, self.ui.main, self)
         self.filesView = EntropyFilesView(self.ui.filesView, self.ui.systemVbox)
-        self.advisoriesView = EntropyAdvisoriesView(self.ui.advisoriesView,
-            self.ui, self.etpbase)
         self.queue.connect_objects(self._entropy, self.etpbase, self.pkgView, self.ui)
         self.repoView = EntropyRepoView(self.ui.viewRepo, self.ui, self)
         # Left Side Toolbar
@@ -406,7 +404,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         self.ui.termScrollBox.pack_start(termScroll, False)
         self.ui.termHBox.show_all()
         self.setup_packages_filter()
-        self.setup_advisories_filter()
 
         self.setup_images()
 
@@ -519,7 +516,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         else:
             self.ui.systemVbox.hide()
 
-        self.ui.securityVbox.hide()
         self.ui.prefsVbox.hide()
         self.ui.reposVbox.hide()
 
@@ -570,7 +566,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         self.ui.rbAll.hide()
 
         self.ui.systemVbox.show()
-        self.ui.securityVbox.show()
         self.ui.prefsVbox.show()
         self.ui.reposVbox.show()
 
@@ -763,16 +758,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
 
         return False
 
-    def setup_advisories_filter(self):
-        widgets = [
-                    (self.ui.rbAdvisories, 'affected'),
-                    (self.ui.rbAdvisoriesApplied, 'applied'),
-                    (self.ui.rbAdvisoriesAll, 'all')
-        ]
-        for w, tag in widgets:
-            w.connect('toggled', self.populate_advisories, tag)
-            w.set_mode(False)
-
     def setup_packages_filter(self):
 
         self.setup_package_radio_buttons(self.ui.rbUpdates, "updates")
@@ -833,9 +818,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         # Setup Vertical Toolbar
         self.create_sidebar_button(self.ui.sideRadioPkgImage,
             "button-packages.png", 'packages')
-
-        self.create_sidebar_button(self.ui.sideRadioSecurityImage,
-            "button-glsa.png", 'glsa' )
 
         self.create_sidebar_button(self.ui.sideRadioReposImage,
             "button-repo.png", 'repos' )
@@ -1437,31 +1419,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         self.etpbase.clear_cache()
         self.setup_application()
 
-    def populate_advisories(self, widget, show, background = False):
-
-        if widget is not None:
-            if not widget.get_active():
-                return
-            widget.grab_add()
-
-        meta_id = "glsa_metadata"
-        meta_cached = self.etpbase.is_cached(meta_id)
-
-        try:
-            cached = self.etpbase.get_groups(meta_id)
-        except Exception as e:
-            if not background:
-                okDialog( self.ui.main, "%s: %s" % (
-                    _("Error loading advisories"), e) )
-            cached = {}
-
-        if cached:
-            self.advisoriesView.populate(self._entropy.Security(), cached, show,
-                use_cache = meta_cached)
-
-        if widget is not None:
-            widget.grab_remove()
-
     def _populate_files_update(self):
         # load filesUpdate interface and fill self.filesView
         with self._privileges:
@@ -2018,7 +1975,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
         self._entropy.close_repositories()
 
     def hide_notebook_tabs_for_install(self):
-        self.ui.securityVbox.hide()
         self.ui.prefsVbox.hide()
         self.ui.reposVbox.hide()
         self.ui.systemVbox.hide()
@@ -2486,10 +2442,6 @@ class SulfurApplication(Controller, SulfurApplicationEventsMixin):
             source = os.path.join(os.path.dirname(destination), source)
             return identifier, source, destination
         return 0, None, None
-
-    def load_advisory_info_menu(self, item):
-        my = SecurityAdvisoryMenu(self.ui.main)
-        my.load(item)
 
     def queue_bombing(self):
         if self.do_debug:

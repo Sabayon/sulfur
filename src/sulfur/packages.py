@@ -665,7 +665,6 @@ class EntropyPackages:
         self._packages = {}
         self._pkg_cache = {}
         self.unmaskingPackages = set()
-        self.selected_advisory_item = None
         self.queue = None
         self._non_cached_groups = ("queued", "search",)
 
@@ -674,19 +673,16 @@ class EntropyPackages:
 
     def clear_groups(self):
         self._packages.clear()
-        self.selected_advisory_item = None
         self.unmaskingPackages.clear()
 
     def clear_single_group(self, mask):
         if mask in self._packages:
             del self._packages[mask]
-        self.selected_advisory_item = None
         self.unmaskingPackages.clear()
 
     def clear_cache(self):
         self._pkg_cache.clear()
         self._packages.clear()
-        self.selected_advisory_item = None
 
     def is_cached(self, group):
         return group in self._packages
@@ -1163,21 +1159,6 @@ class EntropyPackages:
             dummy_type = SulfurConf.dummy_empty)
         return myobj
 
-    def _pkg_get_glsa_metadata(self):
-        security = self.Entropy.Security()
-
-        try:
-            metadata = security.get_advisories_cache()
-        except (IOError, EOFError):
-            metadata = None
-        except AttributeError:
-            metadata = security.get_advisories_cache()
-
-        if metadata is None:
-            metadata = security.get_advisories_metadata()
-
-        return metadata
-
     def _pkg_get_search(self):
         if self._search_callback is None:
             return []
@@ -1224,7 +1205,6 @@ class EntropyPackages:
             "fake_updates": self._pkg_get_fake_updates,
             "loading": self._pkg_get_loading,
             "downgrade": self._pkg_get_downgrade,
-            "glsa_metadata": self._pkg_get_glsa_metadata,
             "search": self._pkg_get_search,
             "all": self._pkg_get_all,
         }
