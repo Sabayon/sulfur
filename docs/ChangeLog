@@ -1,3 +1,21 @@
+commit 403d27056f75fd445b71b4fd33605f914157cf12
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 11 21:55:12 2013 +0200
+
+    Release Sulfur 1.0_rc108
+
+commit 1d67a58a9f43a75ecfadd6a8bae9529fd1c357af
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Thu Jul 11 21:53:01 2013 +0200
+
+    Drop entropy.security usage, the old API is going away soon
+
+commit 5f69509c0de6317cc0124da452fe54012cbd8c41
+Author: Fabio Erculiani <lxnay@sabayon.org>
+Date:   Sun Feb 24 13:38:03 2013 +0000
+
+    Tagging Sulfur version 1.0_rc107
+
 commit 6a596192571008e4ea782a979dc2d78cc2c0e875
 Author: Fabio Erculiani <lxnay@sabayon.org>
 Date:   Sun Feb 24 13:38:03 2013 +0000
